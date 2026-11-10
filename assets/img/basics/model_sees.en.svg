@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="88mm" viewBox="0 0 240 88" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">What a model uses when it answers, and what it does not know</title>
+<rect width="240" height="88" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="What-it-uses-to-answer">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">What it uses to answer</tspan></text>
+</g>
+<g id="Training-data">
+<rect x="4.00" y="13.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="21.42" font-size="4.057" fill="#262B33" font-weight="700">Training data</tspan><tspan x="5.80" y="27.45" font-size="3.704" fill="#6B7280">up to the knowledge cutoff</tspan></text>
+</g>
+<g id="This-conversation">
+<rect x="4.00" y="37.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="45.42" font-size="4.057" fill="#262B33" font-weight="700">This conversation</tspan><tspan x="5.80" y="51.45" font-size="3.704" fill="#6B7280">what is inside the context window</tspan></text>
+</g>
+<g id="Web-search-results">
+<rect x="4.00" y="61.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="69.42" font-size="4.057" fill="#262B33" font-weight="700">Web search results</tspan><tspan x="5.80" y="75.45" font-size="3.704" fill="#6B7280">only when search is on</tspan></text>
+</g>
+<g id="Answer">
+<rect x="113.00" y="37.00" width="30.00" height="20.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="128.00" y="48.50" font-size="4.410" fill="#FFFFFF" font-weight="700">Answer</tspan></text>
+</g>
+<g id="What-it-does-not-know">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="160.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">What it does not know</tspan></text>
+</g>
+<g id="Papers-and-policies-after-the-cutoff">
+<rect x="160.00" y="13.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="18.83" font-size="3.881" fill="#262B33" font-weight="700">Papers and policies after the</tspan><tspan x="161.80" y="23.88" font-size="3.881" fill="#262B33" font-weight="700">cutoff</tspan><tspan x="161.80" y="29.86" font-size="3.704" fill="#262B33">if web search is off</tspan></text>
+</g>
+<g id="Other-conversations">
+<rect x="160.00" y="37.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="45.36" font-size="3.881" fill="#262B33" font-weight="700">Other conversations</tspan><tspan x="161.80" y="51.34" font-size="3.704" fill="#262B33">if memory is off</tspan></text>
+</g>
+<g id="Files-on-your-computer">
+<rect x="160.00" y="61.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="69.36" font-size="3.881" fill="#262B33" font-weight="700">Files on your computer</tspan><tspan x="161.80" y="75.34" font-size="3.704" fill="#262B33">unless you upload or open them</tspan></text>
+</g>
+<polyline points="96.00,23.00 104.50,23.00 104.50,42.00 113.00,42.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="96.00,47.00 113.00,47.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="96.00,71.00 104.50,71.00 104.50,52.00 113.00,52.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

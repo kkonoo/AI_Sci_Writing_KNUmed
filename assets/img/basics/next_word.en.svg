@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="90mm" viewBox="0 0 240 90" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">A language model picks the next words by probability</title>
+<rect width="240" height="90" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Text-so-far">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Text so far</tspan></text>
+</g>
+<g id="Compound-X-reduced-the-fibrotic-area-in-">
+<rect x="4.00" y="13.00" width="80.00" height="49.50" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="36.38" font-size="4.410" fill="#262B33">Compound X reduced the</tspan><tspan x="5.80" y="42.12" font-size="4.410" fill="#262B33">fibrotic area in …</tspan></text>
+</g>
+<g id="Next-word-candidates-illustrative-probab">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="100.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Next-word candidates (illustrative probabilities)</tspan></text>
+</g>
+<g id="UUO-kidneys">
+<rect x="100.00" y="13.00" width="60.00" height="10.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="101.80" y="19.63" font-size="4.057" fill="#262B33">UUO kidneys</tspan></text>
+</g>
+<g id="box">
+<rect x="164.00" y="15.00" width="52.00" height="6.50" rx="0.80" fill="#ACAEB1"/>
+</g>
+<g id="0-38">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="218.00" y="19.51" font-size="3.704" fill="#262B33">0.38</tspan></text>
+</g>
+<g id="mice">
+<rect x="100.00" y="26.00" width="60.00" height="10.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="101.80" y="32.63" font-size="4.057" fill="#262B33">mice</tspan></text>
+</g>
+<g id="box">
+<rect x="164.00" y="28.00" width="36.95" height="6.50" rx="0.80" fill="#ACAEB1"/>
+</g>
+<g id="0-27">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="202.95" y="32.51" font-size="3.704" fill="#262B33">0.27</tspan></text>
+</g>
+<g id="the-obstructed-kidney">
+<rect x="100.00" y="39.00" width="60.00" height="10.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="101.80" y="45.63" font-size="4.057" fill="#262B33">the obstructed kidney</tspan></text>
+</g>
+<g id="box">
+<rect x="164.00" y="41.00" width="28.74" height="6.50" rx="0.80" fill="#ACAEB1"/>
+</g>
+<g id="0-21">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="194.74" y="45.51" font-size="3.704" fill="#262B33">0.21</tspan></text>
+</g>
+<g id="patients">
+<rect x="100.00" y="52.00" width="60.00" height="10.50" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="101.80" y="58.63" font-size="4.057" fill="#262B33">patients</tspan></text>
+</g>
+<g id="box">
+<rect x="164.00" y="54.00" width="12.32" height="6.50" rx="0.80" fill="#E5484D"/>
+</g>
+<g id="0-09">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="178.32" y="58.51" font-size="3.704" fill="#262B33">0.09</tspan></text>
+</g>
+<g id="-plausible-but-wrong-for-this-study">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="100.00" y="68.70" font-size="3.528" fill="#6B7280">↑ plausible, but wrong for this study</tspan></text>
+</g>
+<g id="The-model-does-not-look-up-facts-It-pick">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.41" font-size="3.528" fill="#6B7280">The model does not look up facts. It picks plausible words, so wrong content also comes out as natural</tspan><tspan x="4.00" y="83.99" font-size="3.528" fill="#6B7280">sentences.</tspan></text>
+</g>
+<polyline points="84.00,37.75 92.00,37.75 92.00,18.25 100.00,18.25" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

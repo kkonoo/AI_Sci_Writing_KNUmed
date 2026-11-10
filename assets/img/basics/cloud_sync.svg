@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="86mm" viewBox="0 0 240 86" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">클라우드와 동기화</title>
+<rect width="240" height="86" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="내-컴퓨터">
+<rect x="4.00" y="22.00" width="58.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="33.00" y="32.60" font-size="4.586" fill="#262B33" font-weight="700">내 컴퓨터</tspan><tspan x="33.00" y="38.80" font-size="3.704" fill="#6B7280">동기화 폴더</tspan></text>
+</g>
+<g id="클라우드-저장소">
+<rect x="91.00" y="22.00" width="58.00" height="24.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="32.60" font-size="4.586" fill="#FFFFFF" font-weight="700">클라우드 저장소</tspan><tspan x="120.00" y="38.80" font-size="3.704" fill="#FFFFFF">Google Drive, OneDrive</tspan></text>
+</g>
+<g id="다른-기기">
+<rect x="178.00" y="22.00" width="58.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="207.00" y="32.60" font-size="4.586" fill="#262B33" font-weight="700">다른 기기</tspan><tspan x="207.00" y="38.80" font-size="3.704" fill="#6B7280">노트북, 휴대폰</tspan></text>
+</g>
+<g id="AI-채팅-서비스">
+<rect x="91.00" y="52.00" width="58.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="57.95" font-size="3.881" fill="#262B33" font-weight="700">AI 채팅 서비스</tspan><tspan x="120.00" y="63.93" font-size="3.704" fill="#262B33">이것도 회사</tspan><tspan x="120.00" y="68.75" font-size="3.704" fill="#262B33">서버(클라우드)에서 돈다</tspan></text>
+</g>
+<g id="동기화-폴더에-넣은-파일은-클라우드에도-올라간다-AI에-입력한-내용도-내">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.70" font-size="3.528" fill="#6B7280">동기화 폴더에 넣은 파일은 클라우드에도 올라간다. AI에 입력한 내용도 내 컴퓨터를 떠난다.</tspan></text>
+</g>
+<polyline points="62.00,30.00 91.00,30.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="91.00,38.00 62.00,38.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="149.00,30.00 178.00,30.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="178.00,38.00 149.00,38.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="76.50" y="27.48" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">동기화</text>
+<text x="163.50" y="27.48" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">동기화</text>
+<g transform="translate(29.00,12.00) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2" />
+  <line x1="8" x2="16" y1="21" y2="21" />
+  <line x1="12" x2="12" y1="17" y2="21" /></g><g transform="translate(116.00,12.00) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" /></g><g transform="translate(203.00,12.00) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+  <path d="M12 18h.01" /></g></svg>

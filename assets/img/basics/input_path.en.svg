@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="98mm" viewBox="0 0 240 98" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Where your AI input goes</title>
+<rect width="240" height="98" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Your-computer">
+<rect x="4.00" y="30.00" width="56.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="32.00" y="39.19" font-size="4.586" fill="#262B33" font-weight="700">Your computer</tspan><tspan x="32.00" y="45.39" font-size="3.704" fill="#6B7280">prompt, pasted text,</tspan><tspan x="32.00" y="50.20" font-size="3.704" fill="#6B7280">uploaded files</tspan></text>
+</g>
+<g id="AI-company-server">
+<rect x="87.00" y="30.00" width="56.00" height="26.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="115.00" y="39.19" font-size="4.586" fill="#FFFFFF" font-weight="700">AI company server</tspan><tspan x="115.00" y="45.39" font-size="3.704" fill="#FFFFFF">the model writes the</tspan><tspan x="115.00" y="50.20" font-size="3.704" fill="#FFFFFF">answer</tspan></text>
+</g>
+<g id="Model-training">
+<rect x="170.00" y="4.00" width="66.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="171.80" y="11.19" font-size="4.586" fill="#262B33" font-weight="700">Model training</tspan><tspan x="171.80" y="17.39" font-size="3.704" fill="#6B7280">personal accounts, setting</tspan><tspan x="171.80" y="22.20" font-size="3.704" fill="#6B7280">on</tspan></text>
+</g>
+<g id="Feedback">
+<rect x="170.00" y="32.00" width="66.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="171.80" y="39.19" font-size="4.586" fill="#262B33" font-weight="700">Feedback</tspan><tspan x="171.80" y="45.39" font-size="3.704" fill="#6B7280">rated conversations</tspan><tspan x="171.80" y="50.20" font-size="3.704" fill="#6B7280">(ChatGPT, Gemini)</tspan></text>
+</g>
+<g id="Human-review">
+<rect x="170.00" y="60.00" width="66.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="171.80" y="69.60" font-size="4.586" fill="#262B33" font-weight="700">Human review</tspan><tspan x="171.80" y="75.80" font-size="3.704" fill="#6B7280">some conversations (Gemini)</tspan></text>
+</g>
+<g id="Dashed-lines-are-things-that-can-happen-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="87.96" font-size="3.352" fill="#6B7280">Dashed lines are things that can happen depending on settings and service. Check menus and policies in the</tspan><tspan x="4.00" y="92.32" font-size="3.352" fill="#6B7280">glossary.</tspan></text>
+</g>
+<polyline points="60.00,38.67 87.00,38.67" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="87.00,47.33 60.00,47.33" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="143.00,36.50 156.50,36.50 156.50,15.00 170.00,15.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" stroke-dasharray="1.06 0.79" marker-end="url(#arrow-muted)"/>
+<polyline points="143.00,43.00 170.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" stroke-dasharray="1.06 0.79" marker-end="url(#arrow-muted)"/>
+<polyline points="143.00,49.50 156.50,49.50 156.50,71.00 170.00,71.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" stroke-dasharray="1.06 0.79" marker-end="url(#arrow-muted)"/>
+<text x="73.50" y="36.15" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">input</text>
+<text x="73.50" y="44.81" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">answer</text>
+<g transform="translate(28.00,20.00) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z" />
+  <path d="M20.054 15.987H3.946" /></g><g transform="translate(111.00,20.00) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+  <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+  <line x1="6" x2="6.01" y1="6" y2="6" />
+  <line x1="6" x2="6.01" y1="18" y2="18" /></g></svg>

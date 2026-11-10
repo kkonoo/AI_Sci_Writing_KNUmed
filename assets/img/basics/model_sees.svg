@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="88mm" viewBox="0 0 240 88" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">모델이 답할 때 쓰는 것과 모르는 것</title>
+<rect width="240" height="88" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="답할-때-쓰는-것">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">답할 때 쓰는 것</tspan></text>
+</g>
+<g id="학습한-자료">
+<rect x="4.00" y="13.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="21.42" font-size="4.057" fill="#262B33" font-weight="700">학습한 자료</tspan><tspan x="5.80" y="27.45" font-size="3.704" fill="#6B7280">지식 시점까지</tspan></text>
+</g>
+<g id="이번-대화">
+<rect x="4.00" y="37.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="45.42" font-size="4.057" fill="#262B33" font-weight="700">이번 대화</tspan><tspan x="5.80" y="51.45" font-size="3.704" fill="#6B7280">컨텍스트 창 안에 있는 내용</tspan></text>
+</g>
+<g id="웹-검색-결과">
+<rect x="4.00" y="61.00" width="92.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="69.42" font-size="4.057" fill="#262B33" font-weight="700">웹 검색 결과</tspan><tspan x="5.80" y="75.45" font-size="3.704" fill="#6B7280">검색 기능을 켰을 때만</tspan></text>
+</g>
+<g id="답">
+<rect x="113.00" y="37.00" width="30.00" height="20.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="128.00" y="48.50" font-size="4.410" fill="#FFFFFF" font-weight="700">답</tspan></text>
+</g>
+<g id="모르는-것">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="160.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">모르는 것</tspan></text>
+</g>
+<g id="지식-시점-이후의-논문과-규정">
+<rect x="160.00" y="13.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="21.36" font-size="3.881" fill="#262B33" font-weight="700">지식 시점 이후의 논문과 규정</tspan><tspan x="161.80" y="27.34" font-size="3.704" fill="#262B33">웹 검색을 끄면</tspan></text>
+</g>
+<g id="다른-대화의-내용">
+<rect x="160.00" y="37.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="45.36" font-size="3.881" fill="#262B33" font-weight="700">다른 대화의 내용</tspan><tspan x="161.80" y="51.34" font-size="3.704" fill="#262B33">메모리 기능을 끄면</tspan></text>
+</g>
+<g id="내-컴퓨터의-파일">
+<rect x="160.00" y="61.00" width="76.00" height="20.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="161.80" y="69.36" font-size="3.881" fill="#262B33" font-weight="700">내 컴퓨터의 파일</tspan><tspan x="161.80" y="75.34" font-size="3.704" fill="#262B33">올리거나 열어 주지 않으면</tspan></text>
+</g>
+<polyline points="96.00,23.00 104.50,23.00 104.50,42.00 113.00,42.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="96.00,47.00 113.00,47.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="96.00,71.00 104.50,71.00 104.50,52.00 113.00,52.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="94mm" viewBox="0 0 240 94" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="98mm" viewBox="0 0 240 98" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
 <title id="fig-title">AI에 입력한 내용이 가는 곳</title>
-<rect width="240" height="94" fill="#FFFFFF"/>
+<rect width="240" height="98" fill="#FFFFFF"/>
 <defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
 <g id="내-컴퓨터">
 <rect x="4.00" y="30.00" width="56.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
@@ -23,7 +23,7 @@
 <text text-anchor="start" letter-spacing="-0.015em"><tspan x="171.80" y="67.19" font-size="4.586" fill="#262B33" font-weight="700">사람 검토와 보관</tspan><tspan x="171.80" y="73.39" font-size="3.704" fill="#6B7280">일부 대화를 사람이 검토 (Gemini</tspan><tspan x="171.80" y="78.20" font-size="3.704" fill="#6B7280">안내)</tspan></text>
 </g>
 <g id="점선은-설정과-서비스에-따라-일어날-수-있는-일이다-메뉴와-정책은-기초-">
-<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="87.64" font-size="3.352" fill="#6B7280">점선은 설정과 서비스에 따라 일어날 수 있는 일이다. 메뉴와 정책은 기초 용어 페이지에서 확인한다.</tspan></text>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="90.14" font-size="3.352" fill="#6B7280">점선은 설정과 서비스에 따라 일어날 수 있는 일이다. 메뉴와 정책은 기초 용어 페이지에서 확인한다.</tspan></text>
 </g>
 <polyline points="60.00,38.67 87.00,38.67" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
 <polyline points="87.00,47.33 60.00,47.33" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>

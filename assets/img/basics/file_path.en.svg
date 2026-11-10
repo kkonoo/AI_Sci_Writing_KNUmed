@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="96mm" viewBox="0 0 240 96" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Folder structure and file paths</title>
+<rect width="240" height="96" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Folders">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Folders</tspan></text>
+</g>
+<g id="C-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.00" y="18.82" font-size="3.881" fill="#262B33">C:</tspan></text>
+</g>
+<g id="Users">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="24.00" y="29.32" font-size="3.881" fill="#262B33">Users</tspan></text>
+</g>
+<g id="me">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="33.00" y="39.82" font-size="3.881" fill="#262B33">me</tspan></text>
+</g>
+<g id="paper">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="42.00" y="50.32" font-size="3.881" fill="#262B33">paper</tspan></text>
+</g>
+<g id="figure1-tif">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="51.00" y="60.82" font-size="3.881" fill="#262B33" font-weight="700">figure1.tif</tspan></text>
+</g>
+<g id="manuscript-docx">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="51.00" y="71.32" font-size="3.881" fill="#262B33">manuscript.docx</tspan></text>
+</g>
+<g id="data-csv">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="51.00" y="81.82" font-size="3.881" fill="#262B33">data.csv</tspan></text>
+</g>
+<g id="Written-as-a-path">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="108.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Written as a path</tspan></text>
+</g>
+<g id="C-Users-me-paper-figure1-tif">
+<rect x="108.00" y="13.00" width="128.00" height="15.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="109.80" y="18.86" font-size="3.881" fill="#262B33">C:\Users\me\paper\figure1.tif</tspan><tspan x="109.80" y="24.84" font-size="3.704" fill="#262B33">Windows</tspan></text>
+</g>
+<g id="-Users-me-paper-figure1-tif">
+<rect x="108.00" y="32.00" width="128.00" height="15.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="109.80" y="37.86" font-size="3.881" fill="#262B33">/Users/me/paper/figure1.tif</tspan><tspan x="109.80" y="43.84" font-size="3.704" fill="#262B33">macOS</tspan></text>
+</g>
+<g id="What-the-extension-tells-you">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="108.00" y="56.88" font-size="4.057" fill="#262B33" font-weight="700">What the extension tells you</tspan></text>
+</g>
+<g id="-tif">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="108.00" y="66.82" font-size="3.881" fill="#262B33" font-weight="700">.tif</tspan></text>
+</g>
+<g id="image-file">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="150.00" y="66.76" font-size="3.704" fill="#262B33">image file</tspan></text>
+</g>
+<g id="-docx">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="108.00" y="76.82" font-size="3.881" fill="#262B33" font-weight="700">.docx</tspan></text>
+</g>
+<g id="document-file-with-formatting-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="150.00" y="76.76" font-size="3.704" fill="#262B33">document file (with formatting)</tspan></text>
+</g>
+<g id="-csv-txt-md">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="108.00" y="86.82" font-size="3.881" fill="#262B33" font-weight="700">.csv, .txt, .md</tspan></text>
+</g>
+<g id="text-file-read-most-accurately-by-AI-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="150.00" y="86.76" font-size="3.704" fill="#262B33">text file (read most accurately by AI)</tspan></text>
+</g>
+<g transform="translate(6.00,14.00) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" /></g><g transform="translate(15.00,24.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" /></g><g transform="translate(24.00,35.00) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" /></g><g transform="translate(33.00,45.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2" /></g><g transform="translate(42.00,56.00) scale(0.2917)" fill="none" stroke="#3F6A92" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" /></g><g transform="translate(42.00,66.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></g><g transform="translate(42.00,77.00) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></g></svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="80mm" viewBox="0 0 240 80" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">git commits, push and pull</title>
+<rect width="240" height="80" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Repository-on-your-computer">
+<rect x="4.00" y="4.00" width="112.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="9.64" font-size="3.881" fill="#262B33" font-weight="700">Repository on your computer</tspan></text>
+</g>
+<g id="circle">
+<circle cx="20.00" cy="30.00" r="5.00" fill="#ACAEB1"/>
+</g>
+<g id="Fix-Figure-2">
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="20.00" y="46.20" font-size="3.528" fill="#262B33">Fix Figure 2</tspan></text>
+</g>
+<g id="circle">
+<circle cx="56.00" cy="30.00" r="5.00" fill="#ACAEB1"/>
+</g>
+<g id="Add-Methods-detail">
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="56.00" y="43.91" font-size="3.528" fill="#262B33">Add Methods</tspan><tspan x="56.00" y="48.49" font-size="3.528" fill="#262B33">detail</tspan></text>
+</g>
+<g id="circle">
+<circle cx="92.00" cy="30.00" r="5.00" fill="#2F343B"/>
+</g>
+<g id="Results-paragraph-2">
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="92.00" y="43.91" font-size="3.528" fill="#262B33">Results</tspan><tspan x="92.00" y="48.49" font-size="3.528" fill="#262B33">paragraph 2</tspan></text>
+</g>
+<g id="GitHub-repository-cloud-">
+<rect x="140.00" y="10.00" width="96.00" height="22.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="188.00" y="22.38" font-size="4.057" fill="#FFFFFF" font-weight="700">GitHub repository (cloud)</tspan></text>
+</g>
+<g id="A-colleague-s-computer">
+<rect x="140.00" y="44.00" width="96.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="188.00" y="56.38" font-size="4.057" fill="#262B33" font-weight="700">A colleague's computer</tspan></text>
+</g>
+<g id="Each-commit-keeps-a-one-line-note-of-wha">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="74.20" font-size="3.528" fill="#6B7280">Each commit keeps a one-line note of what changed and why. You can go back to any earlier commit.</tspan></text>
+</g>
+<polyline points="25.00,30.00 51.00,30.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round"/>
+<polyline points="61.00,30.00 87.00,30.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round"/>
+<polyline points="97.00,30.00 118.50,30.00 118.50,21.00 140.00,21.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="188.00,32.00 188.00,44.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="107.75" y="27.48" font-size="3.528" fill="#262B33" text-anchor="middle" letter-spacing="-0.015em">push</text>
+<text x="193.97" y="39.01" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">pull</text>
+<g transform="translate(228.00,12.00) scale(0.2500)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" /></g></svg>

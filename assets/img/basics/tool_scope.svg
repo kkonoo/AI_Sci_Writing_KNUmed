@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="86mm" viewBox="0 0 240 86" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">도구마다 AI에 들어가는 범위</title>
+<rect width="240" height="86" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Chat-대화형-">
+<rect x="14.00" y="4.00" width="62.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="14.38" font-size="4.057" fill="#262B33" font-weight="700">Chat (대화형)</tspan></text>
+</g>
+<g id="내가-붙여-넣은-글-올린-파일">
+<rect x="84.00" y="4.00" width="100.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="85.80" y="14.32" font-size="3.881" fill="#262B33">내가 붙여 넣은 글, 올린 파일</tspan></text>
+</g>
+<g id="Cowork-Code-작업형-">
+<rect x="14.00" y="28.00" width="62.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="38.38" font-size="4.057" fill="#262B33" font-weight="700">Cowork, Code (작업형)</tspan></text>
+</g>
+<g id="내가-열어-준-폴더의-파일-전부">
+<rect x="84.00" y="28.00" width="100.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="85.80" y="38.32" font-size="3.881" fill="#262B33">내가 열어 준 폴더의 파일 전부</tspan></text>
+</g>
+<g id="커넥터-플러그인">
+<rect x="14.00" y="52.00" width="62.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="62.38" font-size="4.057" fill="#262B33" font-weight="700">커넥터, 플러그인</tspan></text>
+</g>
+<g id="연결한-서비스-안의-파일">
+<rect x="84.00" y="52.00" width="100.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="85.80" y="62.32" font-size="3.881" fill="#262B33">연결한 서비스 안의 파일</tspan></text>
+</g>
+<g id="AI-회사-서버">
+<rect x="192.00" y="22.00" width="44.00" height="30.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="214.00" y="38.38" font-size="4.057" fill="#FFFFFF" font-weight="700">AI 회사 서버</tspan></text>
+</g>
+<g id="폴더를-열어-주거나-서비스를-연결하는-것은-그-안의-내용을-AI에-넣는-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.70" font-size="3.528" fill="#6B7280">폴더를 열어 주거나 서비스를 연결하는 것은 그 안의 내용을 AI에 넣는 것과 같다.</tspan></text>
+</g>
+<polyline points="184.00,13.00 188.00,13.00 188.00,29.50 192.00,29.50" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="184.00,37.00 192.00,37.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="184.00,61.00 188.00,61.00 188.00,44.50 192.00,44.50" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<g transform="translate(4.00,9.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /></g><g transform="translate(4.00,33.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2" /></g><g transform="translate(4.00,57.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5" />
+  <path d="M15 8V2" />
+  <path d="M17 8a1 1 0 0 1 1 1v4a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1z" />
+  <path d="M9 8V2" /></g><g transform="translate(210.50,13.00) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+  <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+  <line x1="6" x2="6.01" y1="6" y2="6" />
+  <line x1="6" x2="6.01" y1="18" y2="18" /></g></svg>

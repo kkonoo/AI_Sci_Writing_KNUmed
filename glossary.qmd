@@ -8,6 +8,8 @@ This page collects the computer and AI terms used in this course. The names, men
 
 # Computer basics {#computer}
 
+![Folders, paths and file extensions.](assets/img/basics/file_path.en.svg){fig-alt="On the left, the folders C:, Users, me, paper and three files inside. On the right, the Windows and macOS paths of the same file and the file types by extension."}
+
 Files and folders
 : A file holds one piece of text, an image or a dataset. A folder groups files together.
 
@@ -31,6 +33,8 @@ Local and server
 
 # The cloud and accounts {#cloud}
 
+![Files in a synced folder match across devices through the cloud. AI chat services also run in the cloud.](assets/img/basics/cloud_sync.en.svg){fig-alt="Your computer, cloud storage and other devices are linked by two-way sync arrows. Below the cloud is an AI chat service."}
+
 Cloud
 : Storing files and running computation on a company's servers over the internet. Google Drive and OneDrive are cloud services, and AI chat services also run in the cloud. Whatever you type into an AI leaves your computer and goes to that company's servers.
 
@@ -41,6 +45,8 @@ Personal and institutional accounts
 : The same AI service can have different data policies for personal plans and for institutional contracts (universities, companies). For example, OpenAI states that by default it does not use content from ChatGPT Business, Enterprise or Edu for training. Check which kind of account you are using.
 
 # Version control: git {#git}
+
+![Commits record changes, push sends them to GitHub, and pull brings them down.](assets/img/basics/git_flow.en.svg){fig-alt="Three commits in the repository on your computer. From the last commit, push goes to the GitHub repository, and pull goes to a colleague's computer."}
 
 git
 : A program that keeps a record of how files changed. You can see when, what and why something changed, and go back to an earlier state when needed.
@@ -58,6 +64,10 @@ GitHub
 : A service that keeps git repositories in the cloud so that several people can work on them. This course site is also in a [GitHub repository](https://github.com/kkonoo/AI_Sci_Writing_KNUmed). If you manage analysis code and manuscript files this way, you can also see in the history what an AI tool changed.
 
 # AI models and services {#ai}
+
+![A language model picks the next words by probability. The probabilities are illustrative.](assets/img/basics/next_word.en.svg){fig-alt="After the text 'Compound X reduced the fibrotic area in', four candidates with probability bars: UUO kidneys, mice, the obstructed kidney, patients. Patients is marked as plausible but wrong for this study."}
+
+![What a model uses when it answers, and what it does not know.](assets/img/basics/model_sees.en.svg){fig-alt="On the left, training data, this conversation and web search results lead to the answer. On the right are three things it does not know."}
 
 Generative AI, large language model (LLM)
 : A model trained on a large amount of text that continues a text with the words likely to come next. When it answers, it does not look up facts. It picks a plausible next word. So it also writes wrong content in natural sentences.
@@ -88,6 +98,8 @@ Memory
 
 ## Training settings {#training-settings}
 
+![Your input goes to the company's server and becomes an answer. Depending on settings and service, it can be used for training, feedback or human review.](assets/img/basics/input_path.en.svg){fig-alt="From your computer on the left, input goes to the AI company server in the middle and the answer comes back. Dashed lines lead from the server to model training, feedback and human review."}
+
 On personal accounts, your conversations can be used to train models. Track A students must turn this setting off before they put sentences from their own manuscript into AI ([AI use rules](ai_rules.qmd#traffic-light)).
 
 | Service | Setting name | Where |
@@ -103,6 +115,8 @@ On personal accounts, your conversations can be used to train models. Track A st
 
 # Three ways to use AI: Chat, Cowork, Code {#modes}
 
+![What goes into AI differs by tool.](assets/img/basics/tool_scope.en.svg){fig-alt="With Chat, pasted text and uploaded files go to the AI company server. With Cowork and Code, every file in the opened folder. With connectors and plugins, files in the connected service."}
+
 Chat
 : A window where you ask and get answers. claude.ai, ChatGPT and Gemini belong here. You move the answer into your manuscript and revise it yourself. Only what you paste in goes into AI.
 
@@ -115,6 +129,8 @@ Code (agent, code and files)
 An agent tool reads the files in any folder you open for it. So the folder you open is what you put into AI. Do not open folders that contain patient information, raw data or a classmate's manuscript.
 
 # Extensions: API, MCP, connectors, skills, plugins {#extensions}
+
+![How skills, connectors, plugins and the API connect to Claude, drawn from the official Claude documentation.](assets/img/basics/extensions.en.svg){fig-alt="Your request goes to Claude. A skill is instructions Claude reads, and a connector links to an external service through its MCP server. A plugin packages skills and connectors. Your code calls Claude directly through the API."}
 
 API
 : A channel through which programs send requests and get answers in a fixed format. You use it to call an AI model from code without a chat screen. You pay for what you use, and its data policy is separate from that of the chat apps.

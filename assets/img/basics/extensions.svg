@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="104mm" viewBox="0 0 240 104" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">스킬, 커넥터, 플러그인, API가 Claude와 이어지는 방식</title>
+<rect width="240" height="104" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="플러그인-한-번에-설치하는-묶음-선택-">
+<rect x="122.00" y="4.00" width="72.00" height="86.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="123.80" y="9.29" font-size="3.528" fill="#262B33" font-weight="700">플러그인: 한 번에 설치하는 묶음</tspan><tspan x="123.80" y="13.88" font-size="3.528" fill="#262B33" font-weight="700">(선택)</tspan></text>
+</g>
+<g id="내-요청">
+<rect x="4.00" y="36.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="27.00" y="46.42" font-size="4.057" fill="#262B33" font-weight="700">내 요청</tspan><tspan x="27.00" y="52.45" font-size="3.704" fill="#6B7280">chat, Cowork, Code</tspan></text>
+</g>
+<g id="Claude">
+<rect x="66.00" y="36.00" width="40.00" height="24.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="86.00" y="49.56" font-size="4.586" fill="#FFFFFF" font-weight="700">Claude</tspan></text>
+</g>
+<g id="스킬">
+<rect x="128.00" y="16.00" width="60.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="158.00" y="26.01" font-size="4.057" fill="#262B33" font-weight="700">스킬</tspan><tspan x="158.00" y="32.04" font-size="3.704" fill="#6B7280">일하는 방법을 적은 지시문.</tspan><tspan x="158.00" y="36.86" font-size="3.704" fill="#6B7280">필요할 때 읽는다</tspan></text>
+</g>
+<g id="커넥터">
+<rect x="128.00" y="54.00" width="60.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="158.00" y="66.42" font-size="4.057" fill="#262B33" font-weight="700">커넥터</tspan><tspan x="158.00" y="72.45" font-size="3.704" fill="#6B7280">서비스의 MCP 서버에 연결</tspan></text>
+</g>
+<g id="외부-서비스">
+<rect x="204.00" y="54.00" width="32.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="220.00" y="64.40" font-size="3.704" fill="#262B33" font-weight="700">외부 서비스</tspan><tspan x="220.00" y="69.87" font-size="3.352" fill="#6B7280">파일, 캘린더,</tspan><tspan x="220.00" y="74.23" font-size="3.352" fill="#6B7280">이슈 관리</tspan></text>
+</g>
+<g id="내-코드-API-">
+<rect x="4.00" y="70.00" width="46.00" height="28.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="27.00" y="79.95" font-size="3.881" fill="#262B33" font-weight="700">내 코드 (API)</tspan><tspan x="27.00" y="85.93" font-size="3.704" fill="#262B33">채팅 화면 없이 모델을</tspan><tspan x="27.00" y="90.75" font-size="3.704" fill="#262B33">부른다</tspan></text>
+</g>
+<polyline points="50.00,48.00 66.00,48.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="128.00,30.00 117.00,30.00 117.00,44.00 106.00,44.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="106.00,52.00 117.00,52.00 117.00,68.00 128.00,68.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="188.00,68.00 204.00,68.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="50.00,84.00 86.00,84.00 86.00,60.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<g transform="translate(23.50,64.00) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6" />
+  <path d="m8 6-6 6 6 6" /></g></svg>
