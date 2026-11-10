@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="86mm" viewBox="0 0 240 86" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">트랙 A와 트랙 B를 정하는 기준</title>
+<rect width="240" height="86" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="box">
+<rect x="4.00" y="4.00" width="124.00" height="68.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="그림-3-4개-분량의-결과가-있다">
+<rect x="14.00" y="8.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="15.32" font-size="3.881" fill="#262B33" font-weight="700">그림 3~4개 분량의 결과가 있다</tspan></text>
+</g>
+<g id="지도교수가-수업에서-쓰는-데-동의했다">
+<rect x="14.00" y="24.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="31.32" font-size="3.881" fill="#262B33" font-weight="700">지도교수가 수업에서 쓰는 데 동의했다</tspan></text>
+</g>
+<g id="동료-리뷰에서-같은-반-학생이-읽어도-된다">
+<rect x="14.00" y="40.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="47.32" font-size="3.881" fill="#262B33" font-weight="700">동료 리뷰에서 같은 반 학생이 읽어도 된다</tspan></text>
+</g>
+<g id="과제나-특허-출원-전의-아이디어가-아니다">
+<rect x="14.00" y="56.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="63.32" font-size="3.881" fill="#262B33" font-weight="700">과제나 특허 출원 전의 아이디어가 아니다</tspan></text>
+</g>
+<g id="트랙-A-내-원고">
+<rect x="164.00" y="8.00" width="72.00" height="26.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="200.00" y="19.60" font-size="4.586" fill="#FFFFFF" font-weight="700">트랙 A: 내 원고</tspan><tspan x="200.00" y="25.80" font-size="3.704" fill="#FFFFFF">자기 데이터와 그림으로 짧은 원고</tspan></text>
+</g>
+<g id="트랙-B-공개-논문-다시-쓰기">
+<rect x="164.00" y="42.00" width="72.00" height="26.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="200.00" y="53.60" font-size="4.586" fill="#262B33" font-weight="700">트랙 B: 공개 논문 다시 쓰기</tspan><tspan x="200.00" y="59.80" font-size="3.704" fill="#262B33">담당교수가 승인한 오픈 액세스 논문</tspan></text>
+</g>
+<g id="애매하면-이번-주-안에-지도교수와-담당교수에게-묻는다-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.70" font-size="3.528" fill="#6B7280">애매하면 이번 주 안에 지도교수와 담당교수에게 묻는다.</tspan></text>
+</g>
+<polyline points="128.00,26.67 154.00,26.67 154.00,21.00 164.00,21.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="128.00,49.33 154.00,49.33 154.00,55.00 164.00,55.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="141.00" y="24.15" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">모두 해당</text>
+<text x="141.00" y="46.81" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">하나라도 아님</text>
+<g transform="translate(6.50,10.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,26.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,42.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,58.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g></svg>

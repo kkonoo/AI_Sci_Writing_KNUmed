@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="91mm" viewBox="0 0 240 91" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">생각 세 개를 담은 한 문장을 세 문장으로 나눈다</title>
+<rect width="240" height="91" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="전-한-문장에-생각-세-개">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.82" font-size="3.881" fill="#262B33" font-weight="700">전: 한 문장에 생각 세 개</tspan></text>
+</g>
+<g id="Compound-X-treatment-associated-fibrotic">
+<rect x="4.00" y="13.00" width="90.00" height="65.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="34.21" font-size="3.881" fill="#262B33">Compound X treatment-associated</tspan><tspan x="5.80" y="39.25" font-size="3.881" fill="#262B33">fibrotic area reduction was</tspan><tspan x="5.80" y="44.30" font-size="3.881" fill="#262B33">accompanied by decreased Col1a1 and</tspan><tspan x="5.80" y="49.34" font-size="3.881" fill="#262B33">Acta2 expression, suggesting Smad3</tspan><tspan x="5.80" y="54.39" font-size="3.881" fill="#262B33">pathway-mediated antifibrotic</tspan><tspan x="5.80" y="59.43" font-size="3.881" fill="#262B33">activity.</tspan></text>
+</g>
+<g id="후-한-문장에-생각-하나">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="124.00" y="8.82" font-size="3.881" fill="#262B33" font-weight="700">후: 한 문장에 생각 하나</tspan></text>
+</g>
+<g id="1">
+<circle cx="129.00" cy="22.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="129.00" y="23.70" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="Compound-X-reduced-the-fibrotic-area-in-">
+<rect x="136.00" y="13.00" width="100.00" height="19.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="137.80" y="21.35" font-size="3.704" fill="#262B33">Compound X reduced the fibrotic area in UUO</tspan><tspan x="137.80" y="26.17" font-size="3.704" fill="#262B33">kidneys.</tspan></text>
+</g>
+<g id="2">
+<circle cx="129.00" cy="45.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="129.00" y="46.70" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="It-also-lowered-the-expression-of-Col1a1">
+<rect x="136.00" y="36.00" width="100.00" height="19.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="137.80" y="44.35" font-size="3.704" fill="#262B33">It also lowered the expression of Col1a1</tspan><tspan x="137.80" y="49.17" font-size="3.704" fill="#262B33">and Acta2.</tspan></text>
+</g>
+<g id="3">
+<circle cx="129.00" cy="68.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="129.00" y="69.70" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="These-changes-suggest-that-Smad3-signali">
+<rect x="136.00" y="59.00" width="100.00" height="19.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="137.80" y="64.94" font-size="3.704" fill="#262B33">These changes suggest that Smad3 signaling</tspan><tspan x="137.80" y="69.76" font-size="3.704" fill="#262B33">mediates the antifibrotic effect of</tspan><tspan x="137.80" y="74.58" font-size="3.704" fill="#262B33">compound X.</tspan></text>
+</g>
+<g id="가상의-예시-뜻과-주장은-그대로-두고-문장만-나눈다-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="84.64" font-size="3.352" fill="#6B7280">가상의 예시. 뜻과 주장은 그대로 두고 문장만 나눈다.</tspan></text>
+</g>
+<polyline points="94.00,45.50 124.20,45.50" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="109.10" y="42.98" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">문장을 나눈다</text>
+</svg>

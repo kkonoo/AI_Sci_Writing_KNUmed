@@ -41,6 +41,8 @@ date: last-modified
 - 결론 문장만 순서대로 이어 읽었을 때 Abstract의 결과 부분처럼 읽혀야 한다.
 - 한 그림 안의 패널도 같다. 왼쪽에서 오른쪽, 위에서 아래로 읽는 순서가 논증 순서다.
 
+![가상의 예시 연구의 Figure 순서 카드. 그림마다 답하는 질문과 결론 문장이 하나씩 있다.](../../assets/img/w04/storyboard.svg){fig-alt="Figure 1부터 4까지 네 장의 카드가 번호 순서로 놓여 있다. 각 카드 위에는 답하는 질문, 아래에는 영어 결론 문장이 있다."}
+
 | Figure | 답하는 질문 | 결론 문장 (가상의 예시) |
 |---|---|---|
 | 1 | compound X가 전신 상태를 바꾸는가? | Mice given compound X or vehicle have similar body weight and serum creatinine after UUO. |

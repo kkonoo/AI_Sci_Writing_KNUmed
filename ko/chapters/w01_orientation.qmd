@@ -25,6 +25,8 @@ date: last-modified
 
 ## 이 수업은 그림부터 쓰고 Title을 맨 마지막에 쓴다
 
+![독자는 Title과 Abstract부터 읽지만, 이 수업은 그림부터 쓰고 Abstract와 Title을 맨 마지막에 쓴다.](../../assets/img/w01/reading_writing_order.svg){fig-alt="두 줄의 순서도. 위 줄은 독자가 읽는 순서로 Title, Abstract, 그림, 필요한 부분의 Results와 Methods다. 아래 줄은 이 수업에서 쓰는 순서로 그림(W4), Methods와 Legend(W5), Results(W6), Introduction(W9), Discussion(W10), Abstract와 Title(W11)이다."}
+
 | 쓰는 순서 | 원고 부분 | 주차 | 앞 단계에서 받아 오는 것 |
 |---|---|---|---|
 | 1 | 그림 (Figure 스토리보드) | [W4](w04_figure_storyboard.qmd) | 데이터, 그림마다 결론 문장 |
@@ -51,6 +53,9 @@ date: last-modified
 ## 트랙은 데이터와 동의로 정한다
 
 - 두 트랙의 차이는 [강의 소개의 두 트랙 표](../index.qmd#tracks)를 따름.
+
+![네 조건이 모두 해당하면 트랙 A, 하나라도 해당하지 않으면 트랙 B를 고른다.](../../assets/img/w01/choose_track.svg){fig-alt="왼쪽에 네 조건이 있다. 그림 3~4개 분량의 결과, 지도교수 동의, 동료 리뷰에서 공개 가능, 과제나 특허 출원 전 아이디어가 아님. 모두 해당하면 트랙 A 내 원고, 하나라도 아니면 트랙 B 공개 논문 다시 쓰기로 이어진다."}
+
 - 트랙 A는 아래가 모두 해당할 때 고름.
   - 그림 3~4개 분량의 결과가 이미 있음. 또는 W4까지 그림 순서를 정할 수 있음.
   - 지도교수가 이 원고를 수업에서 쓰는 데 동의함.

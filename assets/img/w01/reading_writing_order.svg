@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="98mm" viewBox="0 0 240 98" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">독자가 읽는 순서와 이 수업에서 원고를 쓰는 순서</title>
+<rect width="240" height="98" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="독자가-읽는-순서">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.82" font-size="3.881" fill="#262B33" font-weight="700">독자가 읽는 순서</tspan></text>
+</g>
+<g id="1">
+<circle cx="31.50" cy="17.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="31.50" y="18.20" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="Title">
+<rect x="4.00" y="24.00" width="55.00" height="21.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="31.50" y="35.94" font-size="4.234" fill="#262B33" font-weight="700">Title</tspan></text>
+</g>
+<g id="2">
+<circle cx="90.50" cy="17.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.50" y="18.20" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="Abstract">
+<rect x="63.00" y="24.00" width="55.00" height="21.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.50" y="35.94" font-size="4.234" fill="#262B33" font-weight="700">Abstract</tspan></text>
+</g>
+<g id="3">
+<circle cx="149.50" cy="17.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="149.50" y="18.20" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="그림">
+<rect x="122.00" y="24.00" width="55.00" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="149.50" y="35.94" font-size="4.234" fill="#262B33" font-weight="700">그림</tspan></text>
+</g>
+<g id="4">
+<circle cx="208.50" cy="17.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="208.50" y="18.20" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="Results-Methods">
+<rect x="181.00" y="24.00" width="55.00" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="208.50" y="32.98" font-size="4.234" fill="#262B33" font-weight="700">Results, Methods</tspan><tspan x="208.50" y="39.07" font-size="3.704" fill="#6B7280">필요한 부분만</tspan></text>
+</g>
+<g id="이-수업에서-원고를-쓰는-순서">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="57.82" font-size="3.881" fill="#262B33" font-weight="700">이 수업에서 원고를 쓰는 순서</tspan></text>
+</g>
+<g id="1">
+<circle cx="21.67" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="21.67" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="그림">
+<rect x="4.00" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="21.67" y="81.86" font-size="3.881" fill="#FFFFFF" font-weight="700">그림</tspan><tspan x="21.67" y="87.84" font-size="3.704" fill="#FFFFFF">W4</tspan></text>
+</g>
+<g id="2">
+<circle cx="61.00" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="61.00" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="Methods-Legend">
+<rect x="43.33" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="61.00" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Methods,</tspan><tspan x="61.00" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Legend</tspan><tspan x="61.00" y="90.36" font-size="3.704" fill="#6B7280">W5</tspan></text>
+</g>
+<g id="3">
+<circle cx="100.33" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="100.33" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="Results">
+<rect x="82.67" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="100.33" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Results</tspan><tspan x="100.33" y="87.84" font-size="3.704" fill="#6B7280">W6</tspan></text>
+</g>
+<g id="4">
+<circle cx="139.67" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="139.67" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="Introduction">
+<rect x="122.00" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="139.67" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Introduction</tspan><tspan x="139.67" y="87.84" font-size="3.704" fill="#6B7280">W9</tspan></text>
+</g>
+<g id="5">
+<circle cx="179.00" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="179.00" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="Discussion">
+<rect x="161.33" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="179.00" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Discussion</tspan><tspan x="179.00" y="87.84" font-size="3.704" fill="#6B7280">W10</tspan></text>
+</g>
+<g id="6">
+<circle cx="218.33" cy="66.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="218.33" y="67.20" font-size="3.528" fill="#262B33" font-weight="700">6</tspan></text>
+</g>
+<g id="Abstract-Title">
+<rect x="200.67" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="218.33" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Abstract,</tspan><tspan x="218.33" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Title</tspan><tspan x="218.33" y="90.36" font-size="3.704" fill="#262B33">W11</tspan></text>
+</g>
+<polyline points="36.30,17.00 85.70,17.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="95.30,17.00 144.70,17.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="154.30,17.00 203.70,17.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="26.47,66.00 56.20,66.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="65.80,66.00 95.53,66.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="105.13,66.00 134.87,66.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="144.47,66.00 174.20,66.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="183.80,66.00 213.53,66.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+</svg>

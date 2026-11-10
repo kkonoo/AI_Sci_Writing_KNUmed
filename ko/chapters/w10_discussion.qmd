@@ -19,6 +19,8 @@ date: last-modified
 
 ## 첫 문단은 Introduction의 질문에 대한 답이다
 
+![Discussion은 Introduction을 거꾸로 따라간다. 질문의 답에서 시작해서 비교, 한계, 다음 단계로 넓어진다.](../../assets/img/w10/intro_discussion_mirror.svg){fig-alt="왼쪽 Introduction 네 칸이 좁아져 이 연구의 질문에 이른다. 그 질문에서 오른쪽 Discussion의 질문에 대한 답으로 화살표가 가고, Discussion은 기존 연구와 비교, 한계, 다음 단계와 마지막 문장으로 넓어진다. 점선은 마지막 문장도 같은 질문에 답한다는 뜻이다."}
+
 - W9 Introduction의 마지막 문단에 적은 질문을 옆에 두고 쓴다. 예: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model.*
 - 결과는 그림 순서가 아니라 중요한 순서로 쓴다. Results를 그림마다 다시 요약하지 않는다.
 - Before: *In this study, we first examined body weight and serum creatinine (Figure 1). We then performed Masson's trichrome staining (Figure 2) and qPCR (Figure 3).*

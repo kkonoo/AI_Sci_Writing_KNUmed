@@ -14,6 +14,7 @@
 |---|---|---|
 | 강의 소개 | `index.qmd` | `ko/index.qmd` |
 | AI 사용 규칙 | `ai_rules.qmd` | `ko/ai_rules.qmd` |
+| 기초 용어 | `glossary.qmd` | `ko/glossary.qmd` |
 | 주차 페이지 (1~15주) | `chapters/wNN_주제.qmd` | `ko/chapters/wNN_주제.qmd` |
 | 참고자료 | `resources.qmd` | `ko/resources.qmd` |
 
@@ -23,6 +24,14 @@
 - 메모 절은 강의 계획을 짤 때 적은 내용 메모다. 괄호 안 이름(plain-prose, intro-builder 등)은 그 주에 풀어 쓸 연구실 스킬 이름이다.
 - 아직 쓰지 않은 곳에는 `TODO`가 있다. 남은 일은 `grep -rn TODO --include=*.qmd .`로 찾는다.
 - 그림 같은 공용 파일은 `assets/`에 두고 두 판이 함께 쓴다. `ko/` 아래에 복사하지 않는다.
+
+## 그림
+
+- 그림은 `figs/wNN.py` 스크립트로 만들고 `assets/img/wNN/`에 SVG로 저장한다. 글자가 살아 있는 SVG라서 텍스트 편집기로도 고칠 수 있다.
+- 고칠 때는 스크립트를 고치고 리포 루트에서 `python3 figs/wNN.py`를 실행한다. 실행하면 겹침, 넘침, 글자 크기를 점검한 결과가 나온다. ERROR는 모두 고친다.
+- 색은 slide-gallery 차콜 팔레트를 따른다(`figs/common.py`). 주조색 `#2F343B`, 옅은 단계 3가지, 강조색 `#E5484D`는 그림 하나에 한 번까지 쓴다. 이모지는 쓰지 않고, 아이콘이 필요하면 `figs/icons/`의 Lucide 아이콘을 쓴다.
+- 그림에 들어가는 내용은 그 주 본문에 있는 것만 쓴다. 그림에만 있는 사실이나 수치를 만들지 않는다.
+- 그림 안의 글자는 언어마다 다르다. 지금 그림은 한국어판용이다. 영어판 그림은 같은 스크립트에 영어 문구를 넣어 따로 만든다.
 
 ## EN/KO 두 판은 같이 고친다
 

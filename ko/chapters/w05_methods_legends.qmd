@@ -44,6 +44,8 @@ date: last-modified
 
 ## 원칙 3. n이 무엇을 센 것인지 쓴다
 
+![n은 실험 단위의 수다. 마우스 여섯 마리가 n = 6이고, 한 마우스의 절편 세 장은 기술 반복이라 평균을 내서 값 하나로 쓴다.](../../assets/img/w05/what_n_counts.svg){fig-alt="왼쪽에 한 군의 마우스 여섯 마리와 마우스 1의 절편 세 장이 있다. 오른쪽에 n = 18로 쓴 Before와 n = 6 mice per group으로 쓴 After가 있다."}
+
 - n은 실험 단위(experimental unit)의 수다. 실험 단위는 처치를 독립적으로 받은 단위다. 마우스 한 마리, 환자 한 명, 따로 준비한 배양이 각각 하나다 (Lazic et al. 2018, [doi:10.1371/journal.pbio.2005282](https://doi.org/10.1371/journal.pbio.2005282)).
 - 같은 마우스에서 찍은 사진 여러 장이나 같은 시료의 qPCR well 세 개는 기술 반복(technical replicate)이다. 평균을 내서 그 마우스의 값 하나로 쓴다.
 - 단일세포 데이터에서는 세포 수가 아니라 환자(공여자) 수가 n이다.

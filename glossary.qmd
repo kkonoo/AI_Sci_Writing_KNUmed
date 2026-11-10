@@ -1,0 +1,151 @@
+---
+title: "Glossary"
+subtitle: "Computers, the cloud and AI tools"
+date: last-modified
+---
+
+This page collects the computer and AI terms used in this course. The names, menus and policies of AI tools change often. The tool details were checked on the official pages on 2026-11-11, and the sources are listed at the bottom.
+
+# Computer basics {#computer}
+
+Files and folders
+: A file holds one piece of text, an image or a dataset. A folder groups files together.
+
+Path
+: The location of a file, written as the chain of folder names. Examples: `C:\Users\me\paper\figure1.tif` (Windows), `/Users/me/paper/figure1.tif` (macOS).
+
+File extension
+: The end of a file name, such as `.docx`, `.pdf`, `.tif` or `.csv`. It tells you the type of file.
+
+Text files and document files
+: `.txt`, `.md` and `.csv` files hold only characters, so any editor can open them. `.docx` and `.pptx` files also hold formatting, so they need their own programs. AI tools read text files most accurately.
+
+Markdown
+: A text format that marks formatting with symbols, such as `#` for a heading and `-` for a list item. AI chat answers usually come in Markdown. This course site is written in Quarto, which is based on Markdown.
+
+Terminal (command line)
+: A window where you control the computer by typing commands instead of using the mouse. On Windows it is PowerShell, and on macOS it is Terminal. Agent-style AI tools such as Claude Code can run in the terminal.
+
+Local and server
+: Local means your own computer. A server is another computer that you use over the network. The lab's analysis server, the university LMS and an AI company's computers are all servers.
+
+# The cloud and accounts {#cloud}
+
+Cloud
+: Storing files and running computation on a company's servers over the internet. Google Drive and OneDrive are cloud services, and AI chat services also run in the cloud. Whatever you type into an AI leaves your computer and goes to that company's servers.
+
+Sync
+: Keeping a folder on your computer and a folder in the cloud in the same state. A file you put in a synced folder is also uploaded to the cloud.
+
+Personal and institutional accounts
+: The same AI service can have different data policies for personal plans and for institutional contracts (universities, companies). For example, OpenAI states that by default it does not use content from ChatGPT Business, Enterprise or Edu for training. Check which kind of account you are using.
+
+# Version control: git {#git}
+
+git
+: A program that keeps a record of how files changed. You can see when, what and why something changed, and go back to an earlier state when needed.
+
+Repository
+: A folder whose history git manages. It is often shortened to repo.
+
+Commit
+: Saving a set of changes to the history, together with a one-line description.
+
+Push and pull
+: Push sends your commits from your computer to the repository on a server. Pull brings new commits from the server to your computer.
+
+GitHub
+: A service that keeps git repositories in the cloud so that several people can work on them. This course site is also in a [GitHub repository](https://github.com/kkonoo/AI_Sci_Writing_KNUmed). If you manage analysis code and manuscript files this way, you can also see in the history what an AI tool changed.
+
+# AI models and services {#ai}
+
+Generative AI, large language model (LLM)
+: A model trained on a large amount of text that continues a text with the words likely to come next. When it answers, it does not look up facts. It picks a plausible next word. So it also writes wrong content in natural sentences.
+
+Model and app
+: The model is the engine that produces text. Examples: Claude, GPT, Gemini. The app is the screen through which you use the model. Examples: claude.ai, ChatGPT, the Gemini app. In one app you can often choose between models.
+
+Prompt
+: The input you give to AI. Questions, instructions and attached material are all part of the prompt.
+
+Token
+: The small unit into which a model splits text. How much you can put in at once and how much you use are measured in tokens.
+
+Context window
+: How much conversation and material a model can see at once. If a conversation gets too long, the model loses track of earlier parts. A new conversation does not know earlier ones. A memory feature, when turned on, is an exception.
+
+Knowledge cutoff
+: The last date of the material a model was trained on. It does not know papers published or policies changed after that date.
+
+Hallucination
+: Writing something untrue as if it were fact. References that do not exist are the typical example ([W7](chapters/w07_literature.qmd)).
+
+Web search
+: A feature that searches the internet before answering and reads the results. It gives more recent information, but it can also summarize the results wrongly. Open the sources yourself.
+
+Memory
+: A feature that remembers information about the user after a conversation ends. When it is on, content from old conversations can mix into new ones.
+
+## Training settings {#training-settings}
+
+On personal accounts, your conversations can be used to train models. Track A students must turn this setting off before they put sentences from their own manuscript into AI ([AI use rules](ai_rules.qmd#traffic-light)).
+
+| Service | Setting name | Where |
+|---|---|---|
+| Claude (Free, Pro, Max) | Help improve our AI models | Settings → Privacy |
+| ChatGPT (Free, Plus, Pro) | Improve the model for everyone | Settings → Data controls |
+| Gemini app | Keep Activity | Settings & help → Activity |
+
+- When you turn the setting off, new conversations from then on are not used for training. Data already used in training is not removed (Claude's notice).
+- ChatGPT and Gemini state that if you send feedback, such as a thumbs up or down, that conversation may be used for training. Do not press feedback buttons in conversations that contain your manuscript.
+- Gemini states that even with Keep Activity off, conversations are kept for up to 72 hours, and that some conversations are reviewed by people. Do not put in anything that others must not see.
+- Menu names and locations change often. Check them again on your own account in the first practice session ([W2](chapters/w02_ai_basics.qmd)).
+
+# Three ways to use AI: Chat, Cowork, Code {#modes}
+
+Chat
+: A window where you ask and get answers. claude.ai, ChatGPT and Gemini belong here. You move the answer into your manuscript and revise it yourself. Only what you paste in goes into AI.
+
+Cowork (agent, desktop)
+: The work mode of the Claude desktop app. It reads and writes files on your computer, uses connected work apps, and carries out multi-step tasks for you.
+
+Code (agent, code and files)
+: Tools such as Claude Code that read and change code and files directly and run commands. You use them in the terminal or in a desktop app. OpenAI's Codex is a similar tool.
+
+An agent tool reads the files in any folder you open for it. So the folder you open is what you put into AI. Do not open folders that contain patient information, raw data or a classmate's manuscript.
+
+# Extensions: API, MCP, connectors, skills, plugins {#extensions}
+
+API
+: A channel through which programs send requests and get answers in a fixed format. You use it to call an AI model from code without a chat screen. You pay for what you use, and its data policy is separate from that of the chat apps.
+
+MCP (Model Context Protocol)
+: An open standard for connecting AI apps to external systems. External systems include files, databases and search tools. The official documentation compares MCP to "a USB-C port for AI applications". Many tools support MCP, including Claude, ChatGPT and VS Code.
+
+Connector
+: A connection from Claude to an external service through MCP. External services include file storage, calendars and issue trackers. Once connected, Claude can read the content of that service and work in it.
+
+Skill
+: Written instructions on how to do a task. When needed, a skill also holds scripts and reference files. When the task you give fits a skill, Claude loads and reads it. Examples: a lab's writing rules, a report template, a checklist.
+
+Plugin
+: A package that installs and shares skills, connectors, named commands and agents in one go.
+
+Agent
+: An AI that plans a multi-step task by itself and uses tools to carry it out. Agent tools sometimes split a large task and hand parts of it to other agents.
+
+Two points matter for this course.
+
+- If you connect storage such as Google Drive through a connector, the files in it can also go into AI. Before you connect it, sort its content with the [AI traffic light](ai_rules.qmd#traffic-light).
+- A skill lets you reuse your writing rules without explaining them every time. For example, if you turn the pattern checklist of [W3](chapters/w03_readable_sentences.qmd) into a skill, you can check every revision against the same standard.
+
+# Sources {#sources}
+
+Checked on 2026-11-11.
+
+- Claude connectors, skills and plugins: [Connectors, skills, and plugins](https://claude.com/docs/extend/overview)
+- Claude Cowork: [What is Claude Cowork](https://claude.com/ko/resources/guides/claude-cowork-product-guide/what-is-claude-cowork) (Korean page)
+- MCP: [What is the Model Context Protocol?](https://modelcontextprotocol.io/docs/getting-started/intro)
+- Claude training setting: [How do I change my model improvement privacy settings?](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings)
+- ChatGPT training setting: [Data Controls FAQ](https://help.openai.com/en/articles/7730893-data-controls-faq)
+- Gemini activity setting: [Gemini Apps activity](https://support.google.com/gemini/answer/13278892), [Gemini Apps Privacy Hub](https://support.google.com/gemini/answer/13594961)

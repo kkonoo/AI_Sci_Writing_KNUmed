@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="129mm" viewBox="0 0 240 129" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Cover letter의 여섯 부분</title>
+<rect width="240" height="129" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Cover-letter-1쪽-안팎-">
+<rect x="4.00" y="4.00" width="152.00" height="121.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="9.99" font-size="4.234" fill="#262B33" font-weight="700">Cover letter (1쪽 안팎)</tspan></text>
+</g>
+<g id="1">
+<circle cx="15.00" cy="21.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="22.70" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="받는-사람과-첫-문단">
+<rect x="24.00" y="14.00" width="126.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="19.92" font-size="4.057" fill="#262B33" font-weight="700">받는 사람과 첫 문단</tspan><tspan x="25.80" y="25.95" font-size="3.704" fill="#6B7280">편집자 이름, 원고 제목, 논문 유형</tspan></text>
+</g>
+<g id="2">
+<circle cx="15.00" cy="39.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="40.70" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="연구-질문과-중요성">
+<rect x="24.00" y="32.00" width="126.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="37.92" font-size="4.057" fill="#262B33" font-weight="700">연구 질문과 중요성</tspan><tspan x="25.80" y="43.95" font-size="3.704" fill="#6B7280">1~2문장</tspan></text>
+</g>
+<g id="3">
+<circle cx="15.00" cy="57.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="58.70" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="주요-결과">
+<rect x="24.00" y="50.00" width="126.00" height="15.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="55.92" font-size="4.057" fill="#FFFFFF" font-weight="700">주요 결과</tspan><tspan x="25.80" y="61.95" font-size="3.704" fill="#FFFFFF">2~3문장. Abstract와 같은 수치, 같은 주장 강도</tspan></text>
+</g>
+<g id="4">
+<circle cx="15.00" cy="75.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="76.70" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="왜-이-저널의-독자인가">
+<rect x="24.00" y="68.00" width="126.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="73.92" font-size="4.057" fill="#262B33" font-weight="700">왜 이 저널의 독자인가</tspan><tspan x="25.80" y="79.95" font-size="3.704" fill="#6B7280">Aims &amp; Scope의 구체적인 문장, DOI를 확인한 관련 논문</tspan></text>
+</g>
+<g id="5">
+<circle cx="15.00" cy="93.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="94.70" font-size="3.528" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="필요한-진술">
+<rect x="24.00" y="86.00" width="126.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="91.92" font-size="4.057" fill="#262B33" font-weight="700">필요한 진술</tspan><tspan x="25.80" y="97.95" font-size="3.704" fill="#6B7280">중복 투고 아님, 저자 동의, 이해 상충, preprint, AI 사용</tspan></text>
+</g>
+<g id="6">
+<circle cx="15.00" cy="111.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="112.70" font-size="3.528" fill="#262B33" font-weight="700">6</tspan></text>
+</g>
+<g id="추천-제외-리뷰어">
+<rect x="24.00" y="104.00" width="126.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="109.92" font-size="4.057" fill="#262B33" font-weight="700">추천·제외 리뷰어</tspan><tspan x="25.80" y="115.95" font-size="3.704" fill="#6B7280">저널이 요구할 때만</tspan></text>
+</g>
+<g id="규칙">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="166.00" y="16.50" font-size="4.410" fill="#262B33" font-weight="700">규칙</tspan></text>
+</g>
+<g id="칭찬과-형용사-대신">
+<rect x="166.00" y="22.00" width="70.00" height="30.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="201.00" y="33.07" font-size="4.234" fill="#262B33" font-weight="700">칭찬과 형용사 대신</tspan><tspan x="201.00" y="39.16" font-size="3.704" fill="#262B33">편집자가 확인할 수 있는 사실을</tspan><tspan x="201.00" y="43.97" font-size="3.704" fill="#262B33">쓴다</tspan></text>
+</g>
+<g id="지어내지-않는다">
+<rect x="166.00" y="58.00" width="70.00" height="30.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="201.00" y="69.07" font-size="4.234" fill="#262B33" font-weight="700">지어내지 않는다</tspan><tspan x="201.00" y="75.16" font-size="3.704" fill="#262B33">저널에 관한 사실과 관련 논문은</tspan><tspan x="201.00" y="79.97" font-size="3.704" fill="#262B33">직접 확인한 것만</tspan></text>
+</g>
+<g transform="translate(146.00,5.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></g></svg>

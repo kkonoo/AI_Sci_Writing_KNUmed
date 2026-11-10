@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">학기 전체 흐름: Part 1 기초, Part 2 원고 쓰기, Part 3 다듬기와 투고</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Part-1-기초">
+<polygon points="4.00,6.00 59.65,6.00 69.65,16.00 59.65,26.00 4.00,26.00 14.00,16.00" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="36.82" y="14.48" font-size="4.234" fill="#262B33" font-weight="700">Part 1 · 기초</tspan><tspan x="36.82" y="20.57" font-size="3.704" fill="#262B33">W1–W3</tspan></text>
+</g>
+<g id="트랙-정하기">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="35.32" font-size="3.881" fill="#262B33">트랙 정하기</tspan></text>
+</g>
+<g id="AI-신호등과-확인-3가지">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="41.82" font-size="3.881" fill="#262B33">AI 신호등과 확인 3가지</tspan></text>
+</g>
+<g id="읽히는-문장">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="48.32" font-size="3.881" fill="#262B33">읽히는 문장</tspan></text>
+</g>
+<g id="Part-2-원고-쓰기">
+<polygon points="61.65,6.00 153.76,6.00 163.76,16.00 153.76,26.00 61.65,26.00 71.65,16.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="112.71" y="14.48" font-size="4.234" fill="#262B33" font-weight="700">Part 2 · 원고 쓰기</tspan><tspan x="112.71" y="20.57" font-size="3.704" fill="#262B33">W4–W11</tspan></text>
+</g>
+<g id="Figure-순서-카드">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="35.32" font-size="3.881" fill="#262B33">Figure 순서 카드</tspan></text>
+</g>
+<g id="Methods-Results">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="41.82" font-size="3.881" fill="#262B33">Methods, Results</tspan></text>
+</g>
+<g id="참고문헌-표">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="48.32" font-size="3.881" fill="#262B33">참고문헌 표</tspan></text>
+</g>
+<g id="Introduction-Discussion">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="54.82" font-size="3.881" fill="#262B33">Introduction, Discussion</tspan></text>
+</g>
+<g id="Abstract-Title">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="61.32" font-size="3.881" fill="#262B33">Abstract, Title</tspan></text>
+</g>
+<g id="동료-리뷰-W8">
+<rect x="74.65" y="65.50" width="36.00" height="9.00" rx="4.50" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="92.65" y="71.20" font-size="3.528" fill="#262B33" font-weight="700">동료 리뷰 W8</tspan></text>
+</g>
+<g id="Part-3-다듬기와-투고">
+<polygon points="155.76,6.00 226.00,6.00 236.00,16.00 226.00,26.00 155.76,26.00 165.76,16.00" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="195.88" y="14.48" font-size="4.234" fill="#FFFFFF" font-weight="700">Part 3 · 다듬기와 투고</tspan><tspan x="195.88" y="20.57" font-size="3.704" fill="#FFFFFF">W12–W15</tspan></text>
+</g>
+<g id="전체-원고-수정본">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="35.32" font-size="3.881" fill="#262B33">전체 원고 수정본</tspan></text>
+</g>
+<g id="Cover-letter">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="41.82" font-size="3.881" fill="#262B33">Cover letter</tspan></text>
+</g>
+<g id="리뷰어-답변서">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="48.32" font-size="3.881" fill="#262B33">리뷰어 답변서</tspan></text>
+</g>
+<g id="기말-원고와-발표">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="54.82" font-size="3.881" fill="#262B33">기말 원고와 발표</tspan></text>
+</g>
+<g id="동료-리뷰-W12">
+<rect x="168.76" y="59.00" width="36.00" height="9.00" rx="4.50" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="186.76" y="64.70" font-size="3.528" fill="#262B33" font-weight="700">동료 리뷰 W12</tspan></text>
+</g>
+<g id="기말-제출물-원고-AI-사용-기록-트랙-B는-실제-논문과의-비교-메모">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="84.76" font-size="3.704" fill="#6B7280">기말 제출물: 원고, AI 사용 기록, 트랙 B는 실제 논문과의 비교 메모</tspan></text>
+</g>
+<line x1="4.00" y1="30.00" x2="4.00" y2="53.50" stroke="#E2E5EA" stroke-width="0.265"/>
+<line x1="71.65" y1="30.00" x2="71.65" y2="66.50" stroke="#E2E5EA" stroke-width="0.265"/>
+<line x1="165.76" y1="30.00" x2="165.76" y2="60.00" stroke="#E2E5EA" stroke-width="0.265"/>
+</svg>

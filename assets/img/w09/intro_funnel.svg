@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Introduction 깔때기: 배경, 왜 중요한가, 기존 연구와 빈틈, 이 연구</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="배경">
+<rect x="4.00" y="4.00" width="232.00" height="18.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="11.54" font-size="4.410" fill="#262B33" font-weight="700">배경</tspan><tspan x="120.00" y="17.68" font-size="3.704" fill="#262B33">무엇에 관한 글인가?  ·  1문단</tspan></text>
+</g>
+<g id="왜-중요한가">
+<rect x="22.00" y="26.00" width="196.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="33.54" font-size="4.410" fill="#262B33" font-weight="700">왜 중요한가</tspan><tspan x="120.00" y="39.68" font-size="3.704" fill="#262B33">왜 이것을 알아야 하나?  ·  배경 끝이나 1문단</tspan></text>
+</g>
+<g id="기존-연구가-보여-준-것과-못-하는-것">
+<rect x="40.00" y="48.00" width="160.00" height="18.00" rx="0.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="55.54" font-size="4.410" fill="#262B33" font-weight="700">기존 연구가 보여 준 것과 못 하는 것</tspan><tspan x="120.00" y="61.68" font-size="3.704" fill="#262B33">무엇을 이미 알고, 무엇을 아직 모르나?  ·  1~2문단</tspan></text>
+</g>
+<g id="이-연구">
+<rect x="58.00" y="70.00" width="124.00" height="18.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="77.54" font-size="4.410" fill="#FFFFFF" font-weight="700">이 연구</tspan><tspan x="120.00" y="83.68" font-size="3.704" fill="#FFFFFF">이 연구는 그 빈틈을 어떻게 메우나?  ·  마지막 1문단</tspan></text>
+</g>
+</svg>

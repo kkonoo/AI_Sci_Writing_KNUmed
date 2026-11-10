@@ -42,6 +42,8 @@ to 9.6% ± 2.4% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's tes
 Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 ```
 
+![위 예시 단락을 네 부분으로 나눈 것. 결과 부분에 수치, n, 통계가 모인다.](../../assets/img/w06/paragraph_parts.svg){fig-alt="왼쪽에 목적, 한 일, 결과, 해석 네 칸이 있고, 오른쪽에 각 칸에 해당하는 예시 단락의 영어 문장이 있다."}
+
 ## 원칙 3. 결과와 해석을 나눈다
 
 - 결과 문장은 관찰한 것을 쓴다. 해석 문장은 그 뜻을 쓰고, These data indicate나 suggest처럼 해석임을 드러낸다.

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="70mm" viewBox="0 0 240 70" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">참고문헌을 확인하는 다섯 단계</title>
+<rect width="240" height="70" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="1">
+<circle cx="25.60" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="25.60" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="DOI">
+<rect x="4.00" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="25.60" y="32.13" font-size="4.410" fill="#262B33" font-weight="700">DOI</tspan><tspan x="25.60" y="38.27" font-size="3.704" fill="#6B7280">doi.org에서 열어</tspan><tspan x="25.60" y="43.09" font-size="3.704" fill="#6B7280">본다</tspan></text>
+</g>
+<g id="2">
+<circle cx="72.80" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="72.80" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="데이터베이스">
+<rect x="51.20" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="72.80" y="32.13" font-size="4.410" fill="#262B33" font-weight="700">데이터베이스</tspan><tspan x="72.80" y="38.27" font-size="3.704" fill="#6B7280">PubMed에서 제목으로</tspan><tspan x="72.80" y="43.09" font-size="3.704" fill="#6B7280">찾고 PMID를 맞춘다</tspan></text>
+</g>
+<g id="3">
+<circle cx="120.00" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="서지-대조">
+<rect x="98.40" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="32.13" font-size="4.410" fill="#262B33" font-weight="700">서지 대조</tspan><tspan x="120.00" y="38.27" font-size="3.704" fill="#6B7280">저자, 연도, 제목,</tspan><tspan x="120.00" y="43.09" font-size="3.704" fill="#6B7280">저널, 권과 쪽</tspan></text>
+</g>
+<g id="4">
+<circle cx="167.20" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="167.20" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="주장-확인">
+<rect x="145.60" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="167.20" y="29.72" font-size="4.410" fill="#FFFFFF" font-weight="700">주장 확인</tspan><tspan x="167.20" y="35.87" font-size="3.704" fill="#FFFFFF">내 문장을 받치는</tspan><tspan x="167.20" y="40.68" font-size="3.704" fill="#FFFFFF">그림, 표, 문장을</tspan><tspan x="167.20" y="45.50" font-size="3.704" fill="#FFFFFF">본문에서 찾는다</tspan></text>
+</g>
+<g id="5">
+<circle cx="214.40" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="214.40" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="상태-확인">
+<rect x="192.80" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="214.40" y="32.13" font-size="4.410" fill="#262B33" font-weight="700">상태 확인</tspan><tspan x="214.40" y="38.27" font-size="3.704" fill="#6B7280">철회와 정정,</tspan><tspan x="214.40" y="43.09" font-size="3.704" fill="#6B7280">preprint인지</tspan></text>
+</g>
+<g id="DOI가-열려도-끝이-아니다-가장-잡기-어려운-오류는-논문은-있는데-내-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="62.20" font-size="3.528" fill="#6B7280">DOI가 열려도 끝이 아니다. 가장 잡기 어려운 오류는 논문은 있는데 내 문장을 받치지 않는 경우다(4단계).</tspan></text>
+</g>
+<polyline points="30.60,10.00 67.80,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="77.80,10.00 115.00,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="125.00,10.00 162.20,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="172.20,10.00 209.40,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+</svg>

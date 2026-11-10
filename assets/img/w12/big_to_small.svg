@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">다듬기 순서: 내용과 그림 순서, 단락, 문장, 단어와 문법</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="1-내용과-그림-순서">
+<rect x="4.00" y="4.00" width="148.00" height="84.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="9.99" font-size="4.234" fill="#262B33" font-weight="700">1. 내용과 그림 순서</tspan></text>
+</g>
+<g id="2-단락">
+<rect x="14.00" y="18.00" width="128.00" height="62.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="23.99" font-size="4.234" fill="#262B33" font-weight="700">2. 단락</tspan></text>
+</g>
+<g id="3-문장">
+<rect x="24.00" y="32.00" width="108.00" height="40.00" rx="0.80" fill="#ACAEB1"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="37.99" font-size="4.234" fill="#262B33" font-weight="700">3. 문장</tspan></text>
+</g>
+<g id="4-단어와-문법">
+<rect x="34.00" y="46.00" width="88.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="78.00" y="56.44" font-size="4.234" fill="#262B33" font-weight="700">4. 단어와 문법</tspan></text>
+</g>
+<g id="바깥부터-안으로-다듬는다">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="162.00" y="12.50" font-size="4.410" fill="#262B33" font-weight="700">바깥부터 안으로 다듬는다</tspan></text>
+</g>
+<g id="문장부터-다듬으면-나중에-단락을-빼거나-옮길-때-그-수고가-버려진다-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="162.00" y="29.80" font-size="3.881" fill="#262B33">문장부터 다듬으면 나중에 단락을</tspan><tspan x="162.00" y="34.84" font-size="3.881" fill="#262B33">빼거나 옮길 때 그 수고가 버려진다.</tspan></text>
+</g>
+<g id="먼저-볼-것">
+<rect x="162.00" y="50.00" width="74.00" height="38.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="163.80" y="62.66" font-size="4.234" fill="#FFFFFF" font-weight="700">먼저 볼 것</tspan><tspan x="163.80" y="68.75" font-size="3.704" fill="#FFFFFF">각 Figure의 결론 문장이 Results 첫</tspan><tspan x="163.80" y="73.57" font-size="3.704" fill="#FFFFFF">문장, Abstract, Title에 같은</tspan><tspan x="163.80" y="78.38" font-size="3.704" fill="#FFFFFF">강도로 들어 있는가</tspan></text>
+</g>
+</svg>

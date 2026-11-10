@@ -28,6 +28,8 @@ date: last-modified
   - 전: Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
   - 후: Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
 
+![같은 내용을 세 문장으로 나누면 문장마다 생각이 하나씩 남는다. 가상의 예시다.](../../assets/img/w03/split_sentence.svg){fig-alt="왼쪽에 생각 세 개를 담은 영어 문장 하나가 있다. 오른쪽에는 같은 내용을 나눈 영어 문장 세 개가 번호와 함께 있다."}
+
 ## 읽기 어려운 문장은 10가지 패턴으로 찾는다
 
 아래 표는 이번 주 실습과 [W12 다듬기](w12_polishing.qmd)에서 점검표로 씀. 번호를 바꾸지 않음.

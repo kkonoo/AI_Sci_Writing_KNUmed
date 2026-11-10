@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="114mm" viewBox="0 0 240 114" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">리뷰어 의견 하나에 답하는 네 부분</title>
+<rect width="240" height="114" fill="#FFFFFF"/>
+<defs></defs>
+<g id="의견-인용">
+<rect x="4.00" y="4.00" width="52.00" height="22.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="13.54" font-size="4.410" fill="#262B33" font-weight="700">의견 인용</tspan><tspan x="30.00" y="19.68" font-size="3.704" fill="#262B33">R1C3</tspan></text>
+</g>
+<g id="R1C3-Serum-creatinine-is-shown-only-as-g">
+<rect x="62.00" y="4.00" width="174.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="63.80" y="13.80" font-size="3.881" fill="#262B33">R1C3: Serum creatinine is shown only as group means. Please show</tspan><tspan x="63.80" y="18.84" font-size="3.881" fill="#262B33">individual values and explain how blood was collected.</tspan></text>
+</g>
+<g id="감사">
+<rect x="4.00" y="30.00" width="52.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="36.54" font-size="4.410" fill="#262B33" font-weight="700">감사</tspan><tspan x="30.00" y="42.68" font-size="3.704" fill="#262B33">짧게 한 문장</tspan></text>
+</g>
+<g id="We-thank-the-reviewer-for-this-suggestio">
+<rect x="62.00" y="30.00" width="174.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="63.80" y="39.32" font-size="3.881" fill="#262B33">We thank the reviewer for this suggestion.</tspan></text>
+</g>
+<g id="한-일">
+<rect x="4.00" y="50.00" width="52.00" height="22.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="59.54" font-size="4.410" fill="#FFFFFF" font-weight="700">한 일</tspan><tspan x="30.00" y="65.68" font-size="3.704" fill="#FFFFFF">실제로 한 것만</tspan></text>
+</g>
+<g id="We-now-show-serum-creatinine-for-each-mo">
+<rect x="62.00" y="50.00" width="174.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="63.80" y="59.80" font-size="3.881" fill="#262B33">We now show serum creatinine for each mouse (Fig. 1c). We also state in</tspan><tspan x="63.80" y="64.84" font-size="3.881" fill="#262B33">the Methods how and when blood was collected.</tspan></text>
+</g>
+<g id="바뀐-위치">
+<rect x="4.00" y="76.00" width="52.00" height="22.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="85.54" font-size="4.410" fill="#262B33" font-weight="700">바뀐 위치</tspan><tspan x="30.00" y="91.68" font-size="3.704" fill="#262B33">쪽, 줄, Figure</tspan></text>
+</g>
+<g id="Changes-Methods-page-6-lines-120-124-Fig">
+<rect x="62.00" y="76.00" width="174.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="63.80" y="85.80" font-size="3.881" fill="#262B33">Changes: Methods, page 6, lines 120–124; Fig. 1c and its legend, page 22,</tspan><tspan x="63.80" y="90.84" font-size="3.881" fill="#262B33">lines 455–457.</tspan></text>
+</g>
+<g id="가상의-의견과-답변-하지-않은-분석이나-약속은-쓰지-않는다-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="107.70" font-size="3.528" fill="#6B7280">가상의 의견과 답변. 하지 않은 분석이나 약속은 쓰지 않는다.</tspan></text>
+</g>
+</svg>

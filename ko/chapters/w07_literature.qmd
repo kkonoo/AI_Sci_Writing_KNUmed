@@ -98,6 +98,8 @@ the statement. If you are not sure that a paper exists, say so instead of guessi
 
 참고문헌 한 편을 확인하는 순서:
 
+![참고문헌을 확인하는 다섯 단계. 4단계 주장 확인이 가장 자주 빠진다.](../../assets/img/w07/verify_reference.svg){fig-alt="번호 1부터 5까지 DOI, 데이터베이스, 서지 대조, 주장 확인, 상태 확인 다섯 단계가 차례로 놓여 있다."}
+
 1. DOI: `https://doi.org/` 뒤에 DOI를 붙여 연다. 열리지 않으면 기록한다. 열려도 다른 논문이 나오면 불일치다.
 2. 데이터베이스: [PubMed](https://pubmed.ncbi.nlm.nih.gov/)에서 제목으로 찾고 PMID를 대조한다. PubMed에 없는 분야의 논문은 [Crossref 검색](https://search.crossref.org/)으로 찾는다.
 3. 서지 대조: 저자(첫 저자 철자), 연도, 제목, 저널, 권과 쪽을 논문 페이지와 하나씩 맞춘다.

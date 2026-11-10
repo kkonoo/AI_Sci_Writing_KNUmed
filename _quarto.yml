@@ -7,6 +7,7 @@ project:
   render:
     - index.qmd
     - ai_rules.qmd
+    - glossary.qmd
     - chapters/w01_orientation.qmd
     - chapters/w02_ai_basics.qmd
     - chapters/w03_readable_sentences.qmd
@@ -25,6 +26,7 @@ project:
     - resources.qmd
     - ko/index.qmd
     - ko/ai_rules.qmd
+    - ko/glossary.qmd
     - ko/chapters/w01_orientation.qmd
     - ko/chapters/w02_ai_basics.qmd
     - ko/chapters/w03_readable_sentences.qmd
@@ -55,6 +57,8 @@ website:
         text: Home
       - href: ai_rules.qmd
         text: "AI rules"
+      - href: glossary.qmd
+        text: "Glossary"
       - text: "Weeks"            # ← 드롭다운. 한국어 라벨은 assets/language-switch.html 에서 바꿈
         menu:
           - text: "Part 1 · Foundations"
@@ -104,6 +108,8 @@ website:
           href: index.qmd
         - text: "AI use rules"
           href: ai_rules.qmd
+        - text: "Glossary"
+          href: glossary.qmd
         - section: "Part 1 · Foundations"
           contents:
             - text: "W1. Orientation"
@@ -151,6 +157,8 @@ website:
           href: ko/index.qmd
         - text: "AI 사용 규칙"
           href: ko/ai_rules.qmd
+        - text: "기초 용어"
+          href: ko/glossary.qmd
         - section: "Part 1 · 기초"
           contents:
             - text: "W1. 오리엔테이션"
@@ -212,6 +220,7 @@ format:
     highlight-style: github
 
     number-sections: false
+    lightbox: true               # click an image to see it full size (helps on phones)
     smooth-scroll: true
 
     grid:

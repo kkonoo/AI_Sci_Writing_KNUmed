@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="64mm" viewBox="0 0 240 64" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">리뷰 코멘트의 네 부분: 위치, 문제, 이유, 제안</title>
+<rect width="240" height="64" fill="#FFFFFF"/>
+<defs></defs>
+<g id="위치">
+<rect x="4.00" y="4.00" width="42.00" height="10.00" rx="5.00" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="25.00" y="10.38" font-size="4.057" fill="#FFFFFF" font-weight="700">위치</tspan></text>
+</g>
+<g id="Lines-14-16-qPCR-">
+<rect x="4.00" y="18.00" width="42.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="30.80" font-size="3.881" fill="#262B33">Lines 14–16</tspan><tspan x="5.80" y="35.84" font-size="3.881" fill="#262B33">(qPCR):</tspan></text>
+</g>
+<g id="문제">
+<rect x="50.00" y="4.00" width="66.00" height="10.00" rx="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="83.00" y="10.38" font-size="4.057" fill="#262B33" font-weight="700">문제</tspan></text>
+</g>
+<g id="The-reference-gene-used-for-normalizatio">
+<rect x="50.00" y="18.00" width="66.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="51.80" y="28.27" font-size="3.881" fill="#262B33">The reference gene used</tspan><tspan x="51.80" y="33.32" font-size="3.881" fill="#262B33">for normalization is not</tspan><tspan x="51.80" y="38.36" font-size="3.881" fill="#262B33">given.</tspan></text>
+</g>
+<g id="이유">
+<rect x="120.00" y="4.00" width="66.00" height="10.00" rx="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="153.00" y="10.38" font-size="4.057" fill="#262B33" font-weight="700">이유</tspan></text>
+</g>
+<g id="Without-it-a-reader-cannot-repeat-the-Ct">
+<rect x="120.00" y="18.00" width="66.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="121.80" y="28.27" font-size="3.881" fill="#262B33">Without it, a reader</tspan><tspan x="121.80" y="33.32" font-size="3.881" fill="#262B33">cannot repeat the ΔΔCt</tspan><tspan x="121.80" y="38.36" font-size="3.881" fill="#262B33">calculation.</tspan></text>
+</g>
+<g id="제안-있으면-">
+<rect x="190.00" y="4.00" width="46.00" height="10.00" rx="5.00" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="213.00" y="10.38" font-size="4.057" fill="#262B33" font-weight="700">제안 (있으면)</tspan></text>
+</g>
+<g id="Please-name-the-gene-">
+<rect x="190.00" y="18.00" width="46.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="191.80" y="30.80" font-size="3.881" fill="#262B33">Please name the</tspan><tspan x="191.80" y="35.84" font-size="3.881" fill="#262B33">gene.</tspan></text>
+</g>
+<g id="위치가-없으면-저자가-어디를-고칠지-모르고-이유가-없으면-반영할지-판단할">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="55.26" font-size="3.704" fill="#6B7280">위치가 없으면 저자가 어디를 고칠지 모르고, 이유가 없으면 반영할지 판단할 수 없다.</tspan></text>
+</g>
+</svg>

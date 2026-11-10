@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="98mm" viewBox="0 0 240 98" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">n은 실험 단위의 수다. 마우스 여섯 마리가 n = 6이고, 절편 세 장은 기술 반복이다</title>
+<rect width="240" height="98" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="실험-단위-마우스-6마리-n-6-">
+<rect x="4.00" y="21.00" width="140.00" height="30.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="26.47" font-size="3.704" fill="#262B33" font-weight="700">실험 단위: 마우스 6마리 (n = 6)</tspan></text>
+</g>
+<g id="box">
+<rect x="4.00" y="56.00" width="140.00" height="30.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="UUO-compound-X-군">
+<rect x="4.00" y="4.00" width="140.00" height="12.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="74.00" y="11.44" font-size="4.234" fill="#262B33" font-weight="700">UUO + compound X 군</tspan></text>
+</g>
+<g id="1">
+<circle cx="15.00" cy="39.00" r="6.50" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="40.26" font-size="3.704" fill="#FFFFFF" font-weight="700">1</tspan></text>
+</g>
+<g id="2">
+<circle cx="37.60" cy="39.00" r="6.50" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="37.60" y="40.26" font-size="3.704" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="3">
+<circle cx="60.20" cy="39.00" r="6.50" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="60.20" y="40.26" font-size="3.704" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="4">
+<circle cx="82.80" cy="39.00" r="6.50" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="82.80" y="40.26" font-size="3.704" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="5">
+<circle cx="105.40" cy="39.00" r="6.50" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="105.40" y="40.26" font-size="3.704" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="6">
+<circle cx="128.00" cy="39.00" r="6.50" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="128.00" y="40.26" font-size="3.704" fill="#262B33" font-weight="700">6</tspan></text>
+</g>
+<g id="기술-반복-마우스-1의-절편-3장">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="26.00" y="62.26" font-size="3.704" fill="#262B33" font-weight="700">기술 반복: 마우스 1의 절편 3장</tspan></text>
+</g>
+<g id="절편-1">
+<rect x="10.00" y="69.00" width="26.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="23.00" y="76.26" font-size="3.704" fill="#262B33" font-weight="700">절편 1</tspan></text>
+</g>
+<g id="절편-2">
+<rect x="40.00" y="69.00" width="26.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="53.00" y="76.26" font-size="3.704" fill="#262B33" font-weight="700">절편 2</tspan></text>
+</g>
+<g id="절편-3">
+<rect x="70.00" y="69.00" width="26.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="83.00" y="76.26" font-size="3.704" fill="#262B33" font-weight="700">절편 3</tspan></text>
+</g>
+<g id="평균을-내서">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="100.00" y="73.30" font-size="3.704" fill="#262B33">평균을 내서</tspan><tspan x="100.00" y="79.22" font-size="3.704" fill="#6B7280">마우스 1의 값 하나</tspan></text>
+</g>
+<g id="n을-쓰는-법">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="156.00" y="9.44" font-size="4.234" fill="#262B33" font-weight="700">n을 쓰는 법</tspan></text>
+</g>
+<g id="Before">
+<rect x="166.00" y="16.00" width="70.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="167.80" y="27.42" font-size="4.057" fill="#262B33" font-weight="700">Before</tspan><tspan x="167.80" y="33.45" font-size="3.704" fill="#6B7280">n = 18 (6 mice × 3 sections)</tspan></text>
+</g>
+<g id="After">
+<rect x="166.00" y="50.00" width="70.00" height="31.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="167.80" y="59.10" font-size="4.057" fill="#FFFFFF" font-weight="700">After</tspan><tspan x="167.80" y="65.14" font-size="3.704" fill="#FFFFFF">n = 6 mice per group. For</tspan><tspan x="167.80" y="69.95" font-size="3.704" fill="#FFFFFF">each mouse, values from three</tspan><tspan x="167.80" y="74.77" font-size="3.704" fill="#FFFFFF">sections were averaged.</tspan></text>
+</g>
+<g id="가상의-예시-단일세포-데이터에서는-세포-수가-아니라-환자-수가-n이다-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="92.20" font-size="3.528" fill="#6B7280">가상의 예시. 단일세포 데이터에서는 세포 수가 아니라 환자 수가 n이다.</tspan></text>
+</g>
+<polyline points="15.00,45.50 15.00,57.25 23.00,57.25 23.00,69.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round"/>
+<g transform="translate(156.50,25.50) scale(0.2917)" fill="none" stroke="#E5484D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="M4.929 4.929 19.07 19.071" /></g><g transform="translate(156.50,61.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g></svg>

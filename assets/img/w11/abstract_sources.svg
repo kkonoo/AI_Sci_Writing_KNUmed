@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="123mm" viewBox="0 0 240 123" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Abstract의 다섯 부분과 각 부분을 가져오는 곳</title>
+<rect width="240" height="123" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="원고">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.94" font-size="4.234" fill="#262B33" font-weight="700">원고</tspan></text>
+</g>
+<g id="Abstract">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="150.00" y="8.94" font-size="4.234" fill="#262B33" font-weight="700">Abstract</tspan></text>
+</g>
+<g id="배경">
+<rect x="150.00" y="13.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="19.42" font-size="4.057" fill="#262B33" font-weight="700">배경</tspan><tspan x="193.00" y="25.45" font-size="3.704" fill="#262B33">1문장</tspan></text>
+</g>
+<g id="gap">
+<rect x="150.00" y="33.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="39.42" font-size="4.057" fill="#262B33" font-weight="700">gap</tspan><tspan x="193.00" y="45.45" font-size="3.704" fill="#262B33">1문장</tspan></text>
+</g>
+<g id="접근">
+<rect x="150.00" y="53.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="59.42" font-size="4.057" fill="#262B33" font-weight="700">접근</tspan><tspan x="193.00" y="65.45" font-size="3.704" fill="#262B33">1~2문장</tspan></text>
+</g>
+<g id="핵심-결과">
+<rect x="150.00" y="73.00" width="86.00" height="16.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="79.42" font-size="4.057" fill="#FFFFFF" font-weight="700">핵심 결과</tspan><tspan x="193.00" y="85.45" font-size="3.704" fill="#FFFFFF">2~3문장, 수치와 함께</tspan></text>
+</g>
+<g id="결론">
+<rect x="150.00" y="93.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="99.42" font-size="4.057" fill="#262B33" font-weight="700">결론</tspan><tspan x="193.00" y="105.45" font-size="3.704" fill="#262B33">1문장</tspan></text>
+</g>
+<g id="Introduction">
+<rect x="4.00" y="13.00" width="72.00" height="36.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="40.00" y="29.60" font-size="4.586" fill="#262B33" font-weight="700">Introduction</tspan><tspan x="40.00" y="35.80" font-size="3.704" fill="#6B7280">첫 문단, gap 문장, 마지막 문단</tspan></text>
+</g>
+<g id="Methods">
+<rect x="4.00" y="53.00" width="72.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="40.00" y="59.60" font-size="4.586" fill="#262B33" font-weight="700">Methods</tspan><tspan x="40.00" y="65.80" font-size="3.704" fill="#6B7280">종, 모델, n</tspan></text>
+</g>
+<g id="Results">
+<rect x="4.00" y="73.00" width="72.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="40.00" y="79.60" font-size="4.586" fill="#262B33" font-weight="700">Results</tspan><tspan x="40.00" y="85.80" font-size="3.704" fill="#6B7280">결론 문장과 수치</tspan></text>
+</g>
+<g id="Discussion">
+<rect x="4.00" y="93.00" width="72.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="40.00" y="99.60" font-size="4.586" fill="#262B33" font-weight="700">Discussion</tspan><tspan x="40.00" y="105.80" font-size="3.704" fill="#6B7280">마지막 문장</tspan></text>
+</g>
+<g id="Abstract에만-있는-결과나-주장은-없어야-한다-접근은-Introdu">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="116.70" font-size="3.528" fill="#6B7280">Abstract에만 있는 결과나 주장은 없어야 한다. 접근은 Introduction 마지막 문단에서도 가져온다.</tspan></text>
+</g>
+<polyline points="76.00,25.00 113.00,25.00 113.00,21.00 150.00,21.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="76.00,37.00 113.00,37.00 113.00,41.00 150.00,41.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="76.00,61.00 150.00,61.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="76.00,81.00 150.00,81.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="76.00,101.00 150.00,101.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

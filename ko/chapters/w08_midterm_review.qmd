@@ -24,6 +24,8 @@ date: last-modified
 
 ## 코멘트 하나에 위치, 문제, 이유를 쓴다
 
+![아래 After 코멘트를 위치, 문제, 이유, 제안으로 나눈 것.](../../assets/img/w08/comment_parts.svg){fig-alt="네 칸에 위치 Lines 14–16, 문제, 이유, 제안이 각각 영어 문장 조각으로 들어 있다."}
+
 - 제안은 있으면 덧붙인다. 위치가 없는 코멘트는 저자가 어디를 고칠지 모른다. 이유가 없는 코멘트는 저자가 반영할지 판단할 수 없다.
 - Before: *The Methods are unclear.*
 - After: *Lines 14–16 (qPCR): The reference gene used for normalization is not given. Without it, a reader cannot repeat the ΔΔCt calculation. Please name the gene.*

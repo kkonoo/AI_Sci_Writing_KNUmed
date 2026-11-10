@@ -19,6 +19,8 @@ date: last-modified
 
 ## Abstract는 다섯 부분이고, 내용은 원고의 다른 부분에서 가져온다
 
+![Abstract의 다섯 부분은 모두 원고의 다른 부분에서 가져온다.](../../assets/img/w11/abstract_sources.svg){fig-alt="왼쪽 원고의 Introduction, Methods, Results, Discussion에서 오른쪽 Abstract의 배경, gap, 접근, 핵심 결과, 결론으로 화살표가 이어진다."}
+
 | 부분 | 문장 수 | 가져오는 곳 |
 |---|---|---|
 | 배경 | 1 | Introduction 첫 문단 |
