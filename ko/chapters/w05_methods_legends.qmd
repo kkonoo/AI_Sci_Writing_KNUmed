@@ -1,0 +1,33 @@
+---
+title: "W5. Methods와 Figure legend"
+subtitle: "Part 2 · 원고 쓰기"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+Methods, legend 초안
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+재현성, 시제와 태, n과 통계 표기

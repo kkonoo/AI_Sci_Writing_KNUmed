@@ -1,0 +1,33 @@
+---
+title: "W12. 다듬기"
+subtitle: "Part 3 · 다듬기와 투고"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+전체 원고 수정본
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+번역투와 AI 티 점검, 용어 통일, 동료와 바꿔 읽기

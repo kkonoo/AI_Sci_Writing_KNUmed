@@ -1,0 +1,33 @@
+---
+title: "W3. Readable English sentences"
+subtitle: "Part 1 · Foundations"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+> TODO
+:::
+
+# 1. Principles {#principles}
+
+> TODO
+
+# 2. Try it with AI {#try-with-ai}
+
+> TODO
+
+# 3. Verify and revise {#verify-and-revise}
+
+> TODO
+
+# Assignment {#assignment}
+
+Find the patterns in a paragraph written by AI
+
+> TODO: length, format and due date
+
+# Notes {#notes}
+
+Why AI-written text is hard to read, and 10 patterns (plain-prose)

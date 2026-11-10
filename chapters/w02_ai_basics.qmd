@@ -1,0 +1,33 @@
+---
+title: "W2. AI basics"
+subtitle: "Part 1 · Foundations"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+> TODO
+:::
+
+# 1. Principles {#principles}
+
+> TODO
+
+# 2. Try it with AI {#try-with-ai}
+
+> TODO
+
+# 3. Verify and revise {#verify-and-revise}
+
+> TODO
+
+# Assignment {#assignment}
+
+Verify one AI answer and bring it to class
+
+> TODO: length, format and due date
+
+# Notes {#notes}
+
+The AI traffic light, the three checks, AI policies of the university and journals, and how to disclose AI use

@@ -1,0 +1,85 @@
+<!-- EN/KO page-pair navigation for the bilingual Quarto site. -->
+<script>
+(function () {
+  function initLanguageSwitch() {
+    var meta = document.querySelector('meta[name="quarto:offset"]');
+    var rootUrl = new URL(meta ? meta.content || './' : './', document.baseURI);
+    var currentUrl = new URL(window.location.href);
+    var relativePath = decodeURIComponent(currentUrl.pathname.slice(rootUrl.pathname.length));
+    if (!relativePath || relativePath.endsWith('/')) relativePath += 'index.html';
+
+    var isKorean = relativePath.indexOf('ko/') === 0;
+    var englishPath = isKorean ? relativePath.slice(3) : relativePath;
+    var koreanPath = 'ko/' + englishPath;
+
+    function pageUrl(path) {
+      var url = new URL(path, rootUrl);
+      url.search = currentUrl.search;
+      url.hash = currentUrl.hash;
+      return url.href;
+    }
+
+    // One button that links to the *other* language of this page
+    // (like the theme button, it shows what you get when you click it).
+    var switcher = document.createElement('nav');
+    switcher.className = 'course-language-switch';
+    switcher.setAttribute('aria-label', isKorean ? '언어 선택' : 'Choose language');
+    var link = document.createElement('a');
+    link.href = pageUrl(isKorean ? englishPath : koreanPath);
+    link.lang = isKorean ? 'en' : 'ko';
+    link.hreflang = link.lang;
+    link.textContent = isKorean ? 'EN' : 'KO';
+    link.setAttribute('aria-label', isKorean ? 'View this page in English' : '이 페이지를 한국어로 보기');
+    switcher.appendChild(link);
+
+    var tools = document.querySelector('.quarto-navbar-tools');
+    if (tools) tools.insertBefore(switcher, tools.firstChild);
+
+    if (isKorean) {
+      // Navbar labels on KO pages. Keep in step with the navbar in _quarto.yml.
+      var navLabels = {
+        'Home': '홈',
+        'AI rules': 'AI 사용 규칙',
+        'Weeks': '주차별 강의',
+        'Resources': '참고자료',
+        'Contents': '목차',
+        'Part 1 · Foundations': 'Part 1 · 기초',
+        'Part 2 · Writing the manuscript': 'Part 2 · 원고 쓰기',
+        'Part 3 · Polishing and submission': 'Part 3 · 다듬기와 투고',
+        'W1 · Orientation': 'W1 · 오리엔테이션',
+        'W2 · AI basics': 'W2 · AI 기본기',
+        'W3 · Readable English sentences': 'W3 · 읽히는 영어 문장',
+        'W4 · Figure storyboard': 'W4 · Figure 스토리보드',
+        'W5 · Methods and figure legends': 'W5 · Methods와 Figure legend',
+        'W6 · Results': 'W6 · Results',
+        'W7 · Finding and citing literature': 'W7 · 문헌 찾기와 인용',
+        'W8 · Midterm check': 'W8 · 중간 점검',
+        'W9 · Introduction': 'W9 · Introduction',
+        'W10 · Discussion': 'W10 · Discussion',
+        'W11 · Abstract and title': 'W11 · Abstract와 Title',
+        'W12 · Polishing': 'W12 · 다듬기',
+        'W13 · Preparing to submit': 'W13 · 투고 준비',
+        'W14 · Responding to reviewers': 'W14 · 리뷰어 답변',
+        'W15 · Final': 'W15 · 기말'
+      };
+      document.querySelectorAll('.menu-text, .dropdown-text, .dropdown-header').forEach(function (node) {
+        var label = node.textContent.trim();
+        if (navLabels[label]) node.textContent = navLabels[label];
+      });
+
+      document.querySelectorAll('.navbar-nav a[href], .navbar-brand[href]').forEach(function (link) {
+        var target = new URL(link.href, document.baseURI);
+        if (target.origin !== currentUrl.origin || target.pathname.indexOf(rootUrl.pathname) !== 0) return;
+        var targetPath = decodeURIComponent(target.pathname.slice(rootUrl.pathname.length));
+        if (targetPath.indexOf('ko/') !== 0) link.href = pageUrl('ko/' + targetPath);
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLanguageSwitch);
+  } else {
+    initLanguageSwitch();
+  }
+})();
+</script>

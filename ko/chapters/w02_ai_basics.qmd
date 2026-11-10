@@ -1,0 +1,33 @@
+---
+title: "W2. AI 기본기"
+subtitle: "Part 1 · 기초"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+AI 답변 하나 검증해 오기
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+AI 신호등, 확인 3가지, 학교·저널의 AI 규정, AI 사용 표기

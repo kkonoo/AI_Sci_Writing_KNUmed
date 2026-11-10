@@ -1,0 +1,230 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: _site
+
+  # 렌더 대상을 명시 — 이 목록에 없는 .qmd 는 빌드하지 않음
+  render:
+    - index.qmd
+    - ai_rules.qmd
+    - chapters/w01_orientation.qmd
+    - chapters/w02_ai_basics.qmd
+    - chapters/w03_readable_sentences.qmd
+    - chapters/w04_figure_storyboard.qmd
+    - chapters/w05_methods_legends.qmd
+    - chapters/w06_results.qmd
+    - chapters/w07_literature.qmd
+    - chapters/w08_midterm_review.qmd
+    - chapters/w09_introduction.qmd
+    - chapters/w10_discussion.qmd
+    - chapters/w11_abstract_title.qmd
+    - chapters/w12_polishing.qmd
+    - chapters/w13_submission.qmd
+    - chapters/w14_reviewer_response.qmd
+    - chapters/w15_final.qmd
+    - resources.qmd
+    - ko/index.qmd
+    - ko/ai_rules.qmd
+    - ko/chapters/w01_orientation.qmd
+    - ko/chapters/w02_ai_basics.qmd
+    - ko/chapters/w03_readable_sentences.qmd
+    - ko/chapters/w04_figure_storyboard.qmd
+    - ko/chapters/w05_methods_legends.qmd
+    - ko/chapters/w06_results.qmd
+    - ko/chapters/w07_literature.qmd
+    - ko/chapters/w08_midterm_review.qmd
+    - ko/chapters/w09_introduction.qmd
+    - ko/chapters/w10_discussion.qmd
+    - ko/chapters/w11_abstract_title.qmd
+    - ko/chapters/w12_polishing.qmd
+    - ko/chapters/w13_submission.qmd
+    - ko/chapters/w14_reviewer_response.qmd
+    - ko/chapters/w15_final.qmd
+    - ko/resources.qmd
+
+
+website:
+  favicon: assets/img/favicon.ico
+  page-navigation: true          # 챕터 하단에 이전/다음 주차 링크
+
+  navbar:
+    favicon: assets/img/favicon.ico
+    logo: assets/img/logo.jpg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ai_rules.qmd
+        text: "AI rules"
+      - text: "Weeks"            # ← 드롭다운. 한국어 라벨은 assets/language-switch.html 에서 바꿈
+        menu:
+          - text: "Part 1 · Foundations"
+          - href: chapters/w01_orientation.qmd
+            text: "W1 · Orientation"
+          - href: chapters/w02_ai_basics.qmd
+            text: "W2 · AI basics"
+          - href: chapters/w03_readable_sentences.qmd
+            text: "W3 · Readable English sentences"
+          - text: "---"
+          - text: "Part 2 · Writing the manuscript"
+          - href: chapters/w04_figure_storyboard.qmd
+            text: "W4 · Figure storyboard"
+          - href: chapters/w05_methods_legends.qmd
+            text: "W5 · Methods and figure legends"
+          - href: chapters/w06_results.qmd
+            text: "W6 · Results"
+          - href: chapters/w07_literature.qmd
+            text: "W7 · Finding and citing literature"
+          - href: chapters/w08_midterm_review.qmd
+            text: "W8 · Midterm check"
+          - href: chapters/w09_introduction.qmd
+            text: "W9 · Introduction"
+          - href: chapters/w10_discussion.qmd
+            text: "W10 · Discussion"
+          - href: chapters/w11_abstract_title.qmd
+            text: "W11 · Abstract and title"
+          - text: "---"
+          - text: "Part 3 · Polishing and submission"
+          - href: chapters/w12_polishing.qmd
+            text: "W12 · Polishing"
+          - href: chapters/w13_submission.qmd
+            text: "W13 · Preparing to submit"
+          - href: chapters/w14_reviewer_response.qmd
+            text: "W14 · Responding to reviewers"
+          - href: chapters/w15_final.qmd
+            text: "W15 · Final"
+      - href: resources.qmd
+        text: "Resources"
+
+  sidebar:
+    - id: en
+      style: "floating"
+      search: true
+      contents:
+        - text: "Home"
+          href: index.qmd
+        - text: "AI use rules"
+          href: ai_rules.qmd
+        - section: "Part 1 · Foundations"
+          contents:
+            - text: "W1. Orientation"
+              href: chapters/w01_orientation.qmd
+            - text: "W2. AI basics"
+              href: chapters/w02_ai_basics.qmd
+            - text: "W3. Readable English sentences"
+              href: chapters/w03_readable_sentences.qmd
+        - section: "Part 2 · Writing the manuscript"
+          contents:
+            - text: "W4. Figure storyboard"
+              href: chapters/w04_figure_storyboard.qmd
+            - text: "W5. Methods and figure legends"
+              href: chapters/w05_methods_legends.qmd
+            - text: "W6. Results"
+              href: chapters/w06_results.qmd
+            - text: "W7. Finding and citing literature"
+              href: chapters/w07_literature.qmd
+            - text: "W8. Midterm check"
+              href: chapters/w08_midterm_review.qmd
+            - text: "W9. Introduction"
+              href: chapters/w09_introduction.qmd
+            - text: "W10. Discussion"
+              href: chapters/w10_discussion.qmd
+            - text: "W11. Abstract and title"
+              href: chapters/w11_abstract_title.qmd
+        - section: "Part 3 · Polishing and submission"
+          contents:
+            - text: "W12. Polishing"
+              href: chapters/w12_polishing.qmd
+            - text: "W13. Preparing to submit"
+              href: chapters/w13_submission.qmd
+            - text: "W14. Responding to reviewers"
+              href: chapters/w14_reviewer_response.qmd
+            - text: "W15. Final"
+              href: chapters/w15_final.qmd
+        - text: "Resources"
+          href: resources.qmd
+
+    - id: ko
+      style: "floating"
+      search: true
+      contents:
+        - text: "홈"
+          href: ko/index.qmd
+        - text: "AI 사용 규칙"
+          href: ko/ai_rules.qmd
+        - section: "Part 1 · 기초"
+          contents:
+            - text: "W1. 오리엔테이션"
+              href: ko/chapters/w01_orientation.qmd
+            - text: "W2. AI 기본기"
+              href: ko/chapters/w02_ai_basics.qmd
+            - text: "W3. 읽히는 영어 문장"
+              href: ko/chapters/w03_readable_sentences.qmd
+        - section: "Part 2 · 원고 쓰기"
+          contents:
+            - text: "W4. Figure 스토리보드"
+              href: ko/chapters/w04_figure_storyboard.qmd
+            - text: "W5. Methods와 Figure legend"
+              href: ko/chapters/w05_methods_legends.qmd
+            - text: "W6. Results"
+              href: ko/chapters/w06_results.qmd
+            - text: "W7. 문헌 찾기와 인용"
+              href: ko/chapters/w07_literature.qmd
+            - text: "W8. 중간 점검"
+              href: ko/chapters/w08_midterm_review.qmd
+            - text: "W9. Introduction"
+              href: ko/chapters/w09_introduction.qmd
+            - text: "W10. Discussion"
+              href: ko/chapters/w10_discussion.qmd
+            - text: "W11. Abstract와 Title"
+              href: ko/chapters/w11_abstract_title.qmd
+        - section: "Part 3 · 다듬기와 투고"
+          contents:
+            - text: "W12. 다듬기"
+              href: ko/chapters/w12_polishing.qmd
+            - text: "W13. 투고 준비"
+              href: ko/chapters/w13_submission.qmd
+            - text: "W14. 리뷰어 답변"
+              href: ko/chapters/w14_reviewer_response.qmd
+            - text: "W15. 기말"
+              href: ko/chapters/w15_final.qmd
+        - text: "참고자료"
+          href: ko/resources.qmd
+
+  page-footer:
+    left: "Copyright 2026, Eunji"
+
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    respect-user-color-scheme: true
+    css: assets/html.css
+    toc: true
+    toc-depth: 4
+    toc-title: "Contents"
+    toc-float: true
+    page-layout: full
+
+    code-fold: false
+    code-copy: true
+    highlight-style: github
+
+    number-sections: false
+    smooth-scroll: true
+
+    grid:
+      sidebar-width: 300px
+      body-width: 1000px
+      margin-width: 280px # toc
+
+    include-after-body:
+      - assets/language-switch.html
+
+execute:
+  freeze: auto
+  echo: true
+  eval: false
+  warning: false
+  message: false

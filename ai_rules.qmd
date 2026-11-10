@@ -1,0 +1,50 @@
+---
+title: "AI use rules"
+date: last-modified
+---
+
+What you put into AI is sorted like a traffic light. The AI policies of the university and of the journal you will submit to always come first.
+
+# Traffic light {#traffic-light}
+
+| Signal | What it covers |
+|---|---|
+| Free to use | Explanations of concepts and grammar, help with reading published papers, track B manuscripts |
+| Always verify | References, numbers, suggested statistical methods, recent research findings, whether a sentence that AI revised still means the same thing |
+| Conditional (track A) | Sentences from your own manuscript. Get your supervisor's agreement. Use only tools set so that your input is not used for training. Do not put in raw data or figure files |
+| Do not put in | Patient information, manuscripts under review (including other people's manuscripts you received as a reviewer), ideas not yet filed in a grant or patent, account details |
+
+::: {.callout-warning}
+## Not final yet
+
+The "Conditional (track A)" row is not final yet.
+:::
+
+If you are unsure whether something may go into AI, ask the instructor before you put it in.
+
+# The three checks {#three-checks}
+
+Check the source
+: Check references and numbers yourself in PubMed, through the DOI, or in the paper.
+
+Cross-check
+: Check with textbooks, review papers, peers and the instructor.
+
+Read side by side
+: Put the sentence that AI revised next to your original sentence, and check that the claims and numbers have not changed.
+
+# When you write the paper {#in-the-paper}
+
+- AI cannot be an author. The authors are responsible for the paper.
+- State that you used AI in the Methods or the Acknowledgments, as the journal's policy requires.
+- Do not use AI to make or edit data figures (blots, micrographs and so on).
+
+# AI use log {#ai-log}
+
+The first row is an example. Submit the log through the university LMS.
+
+| Date | Tool | Task given to AI | What you accepted | What you discarded, and why | How you checked |
+|---|---|---|---|---|---|
+| Mar 10 (example) | ChatGPT | Grammar check of one Results paragraph | Article fixes in three places | A suggestion to change "increased" to "significantly increased". Discarded, because no statistical test was run for this comparison | Read side by side with the original |
+| | | | | | |
+| | | | | | |

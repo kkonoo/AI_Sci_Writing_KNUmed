@@ -1,0 +1,83 @@
+---
+title: "Writing Scientific Papers in English with AI"
+sidebar: false
+author: "Eunji Ha"
+affiliation: 'School of Medicine, Kyungpook National Univ.'
+date: last-modified
+format: html
+---
+
+## Course overview {#overview}
+
+In this course, graduate students learn how to write up their own research as a paper in English. Students may use AI, but they check every AI output themselves and take responsibility for it. Lectures are in Korean, and manuscript practice is in English.
+
+The course is for students from the first or second year of a master's programme up to the PhD. Students from wet labs and dry labs are both welcome.
+
+When you use AI, follow the [AI use rules](ai_rules.qmd).
+
+## Course goals {#goals}
+
+1. Know what each part of a paper does, and write a manuscript in this order: figures → Methods → Results → Introduction → Discussion → Abstract → Title.
+2. Tell apart the jobs you can give to AI from the jobs you must not, and check the sentences, references and numbers that AI produces against the original sources.
+3. Find and fix English sentences that are hard to read (noun stacks, long modifiers, translationese, phrases common in AI text).
+4. Write a cover letter and a response to reviewers in a set structure.
+
+## Two tracks {#tracks}
+
+The weekly classes are the same for both tracks. Only the text you write each week differs.
+
+| Item | Track A: my own manuscript | Track B: rewriting a published paper |
+|---|---|---|
+| For | Students who have their own data and figures | Students who do not have data yet |
+| What you write | A short manuscript from your own results (3–4 figures) | Choose one open-access paper. Look only at its figures and Methods, and rewrite the rest |
+| Condition | Your supervisor agrees | Do not read the Results, Introduction, Discussion or Abstract until you have finished writing |
+| How it is checked | Peer review and feedback from your supervisor | When you finish, compare your text with the published paper |
+| What you submit | Manuscript, AI use log | Manuscript, AI use log, a note comparing your text with the published paper |
+
+For track B, a good choice is a paper in a high-impact journal whose review record (Peer Review File) is published. Then in week 14 you can practise a response letter with the paper's real reviews. The instructor must approve the paper.
+
+## Weekly plan {#schedule}
+
+### Part 1 · Foundations
+
+| Week | Topic | Assignment |
+|---|---|---|
+| 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures / B: choose a paper |
+| 2 | [AI basics](chapters/w02_ai_basics.qmd) | Verify one AI answer and bring it to class |
+| 3 | [Readable English sentences](chapters/w03_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
+
+### Part 2 · Writing the manuscript
+
+| Week | Topic | Assignment |
+|---|---|---|
+| 4 | [Figure storyboard](chapters/w04_figure_storyboard.qmd) | Figure order cards |
+| 5 | [Methods and figure legends](chapters/w05_methods_legends.qmd) | Draft Methods and legends |
+| 6 | [Results](chapters/w06_results.qmd) | Draft Results |
+| 7 | [Finding and citing literature](chapters/w07_literature.qmd) | Reference table and verification log |
+| 8 | [Midterm check](chapters/w08_midterm_review.qmd) | Version revised after peer review |
+| 9 | [Introduction](chapters/w09_introduction.qmd) | Draft Introduction |
+| 10 | [Discussion](chapters/w10_discussion.qmd) | Draft Discussion |
+| 11 | [Abstract and title](chapters/w11_abstract_title.qmd) | Abstract, and three title options |
+
+### Part 3 · Polishing and submission
+
+| Week | Topic | Assignment |
+|---|---|---|
+| 12 | [Polishing](chapters/w12_polishing.qmd) | Revised full manuscript |
+| 13 | [Preparing to submit](chapters/w13_submission.qmd) | Cover letter |
+| 14 | [Responding to reviewers](chapters/w14_reviewer_response.qmd) | One response letter |
+| 15 | [Final](chapters/w15_final.qmd) | Manuscript, AI use log, (B) comparison note |
+
+## Grading {#grading}
+
+| Item | Weight |
+|---|---|
+| Weekly assignments | 30% |
+| Final manuscript | 30% |
+| AI use log | 15% |
+| Peer review (weeks 8 and 12) | 15% |
+| Attendance and participation | 10% |
+
+We do not grade whether you used AI. We grade what you gave to AI and how you checked the result.
+
+Submit assignments and the manuscript through the university LMS.

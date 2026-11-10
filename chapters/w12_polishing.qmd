@@ -1,0 +1,33 @@
+---
+title: "W12. Polishing"
+subtitle: "Part 3 · Polishing and submission"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+> TODO
+:::
+
+# 1. Principles {#principles}
+
+> TODO
+
+# 2. Try it with AI {#try-with-ai}
+
+> TODO
+
+# 3. Verify and revise {#verify-and-revise}
+
+> TODO
+
+# Assignment {#assignment}
+
+Revised full manuscript
+
+> TODO: length, format and due date
+
+# Notes {#notes}
+
+Checking for translationese and AI tells, consistent terminology, and swapping drafts with a peer

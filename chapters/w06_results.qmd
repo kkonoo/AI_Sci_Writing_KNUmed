@@ -1,0 +1,33 @@
+---
+title: "W6. Results"
+subtitle: "Part 2 · Writing the manuscript"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+> TODO
+:::
+
+# 1. Principles {#principles}
+
+> TODO
+
+# 2. Try it with AI {#try-with-ai}
+
+> TODO
+
+# 3. Verify and revise {#verify-and-revise}
+
+> TODO
+
+# Assignment {#assignment}
+
+Draft Results
+
+> TODO: length, format and due date
+
+# Notes {#notes}
+
+One paragraph per figure, and how to write values, n and statistics

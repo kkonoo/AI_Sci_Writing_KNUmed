@@ -1,0 +1,33 @@
+---
+title: "W1. 오리엔테이션"
+subtitle: "Part 1 · 기초"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+A: 그림 목록 / B: 논문 고르기
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+논문이 읽히는 순서와 쓰는 순서, 트랙 정하기

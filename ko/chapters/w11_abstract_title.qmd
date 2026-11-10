@@ -1,0 +1,33 @@
+---
+title: "W11. Abstract와 Title"
+subtitle: "Part 2 · 원고 쓰기"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+Abstract, Title 3안
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+단어 수를 줄일 때는 문법이 아니라 내용을 빼기

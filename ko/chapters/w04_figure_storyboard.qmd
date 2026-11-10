@@ -1,0 +1,33 @@
+---
+title: "W4. Figure 스토리보드"
+subtitle: "Part 2 · 원고 쓰기"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+Figure 순서 카드
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+그림마다 결론 한 문장, 저널 그림 규격 (figure-chooser)

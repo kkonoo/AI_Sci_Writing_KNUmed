@@ -1,0 +1,33 @@
+---
+title: "W14. Responding to reviewers"
+subtitle: "Part 3 · Polishing and submission"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+> TODO
+:::
+
+# 1. Principles {#principles}
+
+> TODO
+
+# 2. Try it with AI {#try-with-ai}
+
+> TODO
+
+# 3. Verify and revise {#verify-and-revise}
+
+> TODO
+
+# Assignment {#assignment}
+
+One response letter
+
+> TODO: length, format and due date
+
+# Notes {#notes}
+
+Practising responses with a published Peer Review File: thanks → what you did → where the change is

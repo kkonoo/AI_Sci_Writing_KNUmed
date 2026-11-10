@@ -1,0 +1,18 @@
+---
+title: "Resources"
+date: last-modified
+---
+
+# Lab materials {#lab}
+
+These pages are in Korean.
+
+- [HaLab Quest, chapter 3: Using AI](https://halab-quest.knu.ac.kr/#/q/ch3-ai)
+- [HaLab Quest, chapter 4: From results to a paper](https://halab-quest.knu.ac.kr/#/ch/ch4)
+- [Lab Manager: Writing](https://github.com/kkonoo/lab-manager/blob/main/tips/writing.md)
+- [Lab Manager: Phrases](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md)
+
+# Papers {#papers}
+
+- Reinhart et al. (2025). Do LLMs write like humans? *PNAS* 122(8). <https://doi.org/10.1073/pnas.2422455122>
+- An example of a published review record: Weinand et al. (2024). *Nature Communications*. <https://www.nature.com/articles/s41467-024-48620-7>

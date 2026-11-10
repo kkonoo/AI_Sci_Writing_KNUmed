@@ -1,0 +1,33 @@
+---
+title: "W3. 읽히는 영어 문장"
+subtitle: "Part 1 · 기초"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+AI가 쓴 문단에서 패턴 찾기
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+AI 글이 읽기 어려운 이유와 패턴 10가지 (plain-prose)

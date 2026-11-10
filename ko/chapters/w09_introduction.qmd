@@ -1,0 +1,33 @@
+---
+title: "W9. Introduction"
+subtitle: "Part 2 · 원고 쓰기"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+Introduction 초안
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+배경 → 왜 중요한가 → 기존 연구가 못 하는 것 → 이 연구 (intro-builder)

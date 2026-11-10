@@ -1,0 +1,33 @@
+---
+title: "W13. 투고 준비"
+subtitle: "Part 3 · 다듬기와 투고"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+Cover letter
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+저널 고르기, Guide for Authors, 투고 체크리스트

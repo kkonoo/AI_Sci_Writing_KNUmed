@@ -1,0 +1,33 @@
+---
+title: "W15. 기말"
+subtitle: "Part 3 · 다듬기와 투고"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+원고, AI 사용 기록, (B) 비교 메모
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+원고 발표와 제출

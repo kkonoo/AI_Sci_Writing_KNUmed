@@ -1,0 +1,16 @@
+---
+title: "참고자료"
+date: last-modified
+---
+
+# 연구실 자료 {#lab}
+
+- [HaLab Quest 3장: AI 활용하기](https://halab-quest.knu.ac.kr/#/q/ch3-ai)
+- [HaLab Quest 4장: 결과를 논문으로](https://halab-quest.knu.ac.kr/#/ch/ch4)
+- [Lab Manager: 글쓰기](https://github.com/kkonoo/lab-manager/blob/main/tips/writing.md)
+- [Lab Manager: 표현](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md)
+
+# 논문 {#papers}
+
+- Reinhart et al. (2025). Do LLMs write like humans? *PNAS* 122(8). <https://doi.org/10.1073/pnas.2422455122>
+- 공개 심사 기록 예시: Weinand et al. (2024). *Nature Communications*. <https://www.nature.com/articles/s41467-024-48620-7>

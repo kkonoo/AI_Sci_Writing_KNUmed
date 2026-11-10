@@ -1,0 +1,33 @@
+---
+title: "W7. 문헌 찾기와 인용"
+subtitle: "Part 2 · 원고 쓰기"
+date: last-modified
+---
+
+::: {.callout-note collapse="true"}
+## 이번 주 목표
+
+> TODO
+:::
+
+# 1. 원칙 {#principles}
+
+> TODO
+
+# 2. AI로 해 보기 {#try-with-ai}
+
+> TODO
+
+# 3. 검증하고 다듬기 {#verify-and-revise}
+
+> TODO
+
+# 과제 {#assignment}
+
+참고문헌 표와 검증 기록
+
+> TODO: 분량, 형식, 제출 기한
+
+# 메모 {#notes}
+
+검색 원칙, AI가 지어낸 참고문헌 잡기 (literature-scout)
