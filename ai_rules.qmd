@@ -14,12 +14,6 @@ What you put into AI is sorted like a traffic light. The AI policies of the univ
 | Conditional (track A) | Sentences from your own manuscript. Get your supervisor's agreement. Use only tools set so that your input is not used for training. Do not put in raw data or figure files |
 | Do not put in | Patient information, manuscripts under review (including other people's manuscripts you received as a reviewer), ideas not yet filed in a grant or patent, account details |
 
-::: {.callout-warning}
-## Not final yet
-
-The "Conditional (track A)" row is not final yet.
-:::
-
 If you are unsure whether something may go into AI, ask the instructor before you put it in.
 
 # The three checks {#three-checks}
