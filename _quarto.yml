@@ -24,6 +24,7 @@ project:
     - chapters/w14_reviewer_response.qmd
     - chapters/w15_final.qmd
     - resources.qmd
+    - phrases.qmd
     - ko/index.qmd
     - ko/ai_rules.qmd
     - ko/glossary.qmd
@@ -43,6 +44,7 @@ project:
     - ko/chapters/w14_reviewer_response.qmd
     - ko/chapters/w15_final.qmd
     - ko/resources.qmd
+    - ko/phrases.qmd
 
 
 website:
@@ -98,6 +100,8 @@ website:
             text: "W15 · Final"
       - href: resources.qmd
         text: "Resources"
+      - href: phrases.qmd
+        text: "Phrases"
 
   sidebar:
     - id: en
@@ -148,6 +152,8 @@ website:
               href: chapters/w15_final.qmd
         - text: "Resources"
           href: resources.qmd
+        - text: "Appendix: Phrase sheet"
+          href: phrases.qmd
 
     - id: ko
       style: "floating"
@@ -197,6 +203,8 @@ website:
               href: ko/chapters/w15_final.qmd
         - text: "참고자료"
           href: ko/resources.qmd
+        - text: "부록: 표현 모음"
+          href: ko/phrases.qmd
 
   page-footer:
     left: "Copyright 2026, Eunji"

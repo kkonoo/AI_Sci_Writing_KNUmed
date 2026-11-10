@@ -683,3 +683,13 @@ html[data-bs-theme="dark"] .quarto-navbar-tools .quarto-color-scheme-toggle .bi:
   color: var(--course-accent);
   font-weight: 700;
 }
+
+/* ── Code blocks ──────────────────────
+   On this site code blocks hold prompts and example passages, not program
+   code, so long lines wrap instead of scrolling sideways (phones).      */
+div.sourceCode pre code,
+pre.sourceCode code,
+pre code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}

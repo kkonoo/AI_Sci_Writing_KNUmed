@@ -38,6 +38,8 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 
 ## Weekly plan {#schedule}
 
+![The semester at a glance. What each part produces comes together in the final manuscript.](assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W3, Part 2 Writing W4–W11, Part 3 Polishing and submission W12–W15. Under each block are what that part produces and the peer review weeks."}
+
 ### Part 1 · Foundations
 
 | Week | Topic | Assignment |

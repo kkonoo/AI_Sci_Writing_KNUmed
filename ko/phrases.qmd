@@ -1,0 +1,209 @@
+---
+title: "표현 모음"
+subtitle: "부록 · 섹션별, 상황별로 자주 쓰는 영어 표현"
+date: last-modified
+---
+
+원고를 쓰다가 표현이 막힐 때 찾아보는 페이지다. 연구실의 [Lab Manager 표현 모음](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md)을 바탕으로, 이 수업에서 배운 원칙에 맞게 고쳐 모았다.
+
+- 표현을 그대로 붙이지 않는다. 내 결과와 근거의 세기에 맞게 바꿔 쓴다.
+- 대괄호 `[ ]`는 내 내용으로 채울 자리다.
+- 상투 표현은 원고 전체에서 한두 번까지만 쓴다. 자세한 기준은 [W3](chapters/w03_readable_sentences.qmd)의 패턴 10이다.
+- 예문의 수치는 수업 공통의 가상의 예시 연구에서 가져왔다.
+
+# 섹션별 {#by-section}
+
+## Introduction {#introduction}
+
+자세한 구조는 [W9](chapters/w09_introduction.qmd)에 있다.
+
+| 하고 싶은 말 | 표현 |
+|---|---|
+| 첫 문장: 확인할 수 있는 사실 | [Disease] affects more than [number] people worldwide [ref]. / [X] is a leading cause of [outcome] [ref]. |
+| 쌓인 근거 | Recent studies have shown that [finding] [refs]. |
+| 아직 모르는 것 (gap) | However, it is not known whether [question]. / The mechanism by which [X] [does Y] remains unclear. |
+| 이 연구 | Here, we tested whether [question] in [model]. / In this study, we asked whether [question]. |
+| 이 연구의 요약 (저널이 원하면) | We show that [main finding]. |
+
+- "plays a crucial role", "has attracted increasing attention"은 확인할 내용이 없는 상투 표현이다. 그 자리에 숫자나 사실을 쓴다.
+- gap은 검색한 만큼만 쓴다. "No study has examined …"는 검색 기록이 받쳐 줄 때만 쓴다.
+
+## Methods {#methods}
+
+과거 시제가 기본이다. 태는 저널과 문장에 맞춘다. 자세한 기준은 [W5](chapters/w05_methods_legends.qmd)에 있다.
+
+| 하고 싶은 말 | 표현 |
+|---|---|
+| 동물과 처치 | Male C57BL/6J mice (8 weeks old) underwent left UUO. / Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
+| 무작위 배정, 눈가림 | Mice were randomly assigned to [groups]. The person who quantified [outcome] was blinded to group. |
+| 이전 방법 인용 | [Method] was performed as previously described [ref], with the following changes: [changes]. |
+| n과 기술 반복 | n = 6 mice per group. For each mouse, values from three sections were averaged. |
+| 통계 | Data are presented as mean ± SD. Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
+| 소프트웨어 | Analyses were performed in [software, version]. |
+
+- "as previously described"만 쓰고 바꾼 점을 빼지 않는다. 바꾼 것이 있으면 적는다.
+- "P < 0.05 was considered significant"를 쓰더라도 본문과 그림에는 정확한 P 값을 쓴다.
+
+## Figure legend {#legend}
+
+순서는 제목 → 패널 설명 → n과 통계다. 예시는 [W5](chapters/w05_methods_legends.qmd#principles)의 가상의 Figure 2다.
+
+| 자리 | 표현 |
+|---|---|
+| 제목 문장 | Figure 2. Compound X reduces interstitial fibrosis after UUO. |
+| 패널 설명 | (a) Representative [stain] images of [tissue] from [groups] on day [n]. Scale bars, [length]. |
+| 점 하나가 무엇인지 | Each dot is one mouse (mean of three sections). |
+| 요약값과 n | Bars show mean ± SD; n = 6 mice per group. |
+| 검정 | P values are from [test]. |
+
+- legend에는 해석을 쓰지 않는다. "suggesting that it may be a promising therapy" 같은 말은 Discussion의 일이다.
+
+## Results {#results}
+
+단락 하나는 목적 → 한 일 → 결과 → 짧은 해석 순서다([W6](chapters/w06_results.qmd)).
+
+| 하고 싶은 말 | 표현 |
+|---|---|
+| 목적과 한 일 | To test whether [question], we [method] (Fig. [n]). / We next asked whether [question]. |
+| 늘었다 | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]). / … by [n]-fold |
+| 줄었다 | [X] reduced (lowered) [Y] by [n]% compared with [control]. |
+| 차이 없음 | [Y] did not differ between [groups] ([statistics]). |
+| 용량, 시간 의존 | [Y] decreased as the dose increased ([statistics]). |
+| 짧은 해석 (따로 한 문장) | Thus, [X] reduced [Y] in [model]. / These results suggest that [interpretation]. |
+
+- "significantly"는 통계 검정을 한 비교에만 쓰고, 그 검정의 P 값을 함께 쓴다.
+- 해석을 ", suggesting that …"으로 붙이지 않고 따로 문장을 쓴다.
+- 결과 문장에서는 인과를 넘겨 말하지 않는다. "by blocking …"은 그것을 시험했을 때만 쓴다.
+
+## Discussion {#discussion}
+
+첫 문단은 Introduction의 질문에 대한 답이다([W10](chapters/w10_discussion.qmd)).
+
+| 하고 싶은 말 | 표현 |
+|---|---|
+| 주요 발견 | We found that [main finding]. / Compound X reduced kidney fibrosis after UUO in mice. |
+| 기존 연구와 같음 | This agrees with [Author et al.], who found [finding] in [model] [ref]. |
+| 기존 연구와 다름 | In contrast to [Author et al.] [ref], we observed [finding]. This difference may reflect [specific reason]. |
+| 의미 | These results raise the possibility that [implication]. |
+| 한계 | We used only [condition], so [what we cannot conclude]. |
+| 다음 단계 | [Specific experiment] would test whether [question]. |
+| 마지막 문장 | [One-sentence answer to the question of the Introduction]. |
+
+- "Further studies are needed"만 쓰지 않는다. 어떤 실험이 어떤 질문에 답하는지 쓴다.
+- 한계는 이 연구에 해당하는 것만, 결론에 미치는 영향과 함께 쓴다.
+- "prove"는 쓰지 않는다. "first", "novel"은 검색 기록으로 확인했을 때만 쓴다.
+
+## Abstract와 Title {#abstract}
+
+Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](chapters/w11_abstract_title.qmd)).
+
+| 부분 | 표현 |
+|---|---|
+| 배경 | [Disease or problem] [fact with number]. |
+| gap | Whether [question] is unknown. |
+| 접근 | Here, we [method] in [model; species; n]. |
+| 핵심 결과 | [X] reduced [Y] from [a] to [b] ([statistics]). |
+| 결론 | [X] [effect] in [model], which suggests [careful implication]. |
+
+- 단어 수를 줄일 때는 관사, 동사, 접속어를 빼지 말고 내용 단위를 뺀다.
+- Title은 결과형(*Compound X reduces kidney fibrosis after ureteral obstruction in mice*), 설명형, 질문형을 써 보고 고른다. 제목의 동사는 Abstract 결론 문장보다 세면 안 된다.
+
+# 상황별 {#by-situation}
+
+## 근거의 세기에 맞춘 동사 {#hedging}
+
+[W10](chapters/w10_discussion.qmd)의 hedging 표와 같은 기준이다.
+
+| 근거 | 표현 |
+|---|---|
+| 직접 측정하고 검정했다 | reduced, increased, did not change, showed |
+| 함께 변했지만 원인은 시험하지 않았다 | was accompanied by, is associated with, suggests, indicates |
+| 데이터 밖의 추측이다 | may, might, one possibility is (따로 문장으로) |
+
+- hedge를 겹치지 않는다. "might potentially have a possible effect"는 무엇을 찾았는지 흐린다.
+
+## 수치와 비교 {#numbers}
+
+| 하고 싶은 말 | 표현 |
+|---|---|
+| 범위 | from 18.2% to 9.6% |
+| 비율로 줄었다 | by 47% / a 47% reduction |
+| 배수 | a 2.3-fold increase |
+| 두 군 비교 | compared with vehicle (차이를 볼 때는 compared with) |
+| 대응 | A and B were 10 and 20, respectively. |
+| 요약값 | mean ± SD / median (interquartile range) |
+
+## 이어 주는 말 {#connectives}
+
+| 뜻 | 표현 |
+|---|---|
+| 더하기 | In addition, / Also, |
+| 반대 | However, / In contrast, |
+| 결과 | Therefore, / Thus, |
+| 요약 | Taken together, |
+
+- "Notably", "Importantly", "Interestingly"는 AI 글에 흔하다. 원고 전체에서 한두 번까지만 쓴다.
+- 이어 주는 말이 없어도 뜻이 이어지면 빼도 된다.
+
+# 투고와 답변 {#submission}
+
+## Cover letter {#cover-letter}
+
+구조와 예는 [W13](chapters/w13_submission.qmd)에 있다.
+
+| 자리 | 표현 |
+|---|---|
+| 첫 문장 | We submit our manuscript, "[Title]," for consideration as an [article type] in [Journal]. |
+| 주요 결과 | In [model], [X] [result with the same numbers as the Abstract]. |
+| 왜 이 저널인가 | [Journal] recently published [Author et al., Year, DOI], which [what it did]. Our study extends that work by [how]. |
+| 필요한 진술 | This manuscript has not been published and is not under consideration elsewhere. All authors have approved the manuscript. |
+
+- "novel and groundbreaking", "prestigious journal", "perfect fit"은 편집자가 확인할 수 없는 말이다. 사실을 쓴다.
+
+## 리뷰어 답변 {#response}
+
+의견 하나에 인용 → 감사 → 한 일 → 바뀐 위치로 답한다([W14](chapters/w14_reviewer_response.qmd)).
+
+| 자리 | 표현 |
+|---|---|
+| 감사 (한 문장) | We thank the reviewer for this suggestion. |
+| 한 일 | We now show [what] (Fig. [n]). We also state in the Methods [what]. |
+| 바뀐 위치 | Changes: [section], page [n], lines [n–n]. |
+| 받아들이지 않을 때 | We did not [do X], because [evidence]. We now state this limitation in the Discussion (page [n], lines [n–n]). |
+| 오해가 있었을 때 | We have rewritten [section] to make clear that [point]. |
+
+- 하지 않은 분석이나 지킬 수 없는 약속은 쓰지 않는다.
+
+## AI 사용 표기 {#ai-disclosure}
+
+저널이 정한 문구가 있으면 그것을 쓴다. 일반 예시는 [W2](chapters/w02_ai_basics.qmd)에 있다.
+
+- Acknowledgments (글쓰기 도움): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
+- Methods (분석 코드 도움): We used [tool name and version] to help write the [language] code that [task]. The authors reviewed and tested all code before use.
+
+# 헷갈리는 말 {#confusables}
+
+| 헷갈림 | 바르게 |
+|---|---|
+| affect / effect | affect는 동사(영향을 주다), effect는 명사(효과) |
+| data is | data are (복수) |
+| compared to / with | 차이를 볼 때는 compared with |
+| which / that | 꼭 필요한 정보면 that (쉼표 없음), 덧붙이는 정보면 , which |
+| i.e. / e.g. | i.e.는 "즉", e.g.는 "예를 들어" |
+| while / whereas | 대조는 whereas (while은 "동안"과 헷갈린다) |
+| since / because | 이유는 because (since는 "이후"와 헷갈린다) |
+| less / fewer | 셀 수 있으면 fewer cells, 셀 수 없으면 less protein |
+
+# 한국어식 실수 {#korean-habits}
+
+| 피할 것 | 바르게 |
+|---|---|
+| researches, informations, evidences | research, information, evidence (셀 수 없다) |
+| According to the result, … | These results indicate that … |
+| very significantly, more significantly | 유의성에는 정도 부사를 붙이지 않는다. 효과 크기와 P 값을 쓴다 |
+| different with | different from |
+| 문단마다 In this study | 한 번이면 충분하다 |
+| 10 mice were … (숫자로 문장 시작) | Ten mice were … |
+
+- 관사: 처음 나오는 것은 a/an, 이미 말했거나 하나뿐인 것은 the, 복수 일반론은 관사 없이(Cells were …) 쓴다.
+- 번역투 점검표는 [W12](chapters/w12_polishing.qmd)에 있다.

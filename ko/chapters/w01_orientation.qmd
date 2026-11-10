@@ -17,6 +17,8 @@ date: last-modified
 
 # 1. 원칙 {#principles}
 
+![학기 전체 흐름. 각 Part에서 만든 것이 기말 원고로 모인다.](../../assets/img/w15/semester_roadmap.svg){fig-alt="세 개의 화살표 모양 칸: Part 1 기초 W1–W3, Part 2 원고 쓰기 W4–W11, Part 3 다듬기와 투고 W12–W15. 각 칸 아래에 그 Part에서 만드는 것과 동료 리뷰 주차가 적혀 있다."}
+
 ## 독자는 Title, Abstract, 그림 순서로 읽는다
 
 - 독자 대부분은 논문을 처음부터 끝까지 읽지 않음. Title을 보고 읽을지 정하고, Abstract로 내용을 짐작하고, 그림을 훑은 뒤 필요한 부분만 Results나 Methods에서 찾아 읽음.

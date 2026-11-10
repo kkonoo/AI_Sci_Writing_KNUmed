@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="110mm" viewBox="0 0 240 110" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">가상의 예시 연구 설계: 마우스 UUO 모델과 compound X</title>
+<rect width="240" height="110" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="box">
+<rect x="4.00" y="12.00" width="52.00" height="94.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="64.00" y="12.00" width="52.00" height="94.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="124.00" y="12.00" width="52.00" height="94.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="184.00" y="12.00" width="52.00" height="94.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="동물과-군">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">동물과 군</tspan></text>
+</g>
+<g id="처치">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="64.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">처치</tspan></text>
+</g>
+<g id="수확">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="124.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">수확</tspan></text>
+</g>
+<g id="측정">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="184.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">측정</tspan></text>
+</g>
+<g id="수컷-C57BL-6J">
+<rect x="7.00" y="16.75" width="46.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="22.67" font-size="4.057" fill="#262B33" font-weight="700">수컷 C57BL/6J</tspan><tspan x="30.00" y="28.70" font-size="3.704" fill="#6B7280">8주령</tspan></text>
+</g>
+<g id="sham">
+<rect x="7.00" y="37.75" width="46.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="43.61" font-size="3.881" fill="#262B33" font-weight="700">sham</tspan><tspan x="30.00" y="49.59" font-size="3.704" fill="#6B7280">n = 6</tspan></text>
+</g>
+<g id="UUO-vehicle">
+<rect x="7.00" y="58.75" width="46.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="64.61" font-size="3.881" fill="#262B33" font-weight="700">UUO + vehicle</tspan><tspan x="30.00" y="70.59" font-size="3.704" fill="#6B7280">n = 6</tspan></text>
+</g>
+<g id="UUO-compound-X">
+<rect x="7.00" y="79.75" width="46.00" height="15.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="85.61" font-size="3.881" fill="#FFFFFF" font-weight="700">UUO + compound X</tspan><tspan x="30.00" y="91.59" font-size="3.704" fill="#FFFFFF">n = 6</tspan></text>
+</g>
+<g id="Day-0">
+<rect x="67.00" y="15.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="23.01" font-size="4.057" fill="#262B33" font-weight="700">Day 0</tspan><tspan x="90.00" y="29.04" font-size="3.704" fill="#6B7280">왼쪽 UUO 수술 또는</tspan><tspan x="90.00" y="33.86" font-size="3.704" fill="#6B7280">sham 수술</tspan></text>
+</g>
+<g id="Day-0-6">
+<rect x="67.00" y="45.00" width="46.00" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="53.19" font-size="4.057" fill="#262B33" font-weight="700">Day 0–6</tspan><tspan x="90.00" y="59.23" font-size="3.704" fill="#6B7280">UUO 군: compound X</tspan><tspan x="90.00" y="64.04" font-size="3.704" fill="#6B7280">10 mg/kg 또는</tspan><tspan x="90.00" y="68.86" font-size="3.704" fill="#6B7280">vehicle, 경구, 하루</tspan><tspan x="90.00" y="73.68" font-size="3.704" fill="#6B7280">한 번</tspan></text>
+</g>
+<g id="Day-7">
+<rect x="127.00" y="15.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="150.00" y="25.42" font-size="4.057" fill="#262B33" font-weight="700">Day 7</tspan><tspan x="150.00" y="31.45" font-size="3.704" fill="#6B7280">신장 채취</tspan></text>
+</g>
+<g id="Fig-1">
+<rect x="187.00" y="15.00" width="46.00" height="18.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="188.80" y="22.83" font-size="3.704" fill="#262B33" font-weight="700">Fig. 1</tspan><tspan x="188.80" y="28.30" font-size="3.352" fill="#6B7280">체중, 혈청 크레아티닌</tspan></text>
+</g>
+<g id="Fig-2">
+<rect x="187.00" y="36.00" width="46.00" height="18.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="188.80" y="41.65" font-size="3.704" fill="#262B33" font-weight="700">Fig. 2</tspan><tspan x="188.80" y="47.12" font-size="3.352" fill="#6B7280">Masson's trichrome,</tspan><tspan x="188.80" y="51.48" font-size="3.352" fill="#6B7280">섬유화 면적</tspan></text>
+</g>
+<g id="Fig-3">
+<rect x="187.00" y="57.00" width="46.00" height="18.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="188.80" y="62.65" font-size="3.704" fill="#262B33" font-weight="700">Fig. 3</tspan><tspan x="188.80" y="68.12" font-size="3.352" fill="#6B7280">qPCR: Col1a1, Acta2,</tspan><tspan x="188.80" y="72.48" font-size="3.352" fill="#6B7280">Fn1</tspan></text>
+</g>
+<g id="Fig-4">
+<rect x="187.00" y="78.00" width="46.00" height="18.50" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="188.80" y="83.65" font-size="3.704" fill="#262B33" font-weight="700">Fig. 4</tspan><tspan x="188.80" y="89.12" font-size="3.352" fill="#6B7280">웨스턴 블롯:</tspan><tspan x="188.80" y="93.48" font-size="3.352" fill="#6B7280">p-Smad3/Smad3</tspan></text>
+</g>
+<polyline points="56.00,59.00 64.00,59.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="116.00,59.00 124.00,59.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="176.00,59.00 184.00,59.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

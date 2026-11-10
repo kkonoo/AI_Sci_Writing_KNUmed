@@ -1,0 +1,209 @@
+---
+title: "Phrase sheet"
+subtitle: "Appendix · common English phrases by section and by situation"
+date: last-modified
+---
+
+Use this page when you get stuck on wording. It is based on the lab's [Lab Manager phrase list](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md) (in Korean), revised to fit the principles of this course.
+
+- Do not paste a phrase as it is. Adapt it to your results and to the strength of your evidence.
+- Square brackets `[ ]` mark what you fill in with your own content.
+- Use stock phrases once or twice in a whole manuscript at most. The standard is pattern 10 of [W3](chapters/w03_readable_sentences.qmd).
+- The numbers in the examples come from the course's shared fictional example study.
+
+# By section {#by-section}
+
+## Introduction {#introduction}
+
+The full structure is in [W9](chapters/w09_introduction.qmd).
+
+| What you want to say | Phrases |
+|---|---|
+| First sentence: a fact readers can check | [Disease] affects more than [number] people worldwide [ref]. / [X] is a leading cause of [outcome] [ref]. |
+| Accumulated evidence | Recent studies have shown that [finding] [refs]. |
+| What is not known (gap) | However, it is not known whether [question]. / The mechanism by which [X] [does Y] remains unclear. |
+| This study | Here, we tested whether [question] in [model]. / In this study, we asked whether [question]. |
+| Summary of this study (if the journal wants it) | We show that [main finding]. |
+
+- "plays a crucial role" and "has attracted increasing attention" are stock phrases with nothing to check. Put a number or a fact there instead.
+- Claim a gap only as far as you searched. Write "No study has examined …" only when your search log supports it.
+
+## Methods {#methods}
+
+Past tense is the default. Match the voice to the journal and the sentence. The full standard is in [W5](chapters/w05_methods_legends.qmd).
+
+| What you want to say | Phrases |
+|---|---|
+| Animals and treatment | Male C57BL/6J mice (8 weeks old) underwent left UUO. / Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
+| Randomization, blinding | Mice were randomly assigned to [groups]. The person who quantified [outcome] was blinded to group. |
+| Citing an earlier method | [Method] was performed as previously described [ref], with the following changes: [changes]. |
+| n and technical replicates | n = 6 mice per group. For each mouse, values from three sections were averaged. |
+| Statistics | Data are presented as mean ± SD. Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
+| Software | Analyses were performed in [software, version]. |
+
+- Do not write only "as previously described" and leave out what you changed. State the changes.
+- Even if you write "P < 0.05 was considered significant", give exact P values in the text and figures.
+
+## Figure legend {#legend}
+
+The order is title, panel descriptions, then n and statistics. The example is the fictional Figure 2 in [W5](chapters/w05_methods_legends.qmd#principles).
+
+| Slot | Phrases |
+|---|---|
+| Title sentence | Figure 2. Compound X reduces interstitial fibrosis after UUO. |
+| Panel description | (a) Representative [stain] images of [tissue] from [groups] on day [n]. Scale bars, [length]. |
+| What one dot is | Each dot is one mouse (mean of three sections). |
+| Summary values and n | Bars show mean ± SD; n = 6 mice per group. |
+| Test | P values are from [test]. |
+
+- Do not interpret in the legend. Words such as "suggesting that it may be a promising therapy" belong in the Discussion.
+
+## Results {#results}
+
+A paragraph runs purpose, what was done, result, short interpretation ([W6](chapters/w06_results.qmd)).
+
+| What you want to say | Phrases |
+|---|---|
+| Purpose and what was done | To test whether [question], we [method] (Fig. [n]). / We next asked whether [question]. |
+| Increased | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]). / … by [n]-fold |
+| Decreased | [X] reduced (lowered) [Y] by [n]% compared with [control]. |
+| No difference | [Y] did not differ between [groups] ([statistics]). |
+| Dose or time dependence | [Y] decreased as the dose increased ([statistics]). |
+| Short interpretation (its own sentence) | Thus, [X] reduced [Y] in [model]. / These results suggest that [interpretation]. |
+
+- Use "significantly" only for a comparison you tested, and give the P value of that test.
+- Do not attach the interpretation as ", suggesting that …". Write it as a separate sentence.
+- Do not claim more causation than you tested in a Results sentence. Write "by blocking …" only if you tested it.
+
+## Discussion {#discussion}
+
+The first paragraph answers the question of the Introduction ([W10](chapters/w10_discussion.qmd)).
+
+| What you want to say | Phrases |
+|---|---|
+| Main finding | We found that [main finding]. / Compound X reduced kidney fibrosis after UUO in mice. |
+| Agrees with earlier work | This agrees with [Author et al.], who found [finding] in [model] [ref]. |
+| Differs from earlier work | In contrast to [Author et al.] [ref], we observed [finding]. This difference may reflect [specific reason]. |
+| Implication | These results raise the possibility that [implication]. |
+| Limitation | We used only [condition], so [what we cannot conclude]. |
+| Next step | [Specific experiment] would test whether [question]. |
+| Last sentence | [One-sentence answer to the question of the Introduction]. |
+
+- Do not write only "Further studies are needed". Say which experiment answers which question.
+- Write only the limitations that apply to this study, together with their effect on the conclusion.
+- Do not use "prove". Use "first" or "novel" only when your search log confirms it.
+
+## Abstract and title {#abstract}
+
+The five parts of the Abstract come from other parts of the manuscript ([W11](chapters/w11_abstract_title.qmd)).
+
+| Part | Phrases |
+|---|---|
+| Background | [Disease or problem] [fact with number]. |
+| Gap | Whether [question] is unknown. |
+| Approach | Here, we [method] in [model; species; n]. |
+| Key results | [X] reduced [Y] from [a] to [b] ([statistics]). |
+| Conclusion | [X] [effect] in [model], which suggests [careful implication]. |
+
+- To cut words, cut whole points, not articles, verbs or connectives.
+- Write a result-type title (*Compound X reduces kidney fibrosis after ureteral obstruction in mice*), a descriptive one and a question, then choose. The verb of the title must not be stronger than the conclusion sentence of the Abstract.
+
+# By situation {#by-situation}
+
+## Verbs that match the strength of the evidence {#hedging}
+
+The same standard as the hedging table in [W10](chapters/w10_discussion.qmd).
+
+| Evidence | Phrases |
+|---|---|
+| Measured directly and tested | reduced, increased, did not change, showed |
+| Changed together, cause not tested | was accompanied by, is associated with, suggests, indicates |
+| Speculation beyond the data | may, might, one possibility is (in a separate sentence) |
+
+- Do not stack hedges. "might potentially have a possible effect" blurs what you found.
+
+## Numbers and comparisons {#numbers}
+
+| What you want to say | Phrases |
+|---|---|
+| Range | from 18.2% to 9.6% |
+| Reduced by a share | by 47% / a 47% reduction |
+| Fold change | a 2.3-fold increase |
+| Comparing two groups | compared with vehicle (use compared with for differences) |
+| Matching order | A and B were 10 and 20, respectively. |
+| Summary values | mean ± SD / median (interquartile range) |
+
+## Connectives {#connectives}
+
+| Meaning | Phrases |
+|---|---|
+| Adding | In addition, / Also, |
+| Contrast | However, / In contrast, |
+| Consequence | Therefore, / Thus, |
+| Summary | Taken together, |
+
+- "Notably", "Importantly" and "Interestingly" are common in AI text. Use them once or twice in a whole manuscript at most.
+- If the meaning follows without a connective, you can leave it out.
+
+# Submission and response {#submission}
+
+## Cover letter {#cover-letter}
+
+The structure and examples are in [W13](chapters/w13_submission.qmd).
+
+| Slot | Phrases |
+|---|---|
+| First sentence | We submit our manuscript, "[Title]," for consideration as an [article type] in [Journal]. |
+| Main results | In [model], [X] [result with the same numbers as the Abstract]. |
+| Why this journal | [Journal] recently published [Author et al., Year, DOI], which [what it did]. Our study extends that work by [how]. |
+| Required statements | This manuscript has not been published and is not under consideration elsewhere. All authors have approved the manuscript. |
+
+- "novel and groundbreaking", "prestigious journal" and "perfect fit" are things an editor cannot check. Write facts.
+
+## Response to reviewers {#response}
+
+Answer each comment with quote, thanks, what you did, and where it changed ([W14](chapters/w14_reviewer_response.qmd)).
+
+| Slot | Phrases |
+|---|---|
+| Thanks (one sentence) | We thank the reviewer for this suggestion. |
+| What you did | We now show [what] (Fig. [n]). We also state in the Methods [what]. |
+| Where it changed | Changes: [section], page [n], lines [n–n]. |
+| When you do not accept | We did not [do X], because [evidence]. We now state this limitation in the Discussion (page [n], lines [n–n]). |
+| When the reviewer misread | We have rewritten [section] to make clear that [point]. |
+
+- Do not write analyses you did not do or promises you cannot keep.
+
+## Disclosing AI use {#ai-disclosure}
+
+If the journal gives a wording, use it. General examples are in [W2](chapters/w02_ai_basics.qmd).
+
+- Acknowledgments (writing help): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
+- Methods (help with analysis code): We used [tool name and version] to help write the [language] code that [task]. The authors reviewed and tested all code before use.
+
+# Easily confused words {#confusables}
+
+| Confusion | Correct use |
+|---|---|
+| affect / effect | affect is a verb (to influence), effect is a noun (a result) |
+| data is | data are (plural) |
+| compared to / with | use compared with for differences |
+| which / that | that (no comma) for essential information, ", which" for added information |
+| i.e. / e.g. | i.e. means "that is", e.g. means "for example" |
+| while / whereas | use whereas for contrast (while can be read as "during") |
+| since / because | use because for reasons (since can be read as "after") |
+| less / fewer | fewer cells (countable), less protein (uncountable) |
+
+# Habits from Korean {#korean-habits}
+
+| Avoid | Correct use |
+|---|---|
+| researches, informations, evidences | research, information, evidence (uncountable) |
+| According to the result, … | These results indicate that … |
+| very significantly, more significantly | Significance takes no degree adverb. Give the effect size and the P value |
+| different with | different from |
+| In this study in every paragraph | Once is enough |
+| 10 mice were … (a number starting the sentence) | Ten mice were … |
+
+- Articles: a/an for something new, the for something already mentioned or unique, no article for plural general statements (Cells were …).
+- The translationese checklist is in [W12](chapters/w12_polishing.qmd).

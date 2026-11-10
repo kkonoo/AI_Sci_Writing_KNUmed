@@ -38,6 +38,8 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 
 ## 주차별 계획 {#schedule}
 
+![학기 전체 흐름. 각 Part에서 만든 것이 기말 원고로 모인다.](../assets/img/w15/semester_roadmap.svg){fig-alt="세 개의 화살표 모양 칸: Part 1 기초 W1–W3, Part 2 원고 쓰기 W4–W11, Part 3 다듬기와 투고 W12–W15. 각 칸 아래에 그 Part에서 만드는 것과 동료 리뷰 주차가 적혀 있다."}
+
 ### Part 1 · 기초
 
 | 주 | 주제 | 과제 |

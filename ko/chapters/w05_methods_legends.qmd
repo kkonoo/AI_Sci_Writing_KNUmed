@@ -70,6 +70,10 @@ date: last-modified
 - 패널 설명: 패널마다 무엇을, 어떤 조건에서, 어떻게 측정했는지 쓴다. 본문을 읽지 않아도 그림을 이해할 수 있어야 한다. Methods의 절차는 다시 쓰지 않는다.
 - n과 통계: 점 하나가 무엇인지, n과 단위, 오차 막대 종류, 검정을 쓴다. 사진에는 척도 막대의 길이를 쓴다.
 - legend에는 해석을 쓰지 않는다. 해석은 Results와 Discussion에 쓴다.
+- 아래 legend가 설명하는 그림이다(가상의 예시). 실제 원고에서는 a 자리에 대표 사진이 들어간다.
+
+![가상의 Figure 2. a는 대표 사진 자리, b는 마우스별 섬유화 면적.](../../assets/img/w05/figure2_mock.svg){fig-alt="a 패널에는 sham, UUO + vehicle, UUO + compound X의 대표 사진 자리 세 칸과 척도 막대가 있다. b 패널에는 세 군의 섬유화 면적이 마우스별 점과 평균 ± SD로 있고, sham 대 vehicle P < 0.0001, vehicle 대 compound X P = 0.0004가 표시되어 있다."}
+
 - Before:
 
 ```text

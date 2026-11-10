@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="78mm" viewBox="0 0 240 78" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">가상의 예시 연구 설계: 사람 신장 생검 단일세포 RNA 시퀀싱 재분석</title>
+<rect width="240" height="78" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="box">
+<rect x="4.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="64.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="124.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="184.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="데이터">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">데이터</tspan></text>
+</g>
+<g id="분석">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="64.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">분석</tspan></text>
+</g>
+<g id="비교">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="124.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">비교</tspan></text>
+</g>
+<g id="검증">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="184.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">검증</tspan></text>
+</g>
+<g id="공개된-사람-신장-생검">
+<rect x="7.00" y="15.00" width="46.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="26.36" font-size="3.881" fill="#262B33" font-weight="700">공개된 사람 신장 생검</tspan><tspan x="30.00" y="32.34" font-size="3.704" fill="#6B7280">단일세포 RNA 시퀀싱</tspan></text>
+</g>
+<g id="섬유화-환자-8명">
+<rect x="7.00" y="46.00" width="46.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="54.36" font-size="3.881" fill="#262B33" font-weight="700">섬유화 환자 8명</tspan><tspan x="30.00" y="60.34" font-size="3.704" fill="#6B7280">대조군 6명</tspan></text>
+</g>
+<g id="QC-세포-유형-주석">
+<rect x="67.00" y="15.00" width="46.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="21.95" font-size="3.881" fill="#262B33" font-weight="700">QC, 세포 유형 주석</tspan><tspan x="90.00" y="27.93" font-size="3.704" fill="#6B7280">Fig. 1, Fig. 2</tspan><tspan x="90.00" y="32.75" font-size="3.704" fill="#6B7280">(UMAP)</tspan></text>
+</g>
+<g id="섬유아세포-아형-나누기">
+<rect x="67.00" y="42.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="49.83" font-size="3.881" fill="#262B33" font-weight="700">섬유아세포 아형</tspan><tspan x="90.00" y="54.88" font-size="3.881" fill="#262B33" font-weight="700">나누기</tspan><tspan x="90.00" y="60.86" font-size="3.704" fill="#6B7280">MF2를 찾음</tspan></text>
+</g>
+<g id="환자별-MF2-비율">
+<rect x="127.00" y="15.00" width="46.00" height="30.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="150.00" y="25.95" font-size="3.881" fill="#FFFFFF" font-weight="700">환자별 MF2 비율</tspan><tspan x="150.00" y="31.93" font-size="3.704" fill="#FFFFFF">섬유아세포 중 비율,</tspan><tspan x="150.00" y="36.75" font-size="3.704" fill="#FFFFFF">Wilcoxon (Fig. 3)</tspan></text>
+</g>
+<g id="MF2-표지-유전자">
+<rect x="187.00" y="15.00" width="46.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="210.00" y="24.36" font-size="3.881" fill="#262B33" font-weight="700">MF2 표지 유전자</tspan><tspan x="210.00" y="30.34" font-size="3.704" fill="#6B7280">Fig. 4</tspan></text>
+</g>
+<g id="공간-전사체로-위치-확인">
+<rect x="187.00" y="42.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="210.00" y="49.83" font-size="3.881" fill="#262B33" font-weight="700">공간 전사체로 위치</tspan><tspan x="210.00" y="54.88" font-size="3.881" fill="#262B33" font-weight="700">확인</tspan><tspan x="210.00" y="60.86" font-size="3.704" fill="#6B7280">Fig. 4</tspan></text>
+</g>
+<polyline points="56.00,43.00 64.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="116.00,43.00 124.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="176.00,43.00 184.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The semester at a glance: Part 1 Foundations, Part 2 Writing the manuscript, Part 3 Polishing and submission</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Part-1-Foundations">
+<polygon points="4.00,6.00 59.65,6.00 69.65,16.00 59.65,26.00 4.00,26.00 14.00,16.00" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="36.82" y="11.83" font-size="3.881" fill="#262B33" font-weight="700">Part 1 ·</tspan><tspan x="36.82" y="16.88" font-size="3.881" fill="#262B33" font-weight="700">Foundations</tspan><tspan x="36.82" y="22.86" font-size="3.704" fill="#262B33">W1–W3</tspan></text>
+</g>
+<g id="Choosing-a-track">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="35.32" font-size="3.881" fill="#262B33">Choosing a track</tspan></text>
+</g>
+<g id="AI-rules-and-checks">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="41.82" font-size="3.881" fill="#262B33">AI rules and checks</tspan></text>
+</g>
+<g id="Readable-sentences">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="48.32" font-size="3.881" fill="#262B33">Readable sentences</tspan></text>
+</g>
+<g id="Part-2-Writing">
+<polygon points="61.65,6.00 153.76,6.00 163.76,16.00 153.76,26.00 61.65,26.00 71.65,16.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="112.71" y="14.36" font-size="3.881" fill="#262B33" font-weight="700">Part 2 · Writing</tspan><tspan x="112.71" y="20.34" font-size="3.704" fill="#262B33">W4–W11</tspan></text>
+</g>
+<g id="Figure-order-cards">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="35.32" font-size="3.881" fill="#262B33">Figure order cards</tspan></text>
+</g>
+<g id="Methods-Results">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="41.82" font-size="3.881" fill="#262B33">Methods, Results</tspan></text>
+</g>
+<g id="Reference-table">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="48.32" font-size="3.881" fill="#262B33">Reference table</tspan></text>
+</g>
+<g id="Introduction-Discussion">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="54.82" font-size="3.881" fill="#262B33">Introduction, Discussion</tspan></text>
+</g>
+<g id="Abstract-Title">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="74.65" y="61.32" font-size="3.881" fill="#262B33">Abstract, Title</tspan></text>
+</g>
+<g id="Peer-review-W8">
+<rect x="74.65" y="65.50" width="40.00" height="9.00" rx="4.50" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="94.65" y="71.20" font-size="3.528" fill="#262B33" font-weight="700">Peer review W8</tspan></text>
+</g>
+<g id="Part-3-Polishing-submission">
+<polygon points="155.76,6.00 226.00,6.00 236.00,16.00 226.00,26.00 155.76,26.00 165.76,16.00" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="195.88" y="11.83" font-size="3.881" fill="#FFFFFF" font-weight="700">Part 3 · Polishing,</tspan><tspan x="195.88" y="16.88" font-size="3.881" fill="#FFFFFF" font-weight="700">submission</tspan><tspan x="195.88" y="22.86" font-size="3.704" fill="#FFFFFF">W12–W15</tspan></text>
+</g>
+<g id="Revised-manuscript">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="35.32" font-size="3.881" fill="#262B33">Revised manuscript</tspan></text>
+</g>
+<g id="Cover-letter">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="41.82" font-size="3.881" fill="#262B33">Cover letter</tspan></text>
+</g>
+<g id="Response-to-reviewers">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="48.32" font-size="3.881" fill="#262B33">Response to reviewers</tspan></text>
+</g>
+<g id="Final-manuscript-talk">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="168.76" y="54.82" font-size="3.881" fill="#262B33">Final manuscript, talk</tspan></text>
+</g>
+<g id="Peer-review-W12">
+<rect x="168.76" y="59.00" width="40.00" height="9.00" rx="4.50" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="188.76" y="64.70" font-size="3.528" fill="#262B33" font-weight="700">Peer review W12</tspan></text>
+</g>
+<g id="Final-submission-manuscript-AI-use-log-a">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="84.76" font-size="3.704" fill="#6B7280">Final submission: manuscript, AI use log, and for track B a note comparing with the published paper</tspan></text>
+</g>
+<line x1="4.00" y1="30.00" x2="4.00" y2="53.50" stroke="#E2E5EA" stroke-width="0.265"/>
+<line x1="71.65" y1="30.00" x2="71.65" y2="66.50" stroke="#E2E5EA" stroke-width="0.265"/>
+<line x1="165.76" y1="30.00" x2="165.76" y2="60.00" stroke="#E2E5EA" stroke-width="0.265"/>
+</svg>

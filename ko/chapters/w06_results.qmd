@@ -36,9 +36,9 @@ date: last-modified
 ```text
 To test whether compound X reduces fibrosis, we stained kidney sections with
 Masson's trichrome on day 7 after UUO (Fig. 2a). UUO increased the fibrotic area
-from 1.9% ± 0.6% in sham mice to 18.2% ± 3.1% in vehicle-treated mice (mean ± SD,
+from 1.9% ± 0.6% in sham mice to 18.2% ± 4.0% in vehicle-treated mice (mean ± SD,
 n = 6 mice per group; P < 0.0001; Fig. 2b). Compound X lowered the fibrotic area
-to 9.6% ± 2.4% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's test).
+to 9.6% ± 3.1% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's test).
 Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 ```
 
