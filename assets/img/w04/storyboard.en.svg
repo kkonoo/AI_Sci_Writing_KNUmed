@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="90mm" viewBox="0 0 240 90" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Figure order cards for the fictional example study</title>
+<rect width="240" height="90" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="1">
+<circle cx="31.12" cy="10.00" r="5.20" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="31.12" y="11.14" font-size="3.352" fill="#FFFFFF" font-weight="700">1</tspan></text>
+</g>
+<g id="Does-compound-X-change-general-health-">
+<rect x="4.00" y="19.00" width="54.25" height="19.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="31.12" y="27.35" font-size="3.704" fill="#262B33" font-weight="700">Does compound X change</tspan><tspan x="31.12" y="32.17" font-size="3.704" fill="#262B33" font-weight="700">general health?</tspan></text>
+</g>
+<g id="Mice-given-compound-X-or-vehicle-have-si">
+<rect x="4.00" y="41.00" width="54.25" height="30.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="46.64" font-size="3.881" fill="#262B33">Mice given compound X</tspan><tspan x="5.80" y="51.69" font-size="3.881" fill="#262B33">or vehicle have</tspan><tspan x="5.80" y="56.73" font-size="3.881" fill="#262B33">similar body weight</tspan><tspan x="5.80" y="61.78" font-size="3.881" fill="#262B33">and serum creatinine</tspan><tspan x="5.80" y="66.82" font-size="3.881" fill="#262B33">after UUO.</tspan></text>
+</g>
+<g id="2">
+<circle cx="90.38" cy="10.00" r="5.20" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.38" y="11.14" font-size="3.352" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="Is-fibrosis-reduced-">
+<rect x="63.25" y="19.00" width="54.25" height="19.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.38" y="29.76" font-size="3.704" fill="#262B33" font-weight="700">Is fibrosis reduced?</tspan></text>
+</g>
+<g id="Compound-X-reduces-interstitial-fibrosis">
+<rect x="63.25" y="41.00" width="54.25" height="30.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="65.05" y="46.64" font-size="3.881" fill="#262B33">Compound X reduces</tspan><tspan x="65.05" y="51.69" font-size="3.881" fill="#262B33">interstitial fibrosis</tspan><tspan x="65.05" y="56.73" font-size="3.881" fill="#262B33">in the obstructed</tspan><tspan x="65.05" y="61.78" font-size="3.881" fill="#262B33">kidney.</tspan></text>
+</g>
+<g id="3">
+<circle cx="149.62" cy="10.00" r="5.20" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="149.62" y="11.14" font-size="3.352" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="Is-the-expression-of-fibrosis-genes-lowe">
+<rect x="122.50" y="19.00" width="54.25" height="19.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="149.62" y="24.94" font-size="3.704" fill="#262B33" font-weight="700">Is the expression of</tspan><tspan x="149.62" y="29.76" font-size="3.704" fill="#262B33" font-weight="700">fibrosis genes lower</tspan><tspan x="149.62" y="34.58" font-size="3.704" fill="#262B33" font-weight="700">too?</tspan></text>
+</g>
+<g id="Compound-X-lowers-Col1a1-and-Acta2-expre">
+<rect x="122.50" y="41.00" width="54.25" height="30.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="124.30" y="46.64" font-size="3.881" fill="#262B33">Compound X lowers</tspan><tspan x="124.30" y="51.69" font-size="3.881" fill="#262B33">Col1a1 and Acta2</tspan><tspan x="124.30" y="56.73" font-size="3.881" fill="#262B33">expression after UUO.</tspan></text>
+</g>
+<g id="4">
+<circle cx="208.88" cy="10.00" r="5.20" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="208.88" y="11.14" font-size="3.352" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="Does-TGF--Smad3-signaling-change-too-">
+<rect x="181.75" y="19.00" width="54.25" height="19.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="208.88" y="27.35" font-size="3.704" fill="#262B33" font-weight="700">Does TGF-β/Smad3</tspan><tspan x="208.88" y="32.17" font-size="3.704" fill="#262B33" font-weight="700">signaling change too?</tspan></text>
+</g>
+<g id="Compound-X-lowers-Smad3-phosphorylation-">
+<rect x="181.75" y="41.00" width="54.25" height="30.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="183.55" y="46.64" font-size="3.881" fill="#262B33">Compound X lowers</tspan><tspan x="183.55" y="51.69" font-size="3.881" fill="#262B33">Smad3 phosphorylation</tspan><tspan x="183.55" y="56.73" font-size="3.881" fill="#262B33">in the obstructed</tspan><tspan x="183.55" y="61.78" font-size="3.881" fill="#262B33">kidney.</tspan></text>
+</g>
+<g id="Read-in-order-the-conclusion-sentences-a">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.41" font-size="3.528" fill="#6B7280">Read in order, the conclusion sentences alone should read like the results part of an Abstract. Fictional</tspan><tspan x="4.00" y="83.99" font-size="3.528" fill="#6B7280">example.</tspan></text>
+</g>
+<polyline points="36.33,10.00 85.17,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="95.58,10.00 144.43,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="154.83,10.00 203.68,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+</svg>

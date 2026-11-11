@@ -1,29 +1,56 @@
-"""W2 figure: the AI traffic light. (Where an AI input goes is in figs/basics.py.)"""
+"""W2 figure: the AI traffic light. (Where an AI input goes is in figs/basics.py.)
+
+Korean: assets/img/w02/traffic_light.svg, English: traffic_light.en.svg.
+"""
 from common import scene, save, icon
 
 W = "w02"
 
+STYLE = [("faint", "circle-check", "2F343B"), ("soft", "search", "2F343B"), ("strong", "lock", "FFFFFF"),
+         ("strong", "message-square", "FFFFFF"), ("accent", "ban", "FFFFFF")]
 
-def traffic_light():
-    rows = [
-        ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W11까지 웹 검색 끔)", "faint", "circle-check", "2F343B"),
-        ("꼭 검증", "참고문헌, 수치, 통계 방법 추천, 최신 연구, AI가 고친 문장의 뜻, AI 코드로 그린 그래프", "soft", "search", "2F343B"),
-        ("조건부 (트랙 A)", "본인 원고 문장. 지도교수 동의, 학습 제외 설정, 원 데이터와 그림 파일은 넣지 않음", "strong", "lock", "FFFFFF"),
-        ("조건부 (받은 리뷰)", "내 원고에 대해 받은 리뷰 의견. 리뷰어 이름 지움, 학습 제외 설정, 학술지 규정 확인", "strong", "message-square", "FFFFFF"),
-        ("넣지 않기", "환자 정보, 심사 중인 원고와 동료 원고, 과제·특허 전 아이디어, 계정", "accent", "ban", "FFFFFF"),
-    ]
+TEXT = {
+    "ko": dict(
+        alt="AI 신호등: 자유롭게, 꼭 검증, 조건부 두 가지, 넣지 않기",
+        rows=[
+            ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W11까지 웹 검색 끔)"),
+            ("꼭 검증", "참고문헌, 수치, 통계 방법 추천, 최신 연구, AI가 고친 문장의 뜻, AI 코드로 그린 그래프"),
+            ("조건부 (트랙 A)", "본인 원고 문장. 지도교수 동의, 학습 제외 설정, 원 데이터와 그림 파일은 넣지 않음"),
+            ("조건부 (받은 리뷰)", "내 원고에 대해 받은 리뷰 의견. 리뷰어 이름 지움, 학습 제외 설정, 학술지 규정 확인"),
+            ("넣지 않기", "환자 정보, 심사 중인 원고와 동료 원고, 과제·특허 전 아이디어, 계정"),
+        ],
+        sub_pt=None,
+    ),
+    "en": dict(
+        alt="AI traffic light: Free to use, Always verify, two Conditional rows, Do not put in",
+        rows=[
+            ("Free to use", "Concepts and grammar, help reading published papers, track B manuscripts (web search off until W11)"),
+            ("Always verify", "References, numbers, suggested statistics, recent findings, the meaning of AI-revised sentences, graphs drawn with AI code"),
+            ("Conditional (track A)", "Sentences from your own manuscript. Supervisor's agreement, training setting off, no raw data or figure files"),
+            ("Conditional (received reviews)", "Reviews of your own manuscript. Reviewer's name removed, training setting off, journal policy checked"),
+            ("Do not put in", "Patient information, manuscripts under review and classmates' manuscripts, ideas before a grant or patent filing, accounts"),
+        ],
+        sub_pt=10,
+    ),
+}
+
+
+def traffic_light(lang="ko"):
+    t = TEXT[lang]
     r, step, top = 8.5, 21, 6
-    n = len(rows)
-    s = scene(h=top * 2 + step * n + 2, alt="AI 신호등: 자유롭게, 꼭 검증, 조건부 두 가지, 넣지 않기")
+    n = len(t["rows"])
+    s = scene(h=top * 2 + step * n + 2, alt=t["alt"])
     s.band(10, top - 2, 26, step * n + 2, "", style="primary")
     extra = []
-    for i, (name, sub, style, ic, ic_color) in enumerate(rows):
+    kw = {"sub_pt": t["sub_pt"]} if t["sub_pt"] else {}
+    for i, ((name, sub), (style, ic, ic_color)) in enumerate(zip(t["rows"], STYLE)):
         cy = top + step * i + step / 2
         s.circle(23, cy, r, "", style=style)
         extra.append(icon(ic, 23 - 4, cy - 4, 8, ic_color))
-        s.text(46, cy - 8, 190, 16, name, sub=sub, bold=True, name_pt=12.5, valign="middle")
-    return save(s, W, "traffic_light", extra)
+        s.text(46, cy - 8, 190, 16, name, sub=sub, bold=True, name_pt=12.5, valign="middle", **kw)
+    return save(s, W, "traffic_light" + ("" if lang == "ko" else ".en"), extra)
 
 
 if __name__ == "__main__":
-    traffic_light()
+    traffic_light("ko")
+    traffic_light("en")

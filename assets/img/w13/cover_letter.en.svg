@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="159mm" viewBox="0 0 240 159" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The six parts of a cover letter</title>
+<rect width="240" height="159" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Cover-letter-about-1-page-">
+<rect x="4.00" y="4.00" width="152.00" height="151.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="9.99" font-size="4.234" fill="#262B33" font-weight="700">Cover letter (about 1 page)</tspan></text>
+</g>
+<g id="1">
+<circle cx="15.00" cy="24.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="25.20" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="Addressee-and-first-paragraph">
+<rect x="24.00" y="14.00" width="126.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="22.36" font-size="3.881" fill="#262B33" font-weight="700">Addressee and first paragraph</tspan><tspan x="25.80" y="28.34" font-size="3.704" fill="#6B7280">Editor's name, manuscript title, article type</tspan></text>
+</g>
+<g id="2">
+<circle cx="15.00" cy="47.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="48.20" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="Research-question-and-why-it-matters">
+<rect x="24.00" y="37.00" width="126.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="45.36" font-size="3.881" fill="#262B33" font-weight="700">Research question and why it matters</tspan><tspan x="25.80" y="51.34" font-size="3.704" fill="#6B7280">1–2 sentences</tspan></text>
+</g>
+<g id="3">
+<circle cx="15.00" cy="70.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="71.20" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="Main-results">
+<rect x="24.00" y="60.00" width="126.00" height="20.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="65.95" font-size="3.881" fill="#FFFFFF" font-weight="700">Main results</tspan><tspan x="25.80" y="71.93" font-size="3.704" fill="#FFFFFF">2–3 sentences. Same numbers and claim strength as the</tspan><tspan x="25.80" y="76.75" font-size="3.704" fill="#FFFFFF">Abstract</tspan></text>
+</g>
+<g id="4">
+<circle cx="15.00" cy="93.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="94.20" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="Why-this-journal-s-readers">
+<rect x="24.00" y="83.00" width="126.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="88.95" font-size="3.881" fill="#262B33" font-weight="700">Why this journal's readers</tspan><tspan x="25.80" y="94.93" font-size="3.704" fill="#6B7280">Specific sentences from Aims &amp; Scope, related papers</tspan><tspan x="25.80" y="99.75" font-size="3.704" fill="#6B7280">with checked DOIs</tspan></text>
+</g>
+<g id="5">
+<circle cx="15.00" cy="116.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="117.20" font-size="3.528" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="Required-statements">
+<rect x="24.00" y="106.00" width="126.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="111.95" font-size="3.881" fill="#262B33" font-weight="700">Required statements</tspan><tspan x="25.80" y="117.93" font-size="3.704" fill="#6B7280">Not submitted elsewhere, author approval, competing</tspan><tspan x="25.80" y="122.75" font-size="3.704" fill="#6B7280">interests, preprint, AI use</tspan></text>
+</g>
+<g id="6">
+<circle cx="15.00" cy="139.00" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="15.00" y="140.20" font-size="3.528" fill="#262B33" font-weight="700">6</tspan></text>
+</g>
+<g id="Suggested-and-excluded-reviewers">
+<rect x="24.00" y="129.00" width="126.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="137.36" font-size="3.881" fill="#262B33" font-weight="700">Suggested and excluded reviewers</tspan><tspan x="25.80" y="143.34" font-size="3.704" fill="#6B7280">Only if the journal asks</tspan></text>
+</g>
+<g id="Rules">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="166.00" y="16.50" font-size="4.410" fill="#262B33" font-weight="700">Rules</tspan></text>
+</g>
+<g id="Facts-not-praise">
+<rect x="166.00" y="22.00" width="70.00" height="30.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="201.00" y="33.01" font-size="4.057" fill="#262B33" font-weight="700">Facts, not praise</tspan><tspan x="201.00" y="39.04" font-size="3.704" fill="#262B33">Write facts the editor can</tspan><tspan x="201.00" y="43.86" font-size="3.704" fill="#262B33">check, not adjectives</tspan></text>
+</g>
+<g id="Do-not-make-things-up">
+<rect x="166.00" y="58.00" width="70.00" height="30.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="201.00" y="66.60" font-size="4.057" fill="#262B33" font-weight="700">Do not make things up</tspan><tspan x="201.00" y="72.64" font-size="3.704" fill="#262B33">Only facts about the journal</tspan><tspan x="201.00" y="77.45" font-size="3.704" fill="#262B33">and related papers that you</tspan><tspan x="201.00" y="82.27" font-size="3.704" fill="#262B33">checked yourself</tspan></text>
+</g>
+<g transform="translate(146.00,5.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></g></svg>

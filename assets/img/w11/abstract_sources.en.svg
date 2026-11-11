@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="127mm" viewBox="0 0 240 127" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The five parts of the Abstract and where each part comes from</title>
+<rect width="240" height="127" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Manuscript">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.94" font-size="4.234" fill="#262B33" font-weight="700">Manuscript</tspan></text>
+</g>
+<g id="Abstract">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="150.00" y="8.94" font-size="4.234" fill="#262B33" font-weight="700">Abstract</tspan></text>
+</g>
+<g id="Background">
+<rect x="150.00" y="13.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="19.42" font-size="4.057" fill="#262B33" font-weight="700">Background</tspan><tspan x="193.00" y="25.45" font-size="3.704" fill="#262B33">1 sentence</tspan></text>
+</g>
+<g id="Gap">
+<rect x="150.00" y="33.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="39.42" font-size="4.057" fill="#262B33" font-weight="700">Gap</tspan><tspan x="193.00" y="45.45" font-size="3.704" fill="#262B33">1 sentence</tspan></text>
+</g>
+<g id="Approach">
+<rect x="150.00" y="53.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="59.42" font-size="4.057" fill="#262B33" font-weight="700">Approach</tspan><tspan x="193.00" y="65.45" font-size="3.704" fill="#262B33">1–2 sentences</tspan></text>
+</g>
+<g id="Key-results">
+<rect x="150.00" y="73.00" width="86.00" height="16.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="79.42" font-size="4.057" fill="#FFFFFF" font-weight="700">Key results</tspan><tspan x="193.00" y="85.45" font-size="3.704" fill="#FFFFFF">2–3 sentences, with numbers</tspan></text>
+</g>
+<g id="Conclusion">
+<rect x="150.00" y="93.00" width="86.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="193.00" y="99.42" font-size="4.057" fill="#262B33" font-weight="700">Conclusion</tspan><tspan x="193.00" y="105.45" font-size="3.704" fill="#262B33">1 sentence</tspan></text>
+</g>
+<g id="Introduction">
+<rect x="4.00" y="13.00" width="88.00" height="36.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="48.00" y="27.19" font-size="4.586" fill="#262B33" font-weight="700">Introduction</tspan><tspan x="48.00" y="33.39" font-size="3.704" fill="#6B7280">First paragraph, gap sentence, last</tspan><tspan x="48.00" y="38.20" font-size="3.704" fill="#6B7280">paragraph</tspan></text>
+</g>
+<g id="Methods">
+<rect x="4.00" y="53.00" width="88.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="48.00" y="59.60" font-size="4.586" fill="#262B33" font-weight="700">Methods</tspan><tspan x="48.00" y="65.80" font-size="3.704" fill="#6B7280">Species, model, n</tspan></text>
+</g>
+<g id="Results">
+<rect x="4.00" y="73.00" width="88.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="48.00" y="79.60" font-size="4.586" fill="#262B33" font-weight="700">Results</tspan><tspan x="48.00" y="85.80" font-size="3.704" fill="#6B7280">Conclusion sentences and numbers</tspan></text>
+</g>
+<g id="Discussion">
+<rect x="4.00" y="93.00" width="88.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="48.00" y="99.60" font-size="4.586" fill="#262B33" font-weight="700">Discussion</tspan><tspan x="48.00" y="105.80" font-size="3.704" fill="#6B7280">Last sentence</tspan></text>
+</g>
+<g id="No-result-or-claim-should-appear-only-in">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="116.41" font-size="3.528" fill="#6B7280">No result or claim should appear only in the Abstract. The approach also comes from the last paragraph of the</tspan><tspan x="4.00" y="120.99" font-size="3.528" fill="#6B7280">Introduction.</tspan></text>
+</g>
+<polyline points="92.00,25.00 121.00,25.00 121.00,21.00 150.00,21.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="92.00,37.00 121.00,37.00 121.00,41.00 150.00,41.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="92.00,61.00 150.00,61.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="92.00,81.00 150.00,81.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="92.00,101.00 150.00,101.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

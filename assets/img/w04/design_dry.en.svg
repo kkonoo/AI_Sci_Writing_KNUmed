@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="78mm" viewBox="0 0 240 78" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Fictional example study design: reanalysis of single-cell RNA sequencing of human kidney biopsies</title>
+<rect width="240" height="78" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="box">
+<rect x="4.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="64.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="124.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="box">
+<rect x="184.00" y="12.00" width="52.00" height="62.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="Data">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Data</tspan></text>
+</g>
+<g id="Analysis">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="64.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Analysis</tspan></text>
+</g>
+<g id="Comparison">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="124.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Comparison</tspan></text>
+</g>
+<g id="Validation">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="184.00" y="8.88" font-size="4.057" fill="#262B33" font-weight="700">Validation</tspan></text>
+</g>
+<g id="Public-human-kidney-biopsies">
+<rect x="7.00" y="15.00" width="46.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="21.48" font-size="3.704" fill="#262B33" font-weight="700">Public human kidney</tspan><tspan x="30.00" y="26.30" font-size="3.704" fill="#262B33" font-weight="700">biopsies</tspan><tspan x="30.00" y="32.22" font-size="3.704" fill="#6B7280">Single-cell RNA</tspan><tspan x="30.00" y="37.04" font-size="3.704" fill="#6B7280">sequencing</tspan></text>
+</g>
+<g id="8-patients-with-fibrosis">
+<rect x="7.00" y="46.00" width="46.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="30.00" y="51.89" font-size="3.704" fill="#262B33" font-weight="700">8 patients with</tspan><tspan x="30.00" y="56.70" font-size="3.704" fill="#262B33" font-weight="700">fibrosis</tspan><tspan x="30.00" y="62.63" font-size="3.704" fill="#6B7280">6 controls</tspan></text>
+</g>
+<g id="QC-cell-type-annotation">
+<rect x="67.00" y="15.00" width="46.00" height="26.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="21.48" font-size="3.704" fill="#262B33" font-weight="700">QC, cell type</tspan><tspan x="90.00" y="26.30" font-size="3.704" fill="#262B33" font-weight="700">annotation</tspan><tspan x="90.00" y="32.22" font-size="3.704" fill="#6B7280">Fig. 1, Fig. 2</tspan><tspan x="90.00" y="37.04" font-size="3.704" fill="#6B7280">(UMAP)</tspan></text>
+</g>
+<g id="Fibroblast-subtypes">
+<rect x="67.00" y="46.00" width="46.00" height="20.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="90.00" y="54.30" font-size="3.704" fill="#262B33" font-weight="700">Fibroblast subtypes</tspan><tspan x="90.00" y="60.22" font-size="3.704" fill="#6B7280">MF2 identified</tspan></text>
+</g>
+<g id="MF2-proportion-per-patient">
+<rect x="127.00" y="15.00" width="46.00" height="30.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="150.00" y="21.07" font-size="3.704" fill="#FFFFFF" font-weight="700">MF2 proportion per</tspan><tspan x="150.00" y="25.89" font-size="3.704" fill="#FFFFFF" font-weight="700">patient</tspan><tspan x="150.00" y="31.82" font-size="3.704" fill="#FFFFFF">Share of</tspan><tspan x="150.00" y="36.63" font-size="3.704" fill="#FFFFFF">fibroblasts,</tspan><tspan x="150.00" y="41.45" font-size="3.704" fill="#FFFFFF">Wilcoxon (Fig. 3)</tspan></text>
+</g>
+<g id="MF2-marker-genes">
+<rect x="187.00" y="15.00" width="46.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="210.00" y="24.30" font-size="3.704" fill="#262B33" font-weight="700">MF2 marker genes</tspan><tspan x="210.00" y="30.22" font-size="3.704" fill="#6B7280">Fig. 4</tspan></text>
+</g>
+<g id="Location-by-spatial-transcriptomics">
+<rect x="187.00" y="42.00" width="46.00" height="24.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="210.00" y="49.89" font-size="3.704" fill="#262B33" font-weight="700">Location by spatial</tspan><tspan x="210.00" y="54.70" font-size="3.704" fill="#262B33" font-weight="700">transcriptomics</tspan><tspan x="210.00" y="60.63" font-size="3.704" fill="#6B7280">Fig. 4</tspan></text>
+</g>
+<polyline points="56.00,43.00 64.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="116.00,43.00 124.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="176.00,43.00 184.00,43.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

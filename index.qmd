@@ -11,7 +11,7 @@ format: html
 
 In this course, graduate students learn how to write up their own research as a paper in English. Students may use AI, but they check every AI output themselves and take responsibility for it. Lectures are in Korean, and manuscript practice is in English.
 
-The course is for students from the first or second year of a master's programme up to the PhD. Students from wet labs and dry labs are both welcome.
+The course is for students from the first or second year of a master's program up to the PhD. Students from wet labs and dry labs are both welcome.
 
 When you use AI, follow the [AI use rules](ai_rules.qmd).
 
@@ -34,7 +34,7 @@ The weekly classes are the same for both tracks. Only the text you write each we
 | How it is checked | Peer review and feedback from your supervisor | When you finish, compare your text with the published paper |
 | What you submit | Manuscript, AI use log | Manuscript, AI use log, a note comparing your text with the published paper |
 
-For track B, a good choice is a paper in a high-impact journal whose review record (Peer Review File) is published. Then in week 14 you can practise a response letter with the paper's real reviews. The instructor must approve the paper.
+For track B, a good choice is a paper in a high-impact journal whose review record (Peer Review File) is published. Then in week 14 you can practice writing a response letter to the paper's real reviews. The instructor must approve the paper.
 
 ## Weekly plan {#schedule}
 
@@ -68,7 +68,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 | 12 | [Polishing](chapters/w12_polishing.qmd) | Revised full manuscript |
 | 13 | [Preparing to submit](chapters/w13_submission.qmd) | Cover letter |
 | 14 | [Responding to reviewers](chapters/w14_reviewer_response.qmd) | One response letter |
-| 15 | [Final](chapters/w15_final.qmd) | Manuscript, AI use log, (B) comparison note |
+| 15 | [Final](chapters/w15_final.qmd) | Manuscript, AI use log, (B) comparison memo |
 
 ## Grading {#grading}
 

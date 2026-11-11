@@ -46,7 +46,7 @@ date: last-modified
 
 - 원고 형식: 단어 수(Title, Abstract, 본문), 절 순서, 참고문헌 형식, 쪽 번호와 줄 번호.
 - Title page: 저자, 소속, 교신저자 연락처. ORCID를 요구하는지 확인한다.
-- Figure 파일: 파일 형식, 해상도, 크기, 글꼴. [W4](w04_figure_storyboard.qmd)에서 미뤄 둔 그림 규격을 대상 저널 규정으로 다시 확인한다. 데이터 그림은 AI로 만들거나 고치지 않는다([AI 사용 규칙](../ai_rules.qmd#in-the-paper)).
+- Figure 파일: 파일 형식, 해상도, 크기, 글꼴. [W4](w04_figure_storyboard.qmd)에서 맞춰 둔 그림 규격을 대상 저널 규정으로 다시 확인한다. 데이터 그림은 AI로 만들거나 고치지 않는다([AI 사용 규칙](../ai_rules.qmd#in-the-paper)).
 - 보고 지침 체크리스트: 동물 실험은 [ARRIVE](https://arriveguidelines.org/), 임상 연구는 [EQUATOR Network](https://www.equator-network.org/)에서 연구 설계에 맞는 지침을 찾는다. 저널이 따로 양식을 쓰기도 한다. 예: [Nature Portfolio reporting summary](https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards).
 - 윤리: 동물실험윤리위원회나 IRB 승인 번호를 Methods에 적는다.
 - Data availability statement: 원 데이터를 어디에 두었는지 쓴다(예: GEO accession). dry lab은 다시 분석한 공개 데이터의 accession과 코드 위치를 쓴다.

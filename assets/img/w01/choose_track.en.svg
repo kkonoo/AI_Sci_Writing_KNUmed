@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="86mm" viewBox="0 0 240 86" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Criteria for choosing track A or track B</title>
+<rect width="240" height="86" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="box">
+<rect x="4.00" y="4.00" width="124.00" height="68.00" rx="0.80" fill="#EAEBEB"/>
+</g>
+<g id="You-have-results-for-3-4-figures">
+<rect x="14.00" y="8.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="15.26" font-size="3.704" fill="#262B33" font-weight="700">You have results for 3–4 figures</tspan></text>
+</g>
+<g id="Your-supervisor-agreed-to-their-use-in-c">
+<rect x="14.00" y="24.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="31.26" font-size="3.704" fill="#262B33" font-weight="700">Your supervisor agreed to their use in class</tspan></text>
+</g>
+<g id="Classmates-may-read-it-in-peer-review">
+<rect x="14.00" y="40.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="47.26" font-size="3.704" fill="#262B33" font-weight="700">Classmates may read it in peer review</tspan></text>
+</g>
+<g id="Not-ideas-yet-to-be-filed-in-a-grant-or-">
+<rect x="14.00" y="56.00" width="108.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="63.26" font-size="3.704" fill="#262B33" font-weight="700">Not ideas yet to be filed in a grant or patent</tspan></text>
+</g>
+<g id="Track-A-your-own-manuscript">
+<rect x="164.00" y="8.00" width="72.00" height="26.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="200.00" y="17.01" font-size="4.057" fill="#FFFFFF" font-weight="700">Track A: your own manuscript</tspan><tspan x="200.00" y="23.04" font-size="3.704" fill="#FFFFFF">A short manuscript from your</tspan><tspan x="200.00" y="27.86" font-size="3.704" fill="#FFFFFF">own data and figures</tspan></text>
+</g>
+<g id="Track-B-rewriting-a-published-paper">
+<rect x="164.00" y="42.00" width="72.00" height="26.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="200.00" y="48.37" font-size="4.057" fill="#262B33" font-weight="700">Track B: rewriting a</tspan><tspan x="200.00" y="53.65" font-size="4.057" fill="#262B33" font-weight="700">published paper</tspan><tspan x="200.00" y="59.68" font-size="3.704" fill="#262B33">An open access paper approved</tspan><tspan x="200.00" y="64.50" font-size="3.704" fill="#262B33">by the instructor</tspan></text>
+</g>
+<g id="If-you-are-unsure-ask-your-supervisor-an">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="79.70" font-size="3.528" fill="#6B7280">If you are unsure, ask your supervisor and the instructor this week.</tspan></text>
+</g>
+<polyline points="128.00,26.67 154.00,26.67 154.00,21.00 164.00,21.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="128.00,49.33 154.00,49.33 154.00,55.00 164.00,55.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="141.00" y="24.15" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">All apply</text>
+<text x="141.00" y="46.81" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">Not all</text>
+<g transform="translate(6.50,10.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,26.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,42.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(6.50,58.50) scale(0.2917)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g></svg>

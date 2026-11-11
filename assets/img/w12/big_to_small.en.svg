@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Order of polishing: content and figure order, paragraphs, sentences, words and grammar</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="1-Content-and-figure-order">
+<rect x="4.00" y="4.00" width="148.00" height="84.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="9.82" font-size="4.057" fill="#262B33" font-weight="700">1. Content and figure order</tspan></text>
+</g>
+<g id="2-Paragraphs">
+<rect x="14.00" y="18.00" width="128.00" height="62.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="15.80" y="23.82" font-size="4.057" fill="#262B33" font-weight="700">2. Paragraphs</tspan></text>
+</g>
+<g id="3-Sentences">
+<rect x="24.00" y="32.00" width="108.00" height="40.00" rx="0.80" fill="#ACAEB1"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="25.80" y="37.82" font-size="4.057" fill="#262B33" font-weight="700">3. Sentences</tspan></text>
+</g>
+<g id="4-Words-and-grammar">
+<rect x="34.00" y="46.00" width="88.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="78.00" y="56.38" font-size="4.057" fill="#262B33" font-weight="700">4. Words and grammar</tspan></text>
+</g>
+<g id="Polish-from-the-outside-in">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="162.00" y="12.44" font-size="4.234" fill="#262B33" font-weight="700">Polish from the outside in</tspan></text>
+</g>
+<g id="If-you-polish-sentences-first-that-work-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="162.00" y="27.44" font-size="3.704" fill="#262B33">If you polish sentences first,</tspan><tspan x="162.00" y="32.26" font-size="3.704" fill="#262B33">that work is lost when you later</tspan><tspan x="162.00" y="37.08" font-size="3.704" fill="#262B33">cut or move a paragraph.</tspan></text>
+</g>
+<g id="Check-first">
+<rect x="162.00" y="50.00" width="74.00" height="38.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="163.80" y="58.98" font-size="4.057" fill="#FFFFFF" font-weight="700">Check first</tspan><tspan x="163.80" y="64.57" font-size="3.352" fill="#FFFFFF">Does each figure's conclusion</tspan><tspan x="163.80" y="68.92" font-size="3.352" fill="#FFFFFF">sentence appear, with the same</tspan><tspan x="163.80" y="73.28" font-size="3.352" fill="#FFFFFF">strength, in the first Results</tspan><tspan x="163.80" y="77.64" font-size="3.352" fill="#FFFFFF">sentence, the Abstract and the</tspan><tspan x="163.80" y="81.99" font-size="3.352" fill="#FFFFFF">Title?</tspan></text>
+</g>
+</svg>

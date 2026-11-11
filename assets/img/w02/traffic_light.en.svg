@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="119mm" viewBox="0 0 240 119" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">AI traffic light: Free to use, Always verify, two Conditional rows, Do not put in</title>
+<rect width="240" height="119" fill="#FFFFFF"/>
+<defs></defs>
+<g id="box">
+<rect x="10.00" y="4.00" width="26.00" height="107.00" rx="0.80" fill="#2F343B"/>
+</g>
+<g id="circle">
+<circle cx="23.00" cy="16.50" r="8.50" fill="#EAEBEB"/>
+</g>
+<g id="Free-to-use">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="46.00" y="12.88" font-size="4.410" fill="#262B33" font-weight="700">Free to use</tspan><tspan x="46.00" y="18.80" font-size="3.528" fill="#6B7280">Concepts and grammar, help reading published papers, track B manuscripts (web search off</tspan><tspan x="46.00" y="23.39" font-size="3.528" fill="#6B7280">until W11)</tspan></text>
+</g>
+<g id="circle">
+<circle cx="23.00" cy="37.50" r="8.50" fill="#DADADC"/>
+</g>
+<g id="Always-verify">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="46.00" y="33.88" font-size="4.410" fill="#262B33" font-weight="700">Always verify</tspan><tspan x="46.00" y="39.80" font-size="3.528" fill="#6B7280">References, numbers, suggested statistics, recent findings, the meaning of AI-revised</tspan><tspan x="46.00" y="44.39" font-size="3.528" fill="#6B7280">sentences, graphs drawn with AI code</tspan></text>
+</g>
+<g id="circle">
+<circle cx="23.00" cy="58.50" r="8.50" fill="#787B80"/>
+</g>
+<g id="Conditional-track-A-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="46.00" y="54.88" font-size="4.410" fill="#262B33" font-weight="700">Conditional (track A)</tspan><tspan x="46.00" y="60.80" font-size="3.528" fill="#6B7280">Sentences from your own manuscript. Supervisor's agreement, training setting off, no raw</tspan><tspan x="46.00" y="65.39" font-size="3.528" fill="#6B7280">data or figure files</tspan></text>
+</g>
+<g id="circle">
+<circle cx="23.00" cy="79.50" r="8.50" fill="#787B80"/>
+</g>
+<g id="Conditional-received-reviews-">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="46.00" y="75.88" font-size="4.410" fill="#262B33" font-weight="700">Conditional (received reviews)</tspan><tspan x="46.00" y="81.80" font-size="3.528" fill="#6B7280">Reviews of your own manuscript. Reviewer's name removed, training setting off, journal</tspan><tspan x="46.00" y="86.39" font-size="3.528" fill="#6B7280">policy checked</tspan></text>
+</g>
+<g id="circle">
+<circle cx="23.00" cy="100.50" r="8.50" fill="#E5484D"/>
+</g>
+<g id="Do-not-put-in">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="46.00" y="96.88" font-size="4.410" fill="#262B33" font-weight="700">Do not put in</tspan><tspan x="46.00" y="102.80" font-size="3.528" fill="#6B7280">Patient information, manuscripts under review and classmates' manuscripts, ideas before a</tspan><tspan x="46.00" y="107.39" font-size="3.528" fill="#6B7280">grant or patent filing, accounts</tspan></text>
+</g>
+<g transform="translate(19.00,12.50) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g><g transform="translate(19.00,33.50) scale(0.3333)" fill="none" stroke="#2F343B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" /></g><g transform="translate(19.00,54.50) scale(0.3333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+  <path d="M7 11V7a5 5 0 0 1 10 0v4" /></g><g transform="translate(19.00,75.50) scale(0.3333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /></g><g transform="translate(19.00,96.50) scale(0.3333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="M4.929 4.929 19.07 19.071" /></g></svg>

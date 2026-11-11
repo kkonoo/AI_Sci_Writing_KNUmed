@@ -29,7 +29,7 @@ TEXT = {
             ("Part 3 · Polishing, submission", "W12–W15", ["Revised manuscript", "Cover letter", "Response to reviewers",
                                                           "Final manuscript, talk"], "primary", "Peer review W12"),
         ],
-        note="Final submission: manuscript, AI use log, and for track B a note comparing with the published paper",
+        note="Final submission: manuscript, AI use log, and for track B a comparison memo",
         pill_w=40,
     ),
 }

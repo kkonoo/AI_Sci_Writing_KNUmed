@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="126mm" viewBox="0 0 240 126" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The four parts of a Results paragraph, with example sentences</title>
+<rect width="240" height="126" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Purpose">
+<rect x="4.00" y="4.00" width="68.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="38.00" y="10.48" font-size="4.234" fill="#262B33" font-weight="700">Purpose</tspan><tspan x="38.00" y="16.57" font-size="3.704" fill="#262B33">Why this experiment</tspan></text>
+</g>
+<g id="To-test-whether-compound-X-reduces-fibro">
+<rect x="78.00" y="4.00" width="158.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="79.80" y="13.32" font-size="3.881" fill="#262B33">To test whether compound X reduces fibrosis,</tspan></text>
+</g>
+<g id="What-was-done">
+<rect x="4.00" y="24.00" width="68.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="38.00" y="31.48" font-size="4.234" fill="#262B33" font-weight="700">What was done</tspan><tspan x="38.00" y="37.57" font-size="3.704" fill="#262B33">Method and conditions only</tspan></text>
+</g>
+<g id="we-stained-kidney-sections-with-Masson-s">
+<rect x="78.00" y="24.00" width="158.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="79.80" y="31.80" font-size="3.881" fill="#262B33">we stained kidney sections with Masson's trichrome on day 7 after</tspan><tspan x="79.80" y="36.84" font-size="3.881" fill="#262B33">UUO (Fig. 2a).</tspan></text>
+</g>
+<g id="Result">
+<rect x="4.00" y="46.00" width="68.00" height="36.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="38.00" y="60.07" font-size="4.234" fill="#FFFFFF" font-weight="700">Result</tspan><tspan x="38.00" y="66.16" font-size="3.704" fill="#FFFFFF">Numbers, n, statistics. Past</tspan><tspan x="38.00" y="70.97" font-size="3.704" fill="#FFFFFF">tense</tspan></text>
+</g>
+<g id="UUO-increased-the-fibrotic-area-from-1-9">
+<rect x="78.00" y="46.00" width="158.00" height="36.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="79.80" y="55.23" font-size="3.881" fill="#262B33">UUO increased the fibrotic area from 1.9% ± 0.6% in sham mice to</tspan><tspan x="79.80" y="60.27" font-size="3.881" fill="#262B33">18.2% ± 4.0% in vehicle-treated mice (mean ± SD, n = 6 mice per</tspan><tspan x="79.80" y="65.32" font-size="3.881" fill="#262B33">group; P &lt; 0.0001; Fig. 2b). Compound X lowered the fibrotic area</tspan><tspan x="79.80" y="70.36" font-size="3.881" fill="#262B33">to 9.6% ± 3.1% (P = 0.0004 versus UUO + vehicle; one-way ANOVA</tspan><tspan x="79.80" y="75.41" font-size="3.881" fill="#262B33">with Tukey's test).</tspan></text>
+</g>
+<g id="Interpretation">
+<rect x="4.00" y="86.00" width="68.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="38.00" y="93.48" font-size="4.234" fill="#262B33" font-weight="700">Interpretation</tspan><tspan x="38.00" y="99.57" font-size="3.704" fill="#262B33">One sentence within the data</tspan></text>
+</g>
+<g id="Thus-compound-X-reduced-interstitial-fib">
+<rect x="78.00" y="86.00" width="158.00" height="18.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="79.80" y="93.80" font-size="3.881" fill="#262B33">Thus, compound X reduced interstitial fibrosis in the obstructed</tspan><tspan x="79.80" y="98.84" font-size="3.881" fill="#262B33">kidney.</tspan></text>
+</g>
+<g id="Fictional-example-the-paragraph-for-Figu">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="112.91" font-size="3.528" fill="#6B7280">Fictional example, the paragraph for Figure 2. Comparison with the literature belongs in the Discussion</tspan><tspan x="4.00" y="117.49" font-size="3.528" fill="#6B7280">(W10).</tspan></text>
+</g>
+</svg>

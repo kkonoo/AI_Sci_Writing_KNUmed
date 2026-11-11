@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="114mm" viewBox="0 0 240 114" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The four parts of a reply to one reviewer comment</title>
+<rect width="240" height="114" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Quote-the-comment">
+<rect x="4.00" y="4.00" width="58.00" height="22.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="33.00" y="13.48" font-size="4.234" fill="#262B33" font-weight="700">Quote the comment</tspan><tspan x="33.00" y="19.57" font-size="3.704" fill="#262B33">R1C3</tspan></text>
+</g>
+<g id="R1C3-Serum-creatinine-is-shown-only-as-g">
+<rect x="68.00" y="4.00" width="168.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="69.80" y="13.80" font-size="3.881" fill="#262B33">R1C3: Serum creatinine is shown only as group means. Please show</tspan><tspan x="69.80" y="18.84" font-size="3.881" fill="#262B33">individual values and explain how blood was collected.</tspan></text>
+</g>
+<g id="Thanks">
+<rect x="4.00" y="30.00" width="58.00" height="16.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="33.00" y="36.48" font-size="4.234" fill="#262B33" font-weight="700">Thanks</tspan><tspan x="33.00" y="42.57" font-size="3.704" fill="#262B33">One short sentence</tspan></text>
+</g>
+<g id="We-thank-the-reviewer-for-this-suggestio">
+<rect x="68.00" y="30.00" width="168.00" height="16.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="69.80" y="39.32" font-size="3.881" fill="#262B33">We thank the reviewer for this suggestion.</tspan></text>
+</g>
+<g id="What-you-did">
+<rect x="4.00" y="50.00" width="58.00" height="22.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="33.00" y="57.07" font-size="4.234" fill="#FFFFFF" font-weight="700">What you did</tspan><tspan x="33.00" y="63.16" font-size="3.704" fill="#FFFFFF">Only what you actually</tspan><tspan x="33.00" y="67.97" font-size="3.704" fill="#FFFFFF">did</tspan></text>
+</g>
+<g id="We-now-show-serum-creatinine-for-each-mo">
+<rect x="68.00" y="50.00" width="168.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="69.80" y="59.80" font-size="3.881" fill="#262B33">We now show serum creatinine for each mouse (Fig. 1c). We also state</tspan><tspan x="69.80" y="64.84" font-size="3.881" fill="#262B33">in the Methods how and when blood was collected.</tspan></text>
+</g>
+<g id="Where-it-changed">
+<rect x="4.00" y="76.00" width="58.00" height="22.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="33.00" y="85.48" font-size="4.234" fill="#262B33" font-weight="700">Where it changed</tspan><tspan x="33.00" y="91.57" font-size="3.704" fill="#262B33">Page, line, figure</tspan></text>
+</g>
+<g id="Changes-Methods-page-6-lines-120-124-Fig">
+<rect x="68.00" y="76.00" width="168.00" height="22.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="69.80" y="85.80" font-size="3.881" fill="#262B33">Changes: Methods, page 6, lines 120–124; Fig. 1c and its legend, page</tspan><tspan x="69.80" y="90.84" font-size="3.881" fill="#262B33">22, lines 455–457.</tspan></text>
+</g>
+<g id="Fictional-comment-and-reply-Do-not-claim">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="107.70" font-size="3.528" fill="#6B7280">Fictional comment and reply. Do not claim analyses you did not do, and do not make promises.</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="68mm" viewBox="0 0 240 68" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The four parts of a review comment: location, problem, reason, suggestion</title>
+<rect width="240" height="68" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Location">
+<rect x="4.00" y="4.00" width="36.00" height="10.00" rx="5.00" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="22.00" y="10.32" font-size="3.881" fill="#FFFFFF" font-weight="700">Location</tspan></text>
+</g>
+<g id="Lines-14-16-qPCR-">
+<rect x="4.00" y="18.00" width="36.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="5.80" y="30.80" font-size="3.881" fill="#262B33">Lines 14–16</tspan><tspan x="5.80" y="35.84" font-size="3.881" fill="#262B33">(qPCR):</tspan></text>
+</g>
+<g id="Problem">
+<rect x="44.00" y="4.00" width="62.00" height="10.00" rx="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="75.00" y="10.32" font-size="3.881" fill="#262B33" font-weight="700">Problem</tspan></text>
+</g>
+<g id="The-reference-gene-used-for-normalizatio">
+<rect x="44.00" y="18.00" width="62.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="45.80" y="28.27" font-size="3.881" fill="#262B33">The reference gene used</tspan><tspan x="45.80" y="33.32" font-size="3.881" fill="#262B33">for normalization is not</tspan><tspan x="45.80" y="38.36" font-size="3.881" fill="#262B33">given.</tspan></text>
+</g>
+<g id="Reason">
+<rect x="110.00" y="4.00" width="62.00" height="10.00" rx="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="141.00" y="10.32" font-size="3.881" fill="#262B33" font-weight="700">Reason</tspan></text>
+</g>
+<g id="Without-it-a-reader-cannot-repeat-the-Ct">
+<rect x="110.00" y="18.00" width="62.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="111.80" y="28.27" font-size="3.881" fill="#262B33">Without it, a reader</tspan><tspan x="111.80" y="33.32" font-size="3.881" fill="#262B33">cannot repeat the ΔΔCt</tspan><tspan x="111.80" y="38.36" font-size="3.881" fill="#262B33">calculation.</tspan></text>
+</g>
+<g id="Suggestion-if-any-">
+<rect x="176.00" y="4.00" width="60.00" height="10.00" rx="5.00" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="206.00" y="10.32" font-size="3.881" fill="#262B33" font-weight="700">Suggestion (if any)</tspan></text>
+</g>
+<g id="Please-name-the-gene-">
+<rect x="176.00" y="18.00" width="60.00" height="28.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="177.80" y="33.32" font-size="3.881" fill="#262B33">Please name the gene.</tspan></text>
+</g>
+<g id="Without-a-location-the-author-does-not-k">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="54.91" font-size="3.528" fill="#6B7280">Without a location, the author does not know where to make the change. Without a reason, the author cannot</tspan><tspan x="4.00" y="59.49" font-size="3.528" fill="#6B7280">judge whether to accept it.</tspan></text>
+</g>
+</svg>

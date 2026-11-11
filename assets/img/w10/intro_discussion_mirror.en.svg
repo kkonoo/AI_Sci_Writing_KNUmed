@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="134.0mm" viewBox="0 0 240 134.0" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The Introduction narrows from the broad context to the question, and the Discussion widens from the answer</title>
+<rect width="240" height="134.0" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="Introduction">
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="62.00" y="8.94" font-size="4.234" fill="#262B33" font-weight="700">Introduction</tspan></text>
+</g>
+<g id="Discussion">
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="178.00" y="55.44" font-size="4.234" fill="#262B33" font-weight="700">Discussion</tspan></text>
+</g>
+<g id="Background">
+<rect x="6.00" y="13.00" width="112.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="62.00" y="20.26" font-size="3.704" fill="#262B33" font-weight="700">Background</tspan></text>
+</g>
+<g id="Why-it-matters">
+<rect x="15.00" y="28.50" width="94.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="62.00" y="35.76" font-size="3.704" fill="#262B33" font-weight="700">Why it matters</tspan></text>
+</g>
+<g id="Existing-work-and-the-gap">
+<rect x="24.00" y="44.00" width="76.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="62.00" y="51.26" font-size="3.704" fill="#262B33" font-weight="700">Existing work and the gap</tspan></text>
+</g>
+<g id="This-study-s-question">
+<rect x="33.00" y="59.50" width="58.00" height="12.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="62.00" y="66.76" font-size="3.704" fill="#FFFFFF" font-weight="700">This study's question</tspan></text>
+</g>
+<g id="Answer-to-the-question">
+<rect x="149.00" y="59.50" width="58.00" height="12.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="178.00" y="66.76" font-size="3.704" fill="#FFFFFF" font-weight="700">Answer to the question</tspan></text>
+</g>
+<g id="Comparison-with-earlier-studies">
+<rect x="140.00" y="75.00" width="76.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="178.00" y="82.26" font-size="3.704" fill="#262B33" font-weight="700">Comparison with earlier studies</tspan></text>
+</g>
+<g id="Limitations">
+<rect x="131.00" y="90.50" width="94.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="178.00" y="97.76" font-size="3.704" fill="#262B33" font-weight="700">Limitations</tspan></text>
+</g>
+<g id="Next-steps-and-the-last-sentence">
+<rect x="122.00" y="106.00" width="112.00" height="12.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="178.00" y="113.26" font-size="3.704" fill="#262B33" font-weight="700">Next steps and the last sentence</tspan></text>
+</g>
+<g id="The-first-paragraph-and-the-last-sentenc">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="126.70" font-size="3.528" fill="#6B7280">The first paragraph and the last sentence both answer the question in the last paragraph of the Introduction.</tspan></text>
+</g>
+<polyline points="91.00,65.50 149.00,65.50" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="62.00,71.50 62.00,112.00 122.00,112.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" stroke-dasharray="1.06 0.79" marker-end="url(#arrow-muted)"/>
+<text x="120.00" y="62.98" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">Results</text>
+<text x="92.00" y="109.48" font-size="3.528" fill="#6B7280" text-anchor="middle" letter-spacing="-0.015em">Same question</text>
+</svg>

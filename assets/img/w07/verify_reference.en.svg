@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="74mm" viewBox="0 0 240 74" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">Five steps to check a reference</title>
+<rect width="240" height="74" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="1">
+<circle cx="25.60" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="25.60" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="DOI">
+<rect x="4.00" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="25.60" y="32.01" font-size="4.057" fill="#262B33" font-weight="700">DOI</tspan><tspan x="25.60" y="38.04" font-size="3.704" fill="#6B7280">Open it at</tspan><tspan x="25.60" y="42.86" font-size="3.704" fill="#6B7280">doi.org</tspan></text>
+</g>
+<g id="2">
+<circle cx="72.80" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="72.80" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="Database">
+<rect x="51.20" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="72.80" y="29.60" font-size="4.057" fill="#262B33" font-weight="700">Database</tspan><tspan x="72.80" y="35.64" font-size="3.704" fill="#6B7280">Find the title in</tspan><tspan x="72.80" y="40.45" font-size="3.704" fill="#6B7280">PubMed and match</tspan><tspan x="72.80" y="45.27" font-size="3.704" fill="#6B7280">the PMID</tspan></text>
+</g>
+<g id="3">
+<circle cx="120.00" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="Citation-details">
+<rect x="98.40" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="29.60" font-size="4.057" fill="#262B33" font-weight="700">Citation details</tspan><tspan x="120.00" y="35.64" font-size="3.704" fill="#6B7280">Authors, year,</tspan><tspan x="120.00" y="40.45" font-size="3.704" fill="#6B7280">title, journal,</tspan><tspan x="120.00" y="45.27" font-size="3.704" fill="#6B7280">volume and pages</tspan></text>
+</g>
+<g id="4">
+<circle cx="167.20" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="167.20" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">4</tspan></text>
+</g>
+<g id="Claim">
+<rect x="145.60" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="167.20" y="27.19" font-size="4.057" fill="#FFFFFF" font-weight="700">Claim</tspan><tspan x="167.20" y="33.23" font-size="3.704" fill="#FFFFFF">Find the figure,</tspan><tspan x="167.20" y="38.04" font-size="3.704" fill="#FFFFFF">table or sentence</tspan><tspan x="167.20" y="42.86" font-size="3.704" fill="#FFFFFF">that supports</tspan><tspan x="167.20" y="47.68" font-size="3.704" fill="#FFFFFF">your sentence</tspan></text>
+</g>
+<g id="5">
+<circle cx="214.40" cy="10.00" r="5.00" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="214.40" y="11.20" font-size="3.528" fill="#262B33" font-weight="700">5</tspan></text>
+</g>
+<g id="Status">
+<rect x="192.80" y="19.00" width="43.20" height="34.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="214.40" y="29.60" font-size="4.057" fill="#262B33" font-weight="700">Status</tspan><tspan x="214.40" y="35.64" font-size="3.704" fill="#6B7280">Retraction,</tspan><tspan x="214.40" y="40.45" font-size="3.704" fill="#6B7280">correction,</tspan><tspan x="214.40" y="45.27" font-size="3.704" fill="#6B7280">preprint or not</tspan></text>
+</g>
+<g id="An-open-DOI-is-not-the-end-The-hardest-e">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="61.91" font-size="3.528" fill="#6B7280">An open DOI is not the end. The hardest error to catch is a real paper that does not support your sentence</tspan><tspan x="4.00" y="66.49" font-size="3.528" fill="#6B7280">(step 4).</tspan></text>
+</g>
+<polyline points="30.60,10.00 67.80,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="77.80,10.00 115.00,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="125.00,10.00 162.20,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+<polyline points="172.20,10.00 209.40,10.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
+</svg>

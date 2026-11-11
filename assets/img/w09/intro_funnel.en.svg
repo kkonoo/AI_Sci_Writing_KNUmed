@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">The Introduction funnel: background, why it matters, what existing work has shown and cannot do, this study</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs></defs>
+<g id="Background">
+<rect x="4.00" y="4.00" width="232.00" height="18.00" rx="0.80" fill="#EAEBEB"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="11.48" font-size="4.234" fill="#262B33" font-weight="700">Background</tspan><tspan x="120.00" y="17.57" font-size="3.704" fill="#262B33">What is this about?  ·  1 paragraph</tspan></text>
+</g>
+<g id="Why-it-matters">
+<rect x="22.00" y="26.00" width="196.00" height="18.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="33.48" font-size="4.234" fill="#262B33" font-weight="700">Why it matters</tspan><tspan x="120.00" y="39.57" font-size="3.704" fill="#262B33">Why do I need to know this?  ·  end of the background, or 1 paragraph</tspan></text>
+</g>
+<g id="What-existing-work-has-shown-and-cannot-">
+<rect x="40.00" y="48.00" width="160.00" height="18.00" rx="0.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="55.48" font-size="4.234" fill="#262B33" font-weight="700">What existing work has shown and cannot do</tspan><tspan x="120.00" y="61.57" font-size="3.704" fill="#262B33">What is already known, and what is still unknown?  ·  1–2 paragraphs</tspan></text>
+</g>
+<g id="This-study">
+<rect x="58.00" y="70.00" width="124.00" height="18.00" rx="0.80" fill="#2F343B"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="120.00" y="77.48" font-size="4.234" fill="#FFFFFF" font-weight="700">This study</tspan><tspan x="120.00" y="83.57" font-size="3.704" fill="#FFFFFF">How does this study fill the gap?  ·  last paragraph</tspan></text>
+</g>
+</svg>
