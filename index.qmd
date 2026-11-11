@@ -74,10 +74,10 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 
 | Item | Weight |
 |---|---|
-| Weekly assignments | 30% |
+| Weekly assignments | 25% |
 | Final manuscript | 30% |
 | AI use log | 15% |
-| Peer review (weeks 8 and 12) | 15% |
+| Peer review (week 8 10%, week 12 10%) | 20% |
 | Attendance and participation | 10% |
 
 We do not grade whether you used AI. We grade what you gave to AI and how you checked the result.

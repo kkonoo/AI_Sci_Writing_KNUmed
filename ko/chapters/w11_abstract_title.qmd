@@ -42,7 +42,7 @@ date: last-modified
 | [PLOS ONE](https://journals.plos.org/plosone/s/submission-guidelines) | 300단어 이하, 인용 없음, 연구한 종을 쓴다 | 250자 이하(단어가 아니라 글자 수). 임상 연구로 오해할 수 있으면 동물 모델을 제목에 쓴다 |
 
 - 위 내용은 2026년 11월 10일에 각 저널 페이지에서 확인했다. 규정은 바뀌므로 투고 전에 다시 확인한다([W13](w13_submission.qmd)).
-- Background, Methods, Results, Conclusions 같은 소제목을 붙이는 구조화 초록(structured abstract)을 요구하는 저널도 있다. TODO: 수강생 분야에서 구조화 초록을 쓰는 저널 한 곳을 확인해서 예로 넣는다.
+- Background, Methods, Results, Conclusions 같은 소제목을 붙이는 구조화 초록(structured abstract)을 요구하는 저널도 있다. 투고할 저널의 안내에서 초록 형식을 확인한다.
 
 ## 줄일 때는 문법이 아니라 내용을 뺀다
 
@@ -159,7 +159,7 @@ Abstract, Title 3안
   - 줄일 때 문장을 완전하게 두었고, 뺀 내용과 이유가 적혀 있다.
   - Title 세 안이 서로 다른 유형이고, 결과보다 세게 쓰지 않았다.
 - AI를 썼으면 AI 사용 기록을 함께 낸다. 제출은 학교 LMS다.
-- TODO: 마감
+- 마감은 따로 공지한다.
 
 # 메모 {#notes}
 
