@@ -9,14 +9,38 @@ What you put into AI is sorted like a traffic light. The AI policies of the univ
 
 | Signal | What it covers |
 |---|---|
-| Free to use | Explanations of concepts and grammar, help with reading published papers, track B manuscripts |
-| Always verify | References, numbers, suggested statistical methods, recent research findings, whether a sentence that AI revised still means the same thing |
+| Free to use | Explanations of concepts and grammar, help with reading published papers, track B manuscripts (until W11, [turn web search off](#track-b)) |
+| Always verify | References, numbers, suggested statistical methods, recent research findings, whether a sentence that AI revised still means the same thing, [graphs drawn with AI-written code](#plot-code) |
 | Conditional (track A) | Sentences from your own manuscript. Get your supervisor's agreement. Use only tools set so that your input is not used for training. Do not put in raw data or figure files |
+| Conditional (received reviews) | Review comments you received on your own manuscript. Remove the reviewer's name. Use only tools set so that your input is not used for training. For journal reviews, check that journal's policy first ([details](#received-reviews)) |
 | Do not put in | Patient information, manuscripts under review (including other people's manuscripts you received as a reviewer), ideas not yet filed in a grant or patent, account details |
 
 The research ethics guide of Kyungpook National University says not to put unpublished research data into AI. For practice in this course, the "Conditional (track A)" row is allowed. You must meet all of its conditions.
 
 If you are unsure whether something may go into AI, ask the instructor before you put it in.
+
+## Track B turns web search off until W11 {#track-b}
+
+Until they submit the W11 assignment (Abstract and Title), track B students write without reading the text of the original paper. Follow these rules so that AI does not find the original paper and show it to you.
+
+- Turn off the web search feature of the AI tool. If an answer comes with links to web sources, a search was run. Do not use that answer, and ask again in a new conversation.
+- Do not put the title, authors or DOI of the paper you chose into a prompt.
+- Even with web search off, the model may have read the paper during training. If an answer contains numbers or results that are not in your figures and Methods, do not use them, and note this in your AI use log.
+
+After you submit the W11 assignment, you may turn web search on.
+
+## Putting received reviews into AI {#received-reviews}
+
+You may put review comments that you received on your own manuscript into AI if you meet all of the conditions below. This covers comments from peer review in class (W8, W12) and comments from journal reviewers.
+
+- Remove anything that shows who wrote the review, such as the reviewer's name.
+- Use only tools set so that your input is not used for training.
+- Let AI only organize the comments, split each comment into its requests, and draft replies. You decide whether to accept or rebut each comment.
+- Record the use in your AI use log.
+
+For comments from journal reviewers, check that journal's AI policy first. If the policy does not allow it, do not put them in. For example, the [Nature Portfolio AI policy](https://www.nature.com/nature-portfolio/editorial-policies/ai) lists translating and structuring reviewer comments as an example of permitted AI use. The same policy also says that manuscripts and peer review reports must not be shared with unsecured or public AI systems. Sentences from your own manuscript under review stay in the "Do not put in" row. When you ask AI for a draft reply, give it only the comment and a list of what you did ([W14](chapters/w14_reviewer_response.qmd)).
+
+The reviewing side is different. A classmate's manuscript stays in the "Do not put in" row, and you write the review you give a classmate without AI.
 
 # The three checks {#three-checks}
 
@@ -35,12 +59,24 @@ Read side by side
 - State that you used AI in the Methods or the Acknowledgments, as the journal's policy requires.
 - Do not use AI to make or edit data figures (blots, micrographs and so on).
 
+## Graph code written by AI {#plot-code}
+
+AI may write the code (R, Python) that draws your graphs. You check that the graph shows the data correctly.
+
+- Do not put data files into AI. Give it only the column names and formats, or a few made-up example rows, and run the code on your own computer.
+- Count the points in each group and check that they match n.
+- Compare the means and error bars with values you calculated separately. Check in the code whether the error bars are SD or SEM, and make the legend match.
+- Check that the test and P values shown on the graph match the Methods and Results.
+- Check that the code that sets the axis range has not removed points. For example, `scale_y_continuous(limits = ...)` in R ggplot2 removes points outside the range and recalculates the means from the remaining points. To zoom in without removing points, use `coord_cartesian()`.
+- Record the use in your AI use log. State in the Methods that AI helped write the code, as the journal's policy requires. Example: We used [tool name and version] to help write the R code that plotted Figure 2b. The authors reviewed and tested all code before use.
+
 # AI use log {#ai-log}
 
-The first row is an example. Submit the log through the university LMS.
+The first two rows are examples. Submit the log through the university LMS.
 
 | Date | Tool | Task given to AI | What you accepted | What you discarded, and why | How you checked |
 |---|---|---|---|---|---|
 | Mar 10 (example) | ChatGPT | Grammar check of one Results paragraph | Article fixes in three places | A suggestion to change "increased" to "significantly increased". Discarded, because no statistical test was run for this comparison | Read side by side with the original |
+| Mar 26 (example) | Claude | R code for the dot plot in Figure 2b, given only the column names and no data | The plotting code | The line that set the y-axis range with `limits`. It dropped points outside the range, so it was changed to `coord_cartesian()` | Counted the points and calculated the group means separately, then compared |
 | | | | | | |
 | | | | | | |

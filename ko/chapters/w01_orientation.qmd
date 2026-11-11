@@ -84,6 +84,7 @@ date: last-modified
 - 검색 결과 화면에서 Abstract를 펼치지 않음. 저널 페이지에서는 그림과 Methods로 바로 감.
 - AI에게 고른 논문을 요약해 달라고 하지 않음. AI의 요약을 읽으면 Abstract와 Results를 읽은 것과 같음.
 - 논문을 고른 뒤에는 그 논문의 Title이나 DOI를 AI에 넣지 않음. AI가 답하면서 Results를 드러낼 수 있음.
+- W11 과제를 낼 때까지 AI의 웹 검색 기능을 끔. 답에 웹 출처 링크가 붙어 나오면 그 답은 쓰지 않음([AI 사용 규칙](../ai_rules.qmd#track-b)).
 - 고른 논문을 문헌 검색([W7](w07_literature.qmd))의 출발점으로 쓰지 않음. 그 논문을 인용한 논문이나 관련 논문 목록에서 결과가 드러날 수 있음.
 - Title은 피할 수 없음. W11에서 Title 3안을 쓴 뒤 실제 Title과 비교함.
 - 원래 논문 전체는 W11 과제(Abstract와 Title)를 낸 뒤부터 읽음. W11에 낸 판이 W15 비교 메모의 기준이 됨.

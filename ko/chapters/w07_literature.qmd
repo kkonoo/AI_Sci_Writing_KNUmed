@@ -85,7 +85,7 @@ the statement. If you are not sure that a paper exists, say so instead of guessi
 ```
 
 - 트랙 A: 공개된 일반 주제는 자유롭게 칸이다. 아직 발표하지 않은 가설, 결과, 과제 아이디어는 [AI 신호등](../ai_rules.qmd#traffic-light)의 넣지 않기 칸이다.
-- 트랙 B: 고른 논문의 주제로 해도 되지만 논문 제목과 DOI는 넣지 않는다. AI가 그 논문의 Introduction과 Discussion 내용을 알려 줄 수 있다.
+- 트랙 B: 고른 논문의 주제로 해도 되지만 논문 제목과 DOI는 넣지 않고, 웹 검색은 끈다. AI가 그 논문의 Introduction과 Discussion 내용을 알려 줄 수 있다.
 - AI가 낸 참고문헌은 어느 트랙이든 꼭 검증 칸이다.
 - 짝과 표를 바꿔 몇 편을 다시 확인해 보는 것은 좋다. 짝의 표에는 아직 발표하지 않은 주장이 들어 있으니 AI에 넣지 않는다.
 

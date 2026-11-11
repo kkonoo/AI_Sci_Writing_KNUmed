@@ -143,7 +143,7 @@ Do not change any number, gene name, statistical result or claim.
 ```
 
 - 트랙 A: 위 가상의 예시 데이터를 씀. 자기 그림 하나의 내용으로 해도 되지만, 조건부 (트랙 A) 칸의 조건(지도교수 동의, 학습에 쓰이지 않는 설정, 원 데이터와 그림 파일은 넣지 않기)을 모두 지킬 때만 가능함.
-- 트랙 B: 고른 논문의 Methods 한 단락을 아래 프롬프트로 다듬게 함. 사람이 쓴 원문과 AI가 다듬은 글을 비교하면 AI가 더한 패턴이 잘 보임. Title, DOI, 저자 이름은 넣지 않고, 논문에 대해 묻지 않음.
+- 트랙 B: 고른 논문의 Methods 한 단락을 아래 프롬프트로 다듬게 함. 사람이 쓴 원문과 AI가 다듬은 글을 비교하면 AI가 더한 패턴이 잘 보임. Title, DOI, 저자 이름은 넣지 않고, 논문에 대해 묻지 않음. 웹 검색은 끔.
 
 ```text
 Rewrite the following Methods paragraph in a more polished academic style.
