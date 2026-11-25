@@ -5,6 +5,17 @@ author: "Eunji Ha"
 affiliation: 'School of Medicine, Kyungpook National Univ.'
 date: last-modified
 format: html
+# 강의 주소로 바로 들어오면 한국어판 홈으로 보낸다.
+# EN 버튼이나 메뉴처럼 이 사이트 안에서 온 경우에는 영어판에 남는다.
+include-in-header:
+  - text: |
+      <script>
+      (function () {
+        var root = new URL('./', window.location.href);
+        if (document.referrer.indexOf(root.href) === 0) return;
+        window.location.replace(new URL('ko/', root).href + window.location.search + window.location.hash);
+      })();
+      </script>
 ---
 
 ## Course overview {#overview}
