@@ -11,6 +11,7 @@ include-after-body: ../assets/ai-lab.html
 By the end of this week, you will be able to:
 
 - Find translationese in your manuscript and rewrite those sentences in English word order.
+- Check that the story line of the whole manuscript follows your five sentences from [W1](w01_orientation.qmd).
 - Use the ten patterns from [W3](w03_readable_sentences.qmd) as a checklist and go through the whole manuscript.
 - Make a term list so that you call each concept by only one term.
 - Read a peer's manuscript without AI and tell the author where you got stuck, with locations and questions.
@@ -27,6 +28,32 @@ The examples come from the fictional example study that we have used since W5: t
 - Work in this order: content and figure order → paragraphs → sentences → words and grammar.
 - If you polish sentences first, that work is wasted when you later cut or move a paragraph.
 - This week, look at one thing first. Does the conclusion sentence of each figure ([W5](w05_figure_storyboard.qmd)) appear with the same strength in the first sentence of its Results paragraph, in the Abstract and in the Title?
+
+## Check the story line of the whole manuscript first
+
+- Rule: before you polish sentences, take out your five-sentence summary from [W1](w01_orientation.qmd). Then find where each of the five sentences is in the manuscript.
+
+| Five sentences | Where it should be in the manuscript |
+|---|---|
+| Question | Last paragraph of the Introduction, first paragraph of the Discussion |
+| Why it matters | Background and gap sentences of the Introduction, opening of the Abstract |
+| What was done | Last paragraph of the Introduction, Methods, approach in the Abstract |
+| What was found | Interpretation sentence at the end of each Results paragraph, key results in the Abstract |
+| What it means | First and last paragraphs of the Discussion, conclusion of the Abstract, Title |
+
+- When the same content appears in several places, it must appear in the same words and with the same strength. If the question raised in the Introduction differs from the question the Discussion answers, fix it. Fix it too if what was found becomes stronger in the Abstract or the Title.
+- Read only the topic sentences one after another. In the Introduction and the Discussion, read the first sentence of each paragraph. In the Results, read the interpretation sentence at the end of each paragraph. If the story breaks, or if the same subject comes up in two places, change the order of the paragraphs ([W4](w04_paragraphs.qmd)).
+- Try explaining the story line of your manuscript to a peer in a few minutes. If you cannot explain it, readers will not be able to follow it either (Mensh & Kording 2017, rule 10).
+- Find what to fix from how readers react. Table 1 of Mensh & Kording (2017) pairs readers' reactions with the rules that were broken. Below is part of that table, matched to the weeks of this course. If you hold the comments from peer review against this table, you can judge whether to fix something large or something small.
+
+| How readers react | Rule broken (Mensh & Kording 2017) | Week to revisit |
+|---|---|---|
+| They cannot give a one-sentence summary | Focus on one central contribution | W1 |
+| They ask why something matters or what it means | Context, content, conclusion structure | W4, W10, W11 |
+| They stumble on a short stretch of text | Logical flow | W3, W4 |
+| After reading the Abstract, they cannot pitch the work in a few words | The Abstract as a compact summary | W12 |
+| They do not agree with your conclusion | The Results show why the conclusion is justified | W7 |
+| They are left with criticisms or questions | The Discussion deals with criticism first | W11 |
 
 ## Translationese comes from carrying Korean word order and habits into English
 
@@ -82,7 +109,8 @@ The examples come from the fictional example study that we have used since W5: t
 
 - This week is the second peer review week, after [W9](w09_midterm_review.qmd).
 - Under the AI use rules, a peer's manuscript, figure order cards and reference table are someone else's manuscript. Do not put them into AI. Read them yourself.
-- The reader does not rewrite sentences for the author. Instead, the reader gives back the three things below.
+- The reader does not rewrite sentences for the author. Instead, the reader gives back the four things below.
+  - Write down the central contribution of the whole manuscript as you read it, in one sentence. The author compares this with their five-sentence summary from W1. If you read it differently, the focus of the manuscript is blurred.
   - Write down the conclusion of each figure as you read it, in one sentence per figure. The author compares these with their own conclusion sentences. If you read a different conclusion, the manuscript did not get that conclusion across.
   - Give the location (page and line) of each sentence you had to read again, and say why.
   - Note the terms where you could not tell whether two names meant the same thing. Write them as questions. Example: Is the "collagen area" in Fig. 2 the same as the "fibrotic area" in the Abstract?
@@ -152,9 +180,11 @@ Revised full manuscript
   - Revised manuscript: a Word file. Turn on track changes so that the changes are visible. Add line numbers.
   - Term list: use the table format in the principles above. List the other names that you actually found in your manuscript.
   - Table of responses to peer comments: peer comment | addressed or not | where it changed (page, line). For each comment you did not address, give the reason.
-  - The review you wrote for your peer: the three things in the principles above (one sentence for each figure conclusion, the location of and reason for each sentence that stopped you, and questions about confusing terms).
+  - Story line check: in the five-sentence table in the principles above, give where you found each sentence in the manuscript (page, line).
+  - The review you wrote for your peer: the four things in the principles above (a one-sentence summary of the whole manuscript, one sentence for each figure conclusion, the location of and reason for each sentence that stopped you, and questions about confusing terms).
 - Differences by track: track B students mark the places they revised after reading the original paper. The reference point for the W15 comparison memo is the version you submitted in W12, not this revised manuscript.
 - Grading criteria
+  - The five sentences are in their places in the manuscript, in the same words and with the same strength.
   - There is less translationese and fewer W3 patterns, and the meaning and numbers did not change during revision.
   - The whole manuscript follows the term list.
   - For each peer comment, the table says whether and where you addressed it, or why you did not.
@@ -164,4 +194,4 @@ Revised full manuscript
 
 # Notes {#notes}
 
-Checking for translationese and signs of AI writing, consistent terminology, and swapping drafts with a peer
+Checking the story line of the whole manuscript (Zeiger chapter 12, Mensh & Kording Table 1), checking for translationese and signs of AI writing, consistent terminology, and swapping drafts with a peer
