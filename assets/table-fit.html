@@ -1,0 +1,71 @@
+<!-- 표 열 너비를 내용에 맞춘다.
+     _quarto.yml의 tbl-colwidths: false로 브라우저가 열 너비를 정한다. 그러면 긴 문장이 있는 열이
+     자리를 거의 다 가져가서, 짧은 꼬리표만 있는 열도 단어마다 줄이 바뀐다.
+     이 스크립트는 꼬리표 열(한 줄 너비가 가장 긴 열의 1/3 이하)에 한 줄 너비만큼 자리를 준다.
+     다만 한 열은 표 너비의 35%(열이 셋 이상이면 25%), 꼬리표 열 전체는 60%까지만 준다.
+     그보다 긴 꼬리표는 그 안에서 줄이 바뀐다. 브라우저가 이미 더 넓게 잡은 열은 줄이지 않는다. -->
+<script>
+(function () {
+  var LABEL = 1 / 3;
+  var CAP = 0.35;      // 열이 둘인 표
+  var CAP_MANY = 0.25; // 열이 셋 이상인 표
+  var BUDGET = 0.6;
+
+  // 셀 내용을 한 줄로 썼을 때의 너비(안쪽 여백 포함)
+  function oneLineWidth(cell) {
+    var probe = document.createElement('span');
+    probe.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;left:0;top:0';
+    probe.innerHTML = cell.innerHTML;
+    cell.appendChild(probe);
+    var style = getComputedStyle(cell);
+    var w = probe.getBoundingClientRect().width +
+      parseFloat(style.paddingLeft) + parseFloat(style.paddingRight);
+    cell.removeChild(probe);
+    return w;
+  }
+
+  function fitTable(table) {
+    var rows = [].slice.call(table.rows);
+    rows.forEach(function (r) { [].forEach.call(r.cells, function (c) { c.style.width = ''; }); });
+    var box = table.parentElement.getBoundingClientRect().width;
+    if (!rows.length || !box) return;
+
+    var oneLine = [];
+    rows.forEach(function (r) {
+      [].forEach.call(r.cells, function (c, i) {
+        oneLine[i] = Math.max(oneLine[i] || 0, oneLineWidth(c));
+      });
+    });
+    var longest = Math.max.apply(null, oneLine);
+    var current = [].map.call(rows[0].cells, function (c) { return c.getBoundingClientRect().width; });
+    var cap = (oneLine.length > 2 ? CAP_MANY : CAP) * box;
+
+    var labels = oneLine
+      .map(function (w, i) { return { i: i, need: Math.ceil(Math.min(w, cap)) + 1 }; })
+      .filter(function (c) { return oneLine[c.i] <= LABEL * longest; })
+      .sort(function (a, b) { return a.need - b.need; });
+
+    var used = 0;
+    labels.forEach(function (c) {
+      if (used + c.need > BUDGET * box) return;
+      used += c.need;
+      if (c.need <= current[c.i]) return;
+      rows.forEach(function (r) {
+        if (r.cells[c.i]) r.cells[c.i].style.width = c.need + 'px';
+      });
+    });
+  }
+
+  function fitAll() {
+    document.querySelectorAll('main table').forEach(fitTable);
+  }
+
+  var timer;
+  window.addEventListener('resize', function () {
+    clearTimeout(timer);
+    timer = setTimeout(fitAll, 150);
+  });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitAll);
+  else window.addEventListener('load', fitAll);
+})();
+</script>

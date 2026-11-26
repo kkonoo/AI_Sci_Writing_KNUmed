@@ -54,7 +54,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 ### Part 1 · Foundations
 
 | Week | Topic | Assignment |
-|---|------------------------|------------------------|
+|---|---|---|
 | 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures / B: choose a paper |
 | 2 | [AI basics](chapters/w02_ai_basics.qmd) | Verify one AI answer and bring it to class |
 | 3 | [Readable English sentences](chapters/w03_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
@@ -62,7 +62,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 ### Part 2 · Writing the manuscript
 
 | Week | Topic | Assignment |
-|---|------------------------|------------------------|
+|---|---|---|
 | 4 | [Figure storyboard](chapters/w04_figure_storyboard.qmd) | Figure order cards |
 | 5 | [Methods and figure legends](chapters/w05_methods_legends.qmd) | Draft Methods and legends |
 | 6 | [Results](chapters/w06_results.qmd) | Draft Results |
@@ -75,7 +75,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 ### Part 3 · Polishing and submission
 
 | Week | Topic | Assignment |
-|---|------------------------|------------------------|
+|---|---|---|
 | 12 | [Polishing](chapters/w12_polishing.qmd) | Revised full manuscript |
 | 13 | [Preparing to submit](chapters/w13_submission.qmd) | Cover letter |
 | 14 | [Responding to reviewers](chapters/w14_reviewer_response.qmd) | One response letter |

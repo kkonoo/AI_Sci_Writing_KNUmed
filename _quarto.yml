@@ -228,6 +228,7 @@ format:
     highlight-style: github
 
     number-sections: false
+    tbl-colwidths: false         # 표 열 너비를 내용에 맞춘다 (Pandoc의 고정 비율을 쓰지 않음)
     lightbox: true               # click an image to see it full size (helps on phones)
     smooth-scroll: true
 
@@ -238,6 +239,7 @@ format:
 
     include-after-body:
       - assets/language-switch.html
+      - assets/table-fit.html      # 짧은 열은 줄바꿈하지 않게 (tbl-colwidths: false와 함께)
 
 execute:
   freeze: auto

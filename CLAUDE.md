@@ -26,6 +26,7 @@
 - 아직 쓰지 않은 곳에는 `TODO`가 있다. 남은 일은 `grep -rn TODO --include=*.qmd .`로 찾는다.
 - 이 강의는 해마다 연다. 마감 날짜, 발표 시간과 순서, 수업에서 시연할 AI 도구처럼 해마다 바뀔 수 있는 것은 자료에 적지 않고 따로 공지한다. 자료에는 "따로 공지한다"라고만 쓴다.
 - 그림 같은 공용 파일은 `assets/`에 두고 두 판이 함께 쓴다. `ko/` 아래에 복사하지 않는다.
+- 표의 열 너비는 브라우저가 내용에 맞춰 정한다(`_quarto.yml`의 `tbl-colwidths: false`). 짧은 꼬리표 열은 `assets/table-fit.html`이 한 줄로 둔다. 구분선의 대시 개수로 너비를 맞추지 않는다.
 - 학생이 내려받아 채우는 빈 양식(예: 지도교수 동의서)은 `assets/forms/`에 둔다.
 
 ## 그림
@@ -64,6 +65,7 @@
 - 과목 색 값: 라이트 `#2F343B`, 다크 `#D3D8DF`
 - `assets/language-switch.html` (EN/KO 전환 버튼과 한국어 메뉴 이름)
 - `assets/ai-lab.html`, `worker/` (AI 실습 창. API 키와 비용이 걸려 있다)
+- `assets/table-fit.html` (표 열 너비)
 - `.github/workflows/deploy.yml`
 
 새 페이지를 더하거나 주차 제목을 바꿔야 하면 위 파일도 같이 바뀌어야 한다. 이때는 먼저 kkonoo에게 말한다.

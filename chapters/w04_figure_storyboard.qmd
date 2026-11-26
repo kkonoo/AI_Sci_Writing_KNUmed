@@ -49,7 +49,7 @@ include-after-body: ../assets/ai-lab.html
 ![Figure order cards of the fictional example study. Each figure has one question that it answers and one conclusion sentence.](../assets/img/w04/storyboard.en.svg){fig-alt="Four cards, Figure 1 to 4, in numbered order. At the top of each card is the question it answers, and below it is the conclusion sentence in English."}
 
 | Figure | Question it answers | Conclusion sentence (fictional example) |
-|---|------------------------|------------------------|
+|---|---|---|
 | 1 | Does compound X change general health? | Mice given compound X or vehicle have similar body weight and serum creatinine after UUO. |
 | 2 | Is fibrosis reduced? | Compound X reduces interstitial fibrosis in the obstructed kidney. |
 | 3 | Is the expression of fibrosis genes lower too? | Compound X lowers Col1a1 and Acta2 expression after UUO. |
