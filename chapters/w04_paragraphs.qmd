@@ -20,7 +20,7 @@ By the end of this week, you will be able to:
 
 In [W3](w03_readable_sentences.qmd) we made single sentences easy to read. This week we join sentences into a paragraph. Readers read one sentence at a time, but they understand content one paragraph at a time. Even when every sentence is easy to read, a paragraph does not read well if the order and the links between sentences are wrong.
 
-This week's principles draw on two sources. One is chapter 3 (paragraph structure) of Zeiger (2000), *Essentials of Writing Biomedical Research Papers*. The other is Gopen & Swan (1990), "The Science of Scientific Writing." Full references are in [Resources](../resources.qmd#books). The examples come from the same fictional example study as the weeks from [W5](w05_figure_storyboard.qmd) onward, and the numbers are made up.
+This week's principles draw on two sources. One is chapter 3 (paragraph structure) of Zeiger (2000), *Essentials of Writing Biomedical Research Papers*. The other is Gopen & Swan (1990), "The Science of Scientific Writing." We also use some of the rules in Mensh & Kording (2017). Full references are in [Resources](../resources.qmd#books). The examples come from the same fictional example study as the weeks from [W5](w05_figure_storyboard.qmd) onward, and the numbers are made up.
 
 ## Give each paragraph one claim, and announce it at the start
 
@@ -28,6 +28,7 @@ This week's principles draw on two sources. One is chapter 3 (paragraph structur
 - Put the topic sentence at the start of the paragraph. Readers decide from the first sentence what they will get from the paragraph. If the claim comes last, readers go through the earlier sentences without knowing why they are there.
 - In the Introduction and Discussion, the first sentence of a paragraph is its topic sentence (see the paragraph plan in [W10](w10_introduction.qmd)). A Results paragraph starts with a purpose sentence and ends with an interpretation sentence ([W7](w07_results.qmd)). Even then, the first sentence tells readers what the paragraph is about.
 - If you cannot state the claim in one sentence, the paragraph has two claims or no claim yet. If it has two, split it.
+- Mensh & Kording (2017) recommend the order context, content, conclusion within a paragraph too. The first sentence opens the topic, the middle sentences carry the content, and the last sentence leaves the conclusion that readers should remember. This points the same way as putting the topic sentence first. From the first sentence, readers know what they will read. From the last, they know what to take away.
 - Check: read only the topic sentences one after another. They alone should show the line of the argument.
 - Example (wet lab, fictional):
   - Before: We measured the fibrotic area with Masson's trichrome staining. We also measured *Col1a1* and *Acta2* expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
@@ -50,7 +51,7 @@ This week's principles draw on two sources. One is chapter 3 (paragraph structur
 ## Put the key term in the topic sentence, and repeat it in the same words
 
 - Rule: put the key term of a paragraph in its topic sentence. After that, repeat it in the same words.
-- The writing-class rule "do not repeat the same word" does not suit scientific writing. When the word changes, readers take it as a different thing.
+- The writing-class rule "do not repeat the same word" does not suit scientific writing. When the word changes, readers take it as a different thing. Mensh & Kording (2017) also write that there is nothing wrong with using the same word several times, and that a different word makes readers wonder whether the meaning is slightly different.
 - Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in W3. Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
 
 ## Show how sentences relate with the right transition
@@ -66,6 +67,8 @@ This week's principles draw on two sources. One is chapter 3 (paragraph structur
 ## Once you set an order and a sentence form, keep them
 
 - Rule: once you set the order of the things you compare, do not change it. For example, if you introduced the groups as sham, UUO + vehicle and UUO + compound X, give the values in that order too.
+- Do not write in the order in which you did the experiments. Readers need the claim and its support, not the path by which you reached the result (Mensh & Kording 2017, rule 3).
+- Cover each subject in one place. Put similar ideas, such as two pieces of evidence for the same claim, right after each other. If the subject zig-zags back and forth, readers must catch up each time it changes (rule 4).
 - If a paragraph has several subtopics, say in the topic sentence how many there are. Then write each subtopic in the same sentence form. This is called parallel form. When the form is the same, readers take the contents as the same kind of thing.
 - Example (dry lab, fictional):
   - Before: We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
@@ -179,4 +182,4 @@ A one-paragraph summary
 
 # Notes {#notes}
 
-Topic sentences, beginning with words from the sentence before, repeating key terms, transitions, parallel form, clear referents (Zeiger chapter 3, Gopen & Swan 1990, plain-prose)
+Topic sentences, beginning with words from the sentence before, repeating key terms, transitions, parallel form, clear referents (Zeiger chapter 3, Gopen & Swan 1990, Mensh & Kording 2017 rules 3 and 4, plain-prose)

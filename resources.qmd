@@ -16,6 +16,9 @@ These pages are in Korean.
 
 - Zeiger M. (2000). *Essentials of Writing Biomedical Research Papers* (2nd ed.). McGraw-Hill. ISBN 978-0-07-134544-6. It covers words, sentences and paragraphs, then explains each section of a paper by its function, story line, content and organization. The story line and the types of paper in [W1](chapters/w01_orientation.qmd) and the paragraph principles in [W4](chapters/w04_paragraphs.qmd) draw on this book.
 - Gopen G. D. & Swan J. A. (1990). The Science of Scientific Writing. *American Scientist* 78(6): 550–558. A short article on what readers expect at the start and the end of a sentence. It is the reading for [W4](chapters/w04_paragraphs.qmd).
+- Mensh B. & Kording K. (2017). Ten simple rules for structuring papers. *PLoS Computational Biology* 13(9): e1005619. <https://doi.org/10.1371/journal.pcbi.1005619> A short article that sets out ten rules for building a whole paper, its sections and its paragraphs on a context-content-conclusion scheme. It is open access. Its Table 1 lists the signs in readers that show a rule has been broken.
+- Schimel J. (2012). *Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded*. Oxford University Press. ISBN 978-0-19-976024-4. It treats a paper as a story and builds it in four parts: Opening, Challenge, Action, Resolution (OCAR). It also covers writing at the level of paragraphs, sentences and words.
+- Glasman-Deal H. (2020). *Science Research Writing for Native and Non-Native Speakers of English* (2nd ed.). World Scientific. ISBN 978-1-78634-784-8. For each section, it takes published papers apart to find what each sentence does and the language used for that job (reverse engineering). It is written with researchers whose first language is not English in mind.
 
 # Papers {#papers}
 

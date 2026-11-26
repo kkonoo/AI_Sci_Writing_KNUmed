@@ -59,6 +59,8 @@ By the end of this week, you will be able to do the following.
 
 - A paper answers one question with data. Then it says what the answer means. Zeiger (2000) calls this flow the story line of a paper.
 - Each section has a job in this story line. The Introduction states the question and why it matters. The Methods and the Results give what was done and what was found. The Discussion gives what the answer means and its limits. The Title and the Abstract condense the whole story line.
+- Other books give the same story line other names. Schimel (2012) divides it into four parts: Opening (what the story is about), Challenge (what is not known), Action (what was done) and Resolution (what was learned and what it means). Mensh & Kording (2017) divide it into three: context, content and conclusion. The names differ, but the order is the same.
+- Put one central contribution in one paper. Mensh & Kording (2017) count a paper as successful if readers can still describe its main contribution to a colleague a year later. A paper that pushes several contributions makes each of them less convincing and less memorable.
 - So before you write the manuscript, write the story line in five sentences.
   1. Question: what did this study want to know?
   2. Why it matters: what can we not do without the answer?

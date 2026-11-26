@@ -14,6 +14,9 @@ date: last-modified
 
 - Zeiger M. (2000). *Essentials of Writing Biomedical Research Papers* (2nd ed.). McGraw-Hill. ISBN 978-0-07-134544-6. 단어, 문장, 문단을 다룬 뒤 논문의 각 절을 역할, 줄기, 내용, 구성으로 나눠 설명한다. [W1](chapters/w01_orientation.qmd)의 논문 줄기와 논문 종류, [W4](chapters/w04_paragraphs.qmd)의 문단 원칙이 이 책을 바탕으로 한다.
 - Gopen G. D. & Swan J. A. (1990). The Science of Scientific Writing. *American Scientist* 78(6): 550–558. 독자가 문장 첫머리와 끝에서 무엇을 기대하는지 설명한 짧은 글이다. [W4](chapters/w04_paragraphs.qmd)의 읽기 자료다.
+- Mensh B. & Kording K. (2017). Ten simple rules for structuring papers. *PLoS Computational Biology* 13(9): e1005619. <https://doi.org/10.1371/journal.pcbi.1005619> 논문 전체, 절, 문단을 맥락, 내용, 결론(context-content-conclusion)의 틀로 짜는 법을 열 가지 규칙으로 정리한 짧은 글이다. 공개 논문이라 누구나 읽을 수 있다. 규칙을 어겼을 때 독자에게서 나타나는 신호를 표 1로 정리했다.
+- Schimel J. (2012). *Writing Science: How to Write Papers That Get Cited and Proposals That Get Funded*. Oxford University Press. ISBN 978-0-19-976024-4. 논문을 이야기로 보고 Opening, Challenge, Action, Resolution(OCAR)의 네 부분으로 짜는 법을 다룬다. 문단, 문장, 단어 수준의 글쓰기도 다룬다.
+- Glasman-Deal H. (2020). *Science Research Writing for Native and Non-Native Speakers of English* (2nd ed.). World Scientific. ISBN 978-1-78634-784-8. 절마다 실제 논문을 뜯어 보고 문장이 하는 일과 그 일에 쓰는 표현을 정리하는 방법(reverse engineering)을 쓴다. 영어가 모국어가 아닌 연구자를 함께 염두에 둔 책이다.
 
 # 논문 {#papers}
 

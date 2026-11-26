@@ -20,7 +20,7 @@ include-after-body: ../../assets/ai-lab.html
 
 [W3](w03_readable_sentences.qmd)에서는 문장 하나를 읽기 쉽게 고쳤다. 이번 주에는 문장을 이어서 문단 하나를 만든다. 독자는 문장을 하나씩 읽지만 내용은 문단 단위로 이해한다. 문장이 모두 읽기 쉬워도 순서와 연결이 맞지 않으면 문단은 읽히지 않는다.
 
-이번 주 원칙은 두 자료를 바탕으로 한다. 하나는 Zeiger (2000) *Essentials of Writing Biomedical Research Papers*의 3장(문단 구조)이다. 다른 하나는 Gopen & Swan (1990) "The Science of Scientific Writing"이다. 서지 정보는 [참고자료](../resources.qmd#books)에 있다. 예문은 [W5](w05_figure_storyboard.qmd) 이후 주차와 같은 가상의 예시 연구에서 가져왔고, 수치는 지어낸 것이다.
+이번 주 원칙은 두 자료를 바탕으로 한다. 하나는 Zeiger (2000) *Essentials of Writing Biomedical Research Papers*의 3장(문단 구조)이다. 다른 하나는 Gopen & Swan (1990) "The Science of Scientific Writing"이다. Mensh & Kording (2017)의 규칙 몇 가지도 함께 쓴다. 서지 정보는 [참고자료](../resources.qmd#books)에 있다. 예문은 [W5](w05_figure_storyboard.qmd) 이후 주차와 같은 가상의 예시 연구에서 가져왔고, 수치는 지어낸 것이다.
 
 ## 문단 하나에는 주장 하나를 쓰고, 첫머리에서 그 주장을 알린다
 
@@ -28,6 +28,7 @@ include-after-body: ../../assets/ai-lab.html
 - 주제문은 문단 첫머리에 둔다. 독자는 첫 문장을 읽고 이 문단에서 무엇을 얻을지 정한다. 주장이 마지막에 나오면 독자는 앞 문장들이 왜 거기 있는지 모른 채 읽는다.
 - Introduction과 Discussion 문단은 첫 문장이 주제문이다([W10](w10_introduction.qmd)의 문단 계획표). Results 단락은 목적 문장으로 시작하고 해석 문장으로 끝난다([W7](w07_results.qmd)). 이때도 첫 문장만 읽으면 이 단락이 무엇을 다루는지 알 수 있다.
 - 주장을 한 문장으로 쓸 수 없으면 문단에 주장이 둘 있거나 아직 주장이 없는 것이다. 주장이 둘이면 문단을 나눈다.
+- Mensh & Kording (2017)은 문단 안에서도 맥락, 내용, 결론 순서를 권한다. 첫 문장은 주제를 열고, 가운데 문장은 내용을 담고, 마지막 문장은 독자가 기억할 결론을 남긴다. 주제문을 첫머리에 두라는 원칙과 같은 방향이다. 독자는 첫 문장에서 무엇을 읽을지 알고, 마지막 문장에서 무엇을 가져갈지 안다.
 - 점검: 주제문만 이어서 읽어 본다. 그것만으로 글의 줄기가 보여야 한다.
 - 예문 (wet lab, 가상의 예시):
   - 전: We measured the fibrotic area with Masson's trichrome staining. We also measured *Col1a1* and *Acta2* expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
@@ -50,7 +51,7 @@ include-after-body: ../../assets/ai-lab.html
 ## 핵심어는 주제문에 넣고, 같은 말로 되풀이한다
 
 - 규칙: 문단의 핵심어(key term)는 주제문에 넣는다. 그 뒤로는 같은 말로 되풀이한다.
-- 같은 단어를 반복하지 말라는 작문 규칙은 과학 글에 맞지 않는다. 말이 바뀌면 독자는 다른 대상으로 읽는다.
+- 같은 단어를 반복하지 말라는 작문 규칙은 과학 글에 맞지 않는다. 말이 바뀌면 독자는 다른 대상으로 읽는다. Mensh & Kording (2017)도 같은 단어를 여러 번 쓰는 데는 문제가 없고, 다른 단어를 쓰면 독자가 뜻이 조금 다른지 의심하게 된다고 쓴다.
 - 예: 한 문단에 MF2 cells, the profibrotic cluster, these activated stromal cells가 함께 나오면 독자는 세 집단을 떠올린다. MF2 하나로 쓴다. 이 기준은 W3의 패턴 4와 같다. 원고 전체의 용어 통일은 [W13](w13_polishing.qmd)에서 다시 점검한다.
 
 ## 문장 사이의 관계는 맞는 연결어로 드러낸다
@@ -66,6 +67,8 @@ include-after-body: ../../assets/ai-lab.html
 ## 순서와 문장 형식을 한 번 정하면 끝까지 지킨다
 
 - 규칙: 비교하는 대상의 순서를 한 번 정하면 바꾸지 않는다. 예: sham, UUO + vehicle, UUO + compound X 순서로 군을 소개했으면 수치도 그 순서로 쓴다.
+- 실험한 시간 순서대로 쓰지 않는다. 독자에게 필요한 것은 어떤 경로로 결과에 이르렀는지가 아니라 주장과 그 근거다(Mensh & Kording 2017, 규칙 3).
+- 한 주제는 한곳에서 다룬다. 같은 주장을 받치는 두 근거처럼 비슷한 생각은 바로 이어서 쓴다. 주제가 갈지자로 오가면 독자는 주제가 바뀔 때마다 다시 따라잡아야 한다(규칙 4).
 - 하위 주제가 여럿이면 주제문에서 몇 개인지 알린다. 그리고 하위 주제마다 같은 문장 형식으로 쓴다. 이것을 병렬 구조(parallel form)라고 한다. 독자는 형식이 같으면 같은 종류의 내용으로 읽는다.
 - 예문 (dry lab, 가상의 예시):
   - 전: We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
@@ -179,4 +182,4 @@ from kidney sections. Thus, MF2 is more common in kidneys with fibrosis.
 
 # 메모 {#notes}
 
-주제문, 앞 문장에서 받은 말로 시작하기, 핵심어 되풀이, 연결어, 병렬 구조, 가리키는 말 (Zeiger 3장, Gopen & Swan 1990, plain-prose)
+주제문, 앞 문장에서 받은 말로 시작하기, 핵심어 되풀이, 연결어, 병렬 구조, 가리키는 말 (Zeiger 3장, Gopen & Swan 1990, Mensh & Kording 2017 규칙 3·4, plain-prose)
