@@ -9,6 +9,7 @@ Use this page when you get stuck on wording. It is based on the lab's [Lab Manag
 - Do not paste a phrase as it is. Adapt it to your results and to the strength of your evidence.
 - Square brackets `[ ]` mark what you fill in with your own content.
 - Use stock phrases once or twice in a whole manuscript at most. The standard is pattern 10 of [W3](chapters/w03_readable_sentences.qmd).
+- If grammar such as articles, tense or prepositions is a problem for you, start with [English basics for papers](english_basics.qmd).
 - The numbers in the examples come from the course's shared fictional example study.
 
 # By section {#by-section}

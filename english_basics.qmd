@@ -1,0 +1,148 @@
+---
+title: "English basics for papers"
+subtitle: "Appendix · what to look at first when you are not confident in English grammar"
+date: last-modified
+---
+
+This page does not teach English grammar from the beginning. It collects only the mistakes that are common in biomedical papers. Class time does not cover it, so use it for self-study.
+
+- How to write readable sentences is in [W3](chapters/w03_readable_sentences.qmd), and paragraphs are in [W4](chapters/w04_paragraphs.qmd).
+- Common phrases for each section are in the [phrase sheet](phrases.qmd).
+- The examples come from the course's shared fictional example study (the UUO fibrosis model and compound X).
+
+# Check yourself first {#self-check}
+
+Each of the six sentences below has at least one of the mistakes this page covers. Correct them yourself, then open the answers. If you got a sentence wrong, start with that section.
+
+1. Mouse was treated with compound X for 7 days.
+2. Previous researches have shown that Smad3 signaling drives fibrosis.
+3. In this study, compound X reduces the fibrotic area.
+4. The expression of *Col1a1* and *Acta2* were lower in mice given compound X.
+5. Body weight was not different with the vehicle group.
+6. In order to measure fibrosis, we performed the quantification of the fibrotic area.
+
+::: {.callout-note collapse="true"}
+## Answers
+
+1. Mice were treated with compound X for 7 days. A singular countable noun needs an article. Here there were several mice, so use the plural. [Articles](#articles)
+2. Previous studies have shown that Smad3 signaling drives fibrosis. Research is an uncountable noun. [Uncountable nouns](#uncountable)
+3. In this study, compound X reduced the fibrotic area. Write the results of this study in the past tense. [Tense](#tense)
+4. The expression of *Col1a1* and *Acta2* was lower in mice given compound X. The subject is one thing: expression. [Subject-verb agreement](#agreement)
+5. Body weight was not different from that in the vehicle group. Write different from, not different with. That in was added because body weight is compared with body weight. [Prepositions](#prepositions)
+6. To measure fibrosis, we quantified the fibrotic area. Shorten in order to to to, and turn the verb that became a noun back into a verb. [Word choice](#word-choice)
+:::
+
+# Take model papers apart {#model-papers}
+
+You learn English expressions faster from real papers than from rules. Glasman-Deal (2020) takes published papers apart and records what each sentence does and the language used for that job. Below is that method adapted to this course.
+
+1. Choose three recent original research papers in your field. Papers in the journal you want to submit to are a good choice. Track B students choose papers other than the one they are rewriting.
+2. Choose one section. If this is your first time, start with the Introduction.
+3. For each sentence, write in Korean what the sentence does. For example: gives background, states what is known, states the gap, introduces this study.
+4. Put the sentences that do the same job in the three papers side by side. Find the frame they share for that job.
+5. Write the frames you find into your own phrase list, grouped by job.
+
+| What the sentence does | Example frames collected |
+|---|---|
+| States the gap | However, whether [X] [does Y] remains unclear. |
+| States the gap | The mechanism by which [X] [does Y] is not known. |
+| Introduces this study | Here, we tested whether [X] [does Y] in [model]. |
+
+- Take only the frame, and fill it with your own content. Copying someone else's sentence whole is plagiarism.
+- Examples of frames like these are also in the [phrase sheet](phrases.qmd#by-section). A list collected from papers in your own field is more useful.
+
+# Grammar mistakes common in papers {#grammar}
+
+## Articles: a, an, the {#articles}
+
+- A singular countable noun needs an article in front of it. Do not write mouse alone. Write a mouse or the mouse.
+- Use a or an for something you introduce for the first time. Use the for something already mentioned, or something the reader can identify.
+- Use no article when you speak in general with a plural or an uncountable noun. For example: Fibroblasts produce collagen. Fibrosis is the hallmark of progressive kidney disease.
+- Example:
+  - Before: We treated mouse with compound X. Mouse showed less fibrosis.
+  - After: We treated mice with compound X. The treated mice showed less fibrosis.
+
+## Uncountable nouns {#uncountable}
+
+- Research, evidence, information, equipment, software and advice are uncountable nouns. Do not add s to them, and do not put a in front of them.
+- To give a number, change to a countable expression. For example: two studies, several lines of evidence, three pieces of equipment.
+- Treat data as plural. For example: The data are shown in Figure 2.
+
+## Tense {#tense}
+
+| What you write about | Tense | Example |
+|---|---|---|
+| What you did in this study | Past | We measured the fibrotic area. |
+| The results of this study | Past | Compound X reduced the fibrotic area. |
+| What a figure or table shows | Present | Figure 2 shows the fibrotic area in each group. |
+| Established facts | Present | Fibrosis is the hallmark of progressive kidney disease [ref]. |
+| Results of other studies | Past or present perfect | A previous study showed that ... / Several studies have shown that ... |
+
+- Do not change tense within a paragraph without a reason. Tense and voice in the Methods are covered in principle 2 of [W6](chapters/w06_methods_legends.qmd).
+
+## Subject-verb agreement {#agreement}
+
+- Make the verb agree with the head noun of the subject. When the subject is long, it is easy to match the verb to the noun just before it instead.
+  - Before: The expression of these genes were lower.
+  - After: The expression of these genes was lower.
+  - Before: The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
+  - After: The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
+- Keeping the subject close to the verb also prevents this mistake (pattern 2 in [W3](chapters/w03_readable_sentences.qmd)).
+
+## Prepositions {#prepositions}
+
+| Meaning | Correct | Common mistake |
+|---|---|---|
+| Not the same as | different from, differ from | different with |
+| Agrees with | consistent with | consistent to |
+| Linked to | associated with | associated to |
+| Changes according to | depend on | depend of |
+| X went up, went up by 20% | an increase in X, an increase of 20% | an increase of X |
+| Days, durations and temperatures | on day 7, for 7 days, at 37°C | in day 7, during 7 days |
+| Patients who have a disease | patients with fibrosis | fibrosis patients |
+
+- Why compared with is used for differences is explained under [confusing words in the phrase sheet](phrases.qmd#confusables).
+
+# Word choice {#word-choice}
+
+- Use the exact word. Some words look alike but mean different things, such as affect and effect, or fewer and less. The list is in the [phrase sheet](phrases.qmd#confusables). Chapter 1 of Zeiger (2000) also covers word choice and commonly confused words.
+- When a shorter expression means the same thing, use it.
+
+| Wordy | Use instead |
+|---|---|
+| in order to | to |
+| due to the fact that | because |
+| has the ability to | can |
+| in the case of | for, in |
+| a large number of | many |
+| performed an analysis of | analyzed (pattern 6 in [W3](chapters/w03_readable_sentences.qmd)) |
+| it is important to note that | Delete it. If the point matters, state it directly |
+
+- Use specific words instead of vague ones. Instead of various methods, name the methods. Instead of markedly, give the numbers.
+- Do not drop articles, prepositions or verbs to make a text shorter. If you must cut, cut content, not grammar ([W12](chapters/w12_abstract_title.qmd)).
+
+# Use AI as a grammar teacher {#ai-tutor}
+
+If you only ask AI to correct your sentences, you get corrected sentences but keep making the same mistakes. Ask AI to explain why each one is wrong, and to set exercises on the same rule.
+
+```text
+Find only the grammar mistakes in the English sentences below. Do not rewrite the whole sentences.
+For each mistake, give these four things:
+1. The wrong part
+2. The name of the rule (for example: articles, subject-verb agreement, tense, prepositions)
+3. An explanation in one or two sentences in Korean
+4. Only the corrected part
+Do not change the meaning, numbers, gene names or terms. If there are no mistakes, say so.
+
+[Sentences]
+```
+
+```text
+Of the rules you just explained, I want to practice [name of the rule].
+Give me five fill-in-the-blank exercises using sentences from the Results of biomedical papers.
+Show the answers only after I send mine, and explain why any of mine are wrong.
+```
+
+- For what you may put in, follow the [AI use rules](ai_rules.qmd#traffic-light). Fictional examples and sentences from published papers are in the "Free to use" row. Sentences from your own manuscript are in the "Conditional (track A)" row.
+- AI's explanations of grammar can also be wrong. If one seems doubtful, look up example sentences for the word in a learner's dictionary. Also check how papers in your field use the expression.
+- If you checked sentences from an assignment this way, record it in your [AI use log](ai_rules.qmd#ai-log).

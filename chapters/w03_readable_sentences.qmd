@@ -18,6 +18,8 @@ By the end of this week, you will be able to do the following.
 
 # 1. Principles {#principles}
 
+If grammar itself, such as articles, tense or subject-verb agreement, is a problem for you, start with the appendix [English basics for papers](../english_basics.qmd).
+
 ## Writing short means putting fewer ideas in each sentence
 
 - Text written by AI takes more effort to read, even when its grammar is correct. This is because AI tends to pack a lot of information into each sentence.

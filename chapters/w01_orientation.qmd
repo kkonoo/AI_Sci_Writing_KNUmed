@@ -202,6 +202,7 @@ A: list of figures / B: choose a paper; both tracks: five-sentence summary
   - At the top, state the track you chose and your reasons in 2–3 lines.
   - Five-sentence summary: write the five sentences from the principles (question, why it matters, what was done, what was found, what it means) in English. Below them, state the type of paper (hypothesis-testing, descriptive or methods) in one line. Track A writes about their own study. Track B writes from the figures and Methods of the chosen paper only, and adds (guess) at the end of each sentence guessed from the figures.
   - Grading criteria for the summary: are all five sentences there? Are what was found and what it means no stronger than what the figures show?
+  - If you are not confident in English grammar, try the self-check in the appendix [English basics for papers](../english_basics.qmd#self-check) this week. You do not hand it in.
   - Submit through the university LMS. Deadlines are announced separately.
   - If you used AI, submit your [AI use log](../ai_rules.qmd#ai-log) with the assignment.
 - Track A: list of figures

@@ -25,6 +25,7 @@ project:
     - chapters/w15_final.qmd
     - resources.qmd
     - phrases.qmd
+    - english_basics.qmd
     - ko/index.qmd
     - ko/ai_rules.qmd
     - ko/glossary.qmd
@@ -45,6 +46,7 @@ project:
     - ko/chapters/w15_final.qmd
     - ko/resources.qmd
     - ko/phrases.qmd
+    - ko/english_basics.qmd
 
 
 website:
@@ -154,6 +156,8 @@ website:
           href: resources.qmd
         - text: "Appendix: Phrase sheet"
           href: phrases.qmd
+        - text: "Appendix: English basics"
+          href: english_basics.qmd
 
     - id: ko
       style: "floating"
@@ -205,6 +209,8 @@ website:
           href: ko/resources.qmd
         - text: "부록: 표현 모음"
           href: ko/phrases.qmd
+        - text: "부록: 논문 영어 기초"
+          href: ko/english_basics.qmd
 
   page-footer:
     left: "Copyright 2026, Eunji"

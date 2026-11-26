@@ -18,6 +18,7 @@
 | 주차 페이지 (1~15주) | `chapters/wNN_주제.qmd` | `ko/chapters/wNN_주제.qmd` |
 | 참고자료 | `resources.qmd` | `ko/resources.qmd` |
 | 부록: 표현 모음 | `phrases.qmd` | `ko/phrases.qmd` |
+| 부록: 논문 영어 기초 | `english_basics.qmd` | `ko/english_basics.qmd` |
 
 - 주차 페이지 파일 이름은 `wNN_주제.qmd` 형식이다. NN은 두 자리 주차 번호이고, 주제는 영어 소문자와 밑줄로 쓴다. 예: `w01_orientation.qmd`, `w14_submission_response.qmd`.
 - Part 1 기초는 1~4주, Part 2 원고 쓰기는 5~12주, Part 3 다듬기와 투고는 13~15주다.
