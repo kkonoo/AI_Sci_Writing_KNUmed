@@ -16,6 +16,7 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
+- 이 절이 하는 일: Methods는 독자가 결과를 믿을 수 있는지 판단하게 하고, 다른 연구자가 같은 실험과 분석을 다시 할 수 있게 한다. Mensh & Kording (2017, 규칙 9)에 따르면 Methods는 가장 적게 읽히는 절이다. 그래도 심사자와 재현하려는 연구자는 여기서 근거를 확인한다. Figure legend는 본문 없이도 그림을 읽을 수 있게 한다. Mensh & Kording (2017)은 그림 제목이 분석의 결론을 전하고 legend는 그 분석을 어떻게 했는지 설명하는 쪽을 권한다(규칙 7). 제목의 형식은 투고할 저널을 따른다(원칙 5).
 - 예문은 [W5](w05_figure_storyboard.qmd)와 같은 가상의 예시 연구에서 가져온다. 마우스 일측 요관 폐쇄(UUO) 모델에 가상의 약물 compound X를 주었고, 군당 n = 6이다. 수치와 조건은 지어낸 것이다.
 - Methods와 legend는 W5 Figure 순서 카드를 따라 쓴다. 카드의 핵심 통계 칸이 legend의 n과 통계 문장이 된다.
 

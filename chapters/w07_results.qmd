@@ -16,6 +16,7 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
+- What this section does: the Results show that the central claim is supported by data and logic. Each paragraph sets up one question, presents the data and answers the question in its last sentence. Later paragraphs build on the conclusions of earlier ones (Mensh & Kording 2017, rule 7). In the five sentences of [W1](w01_orientation.qmd), the Results cover what was done and what was found. In Schimel's (2012) terms, they are the Action.
 - The examples come from the same fictional example study as in [W5](w05_figure_storyboard.qmd) and [W6](w06_methods_legends.qmd). The numbers are made up.
   - Wet lab: the mouse unilateral ureteral obstruction (UUO) model, compound X (a fictional drug), and n = 6 per group.
   - Dry lab: a reanalysis of single-cell RNA sequencing data from human kidney biopsies, and a myofibroblast subtype (fictional name MF2) that is more common in patients with fibrosis.

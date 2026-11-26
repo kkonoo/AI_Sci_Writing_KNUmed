@@ -16,6 +16,8 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
+Discussion이 하는 일은 세 가지다. 결과가 Introduction의 빈틈을 어떻게 메웠는지 말하고, 해석의 한계를 밝히고, 이 결과가 분야에 무엇을 더하는지 쓴다(Mensh & Kording 2017, 규칙 8). [W1](w01_orientation.qmd)의 다섯 문장으로는 의미에 해당한다. Schimel (2012)의 이름으로는 Resolution이다.
+
 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에서 가상의 약물 compound X가 섬유화를 줄였다는 연구다. 군은 sham, UUO + vehicle, UUO + compound X(10 mg/kg)이고, 8주령 수컷 C57BL/6J 마우스를 군당 n = 6으로 썼다. 신장은 7일째에 얻었다. [W6](w06_methods_legends.qmd) Methods 예문대로 compound X는 수술 당일(day 0)부터 6일째까지 매일 주었다. 수치는 지어낸 것이다. 예문의 문헌 번호는 W8 참고문헌 표의 번호가 들어갈 자리다.
 
 ## 첫 문단은 Introduction의 질문에 대한 답이다
@@ -30,6 +32,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ## 기존 연구와 비교한다: 누구와 같고, 누구와 다르고, 왜 다른가
 
+- 둘째 문단부터는 문단마다 이 연구의 강점이나 약점 하나로 시작한다. 그다음 관련 문헌에 비추어 그 점을 평가한다(Mensh & Kording 2017, 규칙 8). [W4](w04_paragraphs.qmd)의 문단 원칙대로 첫 문장이 그 문단의 주제다.
 - 비교할 문헌은 W8 표에서 가져온다. 다르면 가장 그럴듯한 이유를 쓴다. 흔한 이유는 모델, 용량, 투여 시점, 관찰 기간, 코호트, 측정 기술이다.
 - 데이터가 보여 준 것과 추론한 것을 다른 문장에 쓴다.
 - Before: *Our findings are consistent with previous studies [7–12].*

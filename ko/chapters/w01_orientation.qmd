@@ -59,7 +59,7 @@ include-after-body: ../../assets/ai-lab.html
 
 - 논문은 질문 하나에 데이터로 답하는 글임. 그리고 그 답이 무엇을 뜻하는지 말함. Zeiger (2000)는 이 흐름을 논문의 줄기(story line)라고 부름.
 - 절마다 이 줄기에서 맡은 일이 있음. Introduction은 질문과 그 질문이 왜 중요한지를 씀. Methods와 Results는 한 일과 찾은 것을 씀. Discussion은 답의 뜻과 한계를 씀. Title과 Abstract는 줄기 전체를 줄인 것임.
-- 다른 책도 같은 줄기를 다른 이름으로 부름. Schimel (2012)은 Opening(무엇에 관한 이야기인가), Challenge(무엇을 모르는가), Action(무엇을 했는가), Resolution(무엇을 알았고 무슨 뜻인가)의 네 부분으로 나눔. Mensh & Kording (2017)은 맥락(context), 내용(content), 결론(conclusion)의 세 부분으로 나눔. 이름은 달라도 순서는 같음.
+- 다른 책도 같은 줄기를 다른 이름으로 부름. Schimel (2012)은 Opening(무엇에 관한 이야기인가), Challenge(무엇을 모르는가), Action(무엇을 했고 무엇이 나왔는가), Resolution(그래서 질문의 답은 무엇이고 무슨 뜻인가)의 네 부분으로 나눔. Mensh & Kording (2017)은 맥락(context), 내용(content), 결론(conclusion)의 세 부분으로 나눔. 이름은 달라도 순서는 같음.
 - 논문 한 편에는 핵심 기여 하나를 담음. Mensh & Kording (2017)은 독자가 한 해 뒤에도 동료에게 그 기여를 설명할 수 있으면 성공한 논문으로 봄. 기여를 여럿 내세우면 하나하나가 덜 설득력 있고 덜 기억됨.
 - 그래서 원고를 쓰기 전에 줄기를 다섯 문장으로 써 봄.
   1. 질문: 이 연구는 무엇을 알고 싶었는가.

@@ -16,6 +16,7 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
+- 이 절이 하는 일: Results는 핵심 주장이 데이터와 논리로 뒷받침된다는 것을 보인다. 단락마다 질문 하나를 세우고, 데이터를 보이고, 마지막 문장에서 답한다. 뒤 단락은 앞 단락의 결론 위에 쌓인다(Mensh & Kording 2017, 규칙 7). [W1](w01_orientation.qmd)의 다섯 문장으로는 한 일과 찾은 것이다. Schimel (2012)의 이름으로는 Action이다.
 - 예문은 [W5](w05_figure_storyboard.qmd), [W6](w06_methods_legends.qmd)와 같은 가상의 예시 연구에서 가져온다. 수치는 지어낸 것이다.
   - wet lab: 마우스 일측 요관 폐쇄(UUO) 모델, 가상의 약물 compound X, 군당 n = 6.
   - dry lab: 사람 신장 생검 단일세포 RNA 시퀀싱 재분석, 섬유화 환자에서 늘어난 근섬유아세포 아형(가상의 이름 MF2).

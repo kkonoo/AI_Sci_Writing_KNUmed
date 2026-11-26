@@ -16,6 +16,7 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
+- What this section does: the Methods let readers judge whether they can trust the results, and let other researchers repeat the experiments and analyses. According to Mensh & Kording (2017, rule 9), the Methods are the section read least of all. Even so, reviewers and researchers who want to repeat the work check the evidence here. A figure legend lets readers understand the figure without the text. Mensh & Kording (2017) recommend that the figure title give the conclusion of the analysis and that the legend explain how the analysis was done (rule 7). For the format of the title, follow your target journal (principle 5).
 - The examples come from the same fictional example study as in [W5](w05_figure_storyboard.qmd). Mice with unilateral ureteral obstruction (UUO) were given compound X, a fictional drug, with n = 6 per group. The numbers and conditions are made up.
 - Write the Methods and legends from your W5 figure order cards. The key statistics item of each card becomes the n and statistics sentence of the legend.
 

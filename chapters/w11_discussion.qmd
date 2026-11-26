@@ -16,6 +16,8 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
+The Discussion has three jobs. It says how the results filled the gap set out in the Introduction, it states the limits of the interpretation, and it says what the results add to the field (Mensh & Kording 2017, rule 8). In the five sentences of [W1](w01_orientation.qmd), it covers what it means. In Schimel's (2012) terms, it is the Resolution.
+
 The examples come from a fictional example study. In this study, the fictional drug compound X reduced fibrosis in the mouse unilateral ureteral obstruction (UUO) model. The groups are sham, UUO + vehicle and UUO + compound X (10 mg/kg), with n = 6 male C57BL/6J mice per group, 8 weeks old. Kidneys were collected on day 7. As in the Methods example in [W6](w06_methods_legends.qmd), compound X was given daily from the day of surgery (day 0) to day 6. The numbers are made up. The reference numbers in the examples are placeholders for numbers from your W8 reference table.
 
 ## The first paragraph answers the question of the Introduction
@@ -30,6 +32,7 @@ The examples come from a fictional example study. In this study, the fictional d
 
 ## Compare with earlier studies: which agree, which differ, and why
 
+- From the second paragraph on, start each paragraph with one strength or weakness of this study. Then evaluate that point against the relevant literature (Mensh & Kording 2017, rule 8). As in the paragraph principles of [W4](w04_paragraphs.qmd), the first sentence is the topic of the paragraph.
 - Take the papers to compare with from your W8 table. If your results differ, give the most likely reason. Common reasons are the model, dose, timing of treatment, observation period, cohort and measurement technique.
 - Write what the data showed and what you inferred in separate sentences.
 - Before: *Our findings are consistent with previous studies [7–12].*
