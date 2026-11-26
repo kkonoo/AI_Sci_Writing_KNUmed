@@ -20,10 +20,10 @@ date: last-modified
 
 | 하고 싶은 말 | 표현 |
 |---|---|
-| 첫 문장: 확인할 수 있는 사실 | [Disease] affects more than [number] people worldwide [ref]. / [X] is a leading cause of [outcome] [ref]. |
+| 첫 문장: 확인할 수 있는 사실 | [Disease] affects more than [number] people worldwide [ref].<br>[X] is a leading cause of [outcome] [ref]. |
 | 쌓인 근거 | Recent studies have shown that [finding] [refs]. |
-| 아직 모르는 것 (gap) | However, it is not known whether [question]. / The mechanism by which [X] [does Y] remains unclear. |
-| 이 연구 | Here, we tested whether [question] in [model]. / In this study, we asked whether [question]. |
+| 아직 모르는 것 (gap) | However, it is not known whether [question].<br>The mechanism by which [X] [does Y] remains unclear. |
+| 이 연구 | Here, we tested whether [question] in [model].<br>In this study, we asked whether [question]. |
 | 이 연구의 요약 (저널이 원하면) | We show that [main finding]. |
 
 - "plays a crucial role", "has attracted increasing attention"은 확인할 내용이 없는 상투 표현이다. 그 자리에 숫자나 사실을 쓴다.
@@ -35,11 +35,11 @@ date: last-modified
 
 | 하고 싶은 말 | 표현 |
 |---|---|
-| 동물과 처치 | Male C57BL/6J mice (8 weeks old) underwent left UUO. / Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
-| 무작위 배정, 눈가림 | Mice were randomly assigned to [groups]. The person who quantified [outcome] was blinded to group. |
+| 동물과 처치 | Male C57BL/6J mice (8 weeks old) underwent left UUO.<br>Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
+| 무작위 배정, 눈가림 | Mice were randomly assigned to [groups].<br>The person who quantified [outcome] was blinded to group. |
 | 이전 방법 인용 | [Method] was performed as previously described [ref], with the following changes: [changes]. |
-| n과 기술 반복 | n = 6 mice per group. For each mouse, values from three sections were averaged. |
-| 통계 | Data are presented as mean ± SD. Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
+| n과 기술 반복 | n = 6 mice per group.<br>For each mouse, values from three sections were averaged. |
+| 통계 | Data are presented as mean ± SD.<br>Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
 | 소프트웨어 | Analyses were performed in [software, version]. |
 
 - "as previously described"만 쓰고 바꾼 점을 빼지 않는다. 바꾼 것이 있으면 적는다.
@@ -65,12 +65,12 @@ date: last-modified
 
 | 하고 싶은 말 | 표현 |
 |---|---|
-| 목적과 한 일 | To test whether [question], we [method] (Fig. [n]). / We next asked whether [question]. |
-| 늘었다 | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]). / … by [n]-fold |
+| 목적과 한 일 | To test whether [question], we [method] (Fig. [n]).<br>We next asked whether [question]. |
+| 늘었다 | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]).<br>… by [n]-fold |
 | 줄었다 | [X] reduced (lowered) [Y] by [n]% compared with [control]. |
 | 차이 없음 | [Y] did not differ between [groups] ([statistics]). |
 | 용량, 시간 의존 | [Y] decreased as the dose increased ([statistics]). |
-| 짧은 해석 (따로 한 문장) | Thus, [X] reduced [Y] in [model]. / These results suggest that [interpretation]. |
+| 짧은 해석 (따로 한 문장) | Thus, [X] reduced [Y] in [model].<br>These results suggest that [interpretation]. |
 
 - "significantly"는 통계 검정을 한 비교에만 쓰고, 그 검정의 P 값을 함께 쓴다.
 - 해석을 ", suggesting that …"으로 붙이지 않고 따로 문장을 쓴다.
@@ -82,9 +82,9 @@ date: last-modified
 
 | 하고 싶은 말 | 표현 |
 |---|---|
-| 주요 발견 | We found that [main finding]. / Compound X reduced kidney fibrosis after UUO in mice. |
+| 주요 발견 | We found that [main finding].<br>Compound X reduced kidney fibrosis after UUO in mice. |
 | 기존 연구와 같음 | This agrees with [Author et al.], who found [finding] in [model] [ref]. |
-| 기존 연구와 다름 | In contrast to [Author et al.] [ref], we observed [finding]. This difference may reflect [specific reason]. |
+| 기존 연구와 다름 | In contrast to [Author et al.] [ref], we observed [finding].<br>This difference may reflect [specific reason]. |
 | 의미 | These results raise the possibility that [implication]. |
 | 한계 | We used only [condition], so [what we cannot conclude]. |
 | 다음 단계 | [Specific experiment] would test whether [question]. |
@@ -128,19 +128,19 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W12](ch
 | 하고 싶은 말 | 표현 |
 |---|---|
 | 범위 | from 18.2% to 9.6% |
-| 비율로 줄었다 | by 47% / a 47% reduction |
+| 비율로 줄었다 | by 47%<br>a 47% reduction |
 | 배수 | a 2.3-fold increase |
 | 두 군 비교 | compared with vehicle (차이를 볼 때는 compared with) |
 | 대응 | A and B were 10 and 20, respectively. |
-| 요약값 | mean ± SD / median (interquartile range) |
+| 요약값 | mean ± SD<br>median (interquartile range) |
 
 ## 이어 주는 말 {#connectives}
 
 | 뜻 | 표현 |
 |---|---|
-| 더하기 | In addition, / Also, |
-| 반대 | However, / In contrast, |
-| 결과 | Therefore, / Thus, |
+| 더하기 | In addition,<br>Also, |
+| 반대 | However,<br>In contrast, |
+| 결과 | Therefore,<br>Thus, |
 | 요약 | Taken together, |
 
 - "Notably", "Importantly", "Interestingly"는 AI 글에 흔하다. 원고 전체에서 한두 번까지만 쓴다.
@@ -156,8 +156,8 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W12](ch
 |---|---|
 | 첫 문장 | We submit our manuscript, "[Title]," for consideration as an [article type] in [Journal]. |
 | 주요 결과 | In [model], [X] [result with the same numbers as the Abstract]. |
-| 왜 이 저널인가 | [Journal] recently published [Author et al., Year, DOI], which [what it did]. Our study extends that work by [how]. |
-| 필요한 진술 | This manuscript has not been published and is not under consideration elsewhere. All authors have approved the manuscript. |
+| 왜 이 저널인가 | [Journal] recently published [Author et al., Year, DOI], which [what it did].<br>Our study extends that work by [how]. |
+| 필요한 진술 | This manuscript has not been published and is not under consideration elsewhere.<br>All authors have approved the manuscript. |
 
 - "novel and groundbreaking", "prestigious journal", "perfect fit"은 편집자가 확인할 수 없는 말이다. 사실을 쓴다.
 
@@ -168,9 +168,9 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W12](ch
 | 자리 | 표현 |
 |---|---|
 | 감사 (한 문장) | We thank the reviewer for this suggestion. |
-| 한 일 | We now show [what] (Fig. [n]). We also state in the Methods [what]. |
+| 한 일 | We now show [what] (Fig. [n]).<br>We also state in the Methods [what]. |
 | 바뀐 위치 | Changes: [section], page [n], lines [n–n]. |
-| 받아들이지 않을 때 | We did not [do X], because [evidence]. We now state this limitation in the Discussion (page [n], lines [n–n]). |
+| 받아들이지 않을 때 | We did not [do X], because [evidence].<br>We now state this limitation in the Discussion (page [n], lines [n–n]). |
 | 오해가 있었을 때 | We have rewritten [section] to make clear that [point]. |
 
 - 하지 않은 분석이나 지킬 수 없는 약속은 쓰지 않는다.

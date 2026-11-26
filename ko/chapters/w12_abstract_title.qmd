@@ -85,9 +85,9 @@ Zeiger (2000)도 Abstract와 Title 장에서 세 종류를 따로 다룬다.
 
 | 논문 종류 | Abstract의 접근과 핵심 결과 | Title |
 |---|---|---|
-| 가설 검증 | 시험한 가설과 설계. 가설을 받치거나 기각한 결과 | 결과형이 잘 맞는다. 예: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
-| 기술 | 무엇을 어떤 자료로 기술했는지. 기술한 것의 주요 특징과 수치 | 결과형이나 설명형. 예: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
-| 방법 | 새 방법이 하는 일, 비교한 기존 방법과 데이터, 비교 결과 | 방법 이름과 하는 일을 함께 쓴다. 틀: *[Method name]: [what it does] for [data type]* |
+| 가설 검증 | 시험한 가설과 설계. 가설을 받치거나 기각한 결과 | 결과형이 잘 맞는다.<br>예: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
+| 기술 | 무엇을 어떤 자료로 기술했는지. 기술한 것의 주요 특징과 수치 | 결과형이나 설명형.<br>예: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
+| 방법 | 새 방법이 하는 일, 비교한 기존 방법과 데이터, 비교 결과 | 방법 이름과 하는 일을 함께 쓴다.<br>틀: *[Method name]: [what it does] for [data type]* |
 
 - 방법 논문의 결과는 기존 방법과 비교한 수치(정확도, 속도, 재현성 등)로 쓴다. outperforms만 쓰고 수치와 비교 대상을 빼지 않는다.
 - 기술 논문의 결론에 인과를 넣지 않는다. 한 시점의 자료로 drives나 causes를 쓰지 않는다([W11](w11_discussion.qmd)).

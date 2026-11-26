@@ -56,7 +56,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 
 | Week | Topic | Assignment |
 |---|---|---|
-| 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures / B: choose a paper; five-sentence summary |
+| 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures<br>B: choose a paper<br>Both tracks: five-sentence summary |
 | 2 | [AI basics](chapters/w02_ai_basics.qmd) | Verify one AI answer and bring it to class |
 | 3 | [Readable English sentences](chapters/w03_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
 | 4 | [Paragraphs](chapters/w04_paragraphs.qmd) | One-paragraph summary |

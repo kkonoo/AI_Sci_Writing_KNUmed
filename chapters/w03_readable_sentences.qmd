@@ -62,8 +62,10 @@ The dry-lab examples are also fictional (a study that reanalyzed public single-c
    - Before: The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
    - After: We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
 3. Inanimate subject with an action verb
-   - Before: The QC filter quietly swallows low-quality cells. / Compound X fights fibrosis in the injured kidney.
-   - After: The QC filter removes low-quality cells without a warning. / Compound X reduced fibrosis in UUO kidneys.
+   - Before: The QC filter quietly swallows low-quality cells.
+   - After: The QC filter removes low-quality cells without a warning.
+   - Before: Compound X fights fibrosis in the injured kidney.
+   - After: Compound X reduced fibrosis in UUO kidneys.
    - Conventional expressions such as Figure 2 shows and These results suggest are fine in moderation. The problem is metaphorical verbs (swallow, fight, tell a story).
 4. Coined words and rare word combinations
    - Before: Compound X lowered the fibro-burden index. (In the same paragraph, MF2 cells, the profibrotic cluster and these activated stromal cells all refer to the same cells.)
@@ -72,12 +74,14 @@ The dry-lab examples are also fictional (a study that reanalyzed public single-c
 5. Dropped function words
    - Before: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
    - After: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
-   - Before: the samples the lab sequenced / After: the samples that the lab sequenced
+   - Before: the samples the lab sequenced
+   - After: the samples that the lab sequenced
    - Fixed formats, such as the title of a Figure legend, are an exception ([W6](w06_methods_legends.qmd)).
 6. Nominalization
    - Before: Administration of compound X resulted in a reduction of collagen deposition.
    - After: Compound X reduced collagen deposition.
-   - Before: We performed an analysis of Smad3 phosphorylation. / After: We analyzed Smad3 phosphorylation.
+   - Before: We performed an analysis of Smad3 phosphorylation.
+   - After: We analyzed Smad3 phosphorylation.
 7. Clauses chained with commas
    - Before: We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
    - After: We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.

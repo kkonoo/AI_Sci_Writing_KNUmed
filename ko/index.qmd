@@ -45,7 +45,7 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 
 | 주 | 주제 | 과제 |
 |---|---|---|
-| 1 | [오리엔테이션](chapters/w01_orientation.qmd) | A: 그림 목록 / B: 논문 고르기, 다섯 문장 요약 |
+| 1 | [오리엔테이션](chapters/w01_orientation.qmd) | A: 그림 목록<br>B: 논문 고르기<br>공통: 다섯 문장 요약 |
 | 2 | [AI 기본기](chapters/w02_ai_basics.qmd) | AI 답변 하나 검증해 오기 |
 | 3 | [읽히는 영어 문장](chapters/w03_readable_sentences.qmd) | AI가 쓴 문단에서 패턴 찾기 |
 | 4 | [문단](chapters/w04_paragraphs.qmd) | 한 문단 요약 |

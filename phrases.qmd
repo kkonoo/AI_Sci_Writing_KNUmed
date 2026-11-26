@@ -20,10 +20,10 @@ The full structure is in [W10](chapters/w10_introduction.qmd).
 
 | What you want to say | Phrases |
 |---|---|
-| First sentence: a fact readers can check | [Disease] affects more than [number] people worldwide [ref]. / [X] is a leading cause of [outcome] [ref]. |
+| First sentence: a fact readers can check | [Disease] affects more than [number] people worldwide [ref].<br>[X] is a leading cause of [outcome] [ref]. |
 | Accumulated evidence | Recent studies have shown that [finding] [refs]. |
-| What is not known (gap) | However, it is not known whether [question]. / The mechanism by which [X] [does Y] remains unclear. |
-| This study | Here, we tested whether [question] in [model]. / In this study, we asked whether [question]. |
+| What is not known (gap) | However, it is not known whether [question].<br>The mechanism by which [X] [does Y] remains unclear. |
+| This study | Here, we tested whether [question] in [model].<br>In this study, we asked whether [question]. |
 | Summary of this study (if the journal wants it) | We show that [main finding]. |
 
 - "plays a crucial role" and "has attracted increasing attention" are stock phrases with nothing to check. Put a number or a fact there instead.
@@ -35,11 +35,11 @@ Past tense is the default. Match the voice to the journal and the sentence. The 
 
 | What you want to say | Phrases |
 |---|---|
-| Animals and treatment | Male C57BL/6J mice (8 weeks old) underwent left UUO. / Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
-| Randomization, blinding | Mice were randomly assigned to [groups]. The person who quantified [outcome] was blinded to group. |
+| Animals and treatment | Male C57BL/6J mice (8 weeks old) underwent left UUO.<br>Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. |
+| Randomization, blinding | Mice were randomly assigned to [groups].<br>The person who quantified [outcome] was blinded to group. |
 | Citing an earlier method | [Method] was performed as previously described [ref], with the following changes: [changes]. |
-| n and technical replicates | n = 6 mice per group. For each mouse, values from three sections were averaged. |
-| Statistics | Data are presented as mean ± SD. Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
+| n and technical replicates | n = 6 mice per group.<br>For each mouse, values from three sections were averaged. |
+| Statistics | Data are presented as mean ± SD.<br>Groups were compared by one-way ANOVA with Tukey's multiple comparisons test. |
 | Software | Analyses were performed in [software, version]. |
 
 - Do not write only "as previously described" and leave out what you changed. State the changes.
@@ -65,12 +65,12 @@ A paragraph runs purpose, what was done, result, short interpretation ([W7](chap
 
 | What you want to say | Phrases |
 |---|---|
-| Purpose and what was done | To test whether [question], we [method] (Fig. [n]). / We next asked whether [question]. |
-| Increased | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]). / … by [n]-fold |
+| Purpose and what was done | To test whether [question], we [method] (Fig. [n]).<br>We next asked whether [question]. |
+| Increased | [X] increased [Y] from [a] to [b] ([statistics]; Fig. [n]).<br>… by [n]-fold |
 | Decreased | [X] reduced (lowered) [Y] by [n]% compared with [control]. |
 | No difference | [Y] did not differ between [groups] ([statistics]). |
 | Dose or time dependence | [Y] decreased as the dose increased ([statistics]). |
-| Short interpretation (its own sentence) | Thus, [X] reduced [Y] in [model]. / These results suggest that [interpretation]. |
+| Short interpretation (its own sentence) | Thus, [X] reduced [Y] in [model].<br>These results suggest that [interpretation]. |
 
 - Use "significantly" only for a comparison you tested, and give the P value of that test.
 - Do not attach the interpretation as ", suggesting that …". Write it as a separate sentence.
@@ -82,9 +82,9 @@ The first paragraph answers the question of the Introduction ([W11](chapters/w11
 
 | What you want to say | Phrases |
 |---|---|
-| Main finding | We found that [main finding]. / Compound X reduced kidney fibrosis after UUO in mice. |
+| Main finding | We found that [main finding].<br>Compound X reduced kidney fibrosis after UUO in mice. |
 | Agrees with earlier work | This agrees with [Author et al.], who found [finding] in [model] [ref]. |
-| Differs from earlier work | In contrast to [Author et al.] [ref], we observed [finding]. This difference may reflect [specific reason]. |
+| Differs from earlier work | In contrast to [Author et al.] [ref], we observed [finding].<br>This difference may reflect [specific reason]. |
 | Implication | These results raise the possibility that [implication]. |
 | Limitation | We used only [condition], so [what we cannot conclude]. |
 | Next step | [Specific experiment] would test whether [question]. |
@@ -128,19 +128,19 @@ The same standard as the hedging table in [W11](chapters/w11_discussion.qmd).
 | What you want to say | Phrases |
 |---|---|
 | Range | from 18.2% to 9.6% |
-| Reduced by a share | by 47% / a 47% reduction |
+| Reduced by a share | by 47%<br>a 47% reduction |
 | Fold change | a 2.3-fold increase |
 | Comparing two groups | compared with vehicle (use compared with for differences) |
 | Matching order | A and B were 10 and 20, respectively. |
-| Summary values | mean ± SD / median (interquartile range) |
+| Summary values | mean ± SD<br>median (interquartile range) |
 
 ## Connectives {#connectives}
 
 | Meaning | Phrases |
 |---|---|
-| Adding | In addition, / Also, |
-| Contrast | However, / In contrast, |
-| Consequence | Therefore, / Thus, |
+| Adding | In addition,<br>Also, |
+| Contrast | However,<br>In contrast, |
+| Consequence | Therefore,<br>Thus, |
 | Summary | Taken together, |
 
 - "Notably", "Importantly" and "Interestingly" are common in AI text. Use them once or twice in a whole manuscript at most.
@@ -156,8 +156,8 @@ The structure and examples are in [W14](chapters/w14_submission_response.qmd).
 |---|---|
 | First sentence | We submit our manuscript, "[Title]," for consideration as an [article type] in [Journal]. |
 | Main results | In [model], [X] [result with the same numbers as the Abstract]. |
-| Why this journal | [Journal] recently published [Author et al., Year, DOI], which [what it did]. Our study extends that work by [how]. |
-| Required statements | This manuscript has not been published and is not under consideration elsewhere. All authors have approved the manuscript. |
+| Why this journal | [Journal] recently published [Author et al., Year, DOI], which [what it did].<br>Our study extends that work by [how]. |
+| Required statements | This manuscript has not been published and is not under consideration elsewhere.<br>All authors have approved the manuscript. |
 
 - "novel and groundbreaking", "prestigious journal" and "perfect fit" are things an editor cannot check. Write facts.
 
@@ -168,9 +168,9 @@ Answer each comment with quote, thanks, what you did, and where it changed ([W14
 | Slot | Phrases |
 |---|---|
 | Thanks (one sentence) | We thank the reviewer for this suggestion. |
-| What you did | We now show [what] (Fig. [n]). We also state in the Methods [what]. |
+| What you did | We now show [what] (Fig. [n]).<br>We also state in the Methods [what]. |
 | Where it changed | Changes: [section], page [n], lines [n–n]. |
-| When you do not accept | We did not [do X], because [evidence]. We now state this limitation in the Discussion (page [n], lines [n–n]). |
+| When you do not accept | We did not [do X], because [evidence].<br>We now state this limitation in the Discussion (page [n], lines [n–n]). |
 | When the reviewer misread | We have rewritten [section] to make clear that [point]. |
 
 - Do not write analyses you did not do or promises you cannot keep.

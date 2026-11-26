@@ -62,8 +62,10 @@ dry lab 예문도 가상의 예시임(공개 데이터로 사람 신장 생검�
    - 전: The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
    - 후: We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
 3. 무생물 주어와 행동 동사
-   - 전: The QC filter quietly swallows low-quality cells. / Compound X fights fibrosis in the injured kidney.
-   - 후: The QC filter removes low-quality cells without a warning. / Compound X reduced fibrosis in UUO kidneys.
+   - 전: The QC filter quietly swallows low-quality cells.
+   - 후: The QC filter removes low-quality cells without a warning.
+   - 전: Compound X fights fibrosis in the injured kidney.
+   - 후: Compound X reduced fibrosis in UUO kidneys.
    - Figure 2 shows, These results suggest 같은 관례적 표현은 적당히 쓰면 괜찮음. 은유 동사(swallow, fight, tell a story)가 문제임.
 4. 새로 만든 말, 드문 단어 조합
    - 전: Compound X lowered the fibro-burden index. (같은 단락에서 MF2 cells, the profibrotic cluster, these activated stromal cells가 모두 같은 세포를 가리킴)
@@ -72,12 +74,14 @@ dry lab 예문도 가상의 예시임(공개 데이터로 사람 신장 생검�
 5. 기능어 빠짐
    - 전: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
    - 후: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
-   - 전: the samples the lab sequenced / 후: the samples that the lab sequenced
+   - 전: the samples the lab sequenced
+   - 후: the samples that the lab sequenced
    - Figure legend 제목처럼 굳은 형식은 예외임([W6](w06_methods_legends.qmd)).
 6. 명사화
    - 전: Administration of compound X resulted in a reduction of collagen deposition.
    - 후: Compound X reduced collagen deposition.
-   - 전: We performed an analysis of Smad3 phosphorylation. / 후: We analyzed Smad3 phosphorylation.
+   - 전: We performed an analysis of Smad3 phosphorylation.
+   - 후: We analyzed Smad3 phosphorylation.
 7. 절을 쉼표로 길게 이음
    - 전: We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
    - 후: We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.

@@ -76,7 +76,7 @@ date: last-modified
 | 이 연구의 결과 | 과거 | Compound X reduced the fibrotic area. |
 | 그림과 표가 보여 주는 것 | 현재 | Figure 2 shows the fibrotic area in each group. |
 | 이미 확립된 사실 | 현재 | Fibrosis is the hallmark of progressive kidney disease [ref]. |
-| 다른 연구의 결과 | 과거 또는 현재완료 | A previous study showed that ... / Several studies have shown that ... |
+| 다른 연구의 결과 | 과거 또는 현재완료 | A previous study showed that ...<br>Several studies have shown that ... |
 
 - 한 단락 안에서 이유 없이 시제를 바꾸지 않는다. Methods의 시제와 태는 [W6](chapters/w06_methods_legends.qmd)의 원칙 2에 있다.
 

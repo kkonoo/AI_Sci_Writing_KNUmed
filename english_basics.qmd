@@ -76,7 +76,7 @@ You learn English expressions faster from real papers than from rules. Glasman-D
 | The results of this study | Past | Compound X reduced the fibrotic area. |
 | What a figure or table shows | Present | Figure 2 shows the fibrotic area in each group. |
 | Established facts | Present | Fibrosis is the hallmark of progressive kidney disease [ref]. |
-| Results of other studies | Past or present perfect | A previous study showed that ... / Several studies have shown that ... |
+| Results of other studies | Past or present perfect | A previous study showed that ...<br>Several studies have shown that ... |
 
 - Do not change tense within a paragraph without a reason. Tense and voice in the Methods are covered in principle 2 of [W6](chapters/w06_methods_legends.qmd).
 

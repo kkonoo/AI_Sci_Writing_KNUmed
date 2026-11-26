@@ -85,9 +85,9 @@ Zeiger (2000) also treats the three types separately in the chapters on the Abst
 
 | Type of paper | Approach and key results in the Abstract | Title |
 |---|---|---|
-| Hypothesis-testing | The hypothesis tested and the design. The results that support or reject the hypothesis | The result type fits well. Example: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
-| Descriptive | What was described, and with what data. The main features of what was described, with numbers | The result type or the descriptive type. Example: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
-| Methods | What the new method does, the existing methods and data it was compared on, and the result of the comparison | Give the name of the method and what it does. Template: *[Method name]: [what it does] for [data type]* |
+| Hypothesis-testing | The hypothesis tested and the design. The results that support or reject the hypothesis | The result type fits well.<br>Example: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
+| Descriptive | What was described, and with what data. The main features of what was described, with numbers | The result type or the descriptive type.<br>Example: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
+| Methods | What the new method does, the existing methods and data it was compared on, and the result of the comparison | Give the name of the method and what it does.<br>Template: *[Method name]: [what it does] for [data type]* |
 
 - In a methods paper, give the results as numbers compared with existing methods (accuracy, speed, reproducibility and so on). Do not write only outperforms and leave out the numbers and what the method was compared with.
 - Do not put causation into the conclusion of a descriptive paper. With data from one time point, do not use drives or causes ([W11](w11_discussion.qmd)).
