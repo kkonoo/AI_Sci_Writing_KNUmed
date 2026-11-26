@@ -67,7 +67,7 @@ When you review a track B manuscript, do not look up and read the Results of the
 Answer each item with yes, partly or no. Where there is a problem, write the line numbers and a comment. For animal studies, keep the [ARRIVE Essential 10](https://arriveguidelines.org/arrive-guidelines) open beside the form.
 
 | # | Item | Question to check |
-|---|---|---|
+|---|------------------------|------------------------|
 | M1 | Reproducibility | Could another lab do the same experiment or analysis from these Methods alone? Are the reagents and their sources, concentrations, times, equipment, software versions and parameters given? For dry lab work, are the data accession numbers and the location of the code given? |
 | M2 | n | Is it clear what n counts (animals, patients, cells, fields of view)? Is n given for each group, and are excluded samples and the exclusion criteria given? |
 | M3 | Statistics | Does the text state the name of the test, the groups compared, the correction for multiple comparisons, and whether the error bars are SD or SEM? |
@@ -153,7 +153,7 @@ Version revised after peer review
 - Format of the revision table:
 
 | # | Summary of the comment (in my own words) | Action | Where I changed it, or why I did not accept it |
-|---|---|---|---|
+|---|------------------------|------------------------|------------------------|
 | 1 (example) | The Methods do not give the qPCR reference gene | Accepted | Added the name of the reference gene at line 15 of the Methods |
 | | | | |
 

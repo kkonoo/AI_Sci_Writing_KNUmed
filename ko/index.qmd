@@ -43,7 +43,7 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 ### Part 1 · 기초
 
 | 주 | 주제 | 과제 |
-|---|---|---|
+|---|------------------------|------------------------|
 | 1 | [오리엔테이션](chapters/w01_orientation.qmd) | A: 그림 목록 / B: 논문 고르기 |
 | 2 | [AI 기본기](chapters/w02_ai_basics.qmd) | AI 답변 하나 검증해 오기 |
 | 3 | [읽히는 영어 문장](chapters/w03_readable_sentences.qmd) | AI가 쓴 문단에서 패턴 찾기 |
@@ -51,7 +51,7 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 ### Part 2 · 원고 쓰기
 
 | 주 | 주제 | 과제 |
-|---|---|---|
+|---|------------------------|------------------------|
 | 4 | [Figure 스토리보드](chapters/w04_figure_storyboard.qmd) | Figure 순서 카드 |
 | 5 | [Methods와 Figure legend](chapters/w05_methods_legends.qmd) | Methods, legend 초안 |
 | 6 | [Results](chapters/w06_results.qmd) | Results 초안 |
@@ -64,7 +64,7 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 ### Part 3 · 다듬기와 투고
 
 | 주 | 주제 | 과제 |
-|---|---|---|
+|---|------------------------|------------------------|
 | 12 | [다듬기](chapters/w12_polishing.qmd) | 전체 원고 수정본 |
 | 13 | [투고 준비](chapters/w13_submission.qmd) | Cover letter |
 | 14 | [리뷰어 답변](chapters/w14_reviewer_response.qmd) | 답변서 1건 |

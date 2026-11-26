@@ -36,7 +36,7 @@ By the end of this week, you will be able to do the following.
 The table below is the checklist for this week's exercise and for [W12 Polishing](w12_polishing.qmd). Do not change the numbers.
 
 | # | Pattern | Clues | How to fix |
-|---|---|---|---|
+|---|------------------------|------------------------|------------------------|
 | 1 | Noun stack | Three or more nouns in a row | Rewrite it with a verb |
 | 2 | Related words far apart | A long gap between subject and verb, a long modifier attached to a noun | Split the sentence |
 | 3 | Inanimate subject with an action verb | The data tell, the filter swallows | Make the real actor the subject, and use a precise verb |
