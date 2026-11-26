@@ -12,9 +12,12 @@ include-after-body: ../assets/ai-lab.html
 - You can check the word limit and format of the Abstract on your target journal's page.
 - When you need to cut words, you can cut units of content instead of grammar.
 - You can write three title options of different types and compare their strengths and weaknesses.
+- You can write the approach and results of the Abstract, and the title, to fit the type of your paper.
 :::
 
 # 1. Principles {#principles}
+
+For most readers, the Abstract is the only part of the paper they read. So the Abstract alone must carry the whole story of the paper, in the order context, content, conclusion (Mensh & Kording 2017, rule 5). The title carries the one central contribution of that story (rule 1). The five-sentence summary from [W1](w01_orientation.qmd) is the skeleton of the Abstract.
 
 The examples come from two fictional example studies. The wet lab example is a study in which the fictional drug compound X reduced fibrosis in the mouse unilateral ureteral obstruction (UUO) model. The dry lab example is a study that reanalyzed public single-cell RNA sequencing data from human kidney biopsies. It found a myofibroblast subtype, MF2, that was more abundant in patients with fibrosis. The numbers are made up.
 
@@ -31,6 +34,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 | Conclusion | 1 | Last sentence of the Discussion |
 
 - No result or claim should appear only in the Abstract. The numbers must match the Results.
+- The most common mistake is to give the results before readers are ready to understand them (Mensh & Kording 2017, rule 5). The background and the gap must come first, so that readers see what question the results answer.
 - The three journals in the table under the next principle do not allow references in the Abstract. Most other journals are the same.
 - State the species you studied in the Abstract. PLOS ONE requires this in its submission guidelines ([submission guidelines](https://journals.plos.org/plosone/s/submission-guidelines)).
 
@@ -74,6 +78,19 @@ The examples come from two fictional example studies. The wet lab example is a s
 - Descriptive type: there is less risk of overstating, and the title contains search terms. It does not show what you found. Nouns tend to pile up. The wet lab example has 17 words, so it goes over the 15-word limit of Nature Communications.
 - Question type: it draws readers' interest. The answer is not in the title. It may not suit journals such as Scientific Reports, which ask for the main message in one sentence.
 - Put the species and model in all three types. The verb of the title must not be stronger than the conclusion sentence of the Abstract.
+
+## The focus of the Abstract and the title depends on the type of paper
+
+Zeiger (2000) also treats the three types separately in the chapters on the Abstract and the title.
+
+| Type of paper | Approach and key results in the Abstract | Title |
+|---|---|---|
+| Hypothesis-testing | The hypothesis tested and the design. The results that support or reject the hypothesis | The result type fits well. Example: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
+| Descriptive | What was described, and with what data. The main features of what was described, with numbers | The result type or the descriptive type. Example: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
+| Methods | What the new method does, the existing methods and data it was compared on, and the result of the comparison | Give the name of the method and what it does. Template: *[Method name]: [what it does] for [data type]* |
+
+- In a methods paper, give the results as numbers compared with existing methods (accuracy, speed, reproducibility and so on). Do not write only outperforms and leave out the numbers and what the method was compared with.
+- Do not put causation into the conclusion of a descriptive paper. With data from one time point, do not use drives or causes ([W11](w11_discussion.qmd)).
 
 # 2. Try it with AI {#try-with-ai}
 
@@ -168,4 +185,4 @@ Abstract, and three title options
 
 # Notes {#notes}
 
-To cut words, cut content, not grammar
+To cut words, cut content, not grammar. The Abstract and title by type of paper (Zeiger chapters 10 and 11, Mensh & Kording rules 1 and 5)

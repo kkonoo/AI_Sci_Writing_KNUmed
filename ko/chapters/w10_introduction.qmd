@@ -11,10 +11,13 @@ include-after-body: ../../assets/ai-lab.html
 - 이번 주가 끝나면 Introduction을 배경, 왜 중요한가, 기존 연구가 못 하는 것, 이 연구의 네 단계로 설계할 수 있다.
 - 문단마다 주장을 한 문장으로 정하고, 그 근거를 W8 참고문헌 표에서 찾아 붙일 수 있다.
 - 기존 연구의 빈틈(gap)을 검색한 만큼만 쓰고, 그 gap과 이 연구의 설계가 맞는지 확인할 수 있다.
+- 내 논문의 종류(가설 검증, 기술, 방법)에 맞게 gap과 마지막 문단을 쓸 수 있다.
 - AI가 붙인 인용이 문장의 주장을 실제로 뒷받침하는지 원문으로 확인할 수 있다.
 :::
 
 # 1. 원칙 {#principles}
+
+Introduction이 하는 일은 독자에게 이 논문이 왜 중요한지 알리는 것이다. 넓은 배경에서 이 연구가 메울 빈틈(gap)으로 좁혀 가고, 마지막 문단에서 이 연구가 그 빈틈을 어떻게 메우는지 말한다(Mensh & Kording 2017, 규칙 6). [W1](w01_orientation.qmd)의 다섯 문장으로는 질문과 왜 중요한가에 해당한다. Schimel (2012)의 이름으로는 Opening과 Challenge다. 분야의 문헌을 넓게 훑는 리뷰가 아니다.
 
 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에 가상의 약물 compound X를 투여했더니 섬유화가 줄었다는 연구다. compound X와 수치는 지어낸 것이다. 예문의 [1]과 [2]만 실제 문헌이고 DOI를 확인했다. 나머지 번호는 W8 참고문헌 표의 번호가 들어갈 자리다.
 
@@ -33,6 +36,7 @@ include-after-body: ../../assets/ai-lab.html
 | 이 연구 | 이 연구는 그 빈틈을 어떻게 메우나? | 마지막 1문단 |
 
 - 그림 3~4개 분량의 원고라면 4~5문단이면 된다.
+- 마지막 문단을 뺀 문단은 맥락 → 알려진 것 → 모르는 것 순서로 쓴다. 한 문단 끝의 모르는 것이 다음 문단의 더 좁은 맥락이 된다. 예를 들어 첫 문단 끝에 분야의 빈틈, 둘째 문단 끝에 세부 분야의 빈틈, 셋째 문단 끝에 이 연구가 메울 빈틈을 쓴다(Mensh & Kording 2017, 규칙 6). [W4](w04_paragraphs.qmd)의 문단 원칙과 같은 틀이다.
 - 첫 문장에는 독자가 확인할 수 있는 사실이나 숫자를 하나 쓴다.
 - Before: *Kidney fibrosis has attracted increasing attention in recent years and plays a crucial role in chronic kidney disease.*
 - After: *Chronic kidney disease affects more than 800 million people worldwide [1]. Fibrosis is the hallmark of progressive kidney disease of almost any cause [2].*
@@ -72,6 +76,21 @@ include-after-body: ../../assets/ai-lab.html
 - Before: *In this study, we investigated the role of compound X in kidney disease using various methods.*
 - After: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model. We measured the fibrotic area, fibrosis marker genes and Smad3 phosphorylation. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.*
 - 이 마지막 문단의 질문은 W11 Discussion 첫 문단에서 답한다. 질문 문장을 따로 적어 둔다.
+
+## 논문 종류에 따라 gap과 마지막 문단이 달라진다
+
+[W1](w01_orientation.qmd)에서 정한 논문 종류에 맞춰 쓴다. Zeiger (2000)도 Introduction 장에서 세 종류를 따로 다룬다.
+
+| 논문 종류 | gap의 모양 | 마지막 문단에 쓸 것 |
+|---|---|---|
+| 가설 검증 | X가 Y를 바꾸는지 시험되지 않았다 | 시험한 가설과 설계 |
+| 기술 | 이 집단이나 이 해상도에서 Y를 기술한 자료가 없다 | 무엇을 어떤 자료로 기술했는지 |
+| 방법 | 기존 방법으로는 X를 할 수 없거나, 정확도나 속도가 부족하다 | 새 방법이 하는 일과, 무엇과 비교해 검증했는지 |
+
+- 가설 검증 예시는 위 compound X 문단이다: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model.*
+- 기술 논문 예시(가상, MF2 연구): *Here, we reanalyzed public single-cell RNA sequencing data from kidney biopsies of patients with and without fibrosis and compared the proportions of fibroblast subtypes.* 위의 dry lab gap 문장과 짝을 이룬다.
+- 방법 논문은 빈칸 틀로 연습한다: *Here, we present [method], which [what it does]. We compared it with [existing methods] on [data].*
+- 기술 논문에 가설을 억지로 넣지 않는다. We hypothesized that ...은 실제로 시험한 가설이 있을 때만 쓴다.
 
 # 2. AI로 해 보기 {#try-with-ai}
 
@@ -170,4 +189,4 @@ Introduction 초안
 
 # 메모 {#notes}
 
-배경 → 왜 중요한가 → 기존 연구가 못 하는 것 → 이 연구 (intro-builder)
+배경 → 왜 중요한가 → 기존 연구가 못 하는 것 → 이 연구 (intro-builder). 논문 종류별 gap (Zeiger 4장, Mensh & Kording 규칙 6)

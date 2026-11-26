@@ -11,10 +11,13 @@ include-after-body: ../assets/ai-lab.html
 - By the end of this week, you can design an Introduction in four steps: background, why it matters, what existing work cannot do, and this study.
 - You can state the claim of each paragraph in one sentence and attach its evidence from your W8 reference table.
 - You can describe the gap in existing work only as far as you searched, and check that the gap and the design of this study match.
+- You can write the gap and the last paragraph to fit the type of your paper (hypothesis-testing, descriptive or methods).
 - You can check in the source whether a citation that AI added actually supports the claim of the sentence.
 :::
 
 # 1. Principles {#principles}
+
+The job of the Introduction is to tell readers why this paper matters. It narrows from a broad background to the gap that this study fills, and its last paragraph says how this study fills that gap (Mensh & Kording 2017, rule 6). In the five sentences of [W1](w01_orientation.qmd), it covers the question and why it matters. In Schimel's (2012) terms, it is the Opening and the Challenge. It is not a broad review of the literature in the field.
 
 The examples come from a fictional example study. In this study, the fictional drug compound X reduced fibrosis when it was given to mice in the unilateral ureteral obstruction (UUO) model. Compound X and the numbers are made up. Only [1] and [2] in the examples are real papers, and their DOIs were checked. The other numbers are placeholders for numbers from your W8 reference table.
 
@@ -33,6 +36,7 @@ The examples come from a fictional example study. In this study, the fictional d
 | This study | How does this study fill the gap? | The last paragraph |
 
 - For a manuscript with 3–4 figures, 4–5 paragraphs are enough.
+- Write every paragraph except the last in the order context → what is known → what is not known. The unknown at the end of one paragraph becomes the narrower context of the next. For example, end the first paragraph with a gap in the field, the second with a gap in the subfield, and the third with the gap that this study fills (Mensh & Kording 2017, rule 6). This is the same frame as the paragraph principles in [W4](w04_paragraphs.qmd).
 - In the first sentence, give one fact or number that readers can check.
 - Before: *Kidney fibrosis has attracted increasing attention in recent years and plays a crucial role in chronic kidney disease.*
 - After: *Chronic kidney disease affects more than 800 million people worldwide [1]. Fibrosis is the hallmark of progressive kidney disease of almost any cause [2].*
@@ -72,6 +76,21 @@ Before you write any sentences, make a paragraph plan. If the evidence cell of t
 - Before: *In this study, we investigated the role of compound X in kidney disease using various methods.*
 - After: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model. We measured the fibrotic area, fibrosis marker genes and Smad3 phosphorylation. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.*
 - You answer the question of this last paragraph in the first paragraph of the Discussion in W11. Write the question down separately.
+
+## The gap and the last paragraph depend on the type of paper
+
+Write to fit the type of paper you chose in [W1](w01_orientation.qmd). Zeiger (2000) also treats the three types separately in the chapter on the Introduction.
+
+| Type of paper | Shape of the gap | What the last paragraph gives |
+|---|---|---|
+| Hypothesis-testing | Whether X changes Y has not been tested | The hypothesis tested and the design |
+| Descriptive | No data describe Y in this population or at this resolution | What was described, and with what data |
+| Methods | Existing methods cannot do X, or are not accurate or fast enough | What the new method does, and what it was compared with |
+
+- The hypothesis-testing example is the compound X paragraph above: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model.*
+- Descriptive example (fictional, the MF2 study): *Here, we reanalyzed public single-cell RNA sequencing data from kidney biopsies of patients with and without fibrosis and compared the proportions of fibroblast subtypes.* It pairs with the dry lab gap sentence above.
+- Practice a methods paper with a template: *Here, we present [method], which [what it does]. We compared it with [existing methods] on [data].*
+- Do not force a hypothesis into a descriptive paper. Write We hypothesized that ... only when you actually tested a hypothesis.
 
 # 2. Try it with AI {#try-with-ai}
 
@@ -170,4 +189,4 @@ Draft Introduction
 
 # Notes {#notes}
 
-Background → why it matters → what existing work cannot do → this study (intro-builder)
+Background → why it matters → what existing work cannot do → this study (intro-builder). The gap by type of paper (Zeiger chapter 4, Mensh & Kording rule 6)

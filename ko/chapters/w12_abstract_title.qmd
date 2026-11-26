@@ -12,9 +12,12 @@ include-after-body: ../../assets/ai-lab.html
 - 투고할 저널의 Abstract 단어 수와 형식을 저널 페이지에서 확인할 수 있다.
 - 단어 수를 줄여야 할 때 문법이 아니라 내용 단위로 뺄 수 있다.
 - 유형이 다른 Title 세 안을 쓰고 장단점을 비교할 수 있다.
+- 내 논문의 종류에 맞게 Abstract의 접근과 결과, Title을 쓸 수 있다.
 :::
 
 # 1. 원칙 {#principles}
+
+Abstract는 대부분의 독자가 읽는 유일한 부분이다. 그래서 Abstract만 읽어도 논문 전체의 이야기가 맥락, 내용, 결론 순서로 끝까지 전해져야 한다(Mensh & Kording 2017, 규칙 5). Title은 그 이야기의 핵심 기여 하나를 담는다(규칙 1). [W1](w01_orientation.qmd)의 다섯 문장 요약이 Abstract의 뼈대가 된다.
 
 예문은 가상의 예시 연구 두 개를 쓴다. wet lab 예시는 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에서 가상의 약물 compound X가 섬유화를 줄였다는 연구다. dry lab 예시는 공개된 사람 신장 생검 단일세포 RNA 시퀀싱 데이터를 다시 분석해서 섬유화 환자에서 늘어난 근섬유아세포(myofibroblast) 아형 MF2를 찾은 연구다. 수치는 지어낸 것이다.
 
@@ -31,6 +34,7 @@ include-after-body: ../../assets/ai-lab.html
 | 결론 | 1 | Discussion 마지막 문장 |
 
 - Abstract에만 있는 결과나 주장은 없어야 한다. 수치는 Results와 같아야 한다.
+- 가장 흔한 실수는 독자가 결과를 이해할 준비가 되기 전에 결과부터 쓰는 것이다(Mensh & Kording 2017, 규칙 5). 배경과 gap이 먼저 나와야 결과가 어떤 질문에 대한 답인지 보인다.
 - 다음 원칙의 표에 있는 세 저널은 모두 Abstract에 참고문헌을 넣지 않게 한다. 다른 저널도 대개 그렇다.
 - 연구한 종을 Abstract에 쓴다. PLOS ONE은 이것을 투고 규정으로 요구한다([투고 안내](https://journals.plos.org/plosone/s/submission-guidelines)).
 
@@ -74,6 +78,19 @@ include-after-body: ../../assets/ai-lab.html
 - 설명형: 과장할 위험이 적고 검색어가 들어간다. 무엇을 찾았는지는 보이지 않는다. 명사가 길게 이어지기 쉽다. wet lab 예시는 17단어라서 Nature Communications의 15단어 기준을 넘는다.
 - 질문형: 독자의 관심을 끈다. 답이 제목에 없다. 주요 메시지를 한 문장으로 쓰라는 Scientific Reports 같은 저널에는 맞지 않을 수 있다.
 - 세 유형 모두 종과 모델을 넣는다. 제목의 동사는 Abstract 결론 문장보다 세면 안 된다.
+
+## 논문 종류에 따라 Abstract와 Title의 중심이 달라진다
+
+Zeiger (2000)도 Abstract와 Title 장에서 세 종류를 따로 다룬다.
+
+| 논문 종류 | Abstract의 접근과 핵심 결과 | Title |
+|---|---|---|
+| 가설 검증 | 시험한 가설과 설계. 가설을 받치거나 기각한 결과 | 결과형이 잘 맞는다. 예: *Compound X reduces kidney fibrosis after ureteral obstruction in mice* |
+| 기술 | 무엇을 어떤 자료로 기술했는지. 기술한 것의 주요 특징과 수치 | 결과형이나 설명형. 예: *A myofibroblast subtype is more abundant in fibrotic human kidneys* |
+| 방법 | 새 방법이 하는 일, 비교한 기존 방법과 데이터, 비교 결과 | 방법 이름과 하는 일을 함께 쓴다. 틀: *[Method name]: [what it does] for [data type]* |
+
+- 방법 논문의 결과는 기존 방법과 비교한 수치(정확도, 속도, 재현성 등)로 쓴다. outperforms만 쓰고 수치와 비교 대상을 빼지 않는다.
+- 기술 논문의 결론에 인과를 넣지 않는다. 한 시점의 자료로 drives나 causes를 쓰지 않는다([W11](w11_discussion.qmd)).
 
 # 2. AI로 해 보기 {#try-with-ai}
 
@@ -168,4 +185,4 @@ Abstract, Title 3안
 
 # 메모 {#notes}
 
-단어 수를 줄일 때는 문법이 아니라 내용을 빼기
+단어 수를 줄일 때는 문법이 아니라 내용을 빼기. 논문 종류별 Abstract와 Title (Zeiger 10·11장, Mensh & Kording 규칙 1·5)
