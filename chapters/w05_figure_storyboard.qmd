@@ -11,6 +11,7 @@ include-after-body: ../assets/ai-lab.html
 - Write the conclusion of each figure as one sentence in English.
 - Order the figures as the paper's argument runs, and explain why.
 - Choose the graph type that fits the comparison the reader must see.
+- Decide what to show in figures and what to show in tables.
 - Find the figure specifications and image rules of your target journal, and apply them to your figures.
 :::
 
@@ -79,7 +80,35 @@ include-after-body: ../assets/ai-lab.html
 - Give the same group or cell type the same color in every figure. Avoid red and green pairs. Check with a color vision deficiency simulation that the colors can still be told apart.
 - Order categories by meaning, not alphabetically. Example: sham → UUO + vehicle → UUO + compound X.
 
-## Principle 4. Match the journal's figure specifications from the start
+## Principle 4. Show trends in figures and values to look up in tables
+
+- Use a figure to show differences, trends and patterns at a glance. Use a table when readers need to look up exact values or see many items side by side.
+- Content that suits a table: characteristics of patients or animals, lists of antibodies and reagents, primer sequences, lists of differentially expressed genes. Move long lists to a supplementary table.
+- Do not show the same data in both a figure and a table. In the text, do not repeat every value in the table either. Point out in sentences only what readers should see in the table.
+- Like a figure, a table should be readable without the text. The title, units, n and the meanings of abbreviations belong in the table.
+- Format
+  - Put the table title above the table. Say what the table shows.
+  - Give units and summary statistics (such as median and interquartile range) once, in the row or column heading. Do not repeat them in every cell.
+  - Give the n of each group in the column heading.
+  - Explain abbreviations and statistical methods in footnotes below the table.
+  - Line up the decimal places of the numbers in each column.
+  - Number figures and tables in the order in which the text first mentions them. Count Table 1 and Figure 1 separately.
+- Example (dry lab, fictional). The brackets are where your own data go.
+
+Table 1. Characteristics of the patients whose kidney biopsies were reanalyzed
+
+| Characteristic | Controls (n = 6) | Fibrosis (n = 8) |
+|---|---|---|
+| Age, years, median (IQR) | [ ] | [ ] |
+| Female, n (%) | [ ] | [ ] |
+| eGFR, mL/min/1.73 m², median (IQR) | [ ] | [ ] |
+| Fibroblasts per biopsy, median (IQR) | [ ] | [ ] |
+
+IQR, interquartile range; eGFR, estimated glomerular filtration rate.
+
+- Vertical lines, footnote symbols and file formats for tables differ between journals. Follow the rules of your target journal ([W14](w14_submission_response.qmd)).
+
+## Principle 5. Match the journal's figure specifications from the start
 
 - If you shrink a finished figure later, its text and lines become hard to read. Draw each figure at its final size from the start.
 - The specifications of two journals serve as examples here (checked on each journal's pages on 2026-11-10).
@@ -96,7 +125,7 @@ include-after-body: ../assets/ai-lab.html
 - Sources: [Nature, Final submission](https://www.nature.com/nature/for-authors/final-submission), [Nature guide to preparing figures](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/), [PLOS ONE, Figures](https://journals.plos.org/plosone/s/figures).
 - Specifications differ between journals and can change. Check them again on the journal's pages just before you submit ([W14](w14_submission_response.qmd)).
 
-## Principle 5. Do not make or edit data figures with AI
+## Principle 6. Do not make or edit data figures with AI
 
 - Do not use AI to make or edit data figures (blots, micrographs and so on) ([AI use rules](../ai_rules.qmd#in-the-paper)).
 - Follow the journal's image rules as well. The main points of the [Nature Portfolio image integrity policy](https://www.nature.com/nature-portfolio/editorial-policies/image-integrity) are these:
@@ -188,6 +217,7 @@ Figure order cards
 | Results paragraph | Which paragraph of the W7 Results it becomes, and a candidate subheading | Second paragraph. Compound X reduces fibrosis after UUO |
 
 - Track A: work from your own figures. For analyses that are not finished yet, write "planned" in the key statistics item. Do not make up numbers in advance.
+- If you have content to show in a table (patient characteristics, a list of reagents and so on), write one more card for each table. In the panels item, write what goes in the rows and the columns.
 - Track B: work only from the figures and Methods of the paper you chose. Do not read the Results. Find the names of the tests in the statistical analysis section of the Methods.
 - Grading criteria:
   1. Each conclusion sentence is a claim and does not go beyond what the figure's data show.
@@ -198,4 +228,4 @@ Figure order cards
 
 # Notes {#notes}
 
-One conclusion sentence per figure, and journal figure specifications (figure-chooser)
+One conclusion sentence per figure, choosing between figures and tables, and journal figure specifications (figure-chooser, Zeiger chapter 8)
