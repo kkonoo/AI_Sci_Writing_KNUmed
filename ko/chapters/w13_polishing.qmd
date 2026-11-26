@@ -27,7 +27,7 @@ include-after-body: ../../assets/ai-lab.html
 
 - 순서: 내용과 그림 순서 → 단락 → 문장 → 단어와 문법.
 - 문장부터 다듬으면 나중에 단락을 빼거나 옮길 때 그 수고가 버려진다.
-- 이번 주에 먼저 볼 것: 각 Figure의 결론 문장([W5](w05_figure_storyboard.qmd))이 Results 단락 첫 문장, Abstract, Title에 같은 강도로 들어 있는가.
+- 이번 주에 먼저 볼 것: 각 Figure의 결론 문장([W5](w05_figure_storyboard.qmd))이 Results 단락의 해석 문장이나 소제목([W7](w07_results.qmd)), Abstract, Title에 같은 강도로 들어 있는가.
 
 ## 원고 전체의 줄기를 먼저 점검한다
 

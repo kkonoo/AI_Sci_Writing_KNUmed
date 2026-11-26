@@ -121,7 +121,8 @@ These are the places where AI often goes wrong when it makes a table of numbers.
 
 This list collects the checks of earlier weeks in manuscript order. Use it together with the detailed lists on each week's page.
 
-- [ ] The order of the figure order cards and the order of the Results paragraphs are the same. The first sentence of each paragraph is the conclusion sentence of that figure. ([W5](w05_figure_storyboard.qmd), [W7](w07_results.qmd))
+- [ ] The five-sentence summary from W1 is in its places in the manuscript, in the same words and with the same strength. Every paragraph has a topic sentence, and the topic sentences alone show the story line of the manuscript. ([W1](w01_orientation.qmd), [W4](w04_paragraphs.qmd), [W13](w13_polishing.qmd))
+- [ ] The order of the figure order cards and the order of the Results paragraphs are the same. The interpretation sentence or subheading of each paragraph makes the same claim as the conclusion sentence of that figure. The same data are not shown in both a figure and a table. ([W5](w05_figure_storyboard.qmd), [W7](w07_results.qmd))
 - [ ] Each figure legend gives n, the statistical test and what the error bars show. Someone could repeat the experiments or analyses from the Methods alone. ([W6](w06_methods_legends.qmd))
 - [ ] The Results report the results, and the interpretation goes in the Discussion. ([W7](w07_results.qmd))
 - [ ] You checked every reference through its DOI or PubMed, and each citing sentence matches the content of that paper. There is a verification log. ([W8](w08_literature.qmd))

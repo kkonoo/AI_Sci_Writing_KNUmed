@@ -27,7 +27,7 @@ The examples come from the fictional example study that we have used since W5: t
 
 - Work in this order: content and figure order → paragraphs → sentences → words and grammar.
 - If you polish sentences first, that work is wasted when you later cut or move a paragraph.
-- This week, look at one thing first. Does the conclusion sentence of each figure ([W5](w05_figure_storyboard.qmd)) appear with the same strength in the first sentence of its Results paragraph, in the Abstract and in the Title?
+- This week, look at one thing first. Does the conclusion sentence of each figure ([W5](w05_figure_storyboard.qmd)) appear with the same strength in the interpretation sentence or subheading of its Results paragraph ([W7](w07_results.qmd)), in the Abstract and in the Title?
 
 ## Check the story line of the whole manuscript first
 

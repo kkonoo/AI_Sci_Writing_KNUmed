@@ -121,7 +121,8 @@ AI가 수치 표를 만들 때 자주 틀리는 지점이다. 수치는 원문 �
 
 지난 주차의 점검을 원고 순서대로 모았다. 각 주차 페이지의 자세한 목록과 함께 쓴다.
 
-- [ ] Figure 순서 카드의 순서와 Results 단락 순서가 같다. 각 단락 첫 문장이 그 Figure의 결론 문장이다. ([W5](w05_figure_storyboard.qmd), [W7](w07_results.qmd))
+- [ ] W1의 다섯 문장 요약이 원고의 제자리에 같은 말과 세기로 있다. 단락마다 주제문이 있고, 주제문만 이어 읽어도 원고의 줄기가 보인다. ([W1](w01_orientation.qmd), [W4](w04_paragraphs.qmd), [W13](w13_polishing.qmd))
+- [ ] Figure 순서 카드의 순서와 Results 단락 순서가 같다. 각 단락의 해석 문장이나 소제목이 그 Figure의 결론 문장과 같은 주장이다. 같은 데이터를 그림과 표에 함께 싣지 않았다. ([W5](w05_figure_storyboard.qmd), [W7](w07_results.qmd))
 - [ ] Figure legend마다 n, 통계 검정, 오차 막대의 뜻이 있다. Methods만 보고 실험이나 분석을 다시 할 수 있다. ([W6](w06_methods_legends.qmd))
 - [ ] Results에는 결과를 쓰고, 해석은 Discussion에 쓴다. ([W7](w07_results.qmd))
 - [ ] 모든 참고문헌을 DOI나 PubMed로 확인했고 인용한 문장이 그 논문 내용과 맞는다. 검증 기록이 있다. ([W8](w08_literature.qmd))
