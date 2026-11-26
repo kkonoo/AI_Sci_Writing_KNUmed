@@ -119,8 +119,8 @@
   lab.append(log, codeLabel, codeInput, promptLabel, input, actions);
 
   // "AI로 해 보기" 절의 프롬프트 블록마다 넣기 버튼을 단다.
-  // 프롬프트가 아닌 블록은 ```{.text .no-ai-lab}로 써서 뺀다.
-  document.querySelectorAll('#try-with-ai pre:not(.no-ai-lab)').forEach(function (block) {
+  // 프롬프트가 아닌 블록은 ```{.text .no-ai-lab}로 써서 뺀다. 전/후 예문 블록(.before, .after)은 저절로 빠진다.
+  document.querySelectorAll('#try-with-ai pre:not(.no-ai-lab):not(.before):not(.after)').forEach(function (block) {
     var code = block.querySelector('code');
     if (!code) return;
     var wrap = el('div', 'ai-lab-put');
