@@ -2,6 +2,7 @@
 title: "W3. 읽히는 영어 문장"
 subtitle: "Part 1 · 기초"
 date: last-modified
+include-after-body: ../../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -157,6 +158,10 @@ Rewrite the following Methods paragraph in a more polished academic style.
 
 - 이번 실습에서는 패턴을 찾으려고 일부러 high-impact journal 문체를 요청함. 실제 원고를 다듬을 때는 이렇게 요청하지 않음.
 - AI에게 고치게 할 때는 Do not change any number 같은 줄을 넣음. 그래도 바뀔 수 있으니 나란히 읽기로 확인함.
+:::
+
+::: {#ai-lab}
+AI 실습 창: 위 프롬프트 블록의 실습 창에 넣기 버튼을 누르거나 프롬프트를 직접 써서 보냄. 수업 코드는 따로 공지함. 한 페이지 안에서는 대화가 이어지므로, 4단계 점검 프롬프트를 보내면 AI는 바로 앞의 답을 점검함. 이 창에 넣은 글은 수업용 API 키로 외부 AI 서비스에 전달됨. 자유롭게 칸에 드는 내용(가상의 예시, 공개 논문의 Methods)만 넣음. 트랙 A의 자기 내용은 이 창에 넣지 않음. 답 아래에 모델 이름이 나옴. AI 사용 기록의 도구 칸에는 AI 실습 창과 이 모델 이름을 적음.
 :::
 
 # 3. 검증하고 다듬기 {#verify-and-revise}

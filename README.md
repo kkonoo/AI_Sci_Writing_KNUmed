@@ -13,6 +13,7 @@ https://kkonoo.github.io/AI_Sci_Writing_KNUmed/
 - 주차 페이지 파일 이름은 `wNN_주제.qmd`다. 예: `chapters/w01_orientation.qmd`, `ko/chapters/w01_orientation.qmd`.
 - 그림은 `figs/wNN.py`(도식)와 `figs/plots.R`(데이터 그래프)로 만들어 `assets/img/wNN/`에 SVG로 저장한다.
 - 테마는 `assets/html.css`, EN/KO 전환 버튼은 `assets/language-switch.html`에 있다. 구성은 다른 HaLab 수업 교재 사이트와 같다.
+- 주차 페이지의 AI 실습 창은 `assets/ai-lab.html`(페이지 쪽)과 `worker/`(Cloudflare Worker)에 있다. 배포 순서는 [worker/README.md](worker/README.md)에 있다.
 - main에 push하면 GitHub Actions가 렌더해서 GitHub Pages에 올린다.
 
 ## 담당표

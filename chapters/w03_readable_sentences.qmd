@@ -2,6 +2,7 @@
 title: "W3. Readable English sentences"
 subtitle: "Part 1 · Foundations"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -157,6 +158,10 @@ Rewrite the following Methods paragraph in a more polished academic style.
 
 - In this exercise you ask for a high-impact journal style on purpose, so that the patterns show up. Do not ask for this when you polish a real manuscript.
 - When you have AI revise your text, add a line such as Do not change any number. The numbers can still change, so check them by reading side by side.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. The class code is announced separately. On one page the conversation continues, so when you send the check prompt in step 4, AI checks the reply just before it. Text that you put in this box goes to an outside AI service through the course API key. Put in only content from the "Free to use" row (the fictional examples, the Methods of a published paper). Do not put your own content from track A in this box. The model name appears under each reply. In your AI use log, write "AI lab" and this model name as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

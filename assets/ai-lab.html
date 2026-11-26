@@ -1,0 +1,231 @@
+<!-- AI 실습 창. 페이지에 ::: {#ai-lab} 칸이 있을 때만 움직인다.
+     주차 페이지에 붙이는 법은 CLAUDE.md의 "AI 실습 창" 절에 있다.
+     Worker 코드와 배포 순서는 worker/ 에 있다. -->
+<style>
+#ai-lab {
+  border: 1px solid var(--course-line);
+  border-radius: 12px;
+  background: var(--course-surface);
+  padding: 1rem 1.1rem;
+  margin: 1.5rem 0;
+}
+#ai-lab > p:first-child { margin-top: 0; }
+.ai-lab-log { display: flex; flex-direction: column; gap: 0.75rem; margin: 0.75rem 0; }
+.ai-lab-log:empty { display: none; }
+.ai-lab-turn {
+  border: 1px solid var(--course-line);
+  border-radius: 10px;
+  background: var(--course-bg);
+  padding: 0.6rem 0.8rem;
+}
+.ai-lab-turn.ai-lab-user { background: var(--course-tint); }
+.ai-lab-who {
+  display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;
+  font-size: 0.8rem; font-weight: 600; color: var(--course-text-2);
+  margin-bottom: 0.3rem;
+}
+.ai-lab-text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.ai-lab-meta { font-size: 0.8rem; color: var(--course-text-2); margin-top: 0.4rem; }
+.ai-lab-field { display: block; font-size: 0.85rem; color: var(--course-text-2); margin: 0.5rem 0 0.25rem; }
+#ai-lab input,
+#ai-lab textarea {
+  font: inherit;
+  color: var(--course-text);
+  background: var(--course-bg);
+  border: 1px solid var(--course-line);
+  border-radius: 10px;
+  padding: 0.45rem 0.7rem;
+}
+#ai-lab input { width: 14rem; max-width: 100%; }
+#ai-lab textarea { display: block; width: 100%; min-height: 9rem; resize: vertical; }
+.ai-lab-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.6rem; }
+.ai-lab-status { font-size: 0.85rem; color: var(--course-text-2); }
+.ai-lab-put { text-align: right; margin: 0.4rem 0 1rem; }
+</style>
+<script>
+(function () {
+  // 배포한 Worker 주소. 비어 있으면 실습 창과 "넣기" 버튼이 보이지 않는다.
+  var WORKER_URL = '';
+
+  var lab = document.getElementById('ai-lab');
+  if (!lab) return;
+  if (!WORKER_URL) { lab.hidden = true; return; }
+
+  var ko = (document.documentElement.lang || '').indexOf('ko') === 0;
+  var T = ko ? {
+    put: '실습 창에 넣기', you: '나', ai: 'AI',
+    code: '수업 코드', prompt: '프롬프트 (Ctrl+Enter로 보내기)',
+    send: '보내기', reset: '새 대화', copy: '복사', copied: '복사함',
+    waiting: '답을 기다리는 중…', needCode: '수업 코드를 넣으세요.',
+    wrongCode: '수업 코드가 맞지 않습니다.',
+    tooLong: '대화가 너무 길어졌습니다. 새 대화를 시작하세요.',
+    busy: '지금 요청이 많습니다. 잠시 뒤에 다시 보내세요.',
+    badRequest: '요청을 처리하지 못했습니다. 새 대화로 다시 해 보세요.',
+    failed: 'AI 서버에서 오류가 났습니다.',
+    network: '연결하지 못했습니다. 인터넷 연결을 확인하고 다시 보내세요.',
+    refusal: 'AI가 이 요청에 답하지 않았습니다. 프롬프트를 고쳐서 다시 보내세요.',
+    cutOff: '답이 길이 상한에서 끊겼습니다.',
+    empty: '(글로 된 답이 없습니다)', model: '모델'
+  } : {
+    put: 'Put in the AI lab', you: 'You', ai: 'AI',
+    code: 'Class code', prompt: 'Prompt (Ctrl+Enter to send)',
+    send: 'Send', reset: 'New conversation', copy: 'Copy', copied: 'Copied',
+    waiting: 'Waiting for the reply…', needCode: 'Enter the class code.',
+    wrongCode: 'The class code is not correct.',
+    tooLong: 'The conversation is too long. Start a new conversation.',
+    busy: 'Too many requests right now. Send again in a moment.',
+    badRequest: 'The request could not be processed. Try again in a new conversation.',
+    failed: 'The AI server returned an error.',
+    network: 'Could not connect. Check the internet connection and send again.',
+    refusal: 'The AI did not answer this request. Edit the prompt and send again.',
+    cutOff: 'The reply was cut off at the length limit.',
+    empty: '(no text in the reply)', model: 'Model'
+  };
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text) node.textContent = text;
+    return node;
+  }
+
+  // 창 만들기: 대화 기록, 수업 코드, 프롬프트, 버튼
+  var log = el('div', 'ai-lab-log');
+  log.setAttribute('aria-live', 'polite');
+
+  var codeLabel = el('label', 'ai-lab-field', T.code);
+  codeLabel.htmlFor = 'ai-lab-code';
+  var codeInput = el('input');
+  codeInput.id = 'ai-lab-code';
+  codeInput.type = 'password';
+  codeInput.autocomplete = 'off';
+  try { codeInput.value = sessionStorage.getItem('ai-lab-code') || ''; } catch (e) {}
+
+  var promptLabel = el('label', 'ai-lab-field', T.prompt);
+  promptLabel.htmlFor = 'ai-lab-prompt';
+  var input = el('textarea');
+  input.id = 'ai-lab-prompt';
+  input.spellcheck = false;
+
+  var sendBtn = el('button', 'btn btn-primary btn-sm', T.send);
+  sendBtn.type = 'button';
+  var resetBtn = el('button', 'btn btn-outline-primary btn-sm', T.reset);
+  resetBtn.type = 'button';
+  var status = el('span', 'ai-lab-status');
+  status.setAttribute('role', 'status');
+  var actions = el('div', 'ai-lab-actions');
+  actions.append(sendBtn, resetBtn, status);
+
+  lab.append(log, codeLabel, codeInput, promptLabel, input, actions);
+
+  // "AI로 해 보기" 절의 프롬프트 블록마다 넣기 버튼을 단다.
+  document.querySelectorAll('#try-with-ai pre').forEach(function (block) {
+    var code = block.querySelector('code');
+    if (!code) return;
+    var wrap = el('div', 'ai-lab-put');
+    var btn = el('button', 'btn btn-outline-primary btn-sm', T.put);
+    btn.type = 'button';
+    btn.addEventListener('click', function () {
+      input.value = code.textContent.trim();
+      lab.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      input.focus({ preventScroll: true });
+    });
+    wrap.appendChild(btn);
+    (block.closest('.code-copy-outer-scaffold, div.sourceCode') || block).after(wrap);
+  });
+
+  // 대화. 답(content)은 Worker가 돌려준 그대로 다음 요청에 되돌려 보낸다.
+  var history = [];
+  var busy = false;
+
+  function textOf(content) {
+    return (content || [])
+      .filter(function (b) { return b.type === 'text'; })
+      .map(function (b) { return b.text; })
+      .join('\n\n').trim();
+  }
+
+  function addTurn(isUser, text, model, note) {
+    var turn = el('div', 'ai-lab-turn ' + (isUser ? 'ai-lab-user' : 'ai-lab-ai'));
+    var who = el('div', 'ai-lab-who');
+    who.appendChild(el('span', '', isUser ? T.you : T.ai));
+    if (!isUser) {
+      var copyBtn = el('button', 'btn btn-outline-primary btn-sm', T.copy);
+      copyBtn.type = 'button';
+      copyBtn.addEventListener('click', function () {
+        navigator.clipboard.writeText(text).then(function () {
+          copyBtn.textContent = T.copied;
+          setTimeout(function () { copyBtn.textContent = T.copy; }, 1500);
+        });
+      });
+      who.appendChild(copyBtn);
+    }
+    turn.append(who, el('div', 'ai-lab-text', text || T.empty));
+    if (!isUser) {
+      var meta = [model ? T.model + ': ' + model : '', note || ''].filter(Boolean).join(' · ');
+      if (meta) turn.appendChild(el('div', 'ai-lab-meta', meta));
+    }
+    log.appendChild(turn);
+  }
+
+  function setBusy(on) {
+    busy = on;
+    sendBtn.disabled = on;
+    resetBtn.disabled = on;
+    input.readOnly = on;
+    status.textContent = on ? T.waiting : '';
+  }
+
+  function errorText(res, data) {
+    if (res.status === 401) return T.wrongCode;
+    if (res.status === 413) return T.tooLong;
+    if (res.status === 503) return T.busy;
+    if (res.status === 400) return T.badRequest;
+    return T.failed + (data && data.detail ? ' (' + data.detail + ')' : '');
+  }
+
+  function send() {
+    var text = input.value.trim();
+    var classCode = codeInput.value.trim();
+    if (!text || busy) return;
+    if (!classCode) { status.textContent = T.needCode; codeInput.focus(); return; }
+
+    var messages = history.concat([{ role: 'user', content: text }]);
+    setBusy(true);
+    fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Class-Code': classCode },
+      body: JSON.stringify({ messages: messages }),
+      signal: AbortSignal.timeout(120000)
+    }).then(function (res) {
+      return res.json().catch(function () { return {}; }).then(function (data) {
+        setBusy(false);
+        if (!res.ok) {
+          if (res.status === 401) { try { sessionStorage.removeItem('ai-lab-code'); } catch (e) {} }
+          status.textContent = errorText(res, data);
+          return;
+        }
+        try { sessionStorage.setItem('ai-lab-code', classCode); } catch (e) {}
+        if (data.stop_reason === 'refusal') { status.textContent = T.refusal; return; }
+        history = messages.concat([{ role: 'assistant', content: data.content }]);
+        addTurn(true, text);
+        addTurn(false, textOf(data.content), data.model, data.stop_reason === 'max_tokens' ? T.cutOff : '');
+        input.value = '';
+      });
+    }).catch(function () {
+      setBusy(false);
+      status.textContent = T.network;
+    });
+  }
+
+  sendBtn.addEventListener('click', send);
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); send(); }
+  });
+  resetBtn.addEventListener('click', function () {
+    history = [];
+    log.replaceChildren();
+    status.textContent = '';
+  });
+})();
+</script>
