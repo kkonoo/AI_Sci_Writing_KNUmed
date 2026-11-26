@@ -18,16 +18,23 @@ include-after-body: ../../assets/ai-lab.html
 - 이번 주 표는 [W10](w10_introduction.qmd) Introduction과 [W11](w11_discussion.qmd) Discussion의 근거가 된다. 그래서 논문만 모으지 않고, 그 논문으로 받칠 주장을 함께 적는다.
 - 예문의 compound X는 수업 공통의 가상의 예시 연구에 나오는 가상의 약물이다. 예문의 참고문헌 번호는 자리 표시다.
 
-## 원칙 1. 리뷰로 지도를 먼저 그린다
+## 1) 리뷰로 지도를 먼저 그린다
 
 - 최근 리뷰 2~3편(대략 5년 이내)을 먼저 읽는다. 그 분야의 용어, 주요 접근, 대표 논문, 아직 다투는 문제를 파악한다.
 - 리뷰에서 검색어 후보와 기준 논문(anchor paper) 2~3편을 얻는다.
 - 리뷰는 원저를 대신하지 않는다. 구체적인 결과는 그 결과를 낸 원저를 인용한다.
-- 예문:
-  - Before: Many studies have reported that TGF-β is important in fibrosis [1–12].
-  - After: TGF-β1 increased collagen production by kidney fibroblasts in culture [3] and in mice after UUO [4].
 
-## 원칙 2. 최근 원저를 찾고, preprint는 표시한다
+예문:
+
+```{.text .before}
+Many studies have reported that TGF-β is important in fibrosis [1–12].
+```
+
+```{.text .after}
+TGF-β1 increased collagen production by kidney fibroblasts in culture [3] and in mice after UUO [4].
+```
+
+## 2) 최근 원저를 찾고, preprint는 표시한다
 
 - 원저는 기본으로 최근 3년을 최신순으로 본다. 부족하면 기간을 넓힌다.
 - 검색어는 적어도 세 가지로 바꿔 본다. 동의어, 유전자 별칭, 예전 용어를 쓴다.
@@ -36,26 +43,33 @@ include-after-body: ../../assets/ai-lab.html
 - 출판된 논문은 [PubMed](https://pubmed.ncbi.nlm.nih.gov/)에서, preprint는 [bioRxiv](https://www.biorxiv.org/)와 medRxiv에서 찾는다.
 - preprint는 동료 심사를 거치지 않은 글이다. 표에 [preprint]로 표시하고, 출판본이 나왔는지 확인한다. 출판본이 있으면 출판본을 인용한다.
 
-## 원칙 3. 인용을 앞뒤로 따라간다
+## 3) 인용을 앞뒤로 따라간다
 
 - 기준 논문 2~3편에서 뒤로 간다. 그 논문이 인용한 논문을 본다.
 - 앞으로도 간다. 그 논문을 인용한 논문, 특히 최근 12개월 논문을 본다. 데이터베이스의 피인용(Cited by) 목록을 쓴다.
 - 멈추는 기준: 새로 검색해도 이미 표에 있는 논문만 나오면 멈춘다.
 
-## 원칙 4. 초록이 아니라 결과를 읽고, 주장과 논문을 맞춘다
+## 4) 초록이 아니라 결과를 읽고, 주장과 논문을 맞춘다
 
 - 인용할 주장이 논문의 어느 그림, 표, 문장에 있는지 찾아서 표에 적는다. 초록만 읽은 논문은 따로 표시한다.
 - 조건이 같은지 본다. 종(사람, 마우스), 세포와 조직, 실험 방식(in vitro, in vivo), 질환 단계가 같아야 같은 주장으로 인용할 수 있다.
 - 읽지 않은 논문은 인용하지 않는다. 다른 논문의 참고문헌 목록에서 그대로 옮겨 오지 않는다.
-- 예문 (가상의 예시. [7]은 간 성상세포 배양 실험이라고 하자):
-  - Before: Compound X inhibits Smad3 phosphorylation in kidney fibroblasts [7].
-  - After: Compound X lowered Smad3 phosphorylation in cultured hepatic stellate cells [7].
 
-## 원칙 5. 반대 결과를 찾고, 검색을 기록한다
+예문 (가상의 예시. [7]은 간 성상세포 배양 실험이라고 하자):
+
+```{.text .before}
+Compound X inhibits Smad3 phosphorylation in kidney fibroblasts [7].
+```
+
+```{.text .after}
+Compound X lowered Smad3 phosphorylation in cultured hepatic stellate cells [7].
+```
+
+## 5) 반대 결과를 찾고, 검색을 기록한다
 
 - 근거가 한 연구실, 한 코호트, 한 방법, 한 종에 몰려 있지 않은지 본다.
 - 반대 결과와 음성 결과를 일부러 찾는다. 예: no association, did not reduce, failed to replicate를 검색어에 더한다.
-- 검색할 때마다 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수를 적는다. 이 기록은 W10, W11에서 검색을 갱신할 때와 [W14](w14_submission_response.qmd)에서 리뷰어 질문에 답할 때 다시 쓴다.
+- 검색할 때마다 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수를 적는다. 이 기록은 [W10](w10_introduction.qmd), [W11](w11_discussion.qmd)에서 검색을 갱신할 때와 [W14](w14_submission_response.qmd)에서 리뷰어 질문에 답할 때 다시 쓴다.
 
 # 2. AI로 해 보기 {#try-with-ai}
 
@@ -160,7 +174,7 @@ AI가 이번 주 작업에서 자주 틀리는 지점:
 - 표 3. 검색 기록: 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수.
 - 트랙 A: 내 원고의 Introduction과 Discussion에 쓸 주장을 기준으로 찾는다.
 - 트랙 B: 고른 논문의 주제로 찾되, 논문의 Introduction과 Discussion은 읽지 않는다. 고른 논문은 검색의 출발점(기준 논문)으로 쓰지 않는다.
-- 트랙 B는 고른 논문의 참고문헌 목록을 W11 Discussion 초안을 낸 뒤에 본다. 내 표와 겹치는 정도는 W15 비교 메모에 쓴다.
+- 트랙 B는 고른 논문의 참고문헌 목록을 [W11](w11_discussion.qmd) Discussion 초안을 낸 뒤에 본다. 내 표와 겹치는 정도는 [W15](w15_final.qmd) 비교 메모에 쓴다.
 - 평가 기준:
   1. 모든 참고문헌의 실재, 서지, 주장을 확인했고, 주장을 받치는 위치를 적었다.
   2. 리뷰, 최근 원저, 인용 따라가기, 반대 결과가 고루 들어 있고, preprint가 표시되어 있다.

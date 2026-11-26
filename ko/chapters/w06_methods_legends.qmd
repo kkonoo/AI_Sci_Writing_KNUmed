@@ -18,9 +18,9 @@ include-after-body: ../../assets/ai-lab.html
 
 - 이 절이 하는 일: Methods는 독자가 결과를 믿을 수 있는지 판단하게 하고, 다른 연구자가 같은 실험과 분석을 다시 할 수 있게 한다. Mensh & Kording (2017, 규칙 9)에 따르면 Methods는 가장 적게 읽히는 절이다. 그래도 심사자와 재현하려는 연구자는 여기서 근거를 확인한다. Figure legend는 본문 없이도 그림을 읽을 수 있게 한다. Mensh & Kording (2017)은 그림 제목이 분석의 결론을 전하고 legend는 그 분석을 어떻게 했는지 설명하는 쪽을 권한다(규칙 7). 제목의 형식은 투고할 저널을 따른다(원칙 5).
 - 예문은 [W5](w05_figure_storyboard.qmd)와 같은 가상의 예시 연구에서 가져온다. 마우스 일측 요관 폐쇄(UUO) 모델에 가상의 약물 compound X를 주었고, 군당 n = 6이다. 수치와 조건은 지어낸 것이다.
-- Methods와 legend는 W5 Figure 순서 카드를 따라 쓴다. 카드의 핵심 통계 칸이 legend의 n과 통계 문장이 된다.
+- Methods와 legend는 [W5](w05_figure_storyboard.qmd) Figure 순서 카드를 따라 쓴다. 카드의 핵심 통계 칸이 legend의 n과 통계 문장이 된다.
 
-## 원칙 1. 반복할 수 있을 만큼 쓴다 (재현성)
+## 1) 반복할 수 있을 만큼 쓴다 (재현성)
 
 - 기준 질문: 같은 분야의 다른 연구실 대학원생이 이 Methods만 보고 같은 실험을 할 수 있는가.
 - wet lab에서 빠지기 쉬운 것: 동물의 계통, 성별, 나이, 구입처. 시약의 제조사, 카탈로그 번호, 용량, 투여 경로와 시점. 정량 방법(어느 영역을 몇 장 찍었는지, 눈가림을 했는지). 소프트웨어 이름과 버전.
@@ -29,22 +29,42 @@ include-after-body: ../../assets/ai-lab.html
 - 연구 설계마다 보고 지침(reporting guideline)이 있다.
   - 동물실험: [ARRIVE 2.0](https://arriveguidelines.org/arrive-guidelines). 최소 항목인 Essential 10은 연구 설계, 표본 크기, 포함·제외 기준, 무작위 배정, 눈가림, 결과 측정, 통계 방법, 실험동물, 실험 절차, 결과다 (Percie du Sert et al. 2020, [doi:10.1371/journal.pbio.3000410](https://doi.org/10.1371/journal.pbio.3000410)).
   - 다른 설계(관찰 연구, 임상시험, 진단 연구 등)는 [EQUATOR Network](https://www.equator-network.org/)에서 맞는 지침을 찾는다.
-- 예문:
-  - Before: Mice underwent UUO and were treated with compound X. Kidneys were harvested and analyzed.
-  - After: Male C57BL/6J mice (8 weeks old) underwent left UUO. Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. Kidneys were harvested on day 7.
 
-## 원칙 2. 시제와 태를 맞춘다
+예문:
+
+```{.text .before}
+Mice underwent UUO and were treated with compound X. Kidneys were harvested and analyzed.
+```
+
+```{.text .after}
+Male C57BL/6J mice (8 weeks old) underwent left UUO. Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. Kidneys were harvested on day 7.
+```
+
+## 2) 시제와 태를 맞춘다
 
 - 이 연구에서 한 일은 과거 시제로 쓴다. 그림이 보여 주는 것과 일반적 사실은 현재 시제로 쓴다 (legend의 "Data are mean ± SD").
 - 수동태는 누가 했는지가 중요하지 않을 때 쓴다. 능동태 we를 쓸지는 투고할 저널의 최근 논문을 보고 정한다. 한 절 안에서는 하나로 맞춘다.
 - 동사를 명사로 바꾸지 않는다. 한 문장에는 한 단계만 쓴다.
-- 예문:
-  - Before: Quantification of the fibrotic area was performed using ImageJ.
-  - After: Fibrotic area was quantified in ImageJ (version 1.54).
-  - Before: Kidneys were fixed in 10% formalin, followed by paraffin embedding, and then 4-μm sections were cut and stained with Masson's trichrome.
-  - After: Kidneys were fixed in 10% formalin and embedded in paraffin. Sections (4 μm) were stained with Masson's trichrome.
 
-## 원칙 3. n이 무엇을 센 것인지 쓴다
+예문:
+
+```{.text .before}
+Quantification of the fibrotic area was performed using ImageJ.
+```
+
+```{.text .after}
+Fibrotic area was quantified in ImageJ (version 1.54).
+```
+
+```{.text .before}
+Kidneys were fixed in 10% formalin, followed by paraffin embedding, and then 4-μm sections were cut and stained with Masson's trichrome.
+```
+
+```{.text .after}
+Kidneys were fixed in 10% formalin and embedded in paraffin. Sections (4 μm) were stained with Masson's trichrome.
+```
+
+## 3) n이 무엇을 센 것인지 쓴다
 
 ![n은 실험 단위의 수다. 마우스 여섯 마리가 n = 6이고, 한 마우스의 절편 세 장은 기술 반복이라 평균을 내서 값 하나로 쓴다.](../../assets/img/w06/what_n_counts.svg){fig-alt="왼쪽에 한 군의 마우스 여섯 마리와 마우스 1의 절편 세 장이 있다. 오른쪽에 n = 18로 쓴 Before와 n = 6 mice per group으로 쓴 After가 있다."}
 
@@ -52,23 +72,37 @@ include-after-body: ../../assets/ai-lab.html
 - 같은 마우스에서 찍은 사진 여러 장이나 같은 시료의 qPCR well 세 개는 기술 반복(technical replicate)이다. 평균을 내서 그 마우스의 값 하나로 쓴다.
 - 단일세포 데이터에서는 세포 수가 아니라 환자(공여자) 수가 n이다.
 - Methods에는 실험 단위, 기술 반복을 합친 방법, 제외한 동물과 그 이유를 쓴다.
-- 예문:
-  - Before: n = 18 (6 mice × 3 sections).
-  - After: n = 6 mice per group. For each mouse, values from three sections were averaged.
 
-## 원칙 4. 통계는 검정, 오차 막대, 정확한 P 값까지 쓴다
+예문:
+
+```{.text .before}
+n = 18 (6 mice × 3 sections).
+```
+
+```{.text .after}
+n = 6 mice per group. For each mouse, values from three sections were averaged.
+```
+
+## 4) 통계는 검정, 오차 막대, 정확한 P 값까지 쓴다
 
 - 검정 이름, 양측인지 단측인지, 짝지은 비교인지, 다중 비교 보정, 통계 소프트웨어와 버전을 쓴다.
 - 오차 막대가 SD인지, SEM인지, 95% 신뢰구간인지 legend에 쓴다. 셋은 서로 다른 정보를 준다. SD는 데이터가 퍼진 정도를, SEM과 신뢰구간은 평균을 얼마나 정확히 추정했는지를 보여 준다 (Cumming et al. 2007, [doi:10.1083/jcb.200611141](https://doi.org/10.1083/jcb.200611141)).
 - P 값은 되도록 정확한 값으로 쓴다 (P = 0.012). 아주 작은 값을 P < 0.0001처럼 쓸지는 저널 규정을 따른다.
 - [Nature Portfolio Reporting Summary](https://www.nature.com/documents/nr-reporting-summary-flat.pdf)의 통계 항목이 좋은 점검표다. 군마다 정확한 n과 단위, 서로 다른 표본인지 같은 표본을 반복 측정했는지, 검정과 양측·단측 여부, 가능한 경우 정확한 P 값을 요구한다.
-- 예문:
-  - Before: Data are presented as mean ± SEM. *P < 0.05.
-  - After: Data are mean ± SD; each dot is one mouse (n = 6 per group). P values are from one-way ANOVA with Tukey's multiple comparisons test.
 
-## 원칙 5. Figure legend는 제목, 패널 설명, n과 통계 순서로 쓴다
+예문:
 
-- 제목 문장: 그림 전체가 보여 주는 것을 한 문장으로 쓴다. W5 결론 문장에서 시작한다. 결론을 제목에 쓰는 저널과 내용만 쓰는 저널이 있으니 투고할 저널의 논문을 보고 맞춘다.
+```{.text .before}
+Data are presented as mean ± SEM. *P < 0.05.
+```
+
+```{.text .after}
+Data are mean ± SD; each dot is one mouse (n = 6 per group). P values are from one-way ANOVA with Tukey's multiple comparisons test.
+```
+
+## 5) Figure legend는 제목, 패널 설명, n과 통계 순서로 쓴다
+
+- 제목 문장: 그림 전체가 보여 주는 것을 한 문장으로 쓴다. [W5](w05_figure_storyboard.qmd) 결론 문장에서 시작한다. 결론을 제목에 쓰는 저널과 내용만 쓰는 저널이 있으니 투고할 저널의 논문을 보고 맞춘다.
 - 패널 설명: 패널마다 무엇을, 어떤 조건에서, 어떻게 측정했는지 쓴다. 본문을 읽지 않아도 그림을 이해할 수 있어야 한다. Methods의 절차는 다시 쓰지 않는다.
 - n과 통계: 점 하나가 무엇인지, n과 단위, 오차 막대 종류, 검정을 쓴다. 사진에는 척도 막대의 길이를 쓴다.
 - legend에는 해석을 쓰지 않는다. 해석은 Results와 Discussion에 쓴다.
@@ -76,16 +110,12 @@ include-after-body: ../../assets/ai-lab.html
 
 ![가상의 Figure 2. a는 대표 사진 자리, b는 마우스별 섬유화 면적.](../../assets/img/w06/figure2_mock.svg){fig-alt="a 패널에는 sham, UUO + vehicle, UUO + compound X의 대표 사진 자리 세 칸과 척도 막대가 있다. b 패널에는 세 군의 섬유화 면적이 마우스별 점과 평균 ± SD로 있고, sham 대 vehicle P < 0.0001, vehicle 대 compound X P = 0.0004가 표시되어 있다."}
 
-- Before:
-
-```text
+```{.text .before}
 Figure 2. Masson's trichrome staining. Compound X significantly decreased fibrosis,
 suggesting that it may be a promising therapy. *P < 0.05.
 ```
 
-- After:
-
-```text
+```{.text .after}
 Figure 2. Compound X reduces interstitial fibrosis after UUO.
 (a) Representative Masson's trichrome images of kidneys from sham, UUO + vehicle
 and UUO + compound X mice on day 7. Scale bars, 100 μm.
@@ -157,7 +187,7 @@ AI가 이번 주 작업에서 자주 틀리는 지점:
 - [ ] Methods의 모든 값이 실험 노트, 프로토콜, 분석 기록에 있다.
 - [ ] 보고 지침의 필수 항목을 다 썼거나, 해당하지 않는 이유를 적었다.
 - [ ] 그림마다 legend에 n과 단위, 오차 막대 종류, 검정이 있고, Methods와 같다.
-- [ ] legend의 n과 검정이 W5 카드의 핵심 통계 칸과 같다.
+- [ ] legend의 n과 검정이 [W5](w05_figure_storyboard.qmd) 카드의 핵심 통계 칸과 같다.
 - [ ] Methods는 과거 시제, legend의 데이터 설명은 현재 시제로 맞췄다.
 - [ ] AI가 고친 문장에서 수치, 단위, 검정 이름이 바뀌지 않았다.
 - [ ] 인용한 방법 논문이 실제로 있다 (DOI와 PubMed로 확인).

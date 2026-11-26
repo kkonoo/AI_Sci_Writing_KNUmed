@@ -58,9 +58,16 @@ date: last-modified
 - 셀 수 있는 명사의 단수형 앞에는 관사가 있어야 한다. mouse만 쓰지 않고 a mouse나 the mouse로 쓴다.
 - 처음 소개하는 것에는 a나 an을 쓴다. 이미 나왔거나 독자가 어느 것인지 아는 것에는 the를 쓴다.
 - 복수형이나 셀 수 없는 명사로 일반적인 것을 말할 때는 관사를 쓰지 않는다. 예: Fibroblasts produce collagen. Fibrosis is the hallmark of progressive kidney disease.
-- 예문:
-  - 전: We treated mouse with compound X. Mouse showed less fibrosis.
-  - 후: We treated mice with compound X. The treated mice showed less fibrosis.
+
+예문:
+
+```{.text .before}
+We treated mouse with compound X. Mouse showed less fibrosis.
+```
+
+```{.text .after}
+We treated mice with compound X. The treated mice showed less fibrosis.
+```
 
 ## 셀 수 없는 명사 {#uncountable}
 
@@ -83,10 +90,23 @@ date: last-modified
 ## 주어와 동사의 수 {#agreement}
 
 - 동사는 주어의 핵심 명사에 맞춘다. 주어가 길면 동사 바로 앞의 명사에 맞추기 쉽다.
-  - 전: The expression of these genes were lower.
-  - 후: The expression of these genes was lower.
-  - 전: The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
-  - 후: The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
+
+```{.text .before}
+The expression of these genes were lower.
+```
+
+```{.text .after}
+The expression of these genes was lower.
+```
+
+```{.text .before}
+The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
+```
+
+```{.text .after}
+The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
+```
+
 - 주어와 동사를 가까이 두면 이 실수도 줄어든다([W2](chapters/w02_readable_sentences.qmd)의 패턴 2).
 
 ## 전치사 {#prepositions}

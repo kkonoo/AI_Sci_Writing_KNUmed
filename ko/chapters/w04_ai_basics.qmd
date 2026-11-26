@@ -21,7 +21,7 @@ include-after-body: ../../assets/ai-lab.html
 
 이번 주는 두 부분으로 나눔. 앞부분은 AI 도구가 어떻게 움직이는지 다룸. 뒷부분은 이 수업의 AI 규칙을 사례에 적용함. 용어는 [기초 용어](../glossary.qmd)에 모아 둠.
 
-## AI는 그럴듯한 다음 말을 고른다
+## 1) AI는 그럴듯한 다음 말을 고른다
 
 ![언어 모델은 다음에 올 말을 확률로 고른다. 확률은 예시 값이다.](../../assets/img/basics/next_word.svg){fig-alt="지금까지의 글 'Compound X reduced the fibrotic area in' 뒤에 올 후보 네 개와 확률 막대가 있다. UUO kidneys, mice, the obstructed kidney, patients 순이고, patients는 그럴듯하지만 이 연구에는 틀린 말로 표시되어 있다."}
 
@@ -34,7 +34,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ![모델이 답할 때 쓰는 것과 모르는 것.](../../assets/img/basics/model_sees.svg){fig-alt="왼쪽의 학습한 자료, 이번 대화, 웹 검색 결과가 가운데 답으로 이어진다. 오른쪽에는 모르는 것 세 가지가 있다."}
 
-## 도구마다 AI에 들어가는 범위가 다르다
+## 2) 도구마다 AI에 들어가는 범위가 다르다
 
 ![도구마다 AI에 들어가는 범위가 다르다.](../../assets/img/basics/tool_scope.svg){fig-alt="Chat은 붙여 넣은 글과 올린 파일, Cowork와 Code는 열어 준 폴더의 파일 전부, 커넥터와 플러그인은 연결한 서비스 안의 파일이 AI 회사 서버로 간다."}
 
@@ -47,7 +47,7 @@ include-after-body: ../../assets/ai-lab.html
 - 작업형 도구에 폴더를 열어 주면 그 폴더의 파일을 AI가 직접 읽음. 그래서 환자 정보, 원 데이터, 동료 원고가 든 폴더는 열어 주지 않음.
 - 커넥터, 스킬, 플러그인, MCP, API의 뜻은 [기초 용어](../glossary.qmd#extensions)에서 봄.
 
-## 내 입력은 회사 서버로 간다
+## 3) 내 입력은 회사 서버로 간다
 
 ![AI에 입력한 내용은 회사 서버로 가서 답이 된다. 설정과 서비스에 따라 학습, 피드백, 사람 검토에 쓰일 수 있다.](../../assets/img/basics/input_path.svg){fig-alt="왼쪽 내 컴퓨터에서 가운데 AI 회사 서버로 입력이 가고 답이 돌아온다. 서버에서 오른쪽의 모델 학습, 피드백, 사람 검토와 보관으로 점선이 이어진다."}
 
@@ -56,7 +56,7 @@ include-after-body: ../../assets/ai-lab.html
 - 설정을 꺼도 피드백 버튼(좋아요, 싫어요)을 누른 대화는 학습에 쓰일 수 있음(ChatGPT, Gemini 안내). 일부 서비스는 대화 일부를 사람이 검토함.
 - 기관 계정(학교, 회사 계약)은 데이터 정책이 따로 있음. 내 계정이 어느 쪽인지 확인함.
 
-## AI 사용 규칙은 사례에 적용해 익힌다
+## 4) AI 사용 규칙은 사례에 적용해 익힌다
 
 규칙은 [AI 사용 규칙](../ai_rules.qmd) 페이지에 있음. 아래에서 그 규칙을 사례에 적용해 봄. 표를 다시 옮기지 않고 링크로 보여 줌.
 
@@ -71,7 +71,7 @@ include-after-body: ../../assets/ai-lab.html
 |---|---|---|
 | UUO 모델이 어떤 원리로 섬유화를 일으키는지 물음 | 자유롭게 | 공개된 일반 주제 |
 | 트랙 B 논문의 Methods 한 단락을 Title과 DOI 없이 넣고 문법 구조를 물음 | 자유롭게 | 공개 논문 |
-| 트랙 B가 W7에 웹 검색을 켠 채 Results 초안을 다듬어 달라고 함 | 자유롭게이지만 웹 검색을 끄고 다시 함 | W12까지는 웹 검색을 끔 |
+| 트랙 B가 [W7](w07_results.qmd)에 웹 검색을 켠 채 Results 초안을 다듬어 달라고 함 | 자유롭게이지만 웹 검색을 끄고 다시 함 | [W12](w12_abstract_title.qmd)까지는 웹 검색을 끔 |
 | AI가 추천한 UUO 모델 참고문헌 5편 | 꼭 검증 | 참고문헌 |
 | AI가 추천한 그래프 종류 | 꼭 검증 | 통계 방법 추천과 같게 다룸 |
 | AI가 짠 R 코드로 그린 그래프 | 꼭 검증 | 점 개수와 평균이 데이터와 맞는지 확인 |
@@ -84,7 +84,7 @@ include-after-body: ../../assets/ai-lab.html
 | 같은 반 학생의 Figure 순서 카드, 초안, 참고문헌 표 | 넣지 않기 | 남의 원고 |
 | 아직 발표하지 않은 가설, 연구실이 준비 중인 과제 아이디어 | 넣지 않기 | 과제·특허 전 아이디어 |
 
-- 같은 반 학생의 작업물은 학술지에서 심사하는 원고와 같게 다룸. 카드, 초안, 참고문헌 표 모두 해당함. 동료 리뷰(W9, W13)에서 받은 원고는 AI에 넣지 않고 직접 읽고 씀.
+- 같은 반 학생의 작업물은 학술지에서 심사하는 원고와 같게 다룸. 카드, 초안, 참고문헌 표 모두 해당함. 동료 리뷰([W9](w09_midterm_review.qmd), [W13](w13_polishing.qmd))에서 받은 원고는 AI에 넣지 않고 직접 읽고 씀.
 - 내 원고에 대해 받은 리뷰 의견은 다름. 리뷰어 이름을 지우고 학습 제외 설정을 한 도구에서는 넣을 수 있음([받은 리뷰](../ai_rules.qmd#received-reviews)).
 - 입력이 학습에 쓰이지 않게 하는 설정은 도구마다 위치와 이름이 다름. [기초 용어](../glossary.qmd#training-settings)에 정리했음.
 
@@ -134,16 +134,30 @@ include-after-body: ../../assets/ai-lab.html
 
 - AI 사용 표기에 들어갈 것: 도구 이름과 버전, 맡긴 일, 저자가 결과를 확인했고 책임진다는 것.
 - 이 문장은 [AI 사용 기록](../ai_rules.qmd#ai-log)이 있어야 정확히 쓸 수 있음.
-- 전: AI was used in the preparation of this manuscript.
-- 후 (Acknowledgments, 글쓰기 도움): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
-- 후 (Methods, 분석 코드 도움. 가상의 예시인 단일세포 RNA 시퀀싱 재분석): We used [tool name and version] to help write the Python code that plotted the UMAP embeddings. The authors reviewed and tested all code before use.
+
+```{.text .before}
+AI was used in the preparation of this manuscript.
+```
+
+글쓰기 도움은 Acknowledgments에 씀.
+
+```{.text .after}
+During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
+```
+
+분석 코드 도움은 Methods에 씀. 아래는 가상의 예시인 단일세포 RNA 시퀀싱 재분석에서 가져옴.
+
+```{.text .after}
+We used [tool name and version] to help write the Python code that plotted the UMAP embeddings. The authors reviewed and tested all code before use.
+```
+
 - 위 문장은 일반 예시임. 저널이 정한 문구가 있으면 그 문구를 씀.
 
 # 2. AI로 해 보기 {#try-with-ai}
 
 실습: AI 답변 하나를 주장 단위로 확인하기 (35분)
 
-1. 설정 확인 (5분): 자기 계정에서 입력이 학습에 쓰이지 않게 설정되어 있는지 확인하고, 아니면 설정함. 새 대화를 열고, 웹 검색과 메모리 기능이 켜져 있는지 봄. 트랙 B는 웹 검색을 끄는 방법도 확인함. W12 과제를 낼 때까지 끄고 씀.
+1. 설정 확인 (5분): 자기 계정에서 입력이 학습에 쓰이지 않게 설정되어 있는지 확인하고, 아니면 설정함. 새 대화를 열고, 웹 검색과 메모리 기능이 켜져 있는지 봄. 트랙 B는 웹 검색을 끄는 방법도 확인함. [W12](w12_abstract_title.qmd) 과제를 낼 때까지 끄고 씀.
 2. 질문 고르기 (3분): 답에 참고문헌과 수치가 함께 나올 질문을 고름.
 3. AI에게 묻기 (5분): 아래 예를 자기 분야에 맞게 바꿔 씀.
 4. 주장 쪼개기 (5분): 답변을 주장 단위로 나눠 표에 옮김. 열은 주장, 종류, 확인 방법.
@@ -165,7 +179,7 @@ For each dataset, give the accession number, the number of donors, and the origi
 ```
 
 - 트랙 A: 자기 분야의 일반 질문을 씀. 자기 미발표 결과와 수치는 넣지 않음.
-- 트랙 B: W1에서 고른 논문의 분야를 묻는 질문을 씀. 고른 논문의 Title이나 DOI는 넣지 않음. AI가 그 논문의 Results를 드러낼 수 있기 때문.
+- 트랙 B: [W1](w01_orientation.qmd)에서 고른 논문의 분야를 묻는 질문을 씀. 고른 논문의 Title이나 DOI는 넣지 않음. AI가 그 논문의 Results를 드러낼 수 있기 때문.
 - AI 신호등: 질문은 자유롭게 칸, 답에 나온 참고문헌과 수치는 꼭 검증 칸.
 
 ::: {.callout-tip}
@@ -213,7 +227,7 @@ AI 답변 하나 검증해 오기
   3. 같은 질문을 다시 한다면 프롬프트를 어떻게 바꿀지 3~5줄.
   4. 투고하고 싶은 저널 하나의 AI 규정 원문 링크와, 그 저널에서 AI 사용을 어디에 밝히는지 한 줄.
   5. 이번 과제에서 AI를 쓴 방식을 논문의 AI 사용 표기처럼 영어 한두 문장으로 씀.
-- 트랙별 차이: 트랙 A는 자기 분야의 질문을 씀. 트랙 B는 고른 논문의 분야를 묻되, 그 논문의 Title과 DOI는 넣지 않음. 트랙 B는 W1 실습에서 받은 논문 목록을 검증 대상으로 써도 됨. 이때 고른 논문은 목록에서 뺌.
+- 트랙별 차이: 트랙 A는 자기 분야의 질문을 씀. 트랙 B는 고른 논문의 분야를 묻되, 그 논문의 Title과 DOI는 넣지 않음. 트랙 B는 [W1](w01_orientation.qmd) 실습에서 받은 논문 목록을 검증 대상으로 써도 됨. 이때 고른 논문은 목록에서 뺌.
 - 평가 기준
   - 답변에서 확인할 주장을 빠짐없이 골라냈는가.
   - 근거가 구체적인가(DOI와 그림, 표, 문장 위치까지).

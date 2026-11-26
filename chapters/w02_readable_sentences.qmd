@@ -20,7 +20,7 @@ By the end of this week, you will be able to do the following.
 
 If grammar itself, such as articles, tense or subject-verb agreement, is a problem for you, start with the appendix [English basics for papers](../english_basics.qmd).
 
-## Writing short means putting fewer ideas in each sentence
+## 1) Writing short means putting fewer ideas in each sentence
 
 - Text written by AI takes more effort to read, even when its grammar is correct. This is because AI tends to pack a lot of information into each sentence.
   - Reinhart et al. (2025, [PNAS](https://doi.org/10.1073/pnas.2422455122)): instruction-tuned models, which are adjusted to follow instructions, used present participial clauses 2–5 times as often as human writers. They used nominalizations 1.5–2 times as often.
@@ -28,12 +28,18 @@ If grammar itself, such as articles, tense or subject-verb agreement, is a probl
   - Futrell, Mahowald & Gibson (2015, [PNAS](https://doi.org/10.1073/pnas.1502134112)): in all 37 languages they studied, related words were closer together than in a random baseline. People use language in a way that keeps related words close.
 - Rule: do not drop articles, prepositions, relative pronouns or verbs to make a sentence short. Split the sentence instead. If you need to cut length, cut content, not grammar.
 - The examples are fictional (the mouse UUO model and a fictional drug, compound X; the numbers are made up).
-  - Before: Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
-  - After: Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
+
+```{.text .before}
+Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
+```
+
+```{.text .after}
+Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
+```
 
 ![When the same content is split into three sentences, each sentence keeps one idea. This is a fictional example.](../assets/img/w02/split_sentence.en.svg){fig-alt="On the left is one English sentence that holds three ideas. On the right are three numbered English sentences that split the same content."}
 
-## Use ten patterns to find hard-to-read sentences
+## 2) Use ten patterns to find hard-to-read sentences
 
 The table below is the checklist for this week's exercise and for [W13 Polishing](w13_polishing.qmd). Do not change the numbers.
 
@@ -50,57 +56,146 @@ The table below is the checklist for this week's exercise and for [W13 Polishing
 | 9 | English-style commas in Korean sentences | 또한, 본 연구는, ("In addition, this study,") | Remove the commas |
 | 10 | Formulaic phrases and visual decoration | plays a crucial role, underscore, bold text, em dashes | State a specific claim once |
 
-## Learn each pattern through examples
+## 3) Learn each pattern through examples
 
 The dry-lab examples are also fictional (a study that reanalyzed public single-cell RNA sequencing data from human kidney biopsies).
 
 1. Noun stack
-   - Before: We performed myofibroblast subtype marker gene expression comparison.
-   - After: We compared which marker genes each myofibroblast subtype expressed.
+
+   ```{.text .before}
+   We performed myofibroblast subtype marker gene expression comparison.
+   ```
+
+   ```{.text .after}
+   We compared which marker genes each myofibroblast subtype expressed.
+   ```
+
    - Keep established technical terms (single-cell RNA sequencing, differential expression analysis) as they are. Do not coin new stacks.
 2. Related words far apart
-   - Before: The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
-   - After: We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
+
+   ```{.text .before}
+   The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
+   ```
+
+   ```{.text .after}
+   We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
+   ```
+
 3. Inanimate subject with an action verb
-   - Before: The QC filter quietly swallows low-quality cells.
-   - After: The QC filter removes low-quality cells without a warning.
-   - Before: Compound X fights fibrosis in the injured kidney.
-   - After: Compound X reduced fibrosis in UUO kidneys.
+
+   ```{.text .before}
+   The QC filter quietly swallows low-quality cells.
+   ```
+
+   ```{.text .after}
+   The QC filter removes low-quality cells without a warning.
+   ```
+
+   ```{.text .before}
+   Compound X fights fibrosis in the injured kidney.
+   ```
+
+   ```{.text .after}
+   Compound X reduced fibrosis in UUO kidneys.
+   ```
+
    - Conventional expressions such as Figure 2 shows and These results suggest are fine in moderation. The problem is metaphorical verbs (swallow, fight, tell a story).
 4. Coined words and rare word combinations
-   - Before: Compound X lowered the fibro-burden index. (In the same paragraph, MF2 cells, the profibrotic cluster and these activated stromal cells all refer to the same cells.)
-   - After: Compound X reduced the fibrotic area. (The cells are called MF2 throughout.)
+
+   ```{.text .before}
+   Compound X lowered the fibro-burden index.
+   ```
+
+   ```{.text .after}
+   Compound X reduced the fibrotic area.
+   ```
+
+   - In the same paragraph of the Before version, MF2 cells, the profibrotic cluster and these activated stromal cells all refer to the same cells. The After version calls them MF2 throughout.
    - If you really need a new term, define it once and keep using it. Example: We defined the fibrotic area as the percentage of the tissue area stained blue with Masson's trichrome.
 5. Dropped function words
-   - Before: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
-   - After: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
-   - Before: the samples the lab sequenced
-   - After: the samples that the lab sequenced
+
+   ```{.text .before}
+   Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
+   ```
+
+   ```{.text .after}
+   We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
+   ```
+
+   ```{.text .before}
+   the samples the lab sequenced
+   ```
+
+   ```{.text .after}
+   the samples that the lab sequenced
+   ```
+
    - Fixed formats, such as the title of a Figure legend, are an exception ([W6](w06_methods_legends.qmd)).
 6. Nominalization
-   - Before: Administration of compound X resulted in a reduction of collagen deposition.
-   - After: Compound X reduced collagen deposition.
-   - Before: We performed an analysis of Smad3 phosphorylation.
-   - After: We analyzed Smad3 phosphorylation.
+
+   ```{.text .before}
+   Administration of compound X resulted in a reduction of collagen deposition.
+   ```
+
+   ```{.text .after}
+   Compound X reduced collagen deposition.
+   ```
+
+   ```{.text .before}
+   We performed an analysis of Smad3 phosphorylation.
+   ```
+
+   ```{.text .after}
+   We analyzed Smad3 phosphorylation.
+   ```
+
 7. Clauses chained with commas
-   - Before: We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
-   - After: We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.
+
+   ```{.text .before}
+   We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
+   ```
+
+   ```{.text .after}
+   We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.
+   ```
+
    - When you split the sentence, you can see that the last sentence is a causal claim. A difference in proportions alone does not support it. An -ing tail is an easy place for an unsupported claim to hide.
 8. Nouns turned into verbs
-   - Before: We pipelined the QC and clustering steps.
-   - After: We combined the QC and clustering steps into one pipeline.
+
+   ```{.text .before}
+   We pipelined the QC and clustering steps.
+   ```
+
+   ```{.text .after}
+   We combined the QC and clustering steps into one pipeline.
+   ```
+
 9. English-style commas in Korean sentences
-   - Before: 또한, 본 연구는, 기존 연구와 달리, 공개 데이터를 다시 분석하였다.
-   - After: 또한 본 연구는 기존 연구와 달리 공개 데이터를 다시 분석하였다.
+
+   ```{.text .before}
+   또한, 본 연구는, 기존 연구와 달리, 공개 데이터를 다시 분석하였다.
+   ```
+
+   ```{.text .after}
+   또한 본 연구는 기존 연구와 달리 공개 데이터를 다시 분석하였다.
+   ```
+
    - Both sentences mean "In addition, unlike earlier studies, this study reanalyzed public data." In English, a comma after However or Moreover is the rule. Comma habits do not carry over between the two languages.
    - In this course, you meet this pattern in drafts that you write in Korean first, in explanations that AI writes in Korean, and in notes made before translation. One study reports that Korean text written by LLMs uses commas differently from text written by people (Park et al. 2025, [arXiv:2503.00032](https://arxiv.org/abs/2503.00032)).
 10. Formulaic phrases and visual decoration
-    - Before: These findings underscore the crucial role of Smad3 signaling in renal fibrosis and pave the way for novel therapeutic strategies.
-    - After: In UUO kidneys, compound X reduced the fibrotic area from 18.2% to 9.6%.
+
+    ```{.text .before}
+    These findings underscore the crucial role of Smad3 signaling in renal fibrosis and pave the way for novel therapeutic strategies.
+    ```
+
+    ```{.text .after}
+    In UUO kidneys, compound X reduced the fibrotic area from 18.2% to 9.6%.
+    ```
+
     - In place of a formulaic phrase, write the specific claim that the data show. In Table 1 of Reinhart et al. (2025), text written by GPT-4o used underscore 107 times as often as human text, and intricate 119 times as often.
     - Visual decoration means bold text on ordinary words, quotation marks for emphasis, em dashes, and bullet lists for content whose logic runs on from point to point.
 
-## Do not revise too much
+## 4) Do not revise too much
 
 - Do not judge by a single measure, such as sentence length or a readability score. Wang, Bilal & Zaman (2026, [arXiv:2609.17301](https://arxiv.org/abs/2609.17301), a preprint not yet peer reviewed) analyzed more than 84,000 conversations with ChatGPT and Gemini. Taken one at a time, the length, readability and lexical diversity of the answers had no consistent relationship with how hard the answers were to understand. The difficulty depended on how these features combined.
 - Do not cut every sentence to the same length. That reads awkwardly too.

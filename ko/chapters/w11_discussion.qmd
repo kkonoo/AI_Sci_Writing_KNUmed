@@ -9,7 +9,7 @@ include-after-body: ../../assets/ai-lab.html
 ## 이번 주 목표
 
 - 이번 주가 끝나면 Discussion 첫 문단에서 Introduction이 던진 질문에 답할 수 있다.
-- 주요 결과를 W8 참고문헌 표의 기존 연구와 비교하고, 결과가 다르면 그 이유를 쓸 수 있다.
+- 주요 결과를 [W8](w08_literature.qmd) 참고문헌 표의 기존 연구와 비교하고, 결과가 다르면 그 이유를 쓸 수 있다.
 - 근거의 세기에 맞게 동사와 완곡 표현(hedging)을 고를 수 있다.
 - 어느 연구에나 붙는 일반론이 아니라 이 연구의 설계에서 생기는 한계와 다음 단계를 쓸 수 있다.
 :::
@@ -18,28 +18,42 @@ include-after-body: ../../assets/ai-lab.html
 
 Discussion이 하는 일은 세 가지다. 결과가 Introduction의 빈틈을 어떻게 메웠는지 말하고, 해석의 한계를 밝히고, 이 결과가 분야에 무엇을 더하는지 쓴다(Mensh & Kording 2017, 규칙 8). [W1](w01_orientation.qmd)의 다섯 문장으로는 의미에 해당한다. Schimel (2012)의 이름으로는 Resolution이다.
 
-예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에서 가상의 약물 compound X가 섬유화를 줄였다는 연구다. 군은 sham, UUO + vehicle, UUO + compound X(10 mg/kg)이고, 8주령 수컷 C57BL/6J 마우스를 군당 n = 6으로 썼다. 신장은 7일째에 얻었다. [W6](w06_methods_legends.qmd) Methods 예문대로 compound X는 수술 당일(day 0)부터 6일째까지 매일 주었다. 수치는 지어낸 것이다. 예문의 문헌 번호는 W8 참고문헌 표의 번호가 들어갈 자리다.
+예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에서 가상의 약물 compound X가 섬유화를 줄였다는 연구다. 군은 sham, UUO + vehicle, UUO + compound X(10 mg/kg)이고, 8주령 수컷 C57BL/6J 마우스를 군당 n = 6으로 썼다. 신장은 7일째에 얻었다. [W6](w06_methods_legends.qmd) Methods 예문대로 compound X는 수술 당일(day 0)부터 6일째까지 매일 주었다. 수치는 지어낸 것이다. 예문의 문헌 번호는 [W8](w08_literature.qmd) 참고문헌 표의 번호가 들어갈 자리다.
 
-## 첫 문단은 Introduction의 질문에 대한 답이다
+## 1) 첫 문단은 Introduction의 질문에 대한 답이다
 
 ![Discussion은 Introduction을 거꾸로 따라간다. 질문의 답에서 시작해서 비교, 한계, 다음 단계로 넓어진다.](../../assets/img/w11/intro_discussion_mirror.svg){fig-alt="왼쪽 Introduction 네 칸이 좁아져 이 연구의 질문에 이른다. 그 질문에서 오른쪽 Discussion의 질문에 대한 답으로 화살표가 가고, Discussion은 기존 연구와 비교, 한계, 다음 단계와 마지막 문장으로 넓어진다. 점선은 마지막 문장도 같은 질문에 답한다는 뜻이다."}
 
-- W10 Introduction의 마지막 문단에 적은 질문을 옆에 두고 쓴다. 예: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model.*
+- [W10](w10_introduction.qmd) Introduction의 마지막 문단에 적은 질문을 옆에 두고 쓴다. 예: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model.*
 - 결과는 그림 순서가 아니라 중요한 순서로 쓴다. Results를 그림마다 다시 요약하지 않는다.
-- Before: *In this study, we first examined body weight and serum creatinine (Figure 1). We then performed Masson's trichrome staining (Figure 2) and qPCR (Figure 3).*
-- After: *Compound X reduced kidney fibrosis after UUO in mice. The fibrotic area fell from 18.2% to 9.6%. Compound X also lowered the expression of Col1a1 and Acta2 and the phosphorylation of Smad3.*
+
+```{.text .before}
+In this study, we first examined body weight and serum creatinine (Figure 1). We then performed Masson's trichrome staining (Figure 2) and qPCR (Figure 3).
+```
+
+```{.text .after}
+Compound X reduced kidney fibrosis after UUO in mice. The fibrotic area fell from 18.2% to 9.6%. Compound X also lowered the expression of Col1a1 and Acta2 and the phosphorylation of Smad3.
+```
+
 - 핵심 용어는 원고 전체에서 하나로 정해 쓴다. fibrotic area를 다른 곳에서 scarring이나 ECM accumulation으로 바꿔 부르지 않는다.
 
-## 기존 연구와 비교한다: 누구와 같고, 누구와 다르고, 왜 다른가
+## 2) 기존 연구와 비교한다: 누구와 같고, 누구와 다르고, 왜 다른가
 
 - 둘째 문단부터는 문단마다 이 연구의 강점이나 약점 하나로 시작한다. 그다음 관련 문헌에 비추어 그 점을 평가한다(Mensh & Kording 2017, 규칙 8). [W3](w03_paragraphs.qmd)의 문단 원칙대로 첫 문장이 그 문단의 주제다.
-- 비교할 문헌은 W8 표에서 가져온다. 다르면 가장 그럴듯한 이유를 쓴다. 흔한 이유는 모델, 용량, 투여 시점, 관찰 기간, 코호트, 측정 기술이다.
+- 비교할 문헌은 [W8](w08_literature.qmd) 표에서 가져온다. 다르면 가장 그럴듯한 이유를 쓴다. 흔한 이유는 모델, 용량, 투여 시점, 관찰 기간, 코호트, 측정 기술이다.
 - 데이터가 보여 준 것과 추론한 것을 다른 문장에 쓴다.
-- Before: *Our findings are consistent with previous studies [7–12].*
-- After: *Mice lacking Smad3 also develop less fibrosis after UUO [7], and our results with compound X are consistent with this. Unlike a previous study of a Smad3 inhibitor [8], we found no change in serum creatinine. In UUO the contralateral kidney is intact. Serum creatinine therefore reflects both kidneys and can stay normal even when the obstructed kidney is injured.*
+
+```{.text .before}
+Our findings are consistent with previous studies [7–12].
+```
+
+```{.text .after}
+Mice lacking Smad3 also develop less fibrosis after UUO [7], and our results with compound X are consistent with this. Unlike a previous study of a Smad3 inhibitor [8], we found no change in serum creatinine. In UUO the contralateral kidney is intact. Serum creatinine therefore reflects both kidneys and can stay normal even when the obstructed kidney is injured.
+```
+
 - [7]–[12]처럼 번호를 한꺼번에 달면 어느 문헌이 무엇을 보였는지 알 수 없다. 문헌 하나에 비교 한 가지를 쓴다.
 
-## hedging은 근거의 세기에 맞춘다
+## 3) hedging은 근거의 세기에 맞춘다
 
 | 근거의 종류 | 쓰는 동사와 표현 | 예 |
 |---|---|---|
@@ -51,25 +65,39 @@ Discussion이 하는 일은 세 가지다. 결과가 Introduction의 빈틈을 �
 - 지나치게 약하게 쓴 문장: *Compound X might potentially have a possible effect on fibrosis.* 직접 측정했고 P = 0.0004인 결과다. hedge를 세 개 겹쳐서 무엇을 찾았는지가 흐려졌다. 표의 첫 줄처럼 쓴다.
 - dry lab 예시(가상): 근섬유아세포(myofibroblast) 아형 MF2의 비율이 섬유화 환자 8명에서 24%, 대조군 6명에서 7%였다(P = 0.008). 이것은 직접 관찰이다. 그 아형이 섬유화를 "drives"한다는 것은 시험하지 않은 인과다. "may contribute to"로 쓰고, 단면 자료라는 점을 한계에 적는다.
 
-## 한계는 이 연구에 해당하는 것만, 결론에 미치는 영향과 함께 쓴다
+## 4) 한계는 이 연구에 해당하는 것만, 결론에 미치는 영향과 함께 쓴다
 
 - 한계마다 세 가지를 쓴다. 무엇이 한계인지, 결론의 어느 부분이 약해지는지, 어떻게 줄였거나 줄일 수 있는지.
-- Before: *This study has several limitations. First, the sample size was small. Second, only one model was used. Further studies are needed.*
-- After: *We started compound X on the day of surgery. Our data therefore show that it limits the development of fibrosis, not that it reverses established fibrosis. We used only male mice, so the effect in female mice is unknown.*
+
+```{.text .before}
+This study has several limitations. First, the sample size was small. Second, only one model was used. Further studies are needed.
+```
+
+```{.text .after}
+We started compound X on the day of surgery. Our data therefore show that it limits the development of fibrosis, not that it reverses established fibrosis. We used only male mice, so the effect in female mice is unknown.
+```
+
 - dry lab에서 자주 해당하는 한계: 환자 8명과 대조군 6명이라는 작은 표본, 여러 기관의 공개 데이터를 합쳐서 생기는 배치 효과, 한 시점의 단면 자료라서 순서를 말할 수 없음, 표지 유전자 선택에 따라 달라지는 세포 주석, 공간 전사체 검증에 쓴 표본 수.
 
-## 다음 단계는 한계에서 나오고, 마지막 문장은 Introduction과 맞춘다
+## 5) 다음 단계는 한계에서 나오고, 마지막 문장은 Introduction과 맞춘다
 
 - "Further studies are needed"만 쓰지 않는다. 어떤 실험이 어떤 질문에 답하는지 쓴다.
-- Before: *Further studies are needed to clarify the mechanism.*
-- After: *Starting compound X after fibrosis is established, for example 3 days after UUO, would test whether it can reverse fibrosis. Testing it in Smad3-deficient mice would show whether its effect depends on Smad3.*
+
+```{.text .before}
+Further studies are needed to clarify the mechanism.
+```
+
+```{.text .after}
+Starting compound X after fibrosis is established, for example 3 days after UUO, would test whether it can reverse fibrosis. Testing it in Smad3-deficient mice would show whether its effect depends on Smad3.
+```
+
 - 마지막 문장은 Introduction 마지막 문단의 질문에 대한 한 문장 답이다. 예: *Compound X limits fibrosis after UUO in mice, and the lower Smad3 phosphorylation suggests that it acts at least partly through this pathway.*
 
 # 2. AI로 해 보기 {#try-with-ai}
 
 AI로 문단 계획표와 한계 후보를 받고, 직접 쓴 첫 문단의 hedging을 점검한다(25분).
 
-1. AI 없이(5분): Introduction 마지막 문단의 질문과 W7의 결론 문장(그림마다, 수치 포함)을 나란히 놓는다.
+1. AI 없이(5분): Introduction 마지막 문단의 질문과 [W7](w07_results.qmd)의 결론 문장(그림마다, 수치 포함)을 나란히 놓는다.
 2. (10분) 첫 프롬프트로 문단 계획표와 한계 후보를 받는다. 한계 후보마다 해당함, 해당하지 않음, 모름을 표시한다.
 3. AI 없이(5분): 첫 문단을 직접 쓴다.
 4. (5분) 두 번째 프롬프트로 첫 문단의 hedging을 점검한다. 고칠지는 내가 정한다.
@@ -102,7 +130,7 @@ AI로 문단 계획표와 한계 후보를 받고, 직접 쓴 첫 문단의 hedg
 ```
 
 - 트랙 A: 설계 정보와 결론 문장은 자기 원고 내용이라 조건부 칸이다. 다음 단계에 쓸 새 실험 아이디어가 과제나 특허 전 아이디어라면 넣지 않기 칸이다. 그 칸은 비워 두고 직접 쓴다.
-- 트랙 B: 자유롭게 칸이다. 실제 논문의 Discussion을 읽지 않은 채로 쓴다. 비교할 문헌은 W8 표에서만 가져오고, 고른 논문을 문헌 검색의 출발점으로 쓰지 않는다. 프롬프트에 고른 논문의 제목, 저자, DOI를 넣지 않고, 웹 검색 기능은 끈다. 그림과 Methods만 보고 한계를 찾는 것이 이번 주 연습이다. 실제 저자가 쓴 한계와는 W15 비교 메모에서 비교한다.
+- 트랙 B: 자유롭게 칸이다. 실제 논문의 Discussion을 읽지 않은 채로 쓴다. 비교할 문헌은 [W8](w08_literature.qmd) 표에서만 가져오고, 고른 논문을 문헌 검색의 출발점으로 쓰지 않는다. 프롬프트에 고른 논문의 제목, 저자, DOI를 넣지 않고, 웹 검색 기능은 끈다. 그림과 Methods만 보고 한계를 찾는 것이 이번 주 연습이다. 실제 저자가 쓴 한계와는 [W15](w15_final.qmd) 비교 메모에서 비교한다.
 - 비교할 문헌과 인용 연결은 두 트랙 모두 꼭 검증 칸이다.
 
 ::: {#ai-lab}
@@ -142,7 +170,7 @@ AI가 Discussion에서 자주 틀리는 지점이다.
 Discussion 초안
 
 - 분량: 4~6문단, 500~800단어 안팎.
-- 형식: 영어 원고에 줄 번호를 넣는다. 인용은 W8 참고문헌 표의 번호로 단다. 문단 계획표와 한계 표(한계, 결론에 미치는 영향, 줄이는 방법)를 함께 낸다.
+- 형식: 영어 원고에 줄 번호를 넣는다. 인용은 [W8](w08_literature.qmd) 참고문헌 표의 번호로 단다. 문단 계획표와 한계 표(한계, 결론에 미치는 영향, 줄이는 방법)를 함께 낸다.
 - 트랙 A: 투여 시점, 성별, 측정 지표처럼 내 설계에만 있는 한계를 하나 이상 쓴다.
 - 트랙 B: 실제 논문의 Discussion을 읽지 않고 썼다는 것을 한 줄로 적는다.
 - 평가 기준:

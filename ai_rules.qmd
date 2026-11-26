@@ -10,7 +10,7 @@ What you put into AI is sorted like a traffic light. The AI policies of the univ
 
 | Signal | What it covers |
 |---|---|
-| Free to use | Explanations of concepts and grammar, help with reading published papers, track B manuscripts (until W12, [turn web search off](#track-b)) |
+| Free to use | Explanations of concepts and grammar, help with reading published papers, track B manuscripts (until [W12](chapters/w12_abstract_title.qmd), [turn web search off](#track-b)) |
 | Always verify | References, numbers, suggested statistical methods, recent research findings, whether a sentence that AI revised still means the same thing, [graphs drawn with AI-written code](#plot-code) |
 | Conditional (track A) | Sentences from your own manuscript. Get your supervisor's agreement. Use only tools set so that your input is not used for training. Do not put in raw data or figure files |
 | Conditional (received reviews) | Review comments you received on your own manuscript. Remove the reviewer's name. Use only tools set so that your input is not used for training. For journal reviews, check that journal's policy first ([details](#received-reviews)) |
@@ -22,17 +22,17 @@ If you are unsure whether something may go into AI, ask the instructor before yo
 
 ## Track B turns web search off until W12 {#track-b}
 
-Until they submit the W12 assignment (Abstract and Title), track B students write without reading the text of the original paper. Follow these rules so that AI does not find the original paper and show it to you.
+Until they submit the [W12](chapters/w12_abstract_title.qmd) assignment (Abstract and Title), track B students write without reading the text of the original paper. Follow these rules so that AI does not find the original paper and show it to you.
 
 - Turn off the web search feature of the AI tool. If an answer comes with links to web sources, a search was run. Do not use that answer, and ask again in a new conversation.
 - Do not put the title, authors or DOI of the paper you chose into a prompt.
 - Even with web search off, the model may have read the paper during training. If an answer contains numbers or results that are not in your figures and Methods, do not use them, and note this in your AI use log.
 
-After you submit the W12 assignment, you may turn web search on.
+After you submit the [W12](chapters/w12_abstract_title.qmd) assignment, you may turn web search on.
 
 ## Putting received reviews into AI {#received-reviews}
 
-You may put review comments that you received on your own manuscript into AI if you meet all of the conditions below. This covers comments from peer review in class (W9, W13) and comments from journal reviewers.
+You may put review comments that you received on your own manuscript into AI if you meet all of the conditions below. This covers comments from peer review in class ([W9](chapters/w09_midterm_review.qmd), [W13](chapters/w13_polishing.qmd)) and comments from journal reviewers.
 
 - Remove anything that shows who wrote the review, such as the reviewer's name.
 - Use only tools set so that your input is not used for training.

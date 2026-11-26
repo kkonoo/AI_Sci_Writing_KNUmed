@@ -16,37 +16,56 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-This week is peer review week. You swap your Methods from W6 and your Results from W7 with a classmate and read each other's work. The examples come from a fictional example study. In this study, the fictional drug compound X was given to mice in the unilateral ureteral obstruction (UUO) model. The numbers are made up.
+This week is peer review week. You swap your Methods from [W6](w06_methods_legends.qmd) and your Results from [W7](w07_results.qmd) with a classmate and read each other's work. The examples come from a fictional example study. In this study, the fictional drug compound X was given to mice in the unilateral ureteral obstruction (UUO) model. The numbers are made up.
 
-## Reviewers point out problems instead of rewriting
+## 1) Reviewers point out problems instead of rewriting
 
 - If a reviewer rewrites a sentence, the author does not learn why it needed to change. The reviewer's sentence may also end up in the author's manuscript word for word.
 - Give sentence-level suggestions only as examples, in one or two places. The author fixes the rest.
 
-## Each comment gives a location, a problem and a reason
+## 2) Each comment gives a location, a problem and a reason
 
 ![The After comment below, split into location, problem, reason and suggestion.](../assets/img/w09/comment_parts.en.svg){fig-alt="Four boxes hold the location Lines 14–16, the problem, the reason and the suggestion, each as a fragment of an English sentence."}
 
 - Add a suggestion if you have one. If a comment has no location, the author does not know where to make the change. If it has no reason, the author cannot judge whether to accept it.
-- Before: *The Methods are unclear.*
-- After: *Lines 14–16 (qPCR): The reference gene used for normalization is not given. Without it, a reader cannot repeat the ΔΔCt calculation. Please name the gene.*
-- Before: *The Results need more data.*
-- After: *Line 42: "Compound X markedly reduced fibrosis" gives no number. Please add the fibrotic area of each group (mean ± SD), n, and the statistical test, as in the Figure 2B legend.*
 
-## Write the most important problems first
+```{.text .before}
+The Methods are unclear.
+```
+
+```{.text .after}
+Lines 14–16 (qPCR): The reference gene used for normalization is not given. Without it, a reader cannot repeat the ΔΔCt calculation. Please name the gene.
+```
+
+```{.text .before}
+The Results need more data.
+```
+
+```{.text .after}
+Line 42: "Compound X markedly reduced fibrosis" gives no number. Please add the fibrotic area of each group (mean ± SD), n, and the statistical test, as in the Figure 2B legend.
+```
+
+## 3) Write the most important problems first
 
 - Major problems: Methods that cannot be repeated, missing n or statistics, numbers that differ between the text and the figures, and interpretation that is stronger than the data.
 - Minor problems: words, grammar and format.
 - A review with 20 minor problems and no major ones does little for the author. Choose the three biggest problems first, and write the minor ones after them.
 
-## In the Results, read results and interpretation separately
+## 4) In the Results, read results and interpretation separately
 
 - A Results sentence states what was measured. Mechanisms and meaning belong in the Discussion.
-- Before: *Compound X reduced Col1a1 mRNA by 52% (Figure 3A), indicating that it blocks TGF-β signaling.*
-- Review comment: Figure 3 measured only mRNA. Signaling is covered in Figure 4. The comment says that the second half of the sentence is interpretation. It asks the author to move that part to the Discussion or to link it to the Figure 4 paragraph.
-- After: *Compound X reduced Col1a1 mRNA by 52% compared with vehicle (Figure 3A).*
 
-## A classmate's manuscript does not go into AI
+```{.text .before}
+Compound X reduced Col1a1 mRNA by 52% (Figure 3A), indicating that it blocks TGF-β signaling.
+```
+
+- Review comment: Figure 3 measured only mRNA. Signaling is covered in Figure 4. The comment says that the second half of the sentence is interpretation. It asks the author to move that part to the Discussion or to link it to the Figure 4 paragraph.
+
+```{.text .after}
+Compound X reduced Col1a1 mRNA by 52% compared with vehicle (Figure 3A).
+```
+
+## 5) A classmate's manuscript does not go into AI
 
 - The "Do not put in" row of the [AI use rules](../ai_rules.qmd) includes "manuscripts under review (including other people's manuscripts you received as a reviewer)". A classmate's manuscript falls under this row. So do a classmate's figure order cards and reference table. Track A manuscripts contain unpublished data, and track B manuscripts are still text that a classmate wrote. So they stay out of AI whatever the track.
 - This covers parts of sentences as well as the whole manuscript. You also may not ask AI to summarize it or to draft comments on it.

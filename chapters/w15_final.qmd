@@ -20,7 +20,7 @@ By the end of this week, you will be able to:
 
 ![The semester at a glance. What each part produces comes together in the final manuscript.](../assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W4, Part 2 Writing W5–W12, Part 3 Polishing and submission W13–W15. Under each block are what that part produces and the peer review weeks."}
 
-## The presentation follows the figure order of your manuscript
+## 1) The presentation follows the figure order of your manuscript
 
 - Rule: speak in this order: the research question → one conclusion sentence for each figure → limitations → next steps.
 - Start from the conclusion sentences on your figure order cards from [W5](w05_figure_storyboard.qmd), and use the versions you polished in the manuscript. The presentation and the manuscript must tell the same story.
@@ -29,7 +29,7 @@ By the end of this week, you will be able to:
 
 <!-- Note for the instructor. Decide and announce each year: presentation time, time for questions, presentation order, number and format of slides, and whether presentation files are submitted -->
 
-## There are three things to submit, and the comparison memo counts toward the final manuscript score
+## 2) There are three things to submit, and the comparison memo counts toward the final manuscript score
 
 | Submission | Who | Weight |
 |---|---|---|
@@ -44,22 +44,22 @@ By the end of this week, you will be able to:
 |---|---|---|---|
 | Consistency | The conclusion of each figure carries through the Results, Discussion, Abstract and Title with the same strength | 9 | 7 |
 | Accuracy | Numbers and references can be checked against the sources | 9 | 7 |
-| Readability | The manuscript passes the checklists of W2 and W13 | 9 | 7 |
-| Format | The manuscript follows the author guidelines of the target journal chosen in W14 | 3 | 3 |
+| Readability | The manuscript passes the checklists of [W2](w02_readable_sentences.qmd) and [W13](w13_polishing.qmd) | 9 | 7 |
+| Format | The manuscript follows the author guidelines of the target journal chosen in [W14](w14_submission_response.qmd) | 3 | 3 |
 | Comparison memo | The memo finds the differences and explains their reasons, following the principles below | | 6 |
 | Total | | 30 | 30 |
 
-## The AI use log shows what you gave to AI and how you checked it
+## 3) The AI use log shows what you gave to AI and how you checked it
 
 - This course looks not at whether you used AI, but at what you gave to AI and how you checked the results.
 - Collect the log for the whole semester in one file, using the [form in the AI use rules](../ai_rules.qmd#ai-log).
 - If you filled in a missing day from memory, mark that row as such. Do not make up plausible entries afterwards.
 - Put a half-page summary at the top of the log. It covers the tasks you mostly gave to AI, two or three typical suggestions that you discarded and why, and the checking method you used most often.
-- The AI use disclosure in your manuscript (W14) must match this log.
+- The AI use disclosure in your manuscript ([W14](w14_submission_response.qmd)) must match this log.
 
-## The track B comparison memo finds the differences and explains why they arose
+## 4) The track B comparison memo finds the differences and explains why they arose
 
-- The reference point for the comparison is the version you submitted in W12, because it is the last version before you read the original paper. Mark separately the places that you revised after that by looking at the original paper.
+- The reference point for the comparison is the version you submitted in [W12](w12_abstract_title.qmd), because it is the last version before you read the original paper. Mark separately the places that you revised after that by looking at the original paper.
 - Do not treat the published paper as the right answer. A difference does not mean that you were wrong. Also note the places where your manuscript is clearer.
 - What to compare
 
@@ -139,10 +139,10 @@ This list collects the checks of earlier weeks in manuscript order. Use it toget
 Manuscript, AI use log, (B) comparison memo
 
 - Length and format
-  - Final manuscript: a short manuscript built on three or four figures. It has a Title page, Abstract, Introduction, Results, Discussion, Methods, Figure legend, references and an AI use disclosure. Follow the format of the target journal from W14, and add line numbers. Submit a Word file and a PDF.
+  - Final manuscript: a short manuscript built on three or four figures. It has a Title page, Abstract, Introduction, Results, Discussion, Methods, Figure legend, references and an AI use disclosure. Follow the format of the target journal from [W14](w14_submission_response.qmd), and add line numbers. Submit a Word file and a PDF.
   - AI use log: collect the whole semester in one file, with a half-page summary at the top.
   - Comparison memo (track B): the comparison table and the reflection points from the principles above, in at most two pages.
-- Differences by track: track A students submit the manuscript and the AI use log. Track B students also submit the comparison memo. Track B students mark in the manuscript the places that they revised after W12 by looking at the original paper.
+- Differences by track: track A students submit the manuscript and the AI use log. Track B students also submit the comparison memo. Track B students mark in the manuscript the places that they revised after [W12](w12_abstract_title.qmd) by looking at the original paper.
 - Grading criteria: we follow the point table for the final manuscript in the principles above and the [grading weights](../index.qmd#grading). For the AI use log, we check whether each row describes a specific way of checking.
 - Submission: through the university LMS. Deadlines are announced separately.
 - You do not submit the final checklist. Use it to check your work yourself before you submit.

@@ -20,7 +20,7 @@ include-after-body: ../../assets/ai-lab.html
 
 관사, 시제, 주어와 동사의 수처럼 문법 자체가 자신 없으면 부록 [논문 영어 기초](../english_basics.qmd)를 먼저 본다.
 
-## 짧게 쓰라는 말은 문장 하나에 담는 생각을 줄이라는 뜻이다
+## 1) 짧게 쓰라는 말은 문장 하나에 담는 생각을 줄이라는 뜻이다
 
 - AI 글은 문법이 맞아도 읽는 데 힘이 더 듦. 문장 하나에 정보를 빽빽하게 담는 쪽으로 쏠려 있기 때문.
   - Reinhart et al. (2025, [PNAS](https://doi.org/10.1073/pnas.2422455122)): 지시를 따르도록 조정한(instruction-tuned) 모델은 사람 글보다 현재분사절(present participial clause)을 2~5배, 명사화(nominalization)를 1.5~2배 많이 씀.
@@ -28,12 +28,18 @@ include-after-body: ../../assets/ai-lab.html
   - Futrell, Mahowald & Gibson (2015, [PNAS](https://doi.org/10.1073/pnas.1502134112)): 37개 언어 모두에서 서로 관련된 단어 사이 거리가 무작위 기준보다 짧았음. 사람 언어는 관련된 단어를 가까이 두는 쪽으로 쓰임.
 - 규칙: 짧게 쓰려고 관사, 전치사, 관계대명사, 동사를 빼지 않음. 문장을 나눔. 분량을 줄여야 하면 문법이 아니라 내용을 뺌.
 - 예문은 가상의 예시임(마우스 UUO 모델과 가상의 약물 compound X. 수치는 지어낸 것).
-  - 전: Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
-  - 후: Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
+
+```{.text .before}
+Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
+```
+
+```{.text .after}
+Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
+```
 
 ![같은 내용을 세 문장으로 나누면 문장마다 생각이 하나씩 남는다. 가상의 예시다.](../../assets/img/w02/split_sentence.svg){fig-alt="왼쪽에 생각 세 개를 담은 영어 문장 하나가 있다. 오른쪽에는 같은 내용을 나눈 영어 문장 세 개가 번호와 함께 있다."}
 
-## 읽기 어려운 문장은 10가지 패턴으로 찾는다
+## 2) 읽기 어려운 문장은 10가지 패턴으로 찾는다
 
 아래 표는 이번 주 실습과 [W13 다듬기](w13_polishing.qmd)에서 점검표로 씀. 번호를 바꾸지 않음.
 
@@ -50,57 +56,146 @@ include-after-body: ../../assets/ai-lab.html
 | 9 | 한국어 문장의 영어식 쉼표 | 또한, 본 연구는, | 쉼표를 뺌 |
 | 10 | 상투 표현과 시각적 꾸밈 | plays a crucial role, underscore, 굵은 글씨, em dash | 구체적인 주장을 한 번 씀 |
 
-## 패턴마다 예문으로 익힌다
+## 3) 패턴마다 예문으로 익힌다
 
 dry lab 예문도 가상의 예시임(공개 데이터로 사람 신장 생검의 단일세포 RNA 시퀀싱 데이터를 다시 분석한 연구).
 
 1. 명사 나열
-   - 전: We performed myofibroblast subtype marker gene expression comparison.
-   - 후: We compared which marker genes each myofibroblast subtype expressed.
+
+   ```{.text .before}
+   We performed myofibroblast subtype marker gene expression comparison.
+   ```
+
+   ```{.text .after}
+   We compared which marker genes each myofibroblast subtype expressed.
+   ```
+
    - 굳은 전문용어(single-cell RNA sequencing, differential expression analysis)는 그대로 씀. 새 묶음을 만들지 않음.
 2. 관련된 말이 멂
-   - 전: The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
-   - 후: We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
+
+   ```{.text .before}
+   The myofibroblast subtype that we identified after integrating public datasets of kidney biopsies from patients with and without fibrosis and removing batch effects was expanded in fibrotic samples.
+   ```
+
+   ```{.text .after}
+   We integrated public datasets of kidney biopsies from patients with and without fibrosis and removed batch effects. In the integrated data, one myofibroblast subtype was expanded in fibrotic samples.
+   ```
+
 3. 무생물 주어와 행동 동사
-   - 전: The QC filter quietly swallows low-quality cells.
-   - 후: The QC filter removes low-quality cells without a warning.
-   - 전: Compound X fights fibrosis in the injured kidney.
-   - 후: Compound X reduced fibrosis in UUO kidneys.
+
+   ```{.text .before}
+   The QC filter quietly swallows low-quality cells.
+   ```
+
+   ```{.text .after}
+   The QC filter removes low-quality cells without a warning.
+   ```
+
+   ```{.text .before}
+   Compound X fights fibrosis in the injured kidney.
+   ```
+
+   ```{.text .after}
+   Compound X reduced fibrosis in UUO kidneys.
+   ```
+
    - Figure 2 shows, These results suggest 같은 관례적 표현은 적당히 쓰면 괜찮음. 은유 동사(swallow, fight, tell a story)가 문제임.
 4. 새로 만든 말, 드문 단어 조합
-   - 전: Compound X lowered the fibro-burden index. (같은 단락에서 MF2 cells, the profibrotic cluster, these activated stromal cells가 모두 같은 세포를 가리킴)
-   - 후: Compound X reduced the fibrotic area. (세포 이름은 MF2 하나로 통일함)
+
+   ```{.text .before}
+   Compound X lowered the fibro-burden index.
+   ```
+
+   ```{.text .after}
+   Compound X reduced the fibrotic area.
+   ```
+
+   - Before 판의 같은 단락에서는 MF2 cells, the profibrotic cluster, these activated stromal cells가 모두 같은 세포를 가리킴. After 판은 세포 이름을 MF2 하나로 통일함.
    - 새 용어가 꼭 필요하면 한 번 정의하고 그대로 씀. 예: We defined the fibrotic area as the percentage of the tissue area stained blue with Masson's trichrome.
 5. 기능어 빠짐
-   - 전: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
-   - 후: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
-   - 전: the samples the lab sequenced
-   - 후: the samples that the lab sequenced
+
+   ```{.text .before}
+   Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
+   ```
+
+   ```{.text .after}
+   We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
+   ```
+
+   ```{.text .before}
+   the samples the lab sequenced
+   ```
+
+   ```{.text .after}
+   the samples that the lab sequenced
+   ```
+
    - Figure legend 제목처럼 굳은 형식은 예외임([W6](w06_methods_legends.qmd)).
 6. 명사화
-   - 전: Administration of compound X resulted in a reduction of collagen deposition.
-   - 후: Compound X reduced collagen deposition.
-   - 전: We performed an analysis of Smad3 phosphorylation.
-   - 후: We analyzed Smad3 phosphorylation.
+
+   ```{.text .before}
+   Administration of compound X resulted in a reduction of collagen deposition.
+   ```
+
+   ```{.text .after}
+   Compound X reduced collagen deposition.
+   ```
+
+   ```{.text .before}
+   We performed an analysis of Smad3 phosphorylation.
+   ```
+
+   ```{.text .after}
+   We analyzed Smad3 phosphorylation.
+   ```
+
 7. 절을 쉼표로 길게 이음
-   - 전: We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
-   - 후: We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.
+
+   ```{.text .before}
+   We integrated the datasets, enabling cell-type annotation across studies, revealing an expanded MF2 subtype, and highlighting its contribution to fibrosis.
+   ```
+
+   ```{.text .after}
+   We integrated the datasets. This allowed us to annotate cell types across studies. In patients with fibrosis, MF2 made up a larger share of fibroblasts. MF2 contributes to fibrosis.
+   ```
+
    - 나눠 쓰면 마지막 문장이 비율 차이만으로는 뒷받침되지 않는 인과 주장임이 드러남. -ing 꼬리는 근거 없는 주장이 숨기 쉬운 자리임.
 8. 명사를 동사로 바꿈
-   - 전: We pipelined the QC and clustering steps.
-   - 후: We combined the QC and clustering steps into one pipeline.
+
+   ```{.text .before}
+   We pipelined the QC and clustering steps.
+   ```
+
+   ```{.text .after}
+   We combined the QC and clustering steps into one pipeline.
+   ```
+
 9. 한국어 문장의 영어식 쉼표
-   - 전: 또한, 본 연구는, 기존 연구와 달리, 공개 데이터를 다시 분석하였다.
-   - 후: 또한 본 연구는 기존 연구와 달리 공개 데이터를 다시 분석하였다.
+
+   ```{.text .before}
+   또한, 본 연구는, 기존 연구와 달리, 공개 데이터를 다시 분석하였다.
+   ```
+
+   ```{.text .after}
+   또한 본 연구는 기존 연구와 달리 공개 데이터를 다시 분석하였다.
+   ```
+
    - 영어에서는 However, Moreover 뒤에 쉼표를 찍는 것이 규칙임. 쉼표 습관은 두 언어 사이에서 옮겨 오지 않음.
    - 이 수업에서는 한국어로 먼저 쓴 초안, AI가 한국어로 쓴 설명, 번역 전 메모에서 만남. LLM이 쓴 한국어는 사람 글과 쉼표 쓰는 방식이 다르다는 보고가 있음(Park et al. 2025, [arXiv:2503.00032](https://arxiv.org/abs/2503.00032)).
 10. 상투 표현과 시각적 꾸밈
-    - 전: These findings underscore the crucial role of Smad3 signaling in renal fibrosis and pave the way for novel therapeutic strategies.
-    - 후: In UUO kidneys, compound X reduced the fibrotic area from 18.2% to 9.6%.
+
+    ```{.text .before}
+    These findings underscore the crucial role of Smad3 signaling in renal fibrosis and pave the way for novel therapeutic strategies.
+    ```
+
+    ```{.text .after}
+    In UUO kidneys, compound X reduced the fibrotic area from 18.2% to 9.6%.
+    ```
+
     - 상투 표현 자리에는 데이터가 보여 주는 구체적인 주장을 씀. Reinhart et al. (2025)의 표 1에서 GPT-4o 글은 underscore를 사람 글보다 107배, intricate를 119배 자주 썼음.
     - 시각적 꾸밈: 평범한 단어에 굵은 글씨, 강조용 따옴표, em dash, 논리가 이어지는 내용을 글머리 기호로 나열하는 것.
 
-## 너무 많이 고치지 않는다
+## 4) 너무 많이 고치지 않는다
 
 - 하나의 기준(문장 길이, 가독성 점수)으로 판단하지 않음. Wang, Bilal & Zaman (2026, [arXiv:2609.17301](https://arxiv.org/abs/2609.17301), 심사 전 프리프린트)은 ChatGPT와 Gemini 대화 84,000건 이상을 분석함. 답의 길이, 가독성, 어휘 다양성은 하나씩 보면 이해의 어려움과 일정한 관계가 없었고, 이 특성들이 어떻게 섞이느냐에 따라 달랐음.
 - 모든 문장을 같은 길이로 자르지 않음. 그것도 어색함.

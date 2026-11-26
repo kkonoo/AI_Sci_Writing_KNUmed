@@ -22,7 +22,7 @@ In [W2](w02_readable_sentences.qmd) we made single sentences easy to read. This 
 
 This week's principles draw on two sources. One is chapter 3 (paragraph structure) of Zeiger (2000), *Essentials of Writing Biomedical Research Papers*. The other is Gopen & Swan (1990), "The Science of Scientific Writing." We also use some of the rules in Mensh & Kording (2017). Full references are in [Resources](../resources.qmd#books). The examples come from the same fictional example study as the weeks from [W5](w05_figure_storyboard.qmd) onward, and the numbers are made up.
 
-## Give each paragraph one claim, and announce it at the start
+## 1) Give each paragraph one claim, and announce it at the start
 
 - Rule: before you write a paragraph, write what it says in one sentence. This sentence is the topic sentence. The other sentences support it.
 - Put the topic sentence at the start of the paragraph. Readers decide from the first sentence what they will get from the paragraph. If the claim comes last, readers go through the earlier sentences without knowing why they are there.
@@ -30,57 +30,96 @@ This week's principles draw on two sources. One is chapter 3 (paragraph structur
 - If you cannot state the claim in one sentence, the paragraph has two claims or no claim yet. If it has two, split it.
 - Mensh & Kording (2017) recommend the order context, content, conclusion within a paragraph too. The first sentence opens the topic, the middle sentences carry the content, and the last sentence leaves the conclusion that readers should remember. This points the same way as putting the topic sentence first. From the first sentence, readers know what they will read. From the last, they know what to take away.
 - Check: read only the topic sentences one after another. They alone should show the line of the argument.
-- Example (wet lab, fictional):
-  - Before: We measured the fibrotic area with Masson's trichrome staining. We also measured *Col1a1* and *Acta2* expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
-  - After: Compound X reduced fibrosis at both the tissue level and the gene expression level. It lowered the fibrotic area on Masson's trichrome staining. It also lowered the expression of the fibrosis marker genes *Col1a1* and *Acta2*.
-  - In the third sentence of Before, Compound X lowered both, readers must reread the first two sentences to know what both means. In After, the claim comes first, so the next two sentences read as its evidence.
 
-## Begin a sentence with words from the sentence before, and put new information at the end
+Example (wet lab, fictional):
+
+```{.text .before}
+We measured the fibrotic area with Masson's trichrome staining. We also measured Col1a1 and Acta2 expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
+```
+
+```{.text .after}
+Compound X reduced fibrosis at both the tissue level and the gene expression level. It lowered the fibrotic area on Masson's trichrome staining. It also lowered the expression of the fibrosis marker genes Col1a1 and Acta2.
+```
+
+- In the third sentence of Before, Compound X lowered both, readers must reread the first two sentences to know what both means. In After, the claim comes first, so the next two sentences read as its evidence.
+
+## 2) Begin a sentence with words from the sentence before, and put new information at the end
 
 - Gopen & Swan (1990) describe how readers use the start of a sentence (the topic position) to decide what the sentence is about. Readers then look for the information to emphasize at the end of the sentence (the stress position).
 - Rule: put words that already appeared in the sentence before at the start of a sentence. Put what this sentence newly tells the reader at the end. The end of one sentence then leads into the start of the next.
-- Example (dry lab, fictional):
-  - Before: We divided fibroblasts into four subtypes. A median of 24% of fibroblasts in patients with fibrosis, compared with 7% in controls, belonged to one subtype, MF2 (P = 0.008).
-  - After: We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
-  - In Before, the second sentence starts with new information, the numbers. The word that links it to the sentence before (subtype) comes at the end. In After, the second sentence starts by taking up subtypes from the sentence before, and the third sentence starts by taking up patients with fibrosis.
+
+Example (dry lab, fictional):
+
+```{.text .before}
+We divided fibroblasts into four subtypes. A median of 24% of fibroblasts in patients with fibrosis, compared with 7% in controls, belonged to one subtype, MF2 (P = 0.008).
+```
+
+```{.text .after}
+We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
+```
+
+- In Before, the second sentence starts with new information, the numbers. The word that links it to the sentence before (subtype) comes at the end. In After, the second sentence starts by taking up subtypes from the sentence before, and the third sentence starts by taking up patients with fibrosis.
 
 ![The end of one sentence leads into the start of the next. Fictional example.](../assets/img/w03/old_to_new.en.svg){fig-alt="Three English sentences run from top to bottom. For each sentence, the left box holds its start and the right box holds its new information. Arrows run from the end of the first sentence, into four subtypes, to the start of the second, One of these subtypes, and from the end of the second sentence, patients with fibrosis, to the start of the third, In these patients."}
 
 - Pattern 2 in [W2](w02_readable_sentences.qmd), keeping the subject close to its verb, comes from the same reason. After reading the subject, readers do not know what the sentence says until the verb arrives.
 
-## Put the key term in the topic sentence, and repeat it in the same words
+## 3) Put the key term in the topic sentence, and repeat it in the same words
 
 - Rule: put the key term of a paragraph in its topic sentence. After that, repeat it in the same words.
 - The writing-class rule "do not repeat the same word" does not suit scientific writing. When the word changes, readers take it as a different thing. Mensh & Kording (2017) also write that there is nothing wrong with using the same word several times, and that a different word makes readers wonder whether the meaning is slightly different.
-- Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in W2. Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
+- Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in [W2](w02_readable_sentences.qmd). Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
 
-## Show how sentences relate with the right transition
+## 4) Show how sentences relate with the right transition
 
 - Rule: first decide whether two sentences relate by contrast, cause and effect, addition, example or sequence. Then use a transition that fits that relation. Common transitions are in the [phrase sheet](../phrases.qmd#connectives).
 - Do not add a transition where there is no relation. If every sentence starts with Moreover or Furthermore, readers take all of them as additions of equal weight. The same thing happens when a Korean draft's "또한 ~. 또한 ~." is carried into English (the translation-habit table in [W13](w13_polishing.qmd)).
 - If you begin a sentence with words from the sentence before, as in the previous principle, the relation often shows without a transition. Use a transition when that is not enough.
-- Example (wet lab, fictional):
-  - Before: Compound X lowered the fibrotic area. Moreover, body weight did not differ between the groups. Moreover, compound X lowered Smad3 phosphorylation.
-  - After: Compound X lowered the fibrotic area. It also lowered Smad3 phosphorylation. In contrast, body weight did not differ between the groups.
-  - After first groups the two things that compound X changed. In contrast then separates the one thing it did not change.
 
-## Once you set an order and a sentence form, keep them
+Example (wet lab, fictional):
+
+```{.text .before}
+Compound X lowered the fibrotic area. Moreover, body weight did not differ between the groups. Moreover, compound X lowered Smad3 phosphorylation.
+```
+
+```{.text .after}
+Compound X lowered the fibrotic area. It also lowered Smad3 phosphorylation. In contrast, body weight did not differ between the groups.
+```
+
+- After first groups the two things that compound X changed. In contrast then separates the one thing it did not change.
+
+## 5) Once you set an order and a sentence form, keep them
 
 - Rule: once you set the order of the things you compare, do not change it. For example, if you introduced the groups as sham, UUO + vehicle and UUO + compound X, give the values in that order too.
 - Do not write in the order in which you did the experiments. Readers need the claim and its support, not the path by which you reached the result (Mensh & Kording 2017, rule 3).
 - Cover each subject in one place. Put similar ideas, such as two pieces of evidence for the same claim, right after each other. If the subject zig-zags back and forth, readers must catch up each time it changes (rule 4).
 - If a paragraph has several subtopics, say in the topic sentence how many there are. Then write each subtopic in the same sentence form. This is called parallel form. When the form is the same, readers take the contents as the same kind of thing.
-- Example (dry lab, fictional):
-  - Before: We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
-  - After: We confirmed the identity of MF2 in two ways. First, MF2 cells expressed known myofibroblast marker genes. Second, MF2 cells were present in spatial transcriptomics data from kidney sections.
 
-## Make clear what This and It refer to
+Example (dry lab, fictional):
+
+```{.text .before}
+We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
+```
+
+```{.text .after}
+We confirmed the identity of MF2 in two ways. First, MF2 cells expressed known myofibroblast marker genes. Second, MF2 cells were present in spatial transcriptomics data from kidney sections.
+```
+
+## 6) Make clear what This and It refer to
 
 - Rule: readers should know at once what This, It or These at the start of a sentence refers to in the sentence before. If the sentence before has several nouns, put a noun after This.
-- Example (wet lab, fictional):
-  - Before: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. This suggests that it acts through TGF-β/Smad3 signaling.
-  - After: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. The lower Smad3 phosphorylation suggests that compound X acts through TGF-β/Smad3 signaling.
-  - In Before, readers cannot tell whether This is the lower fibrotic area, the lower Smad3 phosphorylation or both. It could be compound X or the fibrotic area. After names the evidence and the subject as nouns. The strength of the claim (suggests) stays the same.
+
+Example (wet lab, fictional):
+
+```{.text .before}
+Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. This suggests that it acts through TGF-β/Smad3 signaling.
+```
+
+```{.text .after}
+Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. The lower Smad3 phosphorylation suggests that compound X acts through TGF-β/Smad3 signaling.
+```
+
+- In Before, readers cannot tell whether This is the lower fibrotic area, the lower Smad3 phosphorylation or both. It could be compound X or the fibrotic area. After names the evidence and the subject as nouns. The strength of the claim (suggests) stays the same.
 
 # 2. Try it with AI {#try-with-ai}
 

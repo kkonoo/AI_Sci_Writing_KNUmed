@@ -28,7 +28,7 @@ This week covers two jobs together: sending the manuscript to a journal, and ans
 
 The journals on this page are only examples of author guideline pages. They are not recommendations for where to submit. The examples come from the fictional example study (the UUO fibrosis model with compound X).
 
-### Choose a journal by the people who will read your manuscript
+### 1) Choose a journal by the people who will read your manuscript
 
 - Rule: first check whether the people who would read and cite this manuscript read that journal. Do not choose by a single metric.
 - Look for candidates in two places. One is the journals that appear often in your reference table from [W8](w08_literature.qmd). The other is the journals that published papers with a similar question or method in the past two or three years, which you can find in PubMed. Record this search in the W8 search log form as well.
@@ -43,7 +43,7 @@ The journals on this page are only examples of author guideline pages. They are 
 | Policies | AI policy, data sharing, reporting guidelines, whether preprints are allowed, whether peer review records are published |
 | Is the journal trustworthy? | The [Think. Check. Submit.](https://thinkchecksubmit.org/) checklist, and the indexing information in the [NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog/) |
 
-### Read the author guidelines on the journal's own pages
+### 2) Read the author guidelines on the journal's own pages
 
 - Rule: author guidelines differ between journals and change often. Read the journal's pages yourself instead of relying on memory or an AI summary.
 - Example: the rules of two journals differ even for the same kind of research paper (checked in 2026-11).
@@ -51,7 +51,7 @@ The journals on this page are only examples of author guideline pages. They are 
   - [PLOS ONE, Submission guidelines](https://journals.plos.org/plosone/s/submission-guidelines): the Abstract has at most 300 words. There is no limit on the length of the main text or on the number of figures. Pages must be numbered, and lines must be numbered continuously. The cover letter may be at most one page long.
 - Limits also differ between article types within the same journal. Find the page for your manuscript's article type.
 
-### Fill in the submission checklist before you enter the submission system
+### 3) Fill in the submission checklist before you enter the submission system
 
 - Manuscript format: word counts (Title, Abstract, main text), order of sections, reference style, page numbers and line numbers.
 - Title page: authors, affiliations and the contact details of the corresponding author. Check whether the journal requires ORCID.
@@ -63,7 +63,7 @@ The journals on this page are only examples of author guideline pages. They are 
 - Conflicts of interest, funding and author contributions: use the journal's forms. Examples: the [ICMJE disclosure form](https://www.icmje.org/disclosure-of-interest/), and [CRediT](https://credit.niso.org/) for classifying author contributions.
 - Cover letter, and suggested and excluded reviewers (when the journal asks for them).
 
-### Put in the cover letter only the facts that the editor needs to decide whether to send it for review
+### 4) Put in the cover letter only the facts that the editor needs to decide whether to send it for review
 
 ![The six parts of a cover letter. Write the main results with the same numbers and strength as the Abstract.](../assets/img/w14/cover_letter.en.svg){fig-alt="Six parts numbered 1 to 6: addressee and first paragraph, research question and why it matters, main results, why this journal's readers, required statements, suggested and excluded reviewers. Two rules are on the right."}
 
@@ -89,7 +89,7 @@ The journals on this page are only examples of author guideline pages. They are 
 
 The reviewer comments and responses in the examples are made up, based on the fictional example study (the UUO fibrosis model with compound X). For a real case, see the example of a published peer review record in [Resources](../resources.qmd#papers).
 
-### Answer each comment in four parts
+### 1) Answer each comment in four parts
 
 ![The reply to the fictional comment R1C3 below, split into four parts.](../assets/img/w14/response_parts.en.svg){fig-alt="On the left are four boxes: quote the comment, thanks, what you did, where it changed. On the right is the English sentence for each box."}
 
@@ -101,35 +101,51 @@ The reviewer comments and responses in the examples are made up, based on the fi
 
 Fictional comment R1C3: Serum creatinine is shown only as group means. Please show individual values and explain how blood was collected.
 
-- Before: We thank the reviewer for this excellent and insightful comment. We have revised the manuscript accordingly.
-- After: We thank the reviewer for this suggestion. We now show serum creatinine for each mouse (Fig. 1c). We also state in the Methods how and when blood was collected. Changes: Methods, page 6, lines 120–124; Fig. 1c and its legend, page 22, lines 455–457.
+```{.text .before}
+We thank the reviewer for this excellent and insightful comment. We have revised the manuscript accordingly.
+```
 
-### When you do not accept a comment, give your evidence and match your claim to it
+```{.text .after}
+We thank the reviewer for this suggestion. We now show serum creatinine for each mouse (Fig. 1c). We also state in the Methods how and when blood was collected. Changes: Methods, page 6, lines 120–124; Fig. 1c and its legend, page 22, lines 455–457.
+```
+
+### 2) When you do not accept a comment, give your evidence and match your claim to it
 
 - Rule: do not write only a refusal. Explain with facts why you did not do it. Then fix what you can fix in the manuscript, such as a sentence on limitations or the scope of the conclusion.
 - One comment may contain several requests. Split it into sentences and answer each request.
 
 Fictional comment R2C1: A second fibrosis model, such as folic acid nephropathy, is needed to support the conclusion.
 
-- Before: We respectfully disagree. This experiment is not necessary for our study.
-- After: We agree that a second model would show whether the effect of compound X depends on obstruction. We did not add this experiment because it requires a new animal protocol that could not be approved within the revision period. We now state this as a limitation and restrict our conclusion to the UUO model (Discussion, page 15, lines 318–322).
+```{.text .before}
+We respectfully disagree. This experiment is not necessary for our study.
+```
+
+```{.text .after}
+We agree that a second model would show whether the effect of compound X depends on obstruction. We did not add this experiment because it requires a new animal protocol that could not be approved within the revision period. We now state this as a limitation and restrict our conclusion to the UUO model (Discussion, page 15, lines 318–322).
+```
 
 A real case: read R1C2 in the Peer Review File of Weinand et al. (2024). The reviewer asked the authors to look again at the samples with few cells, to remove them if needed, and at least to state this as a limitation. The authors showed the results of a reanalysis without those samples and explained why they kept the samples. They also added this analysis to the Results and the limitation to the Discussion. In this way they answered all three requests.
 
-### Write only what you did
+### 3) Write only what you did
 
 - Rule: every have added and now show in the response letter must be found at that location in the revised manuscript.
 - Do not answer with promises about the future (we will, in future studies). If you did not do something, say that you did not do it.
 - The numbers in the response letter must be the same as those in the revised manuscript. For example, if the revised manuscript gives the fibrotic area as 18.2% and 9.6%, the response letter gives the same values.
 - At the top of the letter, state which version the page and line numbers refer to: the version with tracked changes or the clean version.
 
-### If a reviewer misread the manuscript, take it as a sign that the manuscript did not explain enough
+### 4) If a reviewer misread the manuscript, take it as a sign that the manuscript did not explain enough
 
 - Rule: do not blame the reviewer. Fix the place in the manuscript where the misunderstanding arose.
-- Before: The reviewer has misunderstood our data. We clearly measured the fibrotic area in the cortex only.
-- After: We did not state this clearly in the original manuscript. We measured the fibrotic area in the cortex only. We now state this in the Methods (page 7, line 140) and in the Figure 2 legend (page 23, line 470).
 
-### Summarize the main changes at the top of the response letter
+```{.text .before}
+The reviewer has misunderstood our data. We clearly measured the fibrotic area in the cortex only.
+```
+
+```{.text .after}
+We did not state this clearly in the original manuscript. We measured the fibrotic area in the cortex only. We now state this in the Methods (page 7, line 140) and in the Figure 2 legend (page 23, line 470).
+```
+
+### 5) Summarize the main changes at the top of the response letter
 
 - If several reviewers raised the same point, group it in a summary at the top. In the answers to each comment, refer back to that summary.
 - The response letter of Weinand et al. (2024) also first summarized four main changes, and gave for each change the numbers of the comments it addressed.
@@ -209,7 +225,7 @@ Rules
 
 - A published Peer Review File is part of a published paper, so it falls in the "Free to use" row for both tracks. The analyses, numbers and locations in a response written by AI fall in the "Always verify" row.
 - Track A: use Weinand et al. (2024) above.
-- Track B: use the Peer Review File of the paper you chose. You already read the original paper after W12, so read the Peer Review File together with the original paper. Choose a comment that also applies to your own manuscript. In the second prompt, fill in [what we did] and [locations] with what you actually changed in your manuscript. If the Peer Review File of your paper is not published, use the same material as track A.
+- Track B: use the Peer Review File of the paper you chose. You already read the original paper after [W12](w12_abstract_title.qmd), so read the Peer Review File together with the original paper. Choose a comment that also applies to your own manuscript. In the second prompt, fill in [what we did] and [locations] with what you actually changed in your manuscript. If the Peer Review File of your paper is not published, use the same material as track A.
 
 ::: {.callout-warning}
 ## After a real submission, the rules are different
@@ -272,7 +288,7 @@ A cover letter and one response letter
   - Response
     - Track A: one comment from Weinand et al. (2024). We suggest one of R1C2, R1C7 and R3C10. For what was done and where it changed, use only what the authors' response says.
     - Track B: one comment from the Peer Review File of your paper that also applies to your manuscript. Actually revise your manuscript, and give the page and line numbers of your manuscript.
-    - Instead of Weinand et al. (2024), track A students may answer a comment they received in the W13 peer review. In that case, what you did and where it changed come from what you actually changed in your revised manuscript. There is no authors' response, so in the comparison memo write where the AI's first draft and your response differ. Peer comments follow the conditions for [received reviews](../ai_rules.qmd#received-reviews).
+    - Instead of Weinand et al. (2024), track A students may answer a comment they received in the [W13](w13_polishing.qmd) peer review. In that case, what you did and where it changed come from what you actually changed in your revised manuscript. There is no authors' response, so in the comparison memo write where the AI's first draft and your response differ. Peer comments follow the conditions for [received reviews](../ai_rules.qmd#received-reviews).
 - Grading criteria
   - Cover letter structure: the results, the link to the journal and the required statements are all there.
   - Cover letter facts: every sentence about the journal and the results can be checked through a link, a DOI or the manuscript.

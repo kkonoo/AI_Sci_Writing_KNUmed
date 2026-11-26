@@ -18,9 +18,9 @@ include-after-body: ../assets/ai-lab.html
 
 - What this section does: the Methods let readers judge whether they can trust the results, and let other researchers repeat the experiments and analyses. According to Mensh & Kording (2017, rule 9), the Methods are the section read least of all. Even so, reviewers and researchers who want to repeat the work check the evidence here. A figure legend lets readers understand the figure without the text. Mensh & Kording (2017) recommend that the figure title give the conclusion of the analysis and that the legend explain how the analysis was done (rule 7). For the format of the title, follow your target journal (principle 5).
 - The examples come from the same fictional example study as in [W5](w05_figure_storyboard.qmd). Mice with unilateral ureteral obstruction (UUO) were given compound X, a fictional drug, with n = 6 per group. The numbers and conditions are made up.
-- Write the Methods and legends from your W5 figure order cards. The key statistics item of each card becomes the n and statistics sentence of the legend.
+- Write the Methods and legends from your [W5](w05_figure_storyboard.qmd) figure order cards. The key statistics item of each card becomes the n and statistics sentence of the legend.
 
-## Principle 1. Write enough for others to repeat the work (reproducibility)
+## 1) Write enough for others to repeat the work (reproducibility)
 
 - The test question: could a graduate student in another lab in the same field do the same experiment from this Methods section alone?
 - What wet-lab Methods often leave out: the strain, sex, age and supplier of the animals. The manufacturer, catalog number and dose of each reagent, and the route and timing of administration. How quantification was done (which areas, how many images, whether it was blinded). Software names and versions.
@@ -29,22 +29,42 @@ include-after-body: ../assets/ai-lab.html
 - Each study design has its own reporting guideline.
   - Animal studies: [ARRIVE 2.0](https://arriveguidelines.org/arrive-guidelines). Its minimum set, the Essential 10, covers study design, sample size, inclusion and exclusion criteria, randomization, blinding, outcome measures, statistical methods, experimental animals, experimental procedures and results (Percie du Sert et al. 2020, [doi:10.1371/journal.pbio.3000410](https://doi.org/10.1371/journal.pbio.3000410)).
   - For other designs (observational studies, clinical trials, diagnostic studies and so on), find the matching guideline at the [EQUATOR Network](https://www.equator-network.org/).
-- Examples:
-  - Before: Mice underwent UUO and were treated with compound X. Kidneys were harvested and analyzed.
-  - After: Male C57BL/6J mice (8 weeks old) underwent left UUO. Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. Kidneys were harvested on day 7.
 
-## Principle 2. Keep tense and voice consistent
+Examples:
+
+```{.text .before}
+Mice underwent UUO and were treated with compound X. Kidneys were harvested and analyzed.
+```
+
+```{.text .after}
+Male C57BL/6J mice (8 weeks old) underwent left UUO. Compound X (10 mg/kg) or vehicle was given by oral gavage once daily from day 0 to day 6. Kidneys were harvested on day 7.
+```
+
+## 2) Keep tense and voice consistent
 
 - Use the past tense for what you did in this study. Use the present tense for what a figure shows and for general facts ("Data are mean ± SD" in a legend).
 - Use the passive voice when it does not matter who did the work. Decide whether to use the active "we" by looking at recent papers in your target journal. Within one section, keep to one choice.
 - Do not turn verbs into nouns. Write one step per sentence.
-- Examples:
-  - Before: Quantification of the fibrotic area was performed using ImageJ.
-  - After: Fibrotic area was quantified in ImageJ (version 1.54).
-  - Before: Kidneys were fixed in 10% formalin, followed by paraffin embedding, and then 4-μm sections were cut and stained with Masson's trichrome.
-  - After: Kidneys were fixed in 10% formalin and embedded in paraffin. Sections (4 μm) were stained with Masson's trichrome.
 
-## Principle 3. State what n counts
+Examples:
+
+```{.text .before}
+Quantification of the fibrotic area was performed using ImageJ.
+```
+
+```{.text .after}
+Fibrotic area was quantified in ImageJ (version 1.54).
+```
+
+```{.text .before}
+Kidneys were fixed in 10% formalin, followed by paraffin embedding, and then 4-μm sections were cut and stained with Masson's trichrome.
+```
+
+```{.text .after}
+Kidneys were fixed in 10% formalin and embedded in paraffin. Sections (4 μm) were stained with Masson's trichrome.
+```
+
+## 3) State what n counts
 
 ![n is the number of experimental units. Six mice give n = 6. The three sections from one mouse are technical replicates, so they are averaged into one value.](../assets/img/w06/what_n_counts.en.svg){fig-alt="On the left are the six mice of one group and three sections from mouse 1. On the right are a Before that writes n = 18 and an After that writes n = 6 mice per group."}
 
@@ -52,23 +72,37 @@ include-after-body: ../assets/ai-lab.html
 - Several images taken from the same mouse, or three qPCR wells from the same sample, are technical replicates. Average them and use the mean as one value for that mouse.
 - In single-cell data, n is the number of patients (donors), not the number of cells.
 - In the Methods, state the experimental unit, how technical replicates were combined, and which animals were excluded and why.
-- Examples:
-  - Before: n = 18 (6 mice × 3 sections).
-  - After: n = 6 mice per group. For each mouse, values from three sections were averaged.
 
-## Principle 4. Report the test, the error bars and exact P values
+Examples:
+
+```{.text .before}
+n = 18 (6 mice × 3 sections).
+```
+
+```{.text .after}
+n = 6 mice per group. For each mouse, values from three sections were averaged.
+```
+
+## 4) Report the test, the error bars and exact P values
 
 - State the name of the test, whether it was two-sided or one-sided, whether the comparison was paired, the correction for multiple comparisons, and the statistics software and its version.
 - State in the legend whether the error bars show the SD, the SEM or a 95% confidence interval. The three give different information. The SD shows how widely the data are spread. The SEM and the confidence interval show how precisely the mean was estimated (Cumming et al. 2007, [doi:10.1083/jcb.200611141](https://doi.org/10.1083/jcb.200611141)).
 - Give exact P values where possible (P = 0.012). Whether to write very small values as P < 0.0001 depends on the journal's rules.
 - The statistics items of the [Nature Portfolio Reporting Summary](https://www.nature.com/documents/nr-reporting-summary-flat.pdf) make a good checklist. They ask for the exact n and its unit for each group, whether the measurements came from distinct samples or from the same sample measured repeatedly, the test and whether it was one-sided or two-sided, and exact P values where possible.
-- Examples:
-  - Before: Data are presented as mean ± SEM. *P < 0.05.
-  - After: Data are mean ± SD; each dot is one mouse (n = 6 per group). P values are from one-way ANOVA with Tukey's multiple comparisons test.
 
-## Principle 5. Write a figure legend as title, panel descriptions, then n and statistics
+Examples:
 
-- Title sentence: write in one sentence what the whole figure shows. Start from your W5 conclusion sentence. Some journals put the conclusion in the title, and others describe only the content. Follow the papers of your target journal.
+```{.text .before}
+Data are presented as mean ± SEM. *P < 0.05.
+```
+
+```{.text .after}
+Data are mean ± SD; each dot is one mouse (n = 6 per group). P values are from one-way ANOVA with Tukey's multiple comparisons test.
+```
+
+## 5) Write a figure legend as title, panel descriptions, then n and statistics
+
+- Title sentence: write in one sentence what the whole figure shows. Start from your [W5](w05_figure_storyboard.qmd) conclusion sentence. Some journals put the conclusion in the title, and others describe only the content. Follow the papers of your target journal.
 - Panel descriptions: for each panel, state what was measured, under which conditions and how. A reader should understand the figure without reading the main text. Do not repeat the procedures from the Methods.
 - n and statistics: state what one dot is, n and its unit, the type of error bar and the test. For images, give the length of the scale bar.
 - Do not interpret in the legend. Interpretation belongs in the Results and the Discussion.
@@ -76,16 +110,12 @@ include-after-body: ../assets/ai-lab.html
 
 ![Fictional Figure 2. Panel a holds the places for representative images, and panel b shows the fibrotic area of each mouse.](../assets/img/w06/figure2_mock.svg){fig-alt="Panel a has three image placeholders, for sham, UUO + vehicle and UUO + compound X, each with a scale bar. Panel b shows the fibrotic area of the three groups as a point for each mouse with mean ± SD, and marks P < 0.0001 for sham versus vehicle and P = 0.0004 for vehicle versus compound X."}
 
-- Before:
-
-```text
+```{.text .before}
 Figure 2. Masson's trichrome staining. Compound X significantly decreased fibrosis,
 suggesting that it may be a promising therapy. *P < 0.05.
 ```
 
-- After:
-
-```text
+```{.text .after}
 Figure 2. Compound X reduces interstitial fibrosis after UUO.
 (a) Representative Masson's trichrome images of kidneys from sham, UUO + vehicle
 and UUO + compound X mice on day 7. Scale bars, 100 μm.
@@ -157,7 +187,7 @@ Checklist:
 - [ ] Every value in the Methods appears in the lab notebook, protocols or analysis records.
 - [ ] You covered all required items of the reporting guideline, or stated why an item does not apply.
 - [ ] Every figure legend gives n and its unit, the type of error bar and the test, and these match the Methods.
-- [ ] The n and test in each legend match the key statistics item of the W5 card.
+- [ ] The n and test in each legend match the key statistics item of the [W5](w05_figure_storyboard.qmd) card.
 - [ ] The Methods are in the past tense, and the data descriptions in the legends are in the present tense.
 - [ ] In sentences that AI revised, no numbers, units or test names have changed.
 - [ ] Every cited methods paper really exists (checked by DOI and in PubMed).

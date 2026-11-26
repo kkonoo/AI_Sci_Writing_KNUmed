@@ -21,7 +21,7 @@ For most readers, the Abstract is the only part of the paper they read. So the A
 
 The examples come from two fictional example studies. The wet lab example is a study in which the fictional drug compound X reduced fibrosis in the mouse unilateral ureteral obstruction (UUO) model. The dry lab example is a study that reanalyzed public single-cell RNA sequencing data from human kidney biopsies. It found a myofibroblast subtype, MF2, that was more abundant in patients with fibrosis. The numbers are made up.
 
-## The Abstract has five parts, and each part comes from another part of the manuscript
+## 1) The Abstract has five parts, and each part comes from another part of the manuscript
 
 ![All five parts of the Abstract come from other parts of the manuscript.](../assets/img/w12/abstract_sources.en.svg){fig-alt="Arrows lead from the Introduction, Methods, Results and Discussion of the manuscript on the left to the background, gap, approach, key results and conclusion of the Abstract on the right."}
 
@@ -38,7 +38,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 - The three journals in the table under the next principle do not allow references in the Abstract. Most other journals are the same.
 - State the species you studied in the Abstract. PLOS ONE requires this in its submission guidelines ([submission guidelines](https://journals.plos.org/plosone/s/submission-guidelines)).
 
-## Check the word limit and format on your target journal's page
+## 2) Check the word limit and format on your target journal's page
 
 | Journal | Abstract | Title |
 |---|---|---|
@@ -49,7 +49,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 - These details were checked on each journal's page on 2026-11-10. Guidelines change, so check them again before you submit ([W14](w14_submission_response.qmd)).
 - Some journals require a structured abstract with subheadings such as Background, Methods, Results and Conclusions. Check the abstract format in your target journal's instructions.
 
-## To cut words, cut content, not grammar
+## 3) To cut words, cut content, not grammar
 
 - When you are over the word limit, it is tempting to drop articles, verbs and connectives and to string nouns together. This lowers the word count but makes the text harder to read. Information can also disappear along with the grammar.
 - Instead, drop whole pieces of less important content. List what you dropped so that your coauthors can see it.
@@ -66,7 +66,7 @@ The examples come from two fictional example studies. The wet lab example is a s
   Three things were dropped: the result that body weight and serum creatinine did not change, the percentage decrease for each gene, and the result that Fn1 did not change significantly. The dropped results stay in the Results as they are. The main numbers, n and the P value stay in the Abstract unchanged.
 - By word count alone, the version without grammar is shorter. But the version without the less important content is the one that readers can read in one pass.
 
-## Write three title options of different types, then choose
+## 4) Write three title options of different types, then choose
 
 | Type | Wet lab example | Dry lab example |
 |---|---|---|
@@ -79,7 +79,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 - Question type: it draws readers' interest. The answer is not in the title. It may not suit journals such as Scientific Reports, which ask for the main message in one sentence.
 - Put the species and model in all three types. The verb of the title must not be stronger than the conclusion sentence of the Abstract.
 
-## The focus of the Abstract and the title depends on the type of paper
+## 5) The focus of the Abstract and the title depends on the type of paper
 
 Zeiger (2000) also treats the three types separately in the chapters on the Abstract and the title.
 
@@ -133,7 +133,7 @@ Rules: [journal limit] or fewer, include the species and model studied, do not u
 ```
 
 - Track A: the Abstract material is the core of your manuscript, so it is in the "Conditional (track A)" row. Results that you will patent are in the "Do not put in" row.
-- Track B: you are in the "Free to use" row. Write without reading the Abstract of the original paper. Do not put the title, authors or DOI of the paper you chose into a prompt, and turn web search off. Track B students already saw the real title when they chose the paper in W1. Even so, write all three types. You compare them with the real title in the W15 comparison memo.
+- Track B: you are in the "Free to use" row. Write without reading the Abstract of the original paper. Do not put the title, authors or DOI of the paper you chose into a prompt, and turn web search off. Track B students already saw the real title when they chose the paper in [W1](w01_orientation.qmd). Even so, write all three types. You compare them with the real title in the [W15](w15_final.qmd) comparison memo.
 - Whether the numbers or meaning changed in an Abstract that AI revised is in the "Always verify" row.
 
 ::: {#ai-lab}
@@ -173,9 +173,9 @@ Abstract, and three title options
   2. The version before shortening, the shortened version, and the list of what you dropped (with a one-line reason for each)
   3. The three title options with their word counts, the option you chose, and 2–3 lines on why
   4. Your target journal's guidelines for the Abstract and title, and the URL of the page where you checked them
-- Make the numbers in the Abstract match the Results of your W9 revised version.
+- Make the numbers in the Abstract match the Results of your [W9](w09_midterm_review.qmd) revised version.
 - Track A: choose the target journal with your supervisor, and follow its guidelines.
-- Track B: follow the guidelines of the journal that published the original paper. State in one line that you wrote without reading the Abstract of the original paper. After you submit this assignment, you may read the whole original paper. At that point, keep a separate copy of the whole manuscript you have submitted. This version is the baseline for the W15 comparison memo.
+- Track B: follow the guidelines of the journal that published the original paper. State in one line that you wrote without reading the Abstract of the original paper. After you submit this assignment, you may read the whole original paper. At that point, keep a separate copy of the whole manuscript you have submitted. This version is the baseline for the [W15](w15_final.qmd) comparison memo.
 - Grading criteria:
   - The five parts are there, and the numbers and n match the Results.
   - The sentences stayed complete when you shortened the Abstract, and what you dropped is listed with reasons.

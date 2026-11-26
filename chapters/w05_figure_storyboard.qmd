@@ -26,21 +26,40 @@ include-after-body: ../assets/ai-lab.html
 
 ![Design of the dry-lab example study (fictional example).](../assets/img/w05/design_dry.en.svg){fig-alt="From left: data (public single-cell RNA sequencing of human kidney biopsies, 8 patients with fibrosis and 6 controls), analysis (QC, cell type annotation, fibroblast subtypes), comparison (MF2 proportion per patient, Wilcoxon) and validation (marker genes, spatial transcriptomics)."}
 
-## Principle 1. Write one conclusion sentence for each figure
+## 1) Write one conclusion sentence for each figure
 
 - A conclusion sentence states, in one sentence, the claim that one figure shows. Write the result, not the method or the name of the graph.
 - Make the subject what you studied (a drug, a cell, a gene). Make the verb the result (reduces, lowers, is more abundant in).
 - Claim only as much as the data show. Do not use causal verbs such as drives or mediates for observational data.
 - If you cannot write a conclusion sentence for a figure, the figure does not make a claim yet. It is a candidate for removal from the main text or for the Supplementary Information.
-- Examples:
-  - Before: Masson's trichrome staining of kidney sections after UUO.
-  - After: Compound X reduces interstitial fibrosis in the obstructed kidney.
-  - Before: UMAP of fibroblasts from human kidney biopsies.
-  - After: The myofibroblast subtype MF2 is more abundant in kidneys with fibrosis.
-  - Before: Compound X prevents fibrosis by blocking TGF-β/Smad3 signaling.
-  - After: Compound X lowers Smad3 phosphorylation in the obstructed kidney.
 
-## Principle 2. The figure order is the order of the argument
+Examples:
+
+```{.text .before}
+Masson's trichrome staining of kidney sections after UUO.
+```
+
+```{.text .after}
+Compound X reduces interstitial fibrosis in the obstructed kidney.
+```
+
+```{.text .before}
+UMAP of fibroblasts from human kidney biopsies.
+```
+
+```{.text .after}
+The myofibroblast subtype MF2 is more abundant in kidneys with fibrosis.
+```
+
+```{.text .before}
+Compound X prevents fibrosis by blocking TGF-β/Smad3 signaling.
+```
+
+```{.text .after}
+Compound X lowers Smad3 phosphorylation in the obstructed kidney.
+```
+
+## 2) The figure order is the order of the argument
 
 - Readers go through the figures in order, and each figure answers one question. Place the figures so that each one answers the question the previous figure left open.
 - Do not order the figures by when you did the experiments or by technique. Order them by the question each figure answers.
@@ -56,7 +75,7 @@ include-after-body: ../assets/ai-lab.html
 | 3 | Is the expression of fibrosis genes lower too? | Compound X lowers Col1a1 and Acta2 expression after UUO. |
 | 4 | Does TGF-β/Smad3 signaling change too? | Compound X lowers Smad3 phosphorylation in the obstructed kidney. |
 
-## Principle 3. Choose the graph type by the comparison it must show
+## 3) Choose the graph type by the comparison it must show
 
 - First decide what the reader must compare with what. Choose the graph after that.
 
@@ -80,7 +99,7 @@ include-after-body: ../assets/ai-lab.html
 - Give the same group or cell type the same color in every figure. Avoid red and green pairs. Check with a color vision deficiency simulation that the colors can still be told apart.
 - Order categories by meaning, not alphabetically. Example: sham → UUO + vehicle → UUO + compound X.
 
-## Principle 4. Show trends in figures and values to look up in tables
+## 4) Show trends in figures and values to look up in tables
 
 - Use a figure to show differences, trends and patterns at a glance. Use a table when readers need to look up exact values or see many items side by side.
 - Content that suits a table: characteristics of patients or animals, lists of antibodies and reagents, primer sequences, lists of differentially expressed genes. Move long lists to a supplementary table.
@@ -108,7 +127,7 @@ IQR, interquartile range; eGFR, estimated glomerular filtration rate.
 
 - Vertical lines, footnote symbols and file formats for tables differ between journals. Follow the rules of your target journal ([W14](w14_submission_response.qmd)).
 
-## Principle 5. Match the journal's figure specifications from the start
+## 5) Match the journal's figure specifications from the start
 
 - If you shrink a finished figure later, its text and lines become hard to read. Draw each figure at its final size from the start.
 - The specifications of two journals serve as examples here (checked on each journal's pages on 2026-11-10).
@@ -125,7 +144,7 @@ IQR, interquartile range; eGFR, estimated glomerular filtration rate.
 - Sources: [Nature, Final submission](https://www.nature.com/nature/for-authors/final-submission), [Nature guide to preparing figures](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/), [PLOS ONE, Figures](https://journals.plos.org/plosone/s/figures).
 - Specifications differ between journals and can change. Check them again on the journal's pages just before you submit ([W14](w14_submission_response.qmd)).
 
-## Principle 6. Do not make or edit data figures with AI
+## 6) Do not make or edit data figures with AI
 
 - Do not use AI to make or edit data figures (blots, micrographs and so on) ([AI use rules](../ai_rules.qmd#in-the-paper)).
 - Follow the journal's image rules as well. The main points of the [Nature Portfolio image integrity policy](https://www.nature.com/nature-portfolio/editorial-policies/image-integrity) are these:
@@ -142,7 +161,7 @@ IQR, interquartile range; eGFR, estimated glomerular filtration rate.
 
 Have AI check your conclusion sentences and figure order (25 min).
 
-1. (10 min) Without AI, write for each figure one line with its conclusion sentence and one line with the question it answers. Track A works from the list of figures in the W1 assignment. Track B works from the figures of the paper you chose.
+1. (10 min) Without AI, write for each figure one line with its conclusion sentence and one line with the question it answers. Track A works from the list of figures in the [W1](w01_orientation.qmd) assignment. Track B works from the figures of the paper you chose.
 2. (10 min) Put the conclusion sentences and descriptions of the data into the prompt below, as text only.
 3. (5 min) Compare the AI's answer with principles 1–3, and change only what you accept. Record what you accepted and what you discarded in your [AI use log](../ai_rules.qmd#ai-log).
 
@@ -165,7 +184,7 @@ Figure 2: [conclusion sentence] | Data: [groups, n per group, measurement]
 ```
 
 - Track A: this falls in the "Conditional (track A)" row of the [AI traffic light](../ai_rules.qmd#traffic-light). Get your supervisor's agreement, and use only tools set so that your input is not used for training. Do not put in figure files or raw data, only descriptions written as text. This exercise does not need exact numbers, so leave the numbers out as well.
-- Track B: the paper is published, so it falls in the "Free to use" row. But do not put in the paper's title, authors or DOI, and turn web search off. If AI tells you the Results of that paper, the comparison you make in W15 loses its meaning.
+- Track B: the paper is published, so it falls in the "Free to use" row. But do not put in the paper's title, authors or DOI, and turn web search off. If AI tells you the Results of that paper, the comparison you make in [W15](w15_final.qmd) loses its meaning.
 - Treat the graph types that AI recommends like the statistical methods it suggests, in the "Always verify" row. Check them against the table in principle 3 and against the figures of recent papers in the same field.
 - The prompt says that no data are attached and tells AI not to invent results. The reason is that AI often fills gaps with plausible numbers.
 - Pair check (optional, 5 min): swap only the conclusion sentences with a partner. Read your partner's sentences in order, and say where the reading gets stuck. Your partner's cards are someone else's manuscript, so do not put them into AI.
@@ -214,7 +233,7 @@ Figure order cards
 | Conclusion sentence | One sentence in English | Compound X reduces interstitial fibrosis in the obstructed kidney. |
 | Panels | What each panel shows, and with which graph | a: representative Masson's trichrome images (one per group, same magnification, scale bar). b: fibrotic area (%), a point for each mouse with mean ± SD |
 | Key statistics | The one comparison that supports the conclusion: the groups compared, n and its unit, and the test | UUO + vehicle versus UUO + compound X. n = 6 mice per group. One-way ANOVA followed by Tukey's multiple comparisons test |
-| Results paragraph | Which paragraph of the W7 Results it becomes, and a candidate subheading | Second paragraph. Compound X reduces fibrosis after UUO |
+| Results paragraph | Which paragraph of the [W7](w07_results.qmd) Results it becomes, and a candidate subheading | Second paragraph. Compound X reduces fibrosis after UUO |
 
 - Track A: work from your own figures. For analyses that are not finished yet, write "planned" in the key statistics item. Do not make up numbers in advance.
 - If you have content to show in a table (patient characteristics, a list of reagents and so on), write one more card for each table. In the panels item, write what goes in the rows and the columns.
@@ -223,7 +242,7 @@ Figure order cards
   1. Each conclusion sentence is a claim and does not go beyond what the figure's data show.
   2. The figure order forms an argument, and the question items show why.
   3. The graph types and key statistics (n and its unit, the test) fit the comparison to be shown.
-- These cards become the frame for the W6 legends and for the order of the W7 Results paragraphs. When your figures change, revise the cards and keep using them.
+- These cards become the frame for the [W6](w06_methods_legends.qmd) legends and for the order of the [W7](w07_results.qmd) Results paragraphs. When your figures change, revise the cards and keep using them.
 - Submission: through the university LMS. Deadlines are announced separately. If you used AI, submit your AI use log with the assignment.
 
 # Notes {#notes}

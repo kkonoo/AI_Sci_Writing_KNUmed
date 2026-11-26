@@ -22,7 +22,7 @@ include-after-body: ../../assets/ai-lab.html
 
 이번 주 원칙은 두 자료를 바탕으로 한다. 하나는 Zeiger (2000) *Essentials of Writing Biomedical Research Papers*의 3장(문단 구조)이다. 다른 하나는 Gopen & Swan (1990) "The Science of Scientific Writing"이다. Mensh & Kording (2017)의 규칙 몇 가지도 함께 쓴다. 서지 정보는 [참고자료](../resources.qmd#books)에 있다. 예문은 [W5](w05_figure_storyboard.qmd) 이후 주차와 같은 가상의 예시 연구에서 가져왔고, 수치는 지어낸 것이다.
 
-## 문단 하나에는 주장 하나를 쓰고, 첫머리에서 그 주장을 알린다
+## 1) 문단 하나에는 주장 하나를 쓰고, 첫머리에서 그 주장을 알린다
 
 - 규칙: 문단을 쓰기 전에 그 문단이 말하려는 것을 한 문장으로 쓴다. 이 문장이 주제문(topic sentence)이다. 나머지 문장은 주제문을 뒷받침한다.
 - 주제문은 문단 첫머리에 둔다. 독자는 첫 문장을 읽고 이 문단에서 무엇을 얻을지 정한다. 주장이 마지막에 나오면 독자는 앞 문장들이 왜 거기 있는지 모른 채 읽는다.
@@ -30,57 +30,96 @@ include-after-body: ../../assets/ai-lab.html
 - 주장을 한 문장으로 쓸 수 없으면 문단에 주장이 둘 있거나 아직 주장이 없는 것이다. 주장이 둘이면 문단을 나눈다.
 - Mensh & Kording (2017)은 문단 안에서도 맥락, 내용, 결론 순서를 권한다. 첫 문장은 주제를 열고, 가운데 문장은 내용을 담고, 마지막 문장은 독자가 기억할 결론을 남긴다. 주제문을 첫머리에 두라는 원칙과 같은 방향이다. 독자는 첫 문장에서 무엇을 읽을지 알고, 마지막 문장에서 무엇을 가져갈지 안다.
 - 점검: 주제문만 이어서 읽어 본다. 그것만으로 글의 줄기가 보여야 한다.
-- 예문 (wet lab, 가상의 예시):
-  - 전: We measured the fibrotic area with Masson's trichrome staining. We also measured *Col1a1* and *Acta2* expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
-  - 후: Compound X reduced fibrosis at both the tissue level and the gene expression level. It lowered the fibrotic area on Masson's trichrome staining. It also lowered the expression of the fibrosis marker genes *Col1a1* and *Acta2*.
-  - 전의 셋째 문장 Compound X lowered both에서 both가 무엇인지 알려면 앞의 두 문장을 다시 읽어야 한다. 후에서는 주장이 먼저 나오므로 뒤의 두 문장이 그 근거로 읽힌다.
 
-## 문장은 앞 문장에서 받은 말로 시작하고, 새 정보는 문장 끝에 둔다
+예문 (wet lab, 가상의 예시):
+
+```{.text .before}
+We measured the fibrotic area with Masson's trichrome staining. We also measured Col1a1 and Acta2 expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
+```
+
+```{.text .after}
+Compound X reduced fibrosis at both the tissue level and the gene expression level. It lowered the fibrotic area on Masson's trichrome staining. It also lowered the expression of the fibrosis marker genes Col1a1 and Acta2.
+```
+
+- Before의 셋째 문장 Compound X lowered both에서 both가 무엇인지 알려면 앞의 두 문장을 다시 읽어야 한다. After에서는 주장이 먼저 나오므로 뒤의 두 문장이 그 근거로 읽힌다.
+
+## 2) 문장은 앞 문장에서 받은 말로 시작하고, 새 정보는 문장 끝에 둔다
 
 - Gopen & Swan (1990)에 따르면 독자는 문장 첫머리(topic position)를 보고 이 문장이 무엇에 관한 것인지 판단한다. 그리고 강조할 정보를 문장 끝(stress position)에서 찾는다.
 - 규칙: 문장 첫머리에는 앞 문장에 이미 나온 말을 둔다. 이 문장이 새로 알려 주는 것은 문장 끝에 둔다. 그러면 앞 문장의 끝이 다음 문장의 첫머리로 이어진다.
-- 예문 (dry lab, 가상의 예시):
-  - 전: We divided fibroblasts into four subtypes. A median of 24% of fibroblasts in patients with fibrosis, compared with 7% in controls, belonged to one subtype, MF2 (P = 0.008).
-  - 후: We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
-  - 전의 둘째 문장은 새 정보인 수치로 시작한다. 앞 문장과 이어지는 말(subtype)은 문장 끝에 있다. 후에서는 둘째 문장이 앞 문장의 subtypes를 받아 시작하고, 셋째 문장이 앞 문장의 patients with fibrosis를 받아 시작한다.
+
+예문 (dry lab, 가상의 예시):
+
+```{.text .before}
+We divided fibroblasts into four subtypes. A median of 24% of fibroblasts in patients with fibrosis, compared with 7% in controls, belonged to one subtype, MF2 (P = 0.008).
+```
+
+```{.text .after}
+We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
+```
+
+- Before의 둘째 문장은 새 정보인 수치로 시작한다. 앞 문장과 이어지는 말(subtype)은 문장 끝에 있다. After에서는 둘째 문장이 앞 문장의 subtypes를 받아 시작하고, 셋째 문장이 앞 문장의 patients with fibrosis를 받아 시작한다.
 
 ![앞 문장의 끝에 나온 말이 다음 문장의 첫머리로 이어진다. 가상의 예시다.](../../assets/img/w03/old_to_new.svg){fig-alt="영어 문장 세 개가 위에서 아래로 있다. 문장마다 왼쪽 칸에 첫머리, 오른쪽 칸에 새 정보가 있다. 화살표가 첫 문장의 끝 into four subtypes에서 둘째 문장의 첫머리 One of these subtypes로, 둘째 문장의 끝 patients with fibrosis에서 셋째 문장의 첫머리 In these patients로 이어진다."}
 
 - 주어와 동사를 가까이 두라는 [W2](w02_readable_sentences.qmd)의 패턴 2도 같은 이유에서 나온다. 독자는 주어를 읽은 뒤 동사가 나올 때까지 이 문장이 무엇을 말하는지 모른다.
 
-## 핵심어는 주제문에 넣고, 같은 말로 되풀이한다
+## 3) 핵심어는 주제문에 넣고, 같은 말로 되풀이한다
 
 - 규칙: 문단의 핵심어(key term)는 주제문에 넣는다. 그 뒤로는 같은 말로 되풀이한다.
 - 같은 단어를 반복하지 말라는 작문 규칙은 과학 글에 맞지 않는다. 말이 바뀌면 독자는 다른 대상으로 읽는다. Mensh & Kording (2017)도 같은 단어를 여러 번 쓰는 데는 문제가 없고, 다른 단어를 쓰면 독자가 뜻이 조금 다른지 의심하게 된다고 쓴다.
-- 예: 한 문단에 MF2 cells, the profibrotic cluster, these activated stromal cells가 함께 나오면 독자는 세 집단을 떠올린다. MF2 하나로 쓴다. 이 기준은 W2의 패턴 4와 같다. 원고 전체의 용어 통일은 [W13](w13_polishing.qmd)에서 다시 점검한다.
+- 예: 한 문단에 MF2 cells, the profibrotic cluster, these activated stromal cells가 함께 나오면 독자는 세 집단을 떠올린다. MF2 하나로 쓴다. 이 기준은 [W2](w02_readable_sentences.qmd)의 패턴 4와 같다. 원고 전체의 용어 통일은 [W13](w13_polishing.qmd)에서 다시 점검한다.
 
-## 문장 사이의 관계는 맞는 연결어로 드러낸다
+## 4) 문장 사이의 관계는 맞는 연결어로 드러낸다
 
 - 규칙: 두 문장의 관계가 대조, 원인과 결과, 덧붙임, 예시, 순서 가운데 무엇인지 먼저 정한다. 그다음 그 관계에 맞는 연결어를 쓴다. 자주 쓰는 연결어는 [표현 모음](../phrases.qmd#connectives)에 있다.
 - 관계가 없는 곳에 연결어를 넣지 않는다. 문장마다 Moreover나 Furthermore를 붙이면 독자는 모든 문장을 같은 무게의 덧붙임으로 읽는다. 한국어 초안의 "또한 ~. 또한 ~."를 옮겨도 같은 일이 생긴다([W13](w13_polishing.qmd)의 번역투 표).
 - 앞 원칙대로 앞 문장에서 받은 말로 문장을 시작하면 연결어가 없어도 관계가 드러나는 때가 많다. 연결어는 그것으로 부족할 때 쓴다.
-- 예문 (wet lab, 가상의 예시):
-  - 전: Compound X lowered the fibrotic area. Moreover, body weight did not differ between the groups. Moreover, compound X lowered Smad3 phosphorylation.
-  - 후: Compound X lowered the fibrotic area. It also lowered Smad3 phosphorylation. In contrast, body weight did not differ between the groups.
-  - 후에서는 compound X가 바꾼 것 두 가지를 먼저 묶었다. 바꾸지 않은 것은 In contrast로 구분했다.
 
-## 순서와 문장 형식을 한 번 정하면 끝까지 지킨다
+예문 (wet lab, 가상의 예시):
+
+```{.text .before}
+Compound X lowered the fibrotic area. Moreover, body weight did not differ between the groups. Moreover, compound X lowered Smad3 phosphorylation.
+```
+
+```{.text .after}
+Compound X lowered the fibrotic area. It also lowered Smad3 phosphorylation. In contrast, body weight did not differ between the groups.
+```
+
+- After에서는 compound X가 바꾼 것 두 가지를 먼저 묶었다. 바꾸지 않은 것은 In contrast로 구분했다.
+
+## 5) 순서와 문장 형식을 한 번 정하면 끝까지 지킨다
 
 - 규칙: 비교하는 대상의 순서를 한 번 정하면 바꾸지 않는다. 예: sham, UUO + vehicle, UUO + compound X 순서로 군을 소개했으면 수치도 그 순서로 쓴다.
 - 실험한 시간 순서대로 쓰지 않는다. 독자에게 필요한 것은 어떤 경로로 결과에 이르렀는지가 아니라 주장과 그 근거다(Mensh & Kording 2017, 규칙 3).
 - 한 주제는 한곳에서 다룬다. 같은 주장을 받치는 두 근거처럼 비슷한 생각은 바로 이어서 쓴다. 주제가 갈지자로 오가면 독자는 주제가 바뀔 때마다 다시 따라잡아야 한다(규칙 4).
 - 하위 주제가 여럿이면 주제문에서 몇 개인지 알린다. 그리고 하위 주제마다 같은 문장 형식으로 쓴다. 이것을 병렬 구조(parallel form)라고 한다. 독자는 형식이 같으면 같은 종류의 내용으로 읽는다.
-- 예문 (dry lab, 가상의 예시):
-  - 전: We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
-  - 후: We confirmed the identity of MF2 in two ways. First, MF2 cells expressed known myofibroblast marker genes. Second, MF2 cells were present in spatial transcriptomics data from kidney sections.
 
-## This와 It이 가리키는 것을 분명히 쓴다
+예문 (dry lab, 가상의 예시):
+
+```{.text .before}
+We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
+```
+
+```{.text .after}
+We confirmed the identity of MF2 in two ways. First, MF2 cells expressed known myofibroblast marker genes. Second, MF2 cells were present in spatial transcriptomics data from kidney sections.
+```
+
+## 6) This와 It이 가리키는 것을 분명히 쓴다
 
 - 규칙: 문장 첫머리의 This, It, These가 앞 문장의 무엇을 가리키는지 독자가 바로 알 수 있어야 한다. 앞 문장에 명사가 여럿이면 This 뒤에 명사를 붙인다.
-- 예문 (wet lab, 가상의 예시):
-  - 전: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. This suggests that it acts through TGF-β/Smad3 signaling.
-  - 후: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. The lower Smad3 phosphorylation suggests that compound X acts through TGF-β/Smad3 signaling.
-  - 전의 This는 섬유화 감소인지, Smad3 인산화 감소인지, 둘 다인지 알 수 없다. it도 compound X인지 the fibrotic area인지 헷갈린다. 후에서는 근거와 주어를 명사로 썼다. 주장의 세기(suggests)는 바꾸지 않았다.
+
+예문 (wet lab, 가상의 예시):
+
+```{.text .before}
+Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. This suggests that it acts through TGF-β/Smad3 signaling.
+```
+
+```{.text .after}
+Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. The lower Smad3 phosphorylation suggests that compound X acts through TGF-β/Smad3 signaling.
+```
+
+- Before의 This는 섬유화 감소인지, Smad3 인산화 감소인지, 둘 다인지 알 수 없다. it도 compound X인지 the fibrotic area인지 헷갈린다. After에서는 근거와 주어를 명사로 썼다. 주장의 세기(suggests)는 바꾸지 않았다.
 
 # 2. AI로 해 보기 {#try-with-ai}
 

@@ -58,9 +58,16 @@ You learn English expressions faster from real papers than from rules. Glasman-D
 - A singular countable noun needs an article in front of it. Do not write mouse alone. Write a mouse or the mouse.
 - Use a or an for something you introduce for the first time. Use the for something already mentioned, or something the reader can identify.
 - Use no article when you speak in general with a plural or an uncountable noun. For example: Fibroblasts produce collagen. Fibrosis is the hallmark of progressive kidney disease.
-- Example:
-  - Before: We treated mouse with compound X. Mouse showed less fibrosis.
-  - After: We treated mice with compound X. The treated mice showed less fibrosis.
+
+Example:
+
+```{.text .before}
+We treated mouse with compound X. Mouse showed less fibrosis.
+```
+
+```{.text .after}
+We treated mice with compound X. The treated mice showed less fibrosis.
+```
 
 ## Uncountable nouns {#uncountable}
 
@@ -83,10 +90,23 @@ You learn English expressions faster from real papers than from rules. Glasman-D
 ## Subject-verb agreement {#agreement}
 
 - Make the verb agree with the head noun of the subject. When the subject is long, it is easy to match the verb to the noun just before it instead.
-  - Before: The expression of these genes were lower.
-  - After: The expression of these genes was lower.
-  - Before: The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
-  - After: The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
+
+```{.text .before}
+The expression of these genes were lower.
+```
+
+```{.text .after}
+The expression of these genes was lower.
+```
+
+```{.text .before}
+The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
+```
+
+```{.text .after}
+The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
+```
+
 - Keeping the subject close to the verb also prevents this mistake (pattern 2 in [W2](chapters/w02_readable_sentences.qmd)).
 
 ## Prepositions {#prepositions}

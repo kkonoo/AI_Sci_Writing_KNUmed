@@ -21,7 +21,7 @@ By the end of this week, you will be able to do the following.
 
 This week has two parts. The first part covers how AI tools work. The second part applies the AI rules of this course to cases. The terms are collected in the [Glossary](../glossary.qmd).
 
-## AI picks a plausible next word
+## 1) AI picks a plausible next word
 
 ![A language model picks the next words by probability. The probabilities are illustrative.](../assets/img/basics/next_word.en.svg){fig-alt="After the text 'Compound X reduced the fibrotic area in', four candidates with probability bars: UUO kidneys, mice, the obstructed kidney, patients. Patients is marked as plausible but wrong for this study."}
 
@@ -34,7 +34,7 @@ This week has two parts. The first part covers how AI tools work. The second par
 
 ![What a model uses when it answers, and what it does not know.](../assets/img/basics/model_sees.en.svg){fig-alt="On the left, training data, this conversation and web search results lead to the answer. On the right are three things it does not know."}
 
-## What goes into AI differs by tool
+## 2) What goes into AI differs by tool
 
 ![What goes into AI differs by tool.](../assets/img/basics/tool_scope.en.svg){fig-alt="With Chat, pasted text and uploaded files go to the AI company server. With Cowork and Code, every file in the opened folder. With connectors and plugins, files in the connected service."}
 
@@ -47,7 +47,7 @@ This week has two parts. The first part covers how AI tools work. The second par
 - If you open a folder for an agent tool, AI reads the files in that folder directly. So do not open a folder that contains patient information, raw data or a classmate's manuscript.
 - For the meaning of connector, skill, plugin, MCP and API, see the [Glossary](../glossary.qmd#extensions).
 
-## Your input goes to the company's server
+## 3) Your input goes to the company's server
 
 ![Your input goes to the company's server and becomes an answer. Depending on settings and service, it can be used for training, feedback or human review.](../assets/img/basics/input_path.en.svg){fig-alt="From your computer on the left, input goes to the AI company server in the middle and the answer comes back. Dashed lines lead from the server to model training, feedback and human review."}
 
@@ -56,7 +56,7 @@ This week has two parts. The first part covers how AI tools work. The second par
 - Even with this setting applied, a conversation in which you press a feedback button (thumbs up or down) may still be used for training, as ChatGPT and Gemini state. Some services have people review parts of conversations.
 - Institutional accounts (contracts with a university or a company) have their own data policies. Check which kind of account you have.
 
-## You learn the AI use rules by applying them to cases
+## 4) You learn the AI use rules by applying them to cases
 
 The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply those rules to cases. This page links to the rule tables instead of copying them.
 
@@ -71,7 +71,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 |---|---|---|
 | Asking how the UUO model causes fibrosis | Free to use | A general, public topic |
 | Putting in one Methods paragraph of the track B paper, without the Title and DOI, and asking about its grammatical structure | Free to use | A published paper |
-| A track B student asks AI in W7 to polish a Results draft with web search on | Free to use, but turn web search off and ask again | Web search stays off until W12 |
+| A track B student asks AI in [W7](w07_results.qmd) to polish a Results draft with web search on | Free to use, but turn web search off and ask again | Web search stays off until [W12](w12_abstract_title.qmd) |
 | Five references on the UUO model recommended by AI | Always verify | References |
 | A type of graph recommended by AI | Always verify | Treated like a suggested statistical method |
 | A graph drawn with R code that AI wrote | Always verify | Check that the number of points and the means match the data |
@@ -84,7 +84,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 | A classmate's figure order cards, draft or reference table | Do not put in | Someone else's manuscript |
 | An unpublished hypothesis, or a grant idea that the lab is preparing | Do not put in | An idea not yet filed in a grant or patent |
 
-- Treat a classmate's work like a manuscript under review at a journal. This covers figure order cards, drafts and reference tables. Do not put a manuscript you receive in peer review (W9, W13) into AI. Read it and write your review yourself.
+- Treat a classmate's work like a manuscript under review at a journal. This covers figure order cards, drafts and reference tables. Do not put a manuscript you receive in peer review ([W9](w09_midterm_review.qmd), [W13](w13_polishing.qmd)) into AI. Read it and write your review yourself.
 - Review comments that you received on your own manuscript are different. You may put them into a tool that uses the setting that keeps your input out of training, after you remove the reviewer's name ([received reviews](../ai_rules.qmd#received-reviews)).
 - The setting that keeps your input out of training has a different name and location in each tool. The [Glossary](../glossary.qmd#training-settings) lists them.
 
@@ -134,16 +134,30 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 
 - An AI disclosure states the name and version of the tool, the task you gave it, and that the authors checked the output and take responsibility for it.
 - You can write this statement accurately only if you keep an [AI use log](../ai_rules.qmd#ai-log).
-- Before: AI was used in the preparation of this manuscript.
-- After (Acknowledgments, writing help): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
-- After (Methods, help with analysis code, from the fictional single-cell RNA sequencing reanalysis): We used [tool name and version] to help write the Python code that plotted the UMAP embeddings. The authors reviewed and tested all code before use.
+
+```{.text .before}
+AI was used in the preparation of this manuscript.
+```
+
+Writing help goes in the Acknowledgments.
+
+```{.text .after}
+During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
+```
+
+Help with analysis code goes in the Methods. This example comes from the fictional single-cell RNA sequencing reanalysis.
+
+```{.text .after}
+We used [tool name and version] to help write the Python code that plotted the UMAP embeddings. The authors reviewed and tested all code before use.
+```
+
 - These sentences are general examples. If the journal gives its own wording, use that wording.
 
 # 2. Try it with AI {#try-with-ai}
 
 Exercise: check one AI answer claim by claim (35 minutes)
 
-1. Check your settings (5 minutes): On your own account, find the setting that keeps your input out of training and apply it. Open a new conversation, and see whether web search and memory are turned on. Track B students also find out how to turn web search off. Keep it off until you submit the W12 assignment.
+1. Check your settings (5 minutes): On your own account, find the setting that keeps your input out of training and apply it. Open a new conversation, and see whether web search and memory are turned on. Track B students also find out how to turn web search off. Keep it off until you submit the [W12](w12_abstract_title.qmd) assignment.
 2. Choose a question (3 minutes): Choose a question whose answer will include both references and numbers.
 3. Ask AI (5 minutes): Adapt one of the examples below to your field.
 4. Split the claims (5 minutes): Split the answer into claims and put them in a table. The columns are claim, type and check.
@@ -165,7 +179,7 @@ For each dataset, give the accession number, the number of donors, and the origi
 ```
 
 - Track A: Write a general question about your field. Do not put in your own unpublished results or numbers.
-- Track B: Ask about the field of the paper you chose in W1. Do not put in the Title or DOI of that paper, because AI may reveal its Results.
+- Track B: Ask about the field of the paper you chose in [W1](w01_orientation.qmd). Do not put in the Title or DOI of that paper, because AI may reveal its Results.
 - AI traffic light: the question is in the "Free to use" row. The references and numbers in the answer are in the "Always verify" row.
 
 ::: {.callout-tip}
@@ -213,7 +227,7 @@ Verify one AI answer and bring it to class
   3. 3–5 lines on how you would change the prompt if you asked the same question again.
   4. A link to the original AI policy of one journal you would like to submit to, and one line on where that journal asks you to disclose AI use.
   5. One or two English sentences on how you used AI in this assignment, written like an AI disclosure in a paper.
-- Differences between tracks: Track A students ask a question about their own field. Track B students ask about the field of the chosen paper, but do not put in that paper's Title or DOI. Track B students may verify the list of papers they received in the W1 exercise. In that case, remove the chosen paper from the list.
+- Differences between tracks: Track A students ask a question about their own field. Track B students ask about the field of the chosen paper, but do not put in that paper's Title or DOI. Track B students may verify the list of papers they received in the [W1](w01_orientation.qmd) exercise. In that case, remove the chosen paper from the list.
 - Grading criteria
   - Did you pick out every claim in the answer that needs checking?
   - Is the evidence specific (the DOI, and the location of the figure, table or sentence)?

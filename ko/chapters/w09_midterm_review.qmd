@@ -16,37 +16,56 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
-이번 주는 동료 리뷰(peer review) 주간이다. W6의 Methods와 W7의 Results를 서로 바꿔 읽는다. 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에 가상의 약물 compound X를 투여한 연구다. 수치는 지어낸 것이다.
+이번 주는 동료 리뷰(peer review) 주간이다. [W6](w06_methods_legends.qmd)의 Methods와 [W7](w07_results.qmd)의 Results를 서로 바꿔 읽는다. 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에 가상의 약물 compound X를 투여한 연구다. 수치는 지어낸 것이다.
 
-## 리뷰어는 고쳐 쓰지 않고 문제를 짚는다
+## 1) 리뷰어는 고쳐 쓰지 않고 문제를 짚는다
 
 - 리뷰어가 문장을 새로 써 주면 저자는 왜 고쳐야 하는지 배우지 못한다. 리뷰어의 문장이 저자 원고에 그대로 들어가기도 한다.
 - 문장 수준의 제안은 한두 곳에 예시로만 든다. 나머지는 저자가 고친다.
 
-## 코멘트 하나에 위치, 문제, 이유를 쓴다
+## 2) 코멘트 하나에 위치, 문제, 이유를 쓴다
 
 ![아래 After 코멘트를 위치, 문제, 이유, 제안으로 나눈 것.](../../assets/img/w09/comment_parts.svg){fig-alt="네 칸에 위치 Lines 14–16, 문제, 이유, 제안이 각각 영어 문장 조각으로 들어 있다."}
 
 - 제안은 있으면 덧붙인다. 위치가 없는 코멘트는 저자가 어디를 고칠지 모른다. 이유가 없는 코멘트는 저자가 반영할지 판단할 수 없다.
-- Before: *The Methods are unclear.*
-- After: *Lines 14–16 (qPCR): The reference gene used for normalization is not given. Without it, a reader cannot repeat the ΔΔCt calculation. Please name the gene.*
-- Before: *The Results need more data.*
-- After: *Line 42: "Compound X markedly reduced fibrosis" gives no number. Please add the fibrotic area of each group (mean ± SD), n, and the statistical test, as in the Figure 2B legend.*
 
-## 중요한 것부터 쓴다
+```{.text .before}
+The Methods are unclear.
+```
+
+```{.text .after}
+Lines 14–16 (qPCR): The reference gene used for normalization is not given. Without it, a reader cannot repeat the ΔΔCt calculation. Please name the gene.
+```
+
+```{.text .before}
+The Results need more data.
+```
+
+```{.text .after}
+Line 42: "Compound X markedly reduced fibrosis" gives no number. Please add the fibrotic area of each group (mean ± SD), n, and the statistical test, as in the Figure 2B legend.
+```
+
+## 3) 중요한 것부터 쓴다
 
 - 큰 문제(major): 다시 할 수 없는 Methods, 빠진 n이나 통계, 본문과 그림의 수치가 다른 곳, 데이터보다 센 해석.
 - 작은 문제(minor): 단어, 문법, 형식.
 - 작은 문제 20개와 큰 문제 0개로 된 리뷰는 저자에게 도움이 적다. 큰 문제 3개를 먼저 고르고, 작은 문제는 그다음에 쓴다.
 
-## Results 안에서 결과와 해석을 나눠 읽는다
+## 4) Results 안에서 결과와 해석을 나눠 읽는다
 
 - Results 문장은 측정한 것을 말한다. 기전이나 의미는 Discussion에서 다룬다.
-- Before: *Compound X reduced Col1a1 mRNA by 52% (Figure 3A), indicating that it blocks TGF-β signaling.*
-- 리뷰 코멘트: Figure 3은 mRNA만 측정했다. 신호 전달은 Figure 4에서 다룬다. 뒷부분은 해석이므로 Discussion으로 옮기거나 Figure 4 단락과 연결하라고 쓴다.
-- After: *Compound X reduced Col1a1 mRNA by 52% compared with vehicle (Figure 3A).*
 
-## 동료 원고는 AI에 넣지 않는다
+```{.text .before}
+Compound X reduced Col1a1 mRNA by 52% (Figure 3A), indicating that it blocks TGF-β signaling.
+```
+
+- 리뷰 코멘트: Figure 3은 mRNA만 측정했다. 신호 전달은 Figure 4에서 다룬다. 뒷부분은 해석이므로 Discussion으로 옮기거나 Figure 4 단락과 연결하라고 쓴다.
+
+```{.text .after}
+Compound X reduced Col1a1 mRNA by 52% compared with vehicle (Figure 3A).
+```
+
+## 5) 동료 원고는 AI에 넣지 않는다
 
 - [AI 사용 규칙](../ai_rules.qmd)의 넣지 않기 칸에 "심사 중인 원고(리뷰어로 받은 남의 원고 포함)"가 있다. 동료의 원고가 여기에 해당한다. 동료의 Figure 순서 카드와 참고문헌 표도 같다. 트랙 A 원고에는 발표하지 않은 데이터가 있고, 트랙 B 원고도 동료가 쓴 글이다. 그래서 트랙과 관계없이 넣지 않는다.
 - 원고 전체뿐 아니라 문장 일부를 붙여 넣는 것도 안 된다. AI에 요약을 시키거나 코멘트 초안을 받는 것도 안 된다.
@@ -156,7 +175,6 @@ AI 자기 점검이 자주 틀리는 지점과 확인 방법이다.
   3. 내가 동료에게 쓴 리뷰 양식. 이 리뷰는 동료 리뷰 점수로 채점한다.
   4. AI를 썼으면 AI 사용 기록. 2절의 네 칸 비교를 3~5줄로 붙인다.
 - 반영 표 형식:
-
 
 | # | 코멘트 요약(내 말로) | 처리 | 고친 위치 또는 반영하지 않은 이유 |
 |---|---|---|---|
