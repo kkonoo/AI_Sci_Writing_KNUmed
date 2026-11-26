@@ -144,7 +144,7 @@ Make a checklist from the author guidelines, and get a draft cover letter from a
 2. Use the first prompt to get a checklist. Choose three items and compare them with the original text (5 min).
 3. Write a fact memo (5 min). It contains one sentence with the research question, three main results (with the numbers exactly as in your manuscript), a sentence copied from the Aims & Scope, DOIs of related papers, and the required statements.
 4. Use the second prompt to get a draft cover letter (5 min).
-5. Revise the draft with the checklist in section 3 below, and record your AI use in your AI use log (10 min).
+5. Revise the draft with the [cover letter and submission checklist](#verify-submission) in section 3 below, and record your AI use in your AI use log (10 min).
 
 ```text
 Below is the [article type] section of the author guidelines of [journal name]. Make a submission checklist using only what is written in this text.
@@ -183,7 +183,7 @@ Practice material: [Weinand et al. (2024), *Nature Communications* 15:4650](http
 2. Put only the reviewer comment into the first prompt, and get a response (3 min).
 3. Now read the authors' response. List what the authors actually did and where the manuscript changed (8 min).
 4. Put the comment and that list into the second prompt, and get a response (3 min).
-5. Put the two drafts next to the authors' response, and mark them with the checklist in section 3 (10 min).
+5. Put the two drafts next to the authors' response, and mark them with the [responding to reviewers checklist](#verify-response) in section 3 (10 min).
 6. Record this in your AI use log (3 min).
 
 ```text
