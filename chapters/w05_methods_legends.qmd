@@ -2,6 +2,7 @@
 title: "W5. Methods and figure legends"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -100,7 +101,7 @@ Give AI a Methods paragraph, and have it find what a reader could not reproduce 
 2. (10 min) Run the same prompt on one Methods paragraph. Track A uses a paragraph from their own Methods. Track B uses a paragraph from the Methods of the paper they chose.
 3. (10 min) Compare the AI's list with the ARRIVE Essential 10 or the matching reporting guideline. Fill in the missing information from your lab notebook, protocols and analysis records.
 
-```text
+```{.text .no-ai-lab}
 Mice underwent UUO and were treated with compound X or vehicle. Kidneys were
 harvested and fibrosis was assessed by Masson's trichrome staining. Fibrotic area
 was quantified using ImageJ. Data were analyzed by t-test and P < 0.05 was
@@ -133,6 +134,10 @@ The strain, sex, age and supplier of the animals. Which ureter was ligated, and 
 ::: {.callout-warning}
 ## Do not let AI fill in missing values
 AI fills gaps with common values (8-week-old males, 7 days, 10 mg/kg) that look plausible. Take every value in your Methods from your lab notebook and analysis records only.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". The practice paragraph has no "Put in" button. Put in the prompt, then copy the practice paragraph into the [paste here] slot. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

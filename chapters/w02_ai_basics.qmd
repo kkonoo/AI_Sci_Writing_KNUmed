@@ -2,6 +2,7 @@
 title: "W2. AI basics"
 subtitle: "Part 1 · Foundations"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -172,6 +173,10 @@ For each dataset, give the accession number, the number of donors, and the origi
 
 - If you ask for DOIs or accession numbers along with the answer, checking goes faster. But a DOI can also be made up.
 - Asking AI again whether it is sure is not a check. It may give the same wrong answer again. Check against the original source.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Check the settings in step 1 in your own AI tool. Use this box from step 3. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. The AI in this box does not search the web. Check the references and numbers in the reply against the original sources. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

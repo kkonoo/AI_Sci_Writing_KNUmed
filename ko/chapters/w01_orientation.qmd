@@ -2,6 +2,7 @@
 title: "W1. 오리엔테이션"
 subtitle: "Part 1 · 기초"
 date: last-modified
+include-after-body: ../../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -138,6 +139,10 @@ AI 신호등: 1단계와 트랙 A의 2단계는 자유롭게 칸이다(개념 �
 
 - 원하는 형식과 길이를 정해 줌(under 200 words, title and DOI only).
 - 하지 말아야 할 일을 적음(Do not invent numbers, Do not summarize). 트랙 B에서는 이 한 줄이 결과를 미리 읽는 일을 막음.
+:::
+
+::: {#ai-lab}
+AI 실습 창: 위 프롬프트 블록의 실습 창에 넣기 버튼을 누르거나 프롬프트를 직접 써서 보냄. 프롬프트의 빈자리는 보내기 전에 내 내용으로 채움. 수업 코드는 따로 공지함. 한 페이지 안에서는 대화가 이어짐. 처음부터 다시 하려면 새 대화를 누름. 이 창에 넣은 글은 수업용 API 키로 외부 AI 서비스에 전달됨. API로 보낸 입력은 기본 설정에서 모델 학습에 쓰이지 않음. 넣어도 되는 내용은 위의 AI 신호등 안내를 따름. 이 창의 AI는 웹 검색을 하지 않음. 그래서 트랙 B가 받은 논문 목록에는 없는 논문이 섞일 수 있음. DOI를 하나씩 열어 확인함. AI 사용 기록의 도구 칸에는 AI 실습 창과 답 아래에 나오는 모델 이름을 적음.
 :::
 
 # 3. 검증하고 다듬기 {#verify-and-revise}

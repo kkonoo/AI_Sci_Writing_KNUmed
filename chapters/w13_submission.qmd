@@ -2,6 +2,7 @@
 title: "W13. Preparing to submit"
 subtitle: "Part 3 · Polishing and submission"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -112,6 +113,10 @@ Rules
 - Track A: the sentences and numbers from your own manuscript that go into the fact memo fall in the "Conditional (track A)" row. Get your supervisor's agreement, and use only tools set so that your input is not used for training. Do not put in raw data or figure files.
 - Track B: a track B manuscript falls in the "Free to use" row. Use the journal that published the original paper as your target journal. For the journal comparison, practice by asking where this manuscript would fit if you sent it somewhere else.
 - The checklist and the cover letter that AI writes fall in the "Always verify" row for both tracks.
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 

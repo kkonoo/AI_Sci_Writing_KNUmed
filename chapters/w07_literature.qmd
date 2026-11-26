@@ -2,6 +2,7 @@
 title: "W7. Finding and citing literature"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -92,6 +93,10 @@ the statement. If you are not sure that a paper exists, say so instead of guessi
 ::: {.callout-tip}
 ## The same applies to AI tools that search
 Check papers from AI tools that search the web or paper databases with the same steps. Even if a paper exists, you still have to check separately whether it contains the claim you will cite.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. The AI in this box does not search the web. So the references come only from what the model learned in training. Check each one in the order given in section 3. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

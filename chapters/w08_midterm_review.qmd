@@ -2,6 +2,7 @@
 title: "W8. Midterm check"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -121,6 +122,10 @@ Do not write new sentences. Tell me only the kind of information to add and wher
 - Track B: your manuscript is your own rewrite, so it is in the "Free to use" row. But do not put in the title, authors or DOI of the paper you chose, and turn web search off. Otherwise AI may tell you the Results of the real paper.
 - Information that AI says is missing is in the "Always verify" row. Look in your manuscript yourself to see whether it is really missing.
 - A classmate's manuscript is in the "Do not put in" row at every step.
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Send the second prompt, after the review, in a new conversation. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. Do not put a classmate's manuscript in this box either. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 

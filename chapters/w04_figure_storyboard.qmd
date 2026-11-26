@@ -2,6 +2,7 @@
 title: "W4. Figure storyboard"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -139,6 +140,10 @@ Figure 2: [conclusion sentence] | Data: [groups, n per group, measurement]
 - Treat the graph types that AI recommends like the statistical methods it suggests, in the "Always verify" row. Check them against the table in principle 3 and against the figures of recent papers in the same field.
 - The prompt says that no data are attached and tells AI not to invent results. The reason is that AI often fills gaps with plausible numbers.
 - Pair check (optional, 5 min): swap only the conclusion sentences with a partner. Read your partner's sentences in order, and say where the reading gets stuck. Your partner's cards are someone else's manuscript, so do not put them into AI.
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 

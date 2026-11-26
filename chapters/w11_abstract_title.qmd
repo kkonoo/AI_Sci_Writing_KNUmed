@@ -2,6 +2,7 @@
 title: "W11. Abstract and title"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -117,6 +118,10 @@ Rules: [journal limit] or fewer, include the species and model studied, do not u
 - Track A: the Abstract material is the core of your manuscript, so it is in the "Conditional (track A)" row. Results that you will patent are in the "Do not put in" row.
 - Track B: you are in the "Free to use" row. Write without reading the Abstract of the original paper. Do not put the title, authors or DOI of the paper you chose into a prompt, and turn web search off. Track B students already saw the real title when they chose the paper in W1. Even so, write all three types. You compare them with the real title in the W15 comparison memo.
 - Whether the numbers or meaning changed in an Abstract that AI revised is in the "Always verify" row.
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. The second and third prompts refer to the previous reply, so send them in the same conversation. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 

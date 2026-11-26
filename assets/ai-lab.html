@@ -58,7 +58,7 @@
     send: '보내기', reset: '새 대화', copy: '복사', copied: '복사함',
     waiting: '답을 기다리는 중…', needCode: '수업 코드를 넣으세요.',
     wrongCode: '수업 코드가 맞지 않습니다.',
-    tooLong: '대화가 너무 길어졌습니다. 새 대화를 시작하세요.',
+    tooLong: '글이 너무 깁니다. 새 대화에서 보내거나 나눠서 보내세요.',
     busy: '지금 요청이 많습니다. 잠시 뒤에 다시 보내세요.',
     badRequest: '요청을 처리하지 못했습니다. 새 대화로 다시 해 보세요.',
     failed: 'AI 서버에서 오류가 났습니다.',
@@ -72,7 +72,7 @@
     send: 'Send', reset: 'New conversation', copy: 'Copy', copied: 'Copied',
     waiting: 'Waiting for the reply…', needCode: 'Enter the class code.',
     wrongCode: 'The class code is not correct.',
-    tooLong: 'The conversation is too long. Start a new conversation.',
+    tooLong: 'The text is too long. Send it in a new conversation or in parts.',
     busy: 'Too many requests right now. Send again in a moment.',
     badRequest: 'The request could not be processed. Try again in a new conversation.',
     failed: 'The AI server returned an error.',
@@ -119,7 +119,8 @@
   lab.append(log, codeLabel, codeInput, promptLabel, input, actions);
 
   // "AI로 해 보기" 절의 프롬프트 블록마다 넣기 버튼을 단다.
-  document.querySelectorAll('#try-with-ai pre').forEach(function (block) {
+  // 프롬프트가 아닌 블록은 ```{.text .no-ai-lab}로 써서 뺀다.
+  document.querySelectorAll('#try-with-ai pre:not(.no-ai-lab)').forEach(function (block) {
     var code = block.querySelector('code');
     if (!code) return;
     var wrap = el('div', 'ai-lab-put');

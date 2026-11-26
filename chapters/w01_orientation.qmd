@@ -2,6 +2,7 @@
 title: "W1. Orientation"
 subtitle: "Part 1 · Foundations"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -138,6 +139,10 @@ AI traffic light: step 1, and step 2 for track A, are in the "Free to use" row (
 
 - Set the format and length you want (under 200 words, title and DOI only).
 - State what AI must not do (Do not invent numbers, Do not summarize). In track B, this one line prevents you from reading the results in advance.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. The AI in this box does not search the web. So the list of papers for track B may include papers that do not exist. Open each DOI to check it. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

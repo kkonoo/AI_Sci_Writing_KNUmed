@@ -2,6 +2,7 @@
 title: "W12. Polishing"
 subtitle: "Part 3 · Polishing and submission"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -124,6 +125,10 @@ Also check whether each abbreviation is spelled out the first time it appears.
 - Track A: these are sentences from your own manuscript, so they fall in the "Conditional (track A)" row of the AI traffic light. Get your supervisor's agreement, and use only tools set so that your input is not used for training. Do not put in raw data or figure files.
 - Track B: a track B manuscript falls in the "Free to use" row. You have submitted the W11 assignment, so you may now read the original paper. Do not copy sentences from the original paper. Mark the places you revised after reading the original paper, and write about them in the W15 comparison memo.
 - For both tracks, sentences that AI revised fall in the "Always verify" row. Check whether the meaning changed. A peer's manuscript, cards and reference table fall in the "Do not put in" row for either track. You may put in review comments that you received from a peer if you meet the conditions for [received reviews](../ai_rules.qmd#received-reviews).
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Send the second prompt, which takes the whole manuscript, in a new conversation. If the box says the text is too long, send one section at a time. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 

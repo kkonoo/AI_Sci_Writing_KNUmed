@@ -2,6 +2,7 @@
 title: "W14. Responding to reviewers"
 subtitle: "Part 3 · Polishing and submission"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -107,6 +108,10 @@ Rules
 The practice material this week is a Peer Review File that has already been published. A manuscript that you have actually submitted is under review, so it falls in the "Do not put in" row of the AI traffic light. You may put in the review comments that you received on that manuscript if you meet the conditions for [received reviews](../ai_rules.qmd#received-reviews). Even then, give AI only the comment and the [what we did] list, as in the second prompt above. Do not put in sentences from your manuscript.
 
 Check the journal's rules first. For example, the [Nature Portfolio AI policy](https://www.nature.com/nature-portfolio/editorial-policies/ai) gives translating and organizing reviewer comments as an example of permitted AI use. The same policy also says not to upload manuscripts and peer review reports to public AI systems that are not secure.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". Send the second prompt in a new conversation, so that the second draft does not copy the first. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
 :::
 
 # 3. Verify and revise {#verify-and-revise}

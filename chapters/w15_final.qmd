@@ -2,6 +2,7 @@
 title: "W15. Final"
 subtitle: "Part 3 · Polishing and submission"
 date: last-modified
+include-after-body: ../assets/ai-lab.html
 ---
 
 ::: {.callout-note collapse="true"}
@@ -102,6 +103,10 @@ Below is the Abstract of my paper. Write five questions that a researcher in the
 - Track A: this is your own manuscript, so it falls in the "Conditional (track A)" row. Get your supervisor's agreement, and use only tools set so that your input is not used for training. Do not put in raw data or figure files.
 - Track B: a track B manuscript falls in the "Free to use" row.
 - The table of numbers falls in the "Always verify" row for both tracks.
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. To start again, press "New conversation". If the box says the whole manuscript is too long for the first prompt, send one section at a time. Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
 
 # 3. Verify and revise {#verify-and-revise}
 
