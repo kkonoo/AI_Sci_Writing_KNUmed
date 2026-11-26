@@ -13,12 +13,12 @@
 | 페이지 | 영어판 | 한국어판 |
 |---|---|---|
 | 강의 소개 | `index.qmd` | `ko/index.qmd` |
-| AI 사용 규칙 | `ai_rules.qmd` | `ko/ai_rules.qmd` |
-| 기초 용어 | `glossary.qmd` | `ko/glossary.qmd` |
 | 주차 페이지 (1~15주) | `chapters/wNN_주제.qmd` | `ko/chapters/wNN_주제.qmd` |
-| 참고자료 | `resources.qmd` | `ko/resources.qmd` |
+| 부록: AI 사용 규칙 | `ai_rules.qmd` | `ko/ai_rules.qmd` |
+| 부록: 기초 용어 | `glossary.qmd` | `ko/glossary.qmd` |
 | 부록: 표현 모음 | `phrases.qmd` | `ko/phrases.qmd` |
 | 부록: 논문 영어 기초 | `english_basics.qmd` | `ko/english_basics.qmd` |
+| 참고자료 | `resources.qmd` | `ko/resources.qmd` |
 
 - 주차 페이지 파일 이름은 `wNN_주제.qmd` 형식이다. NN은 두 자리 주차 번호이고, 주제는 영어 소문자와 밑줄로 쓴다. 예: `w01_orientation.qmd`, `w14_submission_response.qmd`.
 - Part 1 기초는 1~4주, Part 2 원고 쓰기는 5~12주, Part 3 다듬기와 투고는 13~15주다.
@@ -37,7 +37,7 @@
 - 데이터 그래프(W5 그래프 비교, W6 가상의 Figure 2)는 `figs/plots.R`로 만든다. 리포 루트에서 `Rscript figs/plots.R`로 실행한다. 가상의 예시 수치(평균, SD, P 값)가 본문과 같은지 실행 결과로 확인한다.
 - 색은 slide-gallery 차콜 팔레트를 따른다(`figs/common.py`). 주조색 `#2F343B`, 옅은 단계 3가지, 강조색 `#E5484D`는 그림 하나에 한 번까지 쓴다. 이모지는 쓰지 않고, 아이콘이 필요하면 `figs/icons/`의 Lucide 아이콘을 쓴다.
 - 그림에 들어가는 내용은 그 주 본문에 있는 것만 쓴다. 그림에만 있는 사실이나 수치를 만들지 않는다.
-- W2와 기초 용어 페이지의 AI·컴퓨터 기초 그림은 `figs/basics.py`가 `assets/img/basics/`에 만든다. 한국어(`이름.svg`)와 영어(`이름.en.svg`)를 함께 만든다.
+- W4와 기초 용어 페이지의 AI·컴퓨터 기초 그림은 `figs/basics.py`가 `assets/img/basics/`에 만든다. 한국어(`이름.svg`)와 영어(`이름.en.svg`)를 함께 만든다.
 - 그림 안의 글자는 언어마다 다르다. 모든 그림 스크립트는 한국어(`이름.svg`)와 영어(`이름.en.svg`)를 함께 만든다. 문구는 스크립트 위쪽의 `TEXT`(또는 같은 구실의 사전)에 언어별로 있다. 한국어판 페이지는 `이름.svg`, 영어판 페이지는 `이름.en.svg`를 쓴다. 글자가 모두 영어인 W6 가상의 Figure 2(`figure2_mock.svg`)는 두 판이 같은 파일을 쓴다.
 - 그림 문구를 고치면 두 언어를 함께 고치고, 그림 설명(caption, fig-alt)도 두 판에서 같이 맞춘다.
 

@@ -1,5 +1,5 @@
 ---
-title: "W4. Paragraphs"
+title: "W3. Paragraphs"
 subtitle: "Part 1 · Foundations"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -18,7 +18,7 @@ By the end of this week, you will be able to:
 
 # 1. Principles {#principles}
 
-In [W3](w03_readable_sentences.qmd) we made single sentences easy to read. This week we join sentences into a paragraph. Readers read one sentence at a time, but they understand content one paragraph at a time. Even when every sentence is easy to read, a paragraph does not read well if the order and the links between sentences are wrong.
+In [W2](w02_readable_sentences.qmd) we made single sentences easy to read. This week we join sentences into a paragraph. Readers read one sentence at a time, but they understand content one paragraph at a time. Even when every sentence is easy to read, a paragraph does not read well if the order and the links between sentences are wrong.
 
 This week's principles draw on two sources. One is chapter 3 (paragraph structure) of Zeiger (2000), *Essentials of Writing Biomedical Research Papers*. The other is Gopen & Swan (1990), "The Science of Scientific Writing." We also use some of the rules in Mensh & Kording (2017). Full references are in [Resources](../resources.qmd#books). The examples come from the same fictional example study as the weeks from [W5](w05_figure_storyboard.qmd) onward, and the numbers are made up.
 
@@ -44,15 +44,15 @@ This week's principles draw on two sources. One is chapter 3 (paragraph structur
   - After: We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
   - In Before, the second sentence starts with new information, the numbers. The word that links it to the sentence before (subtype) comes at the end. In After, the second sentence starts by taking up subtypes from the sentence before, and the third sentence starts by taking up patients with fibrosis.
 
-![The end of one sentence leads into the start of the next. Fictional example.](../assets/img/w04/old_to_new.en.svg){fig-alt="Three English sentences run from top to bottom. For each sentence, the left box holds its start and the right box holds its new information. Arrows run from the end of the first sentence, into four subtypes, to the start of the second, One of these subtypes, and from the end of the second sentence, patients with fibrosis, to the start of the third, In these patients."}
+![The end of one sentence leads into the start of the next. Fictional example.](../assets/img/w03/old_to_new.en.svg){fig-alt="Three English sentences run from top to bottom. For each sentence, the left box holds its start and the right box holds its new information. Arrows run from the end of the first sentence, into four subtypes, to the start of the second, One of these subtypes, and from the end of the second sentence, patients with fibrosis, to the start of the third, In these patients."}
 
-- Pattern 2 in [W3](w03_readable_sentences.qmd), keeping the subject close to its verb, comes from the same reason. After reading the subject, readers do not know what the sentence says until the verb arrives.
+- Pattern 2 in [W2](w02_readable_sentences.qmd), keeping the subject close to its verb, comes from the same reason. After reading the subject, readers do not know what the sentence says until the verb arrives.
 
 ## Put the key term in the topic sentence, and repeat it in the same words
 
 - Rule: put the key term of a paragraph in its topic sentence. After that, repeat it in the same words.
 - The writing-class rule "do not repeat the same word" does not suit scientific writing. When the word changes, readers take it as a different thing. Mensh & Kording (2017) also write that there is nothing wrong with using the same word several times, and that a different word makes readers wonder whether the meaning is slightly different.
-- Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in W3. Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
+- Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in W2. Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
 
 ## Show how sentences relate with the right transition
 

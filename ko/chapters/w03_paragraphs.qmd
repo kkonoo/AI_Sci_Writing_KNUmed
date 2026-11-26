@@ -1,5 +1,5 @@
 ---
-title: "W4. 문단"
+title: "W3. 문단"
 subtitle: "Part 1 · 기초"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -18,7 +18,7 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
-[W3](w03_readable_sentences.qmd)에서는 문장 하나를 읽기 쉽게 고쳤다. 이번 주에는 문장을 이어서 문단 하나를 만든다. 독자는 문장을 하나씩 읽지만 내용은 문단 단위로 이해한다. 문장이 모두 읽기 쉬워도 순서와 연결이 맞지 않으면 문단은 읽히지 않는다.
+[W2](w02_readable_sentences.qmd)에서는 문장 하나를 읽기 쉽게 고쳤다. 이번 주에는 문장을 이어서 문단 하나를 만든다. 독자는 문장을 하나씩 읽지만 내용은 문단 단위로 이해한다. 문장이 모두 읽기 쉬워도 순서와 연결이 맞지 않으면 문단은 읽히지 않는다.
 
 이번 주 원칙은 두 자료를 바탕으로 한다. 하나는 Zeiger (2000) *Essentials of Writing Biomedical Research Papers*의 3장(문단 구조)이다. 다른 하나는 Gopen & Swan (1990) "The Science of Scientific Writing"이다. Mensh & Kording (2017)의 규칙 몇 가지도 함께 쓴다. 서지 정보는 [참고자료](../resources.qmd#books)에 있다. 예문은 [W5](w05_figure_storyboard.qmd) 이후 주차와 같은 가상의 예시 연구에서 가져왔고, 수치는 지어낸 것이다.
 
@@ -44,15 +44,15 @@ include-after-body: ../../assets/ai-lab.html
   - 후: We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
   - 전의 둘째 문장은 새 정보인 수치로 시작한다. 앞 문장과 이어지는 말(subtype)은 문장 끝에 있다. 후에서는 둘째 문장이 앞 문장의 subtypes를 받아 시작하고, 셋째 문장이 앞 문장의 patients with fibrosis를 받아 시작한다.
 
-![앞 문장의 끝에 나온 말이 다음 문장의 첫머리로 이어진다. 가상의 예시다.](../../assets/img/w04/old_to_new.svg){fig-alt="영어 문장 세 개가 위에서 아래로 있다. 문장마다 왼쪽 칸에 첫머리, 오른쪽 칸에 새 정보가 있다. 화살표가 첫 문장의 끝 into four subtypes에서 둘째 문장의 첫머리 One of these subtypes로, 둘째 문장의 끝 patients with fibrosis에서 셋째 문장의 첫머리 In these patients로 이어진다."}
+![앞 문장의 끝에 나온 말이 다음 문장의 첫머리로 이어진다. 가상의 예시다.](../../assets/img/w03/old_to_new.svg){fig-alt="영어 문장 세 개가 위에서 아래로 있다. 문장마다 왼쪽 칸에 첫머리, 오른쪽 칸에 새 정보가 있다. 화살표가 첫 문장의 끝 into four subtypes에서 둘째 문장의 첫머리 One of these subtypes로, 둘째 문장의 끝 patients with fibrosis에서 셋째 문장의 첫머리 In these patients로 이어진다."}
 
-- 주어와 동사를 가까이 두라는 [W3](w03_readable_sentences.qmd)의 패턴 2도 같은 이유에서 나온다. 독자는 주어를 읽은 뒤 동사가 나올 때까지 이 문장이 무엇을 말하는지 모른다.
+- 주어와 동사를 가까이 두라는 [W2](w02_readable_sentences.qmd)의 패턴 2도 같은 이유에서 나온다. 독자는 주어를 읽은 뒤 동사가 나올 때까지 이 문장이 무엇을 말하는지 모른다.
 
 ## 핵심어는 주제문에 넣고, 같은 말로 되풀이한다
 
 - 규칙: 문단의 핵심어(key term)는 주제문에 넣는다. 그 뒤로는 같은 말로 되풀이한다.
 - 같은 단어를 반복하지 말라는 작문 규칙은 과학 글에 맞지 않는다. 말이 바뀌면 독자는 다른 대상으로 읽는다. Mensh & Kording (2017)도 같은 단어를 여러 번 쓰는 데는 문제가 없고, 다른 단어를 쓰면 독자가 뜻이 조금 다른지 의심하게 된다고 쓴다.
-- 예: 한 문단에 MF2 cells, the profibrotic cluster, these activated stromal cells가 함께 나오면 독자는 세 집단을 떠올린다. MF2 하나로 쓴다. 이 기준은 W3의 패턴 4와 같다. 원고 전체의 용어 통일은 [W13](w13_polishing.qmd)에서 다시 점검한다.
+- 예: 한 문단에 MF2 cells, the profibrotic cluster, these activated stromal cells가 함께 나오면 독자는 세 집단을 떠올린다. MF2 하나로 쓴다. 이 기준은 W2의 패턴 4와 같다. 원고 전체의 용어 통일은 [W13](w13_polishing.qmd)에서 다시 점검한다.
 
 ## 문장 사이의 관계는 맞는 연결어로 드러낸다
 

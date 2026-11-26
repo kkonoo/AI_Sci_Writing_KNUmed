@@ -1,5 +1,5 @@
 ---
-title: "W3. Readable English sentences"
+title: "W2. Readable English sentences"
 subtitle: "Part 1 · Foundations"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -31,7 +31,7 @@ If grammar itself, such as articles, tense or subject-verb agreement, is a probl
   - Before: Compound X treatment-associated fibrotic area reduction was accompanied by decreased Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.
   - After: Compound X reduced the fibrotic area in UUO kidneys. It also lowered the expression of Col1a1 and Acta2. These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.
 
-![When the same content is split into three sentences, each sentence keeps one idea. This is a fictional example.](../assets/img/w03/split_sentence.en.svg){fig-alt="On the left is one English sentence that holds three ideas. On the right are three numbered English sentences that split the same content."}
+![When the same content is split into three sentences, each sentence keeps one idea. This is a fictional example.](../assets/img/w02/split_sentence.en.svg){fig-alt="On the left is one English sentence that holds three ideas. On the right are three numbered English sentences that split the same content."}
 
 ## Use ten patterns to find hard-to-read sentences
 
@@ -172,7 +172,7 @@ AI lab: press the "Put in the AI lab" button under a prompt block above, or writ
 
 # 3. Verify and revise {#verify-and-revise}
 
-This week you mainly read side by side. For the numbers, you check the source by comparing them with the data you gave in the prompt.
+This week you mainly read side by side. For the numbers, you check the source by comparing them with the data you gave in the prompt. Both are among the [three checks](../ai_rules.qmd#three-checks) in the AI use rules.
 
 Where AI often goes wrong
 

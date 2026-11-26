@@ -32,7 +32,7 @@ The examples come from a fictional example study. In this study, the fictional d
 
 ## Compare with earlier studies: which agree, which differ, and why
 
-- From the second paragraph on, start each paragraph with one strength or weakness of this study. Then evaluate that point against the relevant literature (Mensh & Kording 2017, rule 8). As in the paragraph principles of [W4](w04_paragraphs.qmd), the first sentence is the topic of the paragraph.
+- From the second paragraph on, start each paragraph with one strength or weakness of this study. Then evaluate that point against the relevant literature (Mensh & Kording 2017, rule 8). As in the paragraph principles of [W3](w03_paragraphs.qmd), the first sentence is the topic of the paragraph.
 - Take the papers to compare with from your W8 table. If your results differ, give the most likely reason. Common reasons are the model, dose, timing of treatment, observation period, cohort and measurement technique.
 - Write what the data showed and what you inferred in separate sentences.
 - Before: *Our findings are consistent with previous studies [7–12].*

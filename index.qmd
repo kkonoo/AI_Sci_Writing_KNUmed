@@ -29,9 +29,9 @@ When you use AI, follow the [AI use rules](ai_rules.qmd).
 ## Course goals {#goals}
 
 1. Know what each part of a paper does, and write a manuscript in this order: figures → Methods → Results → Introduction → Discussion → Abstract → Title.
-2. Tell apart the jobs you can give to AI from the jobs you must not, and check the sentences, references and numbers that AI produces against the original sources.
-3. Find and fix English sentences that are hard to read (noun stacks, long modifiers, translationese, phrases common in AI text).
-4. Write the story line of a paper in five sentences, and expand it into one paragraph with a clear topic sentence.
+2. Find and fix English sentences that are hard to read (noun stacks, long modifiers, translationese, phrases common in AI text).
+3. Write the story line of a paper in five sentences, and expand it into one paragraph with a clear topic sentence.
+4. Tell apart the jobs you can give to AI from the jobs you must not, and check the sentences, references and numbers that AI produces against the original sources.
 5. Write a cover letter and a response to reviewers in a set structure.
 
 ## Two tracks {#tracks}
@@ -57,9 +57,9 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 | Week | Topic | Assignment |
 |---|---|---|
 | 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures<br>B: choose a paper<br>Both tracks: five-sentence summary |
-| 2 | [AI basics](chapters/w02_ai_basics.qmd) | Verify one AI answer and bring it to class |
-| 3 | [Readable English sentences](chapters/w03_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
-| 4 | [Paragraphs](chapters/w04_paragraphs.qmd) | One-paragraph summary |
+| 2 | [Readable English sentences](chapters/w02_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
+| 3 | [Paragraphs](chapters/w03_paragraphs.qmd) | One-paragraph summary |
+| 4 | [AI basics](chapters/w04_ai_basics.qmd) | Verify one AI answer and bring it to class |
 
 ### Part 2 · Writing the manuscript
 

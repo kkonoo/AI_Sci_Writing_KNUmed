@@ -1,4 +1,4 @@
-"""AI and computer basics figures for W2 and the glossary page, in Korean (*.svg) and English (*.en.svg).
+"""AI and computer basics figures for W4 and the glossary page, in Korean (*.svg) and English (*.en.svg).
 
     python3 figs/basics.py
 """
@@ -108,7 +108,7 @@ def tool_scope(lang):
     return save(s, W, out("tool_scope", lang), extra)
 
 
-# ---------------------------------------------------------------- input path (also used in W2)
+# ---------------------------------------------------------------- input path (also used in W4)
 INPUT = {
     "ko": dict(alt="AI에 입력한 내용이 가는 곳", me="내 컴퓨터", me_sub="프롬프트, 붙여 넣은 글, 올린 파일", srv="AI 회사 서버",
                srv_sub="모델이 답을 만든다", inp="입력", ans="답",

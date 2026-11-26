@@ -75,7 +75,7 @@ By the end of this week, you will be able to do the following.
   4. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.
   5. Compound X limits fibrosis in the UUO model and may act through TGF-β/Smad3 signaling.
 - A claim about background, like sentence 2, needs references. You find them in [W8](w08_literature.qmd) and check them in [W10](w10_introduction.qmd).
-- In [W4](w04_paragraphs.qmd) you rewrite these five sentences as one paragraph.
+- In [W3](w03_paragraphs.qmd) you rewrite these five sentences as one paragraph.
 
 ## The shape of the question depends on the type of paper
 
@@ -100,7 +100,7 @@ By the end of this week, you will be able to do the following.
   - You do not have data yet, or you do not have enough for 3–4 figures.
   - It is hard to get your supervisor's agreement, or you cannot show your results to classmates.
 - If you are unsure, ask your supervisor and the instructor this week.
-- A classmate's manuscript belongs to someone else. Do not put a classmate's figure order cards, drafts or reference table into AI. They fall in the "Do not put in" row of the [AI use rules](../ai_rules.qmd#traffic-light). [W2](w02_ai_basics.qmd) covers this in more detail.
+- A classmate's manuscript belongs to someone else. Do not put a classmate's figure order cards, drafts or reference table into AI. They fall in the "Do not put in" row of the [AI use rules](../ai_rules.qmd#traffic-light). [W4](w04_ai_basics.qmd) covers this in more detail.
 
 ## Choose a track B paper by five criteria
 
@@ -138,7 +138,7 @@ I am a graduate student in biomedical science. I am writing my first research ar
 Answer in plain English in under 200 words.
 ```
 
-Step 2, track A (15 minutes): Practice with a fictional example, and do not put in your own results yet. You check your supervisor's agreement and your tool settings in W2. When AI returns an order and conclusion sentences, mark each place where a conclusion sentence claims more than the figure shows. Then write the list of your own figures yourself, without AI.
+Step 2, track A (15 minutes): Practice with a fictional example, and do not put in your own results yet. You check your supervisor's agreement and your tool settings in W4. When AI returns an order and conclusion sentences, mark each place where a conclusion sentence claims more than the figure shows. Then write the list of your own figures yourself, without AI.
 
 ```text
 Below are four figures from a hypothetical mouse study, in random order.
@@ -192,7 +192,7 @@ Checklist
 - [ ] I found the open-access label and the Peer Review File link on the journal page myself. (check the source)
 - [ ] I put each conclusion sentence that AI wrote next to the description of the figure, and checked that it does not claim more than the figure shows. (read side by side)
 - [ ] I confirmed my choice of track with my supervisor and the instructor. (cross-check)
-- [ ] Track B: I counted how many of the five papers from AI met all the conditions. This count is material for the verification exercise in W2.
+- [ ] Track B: I counted how many of the five papers from AI met all the conditions. This count is material for the verification exercise in W4.
 
 # Assignment {#assignment}
 

@@ -1,56 +1,46 @@
-"""W2 figure: the AI traffic light. (Where an AI input goes is in figs/basics.py.)
+"""W2 figure: one sentence with three ideas becomes three sentences.
 
-Korean: assets/img/w02/traffic_light.svg, English: traffic_light.en.svg.
+Korean: assets/img/w02/split_sentence.svg, English: split_sentence.en.svg.
 """
-from common import scene, save, icon
+from common import scene, save
 
 W = "w02"
 
-STYLE = [("faint", "circle-check", "2F343B"), ("soft", "search", "2F343B"), ("strong", "lock", "FFFFFF"),
-         ("strong", "message-square", "FFFFFF"), ("accent", "ban", "FFFFFF")]
+BEFORE = ("Compound X treatment-associated fibrotic area reduction was accompanied by decreased "
+          "Col1a1 and Acta2 expression, suggesting Smad3 pathway-mediated antifibrotic activity.")
+AFTER = [
+    "Compound X reduced the fibrotic area in UUO kidneys.",
+    "It also lowered the expression of Col1a1 and Acta2.",
+    "These changes suggest that Smad3 signaling mediates the antifibrotic effect of compound X.",
+]
 
 TEXT = {
-    "ko": dict(
-        alt="AI 신호등: 자유롭게, 꼭 검증, 조건부 두 가지, 넣지 않기",
-        rows=[
-            ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W12까지 웹 검색 끔)"),
-            ("꼭 검증", "참고문헌, 수치, 통계 방법 추천, 최신 연구, AI가 고친 문장의 뜻, AI 코드로 그린 그래프"),
-            ("조건부 (트랙 A)", "본인 원고 문장. 지도교수 동의, 학습 제외 설정, 원 데이터와 그림 파일은 넣지 않음"),
-            ("조건부 (받은 리뷰)", "내 원고에 대해 받은 리뷰 의견. 리뷰어 이름 지움, 학습 제외 설정, 학술지 규정 확인"),
-            ("넣지 않기", "환자 정보, 심사 중인 원고와 동료 원고, 과제·특허 전 아이디어, 계정"),
-        ],
-        sub_pt=None,
-    ),
-    "en": dict(
-        alt="AI traffic light: Free to use, Always verify, two Conditional rows, Do not put in",
-        rows=[
-            ("Free to use", "Concepts and grammar, help reading published papers, track B manuscripts (web search off until W12)"),
-            ("Always verify", "References, numbers, suggested statistics, recent findings, the meaning of AI-revised sentences, graphs drawn with AI code"),
-            ("Conditional (track A)", "Sentences from your own manuscript. Supervisor's agreement, training setting off, no raw data or figure files"),
-            ("Conditional (received reviews)", "Reviews of your own manuscript. Reviewer's name removed, training setting off, journal policy checked"),
-            ("Do not put in", "Patient information, manuscripts under review and classmates' manuscripts, ideas before a grant or patent filing, accounts"),
-        ],
-        sub_pt=10,
-    ),
+    "ko": dict(alt="생각 세 개를 담은 한 문장을 세 문장으로 나눈다", before="전: 한 문장에 생각 세 개",
+               after="후: 한 문장에 생각 하나", link="문장을 나눈다",
+               note="가상의 예시. 뜻과 주장은 그대로 두고 문장만 나눈다."),
+    "en": dict(alt="One sentence with three ideas becomes three sentences", before="Before: three ideas in one sentence",
+               after="After: one idea per sentence", link="Split it",
+               note="Fictional example. Only the sentences are split. The meaning and the claims stay the same."),
 }
 
 
-def traffic_light(lang="ko"):
+def split_sentence(lang="ko"):
     t = TEXT[lang]
-    r, step, top = 8.5, 21, 6
-    n = len(t["rows"])
-    s = scene(h=top * 2 + step * n + 2, alt=t["alt"])
-    s.band(10, top - 2, 26, step * n + 2, "", style="primary")
-    extra = []
-    kw = {"sub_pt": t["sub_pt"]} if t["sub_pt"] else {}
-    for i, ((name, sub), (style, ic, ic_color)) in enumerate(zip(t["rows"], STYLE)):
-        cy = top + step * i + step / 2
-        s.circle(23, cy, r, "", style=style)
-        extra.append(icon(ic, 23 - 4, cy - 4, 8, ic_color))
-        s.text(46, cy - 8, 190, 16, name, sub=sub, bold=True, name_pt=12.5, valign="middle", **kw)
-    return save(s, W, "traffic_light" + ("" if lang == "ko" else ".en"), extra)
+    s = scene(h=91, alt=t["alt"])
+    s.text(4, 4, 90, 7, t["before"], bold=True, name_pt=11)
+    before = s.box(4, 13, 90, 65, BEFORE, style="soft", align="left", valign="middle", name_pt=11, bold=False)
+    s.text(124, 4, 112, 7, t["after"], bold=True, name_pt=11)
+    bh, gap = 19, 4
+    circles = []
+    for i, sentence in enumerate(AFTER):
+        y = 13 + i * (bh + gap)
+        circles.append(s.circle(129, y + bh / 2, 4.8, str(i + 1), style="mid", name_pt=10))
+        s.box(136, y, 100, bh, sentence, align="left", valign="middle", name_pt=10.5, bold=False)
+    s.link(before, circles[1], sides="right>left", label=t["link"])
+    s.text(4, 80, 232, 7, t["note"], name_pt=9.5, color="muted")
+    return save(s, W, "split_sentence" + ("" if lang == "ko" else ".en"))
 
 
 if __name__ == "__main__":
-    traffic_light("ko")
-    traffic_light("en")
+    split_sentence("ko")
+    split_sentence("en")

@@ -1,5 +1,5 @@
 ---
-title: "W2. AI 기본기"
+title: "W4. AI 기본기"
 subtitle: "Part 1 · 기초"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -62,7 +62,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ### 넣기 전에 신호등 칸부터 정한다
 
-![AI 신호등. 아래로 갈수록 넣기 전에 따질 것이 많아지고, 맨 아래 칸은 넣지 않는다.](../../assets/img/w02/traffic_light.svg){fig-alt="세로 신호등 모양. 위에서부터 자유롭게, 꼭 검증, 조건부 (트랙 A), 조건부 (받은 리뷰), 넣지 않기 다섯 칸과 각 칸에 해당하는 예가 있다."}
+![AI 신호등. 아래로 갈수록 넣기 전에 따질 것이 많아지고, 맨 아래 칸은 넣지 않는다.](../../assets/img/w04/traffic_light.svg){fig-alt="세로 신호등 모양. 위에서부터 자유롭게, 꼭 검증, 조건부 (트랙 A), 조건부 (받은 리뷰), 넣지 않기 다섯 칸과 각 칸에 해당하는 예가 있다."}
 
 - 칸은 넣으려는 내용과 그 내용의 주인이 정함. 기준은 [신호등 표](../ai_rules.qmd#traffic-light)를 따름. 애매하면 넣기 전에 담당교수에게 물음.
 - 수업 중 연습(10분): 아래 사례를 칸에 나눈 뒤 이유를 말하게 함. 강사용 답을 함께 적어 둠.
@@ -181,7 +181,7 @@ AI 실습 창: 위 프롬프트 블록의 실습 창에 넣기 버튼을 누르�
 
 # 3. 검증하고 다듬기 {#verify-and-revise}
 
-이번 주는 원문 확인과 교차 확인을 주로 씀. 나란히 읽기는 [W3](w03_readable_sentences.qmd)에서 연습함.
+이번 주는 원문 확인과 교차 확인을 주로 씀. 나란히 읽기는 [W2](w02_readable_sentences.qmd)에서 연습했음.
 
 AI가 자주 틀리는 지점
 

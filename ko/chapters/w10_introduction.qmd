@@ -36,7 +36,7 @@ Introduction이 하는 일은 독자에게 이 논문이 왜 중요한지 알리
 | 이 연구 | 이 연구는 그 빈틈을 어떻게 메우나? | 마지막 1문단 |
 
 - 그림 3~4개 분량의 원고라면 4~5문단이면 된다.
-- 마지막 문단을 뺀 문단은 맥락 → 알려진 것 → 모르는 것 순서로 쓴다. 한 문단 끝의 모르는 것이 다음 문단의 더 좁은 맥락이 된다. 예를 들어 첫 문단 끝에 분야의 빈틈, 둘째 문단 끝에 세부 분야의 빈틈, 셋째 문단 끝에 이 연구가 메울 빈틈을 쓴다(Mensh & Kording 2017, 규칙 6). [W4](w04_paragraphs.qmd)의 문단 원칙과 같은 틀이다.
+- 마지막 문단을 뺀 문단은 맥락 → 알려진 것 → 모르는 것 순서로 쓴다. 한 문단 끝의 모르는 것이 다음 문단의 더 좁은 맥락이 된다. 예를 들어 첫 문단 끝에 분야의 빈틈, 둘째 문단 끝에 세부 분야의 빈틈, 셋째 문단 끝에 이 연구가 메울 빈틈을 쓴다(Mensh & Kording 2017, 규칙 6). [W3](w03_paragraphs.qmd)의 문단 원칙과 같은 틀이다.
 - 첫 문장에는 독자가 확인할 수 있는 사실이나 숫자를 하나 쓴다.
 - Before: *Kidney fibrosis has attracted increasing attention in recent years and plays a crucial role in chronic kidney disease.*
 - After: *Chronic kidney disease affects more than 800 million people worldwide [1]. Fibrosis is the hallmark of progressive kidney disease of almost any cause [2].*

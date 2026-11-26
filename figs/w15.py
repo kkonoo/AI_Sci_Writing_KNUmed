@@ -10,7 +10,7 @@ TEXT = {
     "ko": dict(
         alt="학기 전체 흐름: Part 1 기초, Part 2 원고 쓰기, Part 3 다듬기와 투고",
         parts=[
-            ("Part 1 · 기초", "W1–W4", ["트랙 정하기", "AI 신호등과 확인 3가지", "읽히는 문장", "한 문단 요약"], "soft", ""),
+            ("Part 1 · 기초", "W1–W4", ["트랙 정하기", "읽히는 문장", "한 문단 요약", "AI 신호등과 확인 3가지"], "soft", ""),
             ("Part 2 · 원고 쓰기", "W5–W12", ["Figure 순서 카드", "Methods, Results", "참고문헌 표",
                                          "Introduction, Discussion", "Abstract, Title"], "mid", "동료 리뷰 W9"),
             ("Part 3 · 다듬기와 투고", "W13–W15", ["전체 원고 수정본", "Cover letter", "리뷰어 답변서", "기말 원고와 발표"],
@@ -22,7 +22,7 @@ TEXT = {
     "en": dict(
         alt="The semester at a glance: Part 1 Foundations, Part 2 Writing the manuscript, Part 3 Polishing and submission",
         parts=[
-            ("Part 1 · Foundations", "W1–W4", ["Choosing a track", "AI rules and checks", "Readable sentences", "One-paragraph summary"],
+            ("Part 1 · Foundations", "W1–W4", ["Choosing a track", "Readable sentences", "One-paragraph summary", "AI rules and checks"],
              "soft", ""),
             ("Part 2 · Writing", "W5–W12", ["Figure order cards", "Methods, Results", "Reference table",
                                          "Introduction, Discussion", "Abstract, Title"], "mid", "Peer review W9"),

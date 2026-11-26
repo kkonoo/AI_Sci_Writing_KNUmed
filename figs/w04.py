@@ -1,47 +1,56 @@
-"""W4 figure: the end of one sentence leads into the start of the next.
+"""W4 figure: the AI traffic light. (Where an AI input goes is in figs/basics.py.)
 
-Korean: assets/img/w04/old_to_new.svg, English: old_to_new.en.svg.
+Korean: assets/img/w04/traffic_light.svg, English: traffic_light.en.svg.
 """
-from common import scene, save
+from common import scene, save, icon
 
 W = "w04"
 
-# The "After" example in principle 2 of W4, split into the start and the new information.
-SENTENCES = [
-    ("We divided fibroblasts", "into four subtypes."),
-    ("One of these subtypes, MF2,", "was more common in patients with fibrosis."),
-    ("In these patients, MF2 made up", "a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008)."),
-]
+STYLE = [("faint", "circle-check", "2F343B"), ("soft", "search", "2F343B"), ("strong", "lock", "FFFFFF"),
+         ("strong", "message-square", "FFFFFF"), ("accent", "ban", "FFFFFF")]
 
 TEXT = {
-    "ko": dict(alt="앞 문장의 끝에 나온 말이 다음 문장의 첫머리로 이어진다",
-               start="첫머리: 앞 문장에서 받은 말", end="끝: 이 문장의 새 정보",
-               note="가상의 예시. 화살표는 앞 문장의 끝에서 다음 문장의 첫머리로 이어지는 말을 가리킨다."),
-    "en": dict(alt="The end of one sentence leads into the start of the next",
-               start="Start: from the sentence before", end="End: this sentence's new information",
-               note="Fictional example. Each arrow points from the end of one sentence to the start of the next."),
+    "ko": dict(
+        alt="AI 신호등: 자유롭게, 꼭 검증, 조건부 두 가지, 넣지 않기",
+        rows=[
+            ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W12까지 웹 검색 끔)"),
+            ("꼭 검증", "참고문헌, 수치, 통계 방법 추천, 최신 연구, AI가 고친 문장의 뜻, AI 코드로 그린 그래프"),
+            ("조건부 (트랙 A)", "본인 원고 문장. 지도교수 동의, 학습 제외 설정, 원 데이터와 그림 파일은 넣지 않음"),
+            ("조건부 (받은 리뷰)", "내 원고에 대해 받은 리뷰 의견. 리뷰어 이름 지움, 학습 제외 설정, 학술지 규정 확인"),
+            ("넣지 않기", "환자 정보, 심사 중인 원고와 동료 원고, 과제·특허 전 아이디어, 계정"),
+        ],
+        sub_pt=None,
+    ),
+    "en": dict(
+        alt="AI traffic light: Free to use, Always verify, two Conditional rows, Do not put in",
+        rows=[
+            ("Free to use", "Concepts and grammar, help reading published papers, track B manuscripts (web search off until W12)"),
+            ("Always verify", "References, numbers, suggested statistics, recent findings, the meaning of AI-revised sentences, graphs drawn with AI code"),
+            ("Conditional (track A)", "Sentences from your own manuscript. Supervisor's agreement, training setting off, no raw data or figure files"),
+            ("Conditional (received reviews)", "Reviews of your own manuscript. Reviewer's name removed, training setting off, journal policy checked"),
+            ("Do not put in", "Patient information, manuscripts under review and classmates' manuscripts, ideas before a grant or patent filing, accounts"),
+        ],
+        sub_pt=10,
+    ),
 }
 
 
-def old_to_new(lang="ko"):
+def traffic_light(lang="ko"):
     t = TEXT[lang]
-    s = scene(h=92, alt=t["alt"])
-    lx, lw, rx, rw = 17, 86, 112, 124
-    s.text(lx, 4, lw, 7, t["start"], bold=True, name_pt=11)
-    s.text(rx, 4, rw, 7, t["end"], bold=True, name_pt=11)
-    bh, gap = 15, 10
-    starts, ends = [], []
-    for i, (start, end) in enumerate(SENTENCES):
-        y = 14 + i * (bh + gap)
-        s.circle(9.5, y + bh / 2, 4.8, str(i + 1), style="mid", name_pt=10)
-        starts.append(s.box(lx, y, lw, bh, start, style="soft", align="left", valign="middle", name_pt=10.5, bold=False))
-        ends.append(s.box(rx, y, rw, bh, end, align="left", valign="middle", name_pt=10.5, bold=False))
-    for i in range(len(SENTENCES) - 1):
-        s.link(ends[i], starts[i + 1], sides="bottom>top")
-    s.text(4, 82, 232, 6, t["note"], name_pt=9.5, color="muted")
-    return save(s, W, "old_to_new" + ("" if lang == "ko" else ".en"))
+    r, step, top = 8.5, 21, 6
+    n = len(t["rows"])
+    s = scene(h=top * 2 + step * n + 2, alt=t["alt"])
+    s.band(10, top - 2, 26, step * n + 2, "", style="primary")
+    extra = []
+    kw = {"sub_pt": t["sub_pt"]} if t["sub_pt"] else {}
+    for i, ((name, sub), (style, ic, ic_color)) in enumerate(zip(t["rows"], STYLE)):
+        cy = top + step * i + step / 2
+        s.circle(23, cy, r, "", style=style)
+        extra.append(icon(ic, 23 - 4, cy - 4, 8, ic_color))
+        s.text(46, cy - 8, 190, 16, name, sub=sub, bold=True, name_pt=12.5, valign="middle", **kw)
+    return save(s, W, "traffic_light" + ("" if lang == "ko" else ".en"), extra)
 
 
 if __name__ == "__main__":
-    old_to_new("ko")
-    old_to_new("en")
+    traffic_light("ko")
+    traffic_light("en")

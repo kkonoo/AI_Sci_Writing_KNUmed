@@ -1,5 +1,6 @@
 ---
 title: "AI 사용 규칙"
+subtitle: "부록 · W1부터 모든 주차에 적용한다"
 date: last-modified
 ---
 

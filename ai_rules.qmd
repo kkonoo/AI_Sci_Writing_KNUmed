@@ -1,5 +1,6 @@
 ---
 title: "AI use rules"
+subtitle: "Appendix · applies in every week from W1"
 date: last-modified
 ---
 

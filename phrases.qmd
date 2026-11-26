@@ -8,7 +8,7 @@ Use this page when you get stuck on wording. It is based on the lab's [Lab Manag
 
 - Do not paste a phrase as it is. Adapt it to your results and to the strength of your evidence.
 - Square brackets `[ ]` mark what you fill in with your own content.
-- Use stock phrases once or twice in a whole manuscript at most. The standard is pattern 10 of [W3](chapters/w03_readable_sentences.qmd).
+- Use stock phrases once or twice in a whole manuscript at most. The standard is pattern 10 of [W2](chapters/w02_readable_sentences.qmd).
 - If grammar such as articles, tense or prepositions is a problem for you, start with [English basics for papers](english_basics.qmd).
 - The numbers in the examples come from the course's shared fictional example study.
 
@@ -177,7 +177,7 @@ Answer each comment with quote, thanks, what you did, and where it changed ([W14
 
 ## Disclosing AI use {#ai-disclosure}
 
-If the journal gives a wording, use it. General examples are in [W2](chapters/w02_ai_basics.qmd).
+If the journal gives a wording, use it. General examples are in [W4](chapters/w04_ai_basics.qmd).
 
 - Acknowledgments (writing help): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
 - Methods (help with analysis code): We used [tool name and version] to help write the [language] code that [task]. The authors reviewed and tested all code before use.

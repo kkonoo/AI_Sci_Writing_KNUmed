@@ -23,9 +23,9 @@ https://kkonoo.github.io/AI_Sci_Writing_KNUmed/
 | 주 | 주제 | 담당 | 비고 |
 |---|---|---|---|
 | 1 | 오리엔테이션 | | |
-| 2 | AI 기본기 | | |
-| 3 | 읽히는 영어 문장 | | |
-| 4 | 문단 | | |
+| 2 | 읽히는 영어 문장 | | |
+| 3 | 문단 | | |
+| 4 | AI 기본기 | | |
 | 5 | Figure 스토리보드 | | |
 | 6 | Methods와 Figure legend | | |
 | 7 | Results | | |

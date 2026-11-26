@@ -76,7 +76,7 @@ Answer each item with yes, partly or no. Where there is a problem, write the lin
 | R1 | Paragraph structure | Is there one paragraph per figure? Is the first sentence of each paragraph the conclusion sentence for that figure? |
 | R2 | Numbers, n, statistics | Does each comparison have numbers, n, the test and the P value, and do they match the figure? |
 | R3 | Results and interpretation | Are there sentences that mix in interpretation or explanations of mechanism? Are there words that are stronger than the data (prove, demonstrate, markedly)? |
-| R4 | Readability | Does each sentence hold one idea? Are there noun stacks, long modifiers or translationese? (the patterns in [W3](w03_readable_sentences.qmd)) |
+| R4 | Readability | Does each sentence hold one idea? Are there noun stacks, long modifiers or translationese? (the patterns in [W2](w02_readable_sentences.qmd)) |
 | R5 | Consistency | Are the methods that appear in the Results described in the Methods? Do the n and statistics in the legends match the text? |
 
 End the form with two things: the three major problems to fix first, and one specific thing that was done well.

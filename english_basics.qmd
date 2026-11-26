@@ -6,7 +6,7 @@ date: last-modified
 
 This page does not teach English grammar from the beginning. It collects only the mistakes that are common in biomedical papers. Class time does not cover it, so use it for self-study.
 
-- How to write readable sentences is in [W3](chapters/w03_readable_sentences.qmd), and paragraphs are in [W4](chapters/w04_paragraphs.qmd).
+- How to write readable sentences is in [W2](chapters/w02_readable_sentences.qmd), and paragraphs are in [W3](chapters/w03_paragraphs.qmd).
 - Common phrases for each section are in the [phrase sheet](phrases.qmd).
 - The examples come from the course's shared fictional example study (the UUO fibrosis model and compound X).
 
@@ -87,7 +87,7 @@ You learn English expressions faster from real papers than from rules. Glasman-D
   - After: The expression of these genes was lower.
   - Before: The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
   - After: The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
-- Keeping the subject close to the verb also prevents this mistake (pattern 2 in [W3](chapters/w03_readable_sentences.qmd)).
+- Keeping the subject close to the verb also prevents this mistake (pattern 2 in [W2](chapters/w02_readable_sentences.qmd)).
 
 ## Prepositions {#prepositions}
 
@@ -115,7 +115,7 @@ You learn English expressions faster from real papers than from rules. Glasman-D
 | has the ability to | can |
 | in the case of | for, in |
 | a large number of | many |
-| performed an analysis of | analyzed (pattern 6 in [W3](chapters/w03_readable_sentences.qmd)) |
+| performed an analysis of | analyzed (pattern 6 in [W2](chapters/w02_readable_sentences.qmd)) |
 | it is important to note that | Delete it. If the point matters, state it directly |
 
 - Use specific words instead of vague ones. Instead of various methods, name the methods. Instead of markedly, give the numbers.

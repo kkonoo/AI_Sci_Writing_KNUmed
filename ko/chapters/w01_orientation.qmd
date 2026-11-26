@@ -75,7 +75,7 @@ include-after-body: ../../assets/ai-lab.html
   4. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.
   5. Compound X limits fibrosis in the UUO model and may act through TGF-β/Smad3 signaling.
 - 2번처럼 배경에 관한 주장은 근거 문헌이 필요함. 근거는 [W8](w08_literature.qmd)에서 찾고 [W10](w10_introduction.qmd)에서 확인함.
-- 이 다섯 문장은 [W4](w04_paragraphs.qmd)에서 한 문단으로 다시 씀.
+- 이 다섯 문장은 [W3](w03_paragraphs.qmd)에서 한 문단으로 다시 씀.
 
 ## 논문 종류에 따라 질문의 모양이 다르다
 
@@ -100,7 +100,7 @@ include-after-body: ../../assets/ai-lab.html
   - 아직 데이터가 없거나, 그림 3~4개 분량이 되지 않음.
   - 지도교수 동의를 받기 어렵거나, 결과를 동료에게 보여 줄 수 없음.
 - 애매하면 이번 주 안에 지도교수와 담당교수에게 물음.
-- 동료의 원고는 남의 원고임. 같은 반 학생의 Figure 순서 카드, 초안, 참고문헌 표는 AI에 넣지 않음([AI 사용 규칙](../ai_rules.qmd#traffic-light)의 넣지 않기 칸). 자세한 내용은 [W2](w02_ai_basics.qmd)에서 다룸.
+- 동료의 원고는 남의 원고임. 같은 반 학생의 Figure 순서 카드, 초안, 참고문헌 표는 AI에 넣지 않음([AI 사용 규칙](../ai_rules.qmd#traffic-light)의 넣지 않기 칸). 자세한 내용은 [W4](w04_ai_basics.qmd)에서 다룸.
 
 ## 트랙 B 논문은 다섯 가지 기준으로 고른다
 
@@ -138,7 +138,7 @@ I am a graduate student in biomedical science. I am writing my first research ar
 Answer in plain English in under 200 words.
 ```
 
-2단계, 트랙 A (15분): 가상의 예시로 연습함. 자기 결과는 아직 넣지 않음. 지도교수 동의와 도구 설정은 W2에서 확인함. AI가 낸 순서와 결론 문장을 받은 뒤, 결론 문장이 그림이 보여 주는 것보다 세게 말하는 곳에 표시함. 그다음 자기 그림 목록은 AI 없이 직접 씀.
+2단계, 트랙 A (15분): 가상의 예시로 연습함. 자기 결과는 아직 넣지 않음. 지도교수 동의와 도구 설정은 W4에서 확인함. AI가 낸 순서와 결론 문장을 받은 뒤, 결론 문장이 그림이 보여 주는 것보다 세게 말하는 곳에 표시함. 그다음 자기 그림 목록은 AI 없이 직접 씀.
 
 ```text
 Below are four figures from a hypothetical mouse study, in random order.
@@ -192,7 +192,7 @@ AI가 자주 틀리는 지점
 - [ ] 저널 페이지에서 오픈 액세스 표시와 Peer Review File 링크를 직접 찾음. (원문 확인)
 - [ ] AI가 쓴 결론 문장을 그림 설명 옆에 두고, 그림이 보여 주는 것보다 세게 말하지 않는지 봄. (나란히 읽기)
 - [ ] 트랙 선택을 지도교수, 담당교수와 확인함. (교차 확인)
-- [ ] 트랙 B는 AI가 낸 다섯 편 가운데 몇 편이 조건을 모두 만족했는지 세어 둠. W2 검증 실습의 재료로 씀.
+- [ ] 트랙 B는 AI가 낸 다섯 편 가운데 몇 편이 조건을 모두 만족했는지 세어 둠. W4 검증 실습의 재료로 씀.
 
 # 과제 {#assignment}
 

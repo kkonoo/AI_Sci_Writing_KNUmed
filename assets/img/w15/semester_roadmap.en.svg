@@ -9,14 +9,14 @@
 <g id="Choosing-a-track">
 <text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="35.32" font-size="3.881" fill="#262B33">Choosing a track</tspan></text>
 </g>
-<g id="AI-rules-and-checks">
-<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="41.82" font-size="3.881" fill="#262B33">AI rules and checks</tspan></text>
-</g>
 <g id="Readable-sentences">
-<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="48.32" font-size="3.881" fill="#262B33">Readable sentences</tspan></text>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="41.82" font-size="3.881" fill="#262B33">Readable sentences</tspan></text>
 </g>
 <g id="One-paragraph-summary">
-<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="54.82" font-size="3.881" fill="#262B33">One-paragraph summary</tspan></text>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="48.32" font-size="3.881" fill="#262B33">One-paragraph summary</tspan></text>
+</g>
+<g id="AI-rules-and-checks">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="7.00" y="54.82" font-size="3.881" fill="#262B33">AI rules and checks</tspan></text>
 </g>
 <g id="Part-2-Writing">
 <polygon points="61.65,6.00 153.76,6.00 163.76,16.00 153.76,26.00 61.65,26.00 71.65,16.00" fill="#ACAEB1"/>

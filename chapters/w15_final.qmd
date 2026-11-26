@@ -44,7 +44,7 @@ By the end of this week, you will be able to:
 |---|---|---|---|
 | Consistency | The conclusion of each figure carries through the Results, Discussion, Abstract and Title with the same strength | 9 | 7 |
 | Accuracy | Numbers and references can be checked against the sources | 9 | 7 |
-| Readability | The manuscript passes the checklists of W3 and W13 | 9 | 7 |
+| Readability | The manuscript passes the checklists of W2 and W13 | 9 | 7 |
 | Format | The manuscript follows the author guidelines of the target journal chosen in W14 | 3 | 3 |
 | Comparison memo | The memo finds the differences and explains their reasons, following the principles below | | 6 |
 | Total | | 30 | 30 |
@@ -121,7 +121,7 @@ These are the places where AI often goes wrong when it makes a table of numbers.
 
 This list collects the checks of earlier weeks in manuscript order. Use it together with the detailed lists on each week's page.
 
-- [ ] The five-sentence summary from W1 is in its places in the manuscript, in the same words and with the same strength. Every paragraph has a topic sentence, and the topic sentences alone show the story line of the manuscript. ([W1](w01_orientation.qmd), [W4](w04_paragraphs.qmd), [W13](w13_polishing.qmd))
+- [ ] The five-sentence summary from W1 is in its places in the manuscript, in the same words and with the same strength. Every paragraph has a topic sentence, and the topic sentences alone show the story line of the manuscript. ([W1](w01_orientation.qmd), [W3](w03_paragraphs.qmd), [W13](w13_polishing.qmd))
 - [ ] The order of the figure order cards and the order of the Results paragraphs are the same. The interpretation sentence or subheading of each paragraph makes the same claim as the conclusion sentence of that figure. The same data are not shown in both a figure and a table. ([W5](w05_figure_storyboard.qmd), [W7](w07_results.qmd))
 - [ ] Each figure legend gives n, the statistical test and what the error bars show. Someone could repeat the experiments or analyses from the Methods alone. ([W6](w06_methods_legends.qmd))
 - [ ] The Results report the results, and the interpretation goes in the Discussion. ([W7](w07_results.qmd))
@@ -130,9 +130,9 @@ This list collects the checks of earlier weeks in manuscript order. Use it toget
 - [ ] The Discussion starts with the main findings, compares them with earlier studies, states the limitations and answers the question of the Introduction. ([W11](w11_discussion.qmd))
 - [ ] The numbers and the strength of claims in the Abstract and Title are the same as in the Results, and the word counts are within the journal's limits. ([W12](w12_abstract_title.qmd))
 - [ ] For each peer review comment, you record whether and where you addressed it, or why you did not. ([W9](w09_midterm_review.qmd), [W13](w13_polishing.qmd))
-- [ ] You checked for the ten W3 patterns and for translationese, and the whole manuscript follows the term list. ([W3](w03_readable_sentences.qmd), [W13](w13_polishing.qmd))
+- [ ] You checked for the ten W2 patterns and for translationese, and the whole manuscript follows the term list. ([W2](w02_readable_sentences.qmd), [W13](w13_polishing.qmd))
 - [ ] You filled in the submission checklist of the target journal, and the manuscript has a Data availability statement and a statement disclosing AI use. ([W14](w14_submission_response.qmd))
-- [ ] The AI use log covers every place in the manuscript where you used AI. No data figure was made or edited with AI. ([W2](w02_ai_basics.qmd), [AI use rules](../ai_rules.qmd))
+- [ ] The AI use log covers every place in the manuscript where you used AI. No data figure was made or edited with AI. ([W4](w04_ai_basics.qmd), [AI use rules](../ai_rules.qmd))
 
 # Assignment {#assignment}
 

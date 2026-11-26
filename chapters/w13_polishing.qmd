@@ -12,7 +12,7 @@ By the end of this week, you will be able to:
 
 - Find translationese in your manuscript and rewrite those sentences in English word order.
 - Check that the story line of the whole manuscript follows your five sentences from [W1](w01_orientation.qmd).
-- Use the ten patterns from [W3](w03_readable_sentences.qmd) as a checklist and go through the whole manuscript.
+- Use the ten patterns from [W2](w02_readable_sentences.qmd) as a checklist and go through the whole manuscript.
 - Make a term list so that you call each concept by only one term.
 - Read a peer's manuscript without AI and tell the author where you got stuck, with locations and questions.
 :::
@@ -42,15 +42,15 @@ The examples come from the fictional example study that we have used since W5: t
 | What it means | First and last paragraphs of the Discussion, conclusion of the Abstract, Title |
 
 - When the same content appears in several places, it must appear in the same words and with the same strength. If the question raised in the Introduction differs from the question the Discussion answers, fix it. Fix it too if what was found becomes stronger in the Abstract or the Title.
-- Read only the topic sentences one after another. In the Introduction and the Discussion, read the first sentence of each paragraph. In the Results, read the interpretation sentence at the end of each paragraph. If the story breaks, or if the same subject comes up in two places, change the order of the paragraphs ([W4](w04_paragraphs.qmd)).
+- Read only the topic sentences one after another. In the Introduction and the Discussion, read the first sentence of each paragraph. In the Results, read the interpretation sentence at the end of each paragraph. If the story breaks, or if the same subject comes up in two places, change the order of the paragraphs ([W3](w03_paragraphs.qmd)).
 - Try explaining the story line of your manuscript to a peer in a few minutes. If you cannot explain it, readers will not be able to follow it either (Mensh & Kording 2017, rule 10).
 - Find what to fix from how readers react. Table 1 of Mensh & Kording (2017) pairs readers' reactions with the rules that were broken. Below is part of that table, matched to the weeks of this course. If you hold the comments from peer review against this table, you can judge whether to fix something large or something small.
 
 | How readers react | Rule broken (Mensh & Kording 2017) | Week to revisit |
 |---|---|---|
 | They cannot give a one-sentence summary | Focus on one central contribution | W1 |
-| They ask why something matters or what it means | Context, content, conclusion structure | W4, W10, W11 |
-| They stumble on a short stretch of text | Logical flow | W3, W4 |
+| They ask why something matters or what it means | Context, content, conclusion structure | W3, W10, W11 |
+| They stumble on a short stretch of text | Logical flow | W2, W3 |
 | After reading the Abstract, they cannot pitch the work in a few words | The Abstract as a compact summary | W12 |
 | They do not agree with your conclusion | The Results show why the conclusion is justified | W7 |
 | They are left with criticisms or questions | The Discussion deals with criticism first | W11 |
@@ -71,12 +71,12 @@ The examples come from the fictional example study that we have used since W5: t
 
 - Look also for grammar mistakes that have the same cause. Examples are plural forms of uncountable nouns, such as informations, researches and evidences, and different with (→ different from).
 
-## Check for signs of AI writing with the ten W3 patterns
+## Check for signs of AI writing with the ten W2 patterns
 
-- For what each pattern means and for examples, go back to [W3](w03_readable_sentences.qmd#principles). This week you use the patterns as a checklist for the whole manuscript.
+- For what each pattern means and for examples, go back to [W2](w02_readable_sentences.qmd#principles). This week you use the patterns as a checklist for the whole manuscript.
 - In an English manuscript, it is quicker to search first for the markers below with the find function (Ctrl+F). You do not need to fix every match. Judge whether that sentence is hard to read.
 
-| W3 pattern | What to search for in an English manuscript |
+| W2 pattern | What to search for in an English manuscript |
 |---|---|
 | 1 Noun stack | Noun clusters such as fibrosis marker gene expression level |
 | 2 Related words far apart | Sentences in which a long modifier follows the subject and the verb comes late |
@@ -185,7 +185,7 @@ Revised full manuscript
 - Differences by track: track B students mark the places they revised after reading the original paper. The reference point for the W15 comparison memo is the version you submitted in W12, not this revised manuscript.
 - Grading criteria
   - The five sentences are in their places in the manuscript, in the same words and with the same strength.
-  - There is less translationese and fewer W3 patterns, and the meaning and numbers did not change during revision.
+  - There is less translationese and fewer W2 patterns, and the meaning and numbers did not change during revision.
   - The whole manuscript follows the term list.
   - For each peer comment, the table says whether and where you addressed it, or why you did not.
 - The review you wrote for your peer is graded as part of the peer review score (the W13 share of 10%, out of 20% of the total grade). The criteria are the same as in [W9](w09_midterm_review.qmd#assignment). We check that each comment has a location and a reason, and that major and minor problems are kept apart. The instructor does the grading.

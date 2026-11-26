@@ -1,6 +1,6 @@
 ---
 title: "Glossary"
-subtitle: "Computers, the cloud and AI tools"
+subtitle: "Appendix · computers, the cloud and AI tools"
 date: last-modified
 ---
 
@@ -111,7 +111,7 @@ On personal accounts, your conversations can be used to train models. Track A st
 - When you turn the setting off, new conversations from then on are not used for training. Data already used in training is not removed (Claude's notice).
 - ChatGPT and Gemini state that if you send feedback, such as a thumbs up or down, that conversation may be used for training. Do not press feedback buttons in conversations that contain your manuscript.
 - Gemini states that even with Keep Activity off, conversations are kept for up to 72 hours, and that some conversations are reviewed by people. Do not put in anything that others must not see.
-- Menu names and locations change often. Check them again on your own account in the first practice session ([W2](chapters/w02_ai_basics.qmd)).
+- Menu names and locations change often. Check them again on your own account in the practice session of [W4](chapters/w04_ai_basics.qmd).
 
 # Three ways to use AI: Chat, Cowork, Code {#modes}
 
@@ -153,7 +153,7 @@ Agent
 Two points matter for this course.
 
 - If you connect storage such as Google Drive through a connector, the files in it can also go into AI. Before you connect it, sort its content with the [AI traffic light](ai_rules.qmd#traffic-light).
-- A skill lets you reuse your writing rules without explaining them every time. For example, if you turn the pattern checklist of [W3](chapters/w03_readable_sentences.qmd) into a skill, you can check every revision against the same standard.
+- A skill lets you reuse your writing rules without explaining them every time. For example, if you turn the pattern checklist of [W2](chapters/w02_readable_sentences.qmd) into a skill, you can check every revision against the same standard.
 
 # Sources {#sources}
 

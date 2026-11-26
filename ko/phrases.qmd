@@ -8,7 +8,7 @@ date: last-modified
 
 - 표현을 그대로 붙이지 않는다. 내 결과와 근거의 세기에 맞게 바꿔 쓴다.
 - 대괄호 `[ ]`는 내 내용으로 채울 자리다.
-- 상투 표현은 원고 전체에서 한두 번까지만 쓴다. 자세한 기준은 [W3](chapters/w03_readable_sentences.qmd)의 패턴 10이다.
+- 상투 표현은 원고 전체에서 한두 번까지만 쓴다. 자세한 기준은 [W2](chapters/w02_readable_sentences.qmd)의 패턴 10이다.
 - 관사, 시제, 전치사처럼 문법이 자신 없으면 [논문 영어 기초](english_basics.qmd)를 먼저 본다.
 - 예문의 수치는 수업 공통의 가상의 예시 연구에서 가져왔다.
 
@@ -177,7 +177,7 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W12](ch
 
 ## AI 사용 표기 {#ai-disclosure}
 
-저널이 정한 문구가 있으면 그것을 쓴다. 일반 예시는 [W2](chapters/w02_ai_basics.qmd)에 있다.
+저널이 정한 문구가 있으면 그것을 쓴다. 일반 예시는 [W4](chapters/w04_ai_basics.qmd)에 있다.
 
 - Acknowledgments (글쓰기 도움): During the preparation of this manuscript, the authors used [tool name and version] to check grammar and improve the readability of the text. The authors reviewed and edited all suggested changes and take full responsibility for the content of the article.
 - Methods (분석 코드 도움): We used [tool name and version] to help write the [language] code that [task]. The authors reviewed and tested all code before use.

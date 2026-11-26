@@ -6,12 +6,10 @@ project:
   # 렌더 대상을 명시 — 이 목록에 없는 .qmd 는 빌드하지 않음
   render:
     - index.qmd
-    - ai_rules.qmd
-    - glossary.qmd
     - chapters/w01_orientation.qmd
-    - chapters/w02_ai_basics.qmd
-    - chapters/w03_readable_sentences.qmd
-    - chapters/w04_paragraphs.qmd
+    - chapters/w02_readable_sentences.qmd
+    - chapters/w03_paragraphs.qmd
+    - chapters/w04_ai_basics.qmd
     - chapters/w05_figure_storyboard.qmd
     - chapters/w06_methods_legends.qmd
     - chapters/w07_results.qmd
@@ -23,16 +21,16 @@ project:
     - chapters/w13_polishing.qmd
     - chapters/w14_submission_response.qmd
     - chapters/w15_final.qmd
-    - resources.qmd
+    - ai_rules.qmd
+    - glossary.qmd
     - phrases.qmd
     - english_basics.qmd
+    - resources.qmd
     - ko/index.qmd
-    - ko/ai_rules.qmd
-    - ko/glossary.qmd
     - ko/chapters/w01_orientation.qmd
-    - ko/chapters/w02_ai_basics.qmd
-    - ko/chapters/w03_readable_sentences.qmd
-    - ko/chapters/w04_paragraphs.qmd
+    - ko/chapters/w02_readable_sentences.qmd
+    - ko/chapters/w03_paragraphs.qmd
+    - ko/chapters/w04_ai_basics.qmd
     - ko/chapters/w05_figure_storyboard.qmd
     - ko/chapters/w06_methods_legends.qmd
     - ko/chapters/w07_results.qmd
@@ -44,9 +42,11 @@ project:
     - ko/chapters/w13_polishing.qmd
     - ko/chapters/w14_submission_response.qmd
     - ko/chapters/w15_final.qmd
-    - ko/resources.qmd
+    - ko/ai_rules.qmd
+    - ko/glossary.qmd
     - ko/phrases.qmd
     - ko/english_basics.qmd
+    - ko/resources.qmd
 
 
 website:
@@ -59,21 +59,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: ai_rules.qmd
-        text: "AI rules"
-      - href: glossary.qmd
-        text: "Glossary"
       - text: "Weeks"            # ← 드롭다운. 한국어 라벨은 assets/language-switch.html 에서 바꿈
         menu:
           - text: "Part 1 · Foundations"
           - href: chapters/w01_orientation.qmd
             text: "W1 · Orientation"
-          - href: chapters/w02_ai_basics.qmd
-            text: "W2 · AI basics"
-          - href: chapters/w03_readable_sentences.qmd
-            text: "W3 · Readable English sentences"
-          - href: chapters/w04_paragraphs.qmd
-            text: "W4 · Paragraphs"
+          - href: chapters/w02_readable_sentences.qmd
+            text: "W2 · Readable English sentences"
+          - href: chapters/w03_paragraphs.qmd
+            text: "W3 · Paragraphs"
+          - href: chapters/w04_ai_basics.qmd
+            text: "W4 · AI basics"
           - text: "---"
           - text: "Part 2 · Writing the manuscript"
           - href: chapters/w05_figure_storyboard.qmd
@@ -100,10 +96,18 @@ website:
             text: "W14 · Submission and reviewer response"
           - href: chapters/w15_final.qmd
             text: "W15 · Final"
+      - text: "Appendix"         # ← 드롭다운. 한국어 라벨은 assets/language-switch.html 에서 바꿈
+        menu:
+          - href: ai_rules.qmd
+            text: "AI rules"
+          - href: glossary.qmd
+            text: "Glossary"
+          - href: phrases.qmd
+            text: "Phrases"
+          - href: english_basics.qmd
+            text: "English basics"
       - href: resources.qmd
         text: "Resources"
-      - href: phrases.qmd
-        text: "Phrases"
 
   sidebar:
     - id: en
@@ -112,20 +116,16 @@ website:
       contents:
         - text: "Home"
           href: index.qmd
-        - text: "AI use rules"
-          href: ai_rules.qmd
-        - text: "Glossary"
-          href: glossary.qmd
         - section: "Part 1 · Foundations"
           contents:
             - text: "W1. Orientation"
               href: chapters/w01_orientation.qmd
-            - text: "W2. AI basics"
-              href: chapters/w02_ai_basics.qmd
-            - text: "W3. Readable English sentences"
-              href: chapters/w03_readable_sentences.qmd
-            - text: "W4. Paragraphs"
-              href: chapters/w04_paragraphs.qmd
+            - text: "W2. Readable English sentences"
+              href: chapters/w02_readable_sentences.qmd
+            - text: "W3. Paragraphs"
+              href: chapters/w03_paragraphs.qmd
+            - text: "W4. AI basics"
+              href: chapters/w04_ai_basics.qmd
         - section: "Part 2 · Writing the manuscript"
           contents:
             - text: "W5. Figure storyboard"
@@ -152,12 +152,18 @@ website:
               href: chapters/w14_submission_response.qmd
             - text: "W15. Final"
               href: chapters/w15_final.qmd
+        - section: "Appendix"
+          contents:
+            - text: "AI use rules"
+              href: ai_rules.qmd
+            - text: "Glossary"
+              href: glossary.qmd
+            - text: "Phrase sheet"
+              href: phrases.qmd
+            - text: "English basics for papers"
+              href: english_basics.qmd
         - text: "Resources"
           href: resources.qmd
-        - text: "Appendix: Phrase sheet"
-          href: phrases.qmd
-        - text: "Appendix: English basics"
-          href: english_basics.qmd
 
     - id: ko
       style: "floating"
@@ -165,20 +171,16 @@ website:
       contents:
         - text: "홈"
           href: ko/index.qmd
-        - text: "AI 사용 규칙"
-          href: ko/ai_rules.qmd
-        - text: "기초 용어"
-          href: ko/glossary.qmd
         - section: "Part 1 · 기초"
           contents:
             - text: "W1. 오리엔테이션"
               href: ko/chapters/w01_orientation.qmd
-            - text: "W2. AI 기본기"
-              href: ko/chapters/w02_ai_basics.qmd
-            - text: "W3. 읽히는 영어 문장"
-              href: ko/chapters/w03_readable_sentences.qmd
-            - text: "W4. 문단"
-              href: ko/chapters/w04_paragraphs.qmd
+            - text: "W2. 읽히는 영어 문장"
+              href: ko/chapters/w02_readable_sentences.qmd
+            - text: "W3. 문단"
+              href: ko/chapters/w03_paragraphs.qmd
+            - text: "W4. AI 기본기"
+              href: ko/chapters/w04_ai_basics.qmd
         - section: "Part 2 · 원고 쓰기"
           contents:
             - text: "W5. Figure 스토리보드"
@@ -205,12 +207,18 @@ website:
               href: ko/chapters/w14_submission_response.qmd
             - text: "W15. 기말"
               href: ko/chapters/w15_final.qmd
+        - section: "부록"
+          contents:
+            - text: "AI 사용 규칙"
+              href: ko/ai_rules.qmd
+            - text: "기초 용어"
+              href: ko/glossary.qmd
+            - text: "표현 모음"
+              href: ko/phrases.qmd
+            - text: "논문 영어 기초"
+              href: ko/english_basics.qmd
         - text: "참고자료"
           href: ko/resources.qmd
-        - text: "부록: 표현 모음"
-          href: ko/phrases.qmd
-        - text: "부록: 논문 영어 기초"
-          href: ko/english_basics.qmd
 
   page-footer:
     left: "Copyright 2026, Eunji"

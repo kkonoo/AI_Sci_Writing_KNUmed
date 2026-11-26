@@ -6,7 +6,7 @@ date: last-modified
 
 이 페이지는 영어 문법을 처음부터 가르치지 않는다. 의학·생명과학 논문에서 자주 틀리는 것만 모았다. 수업 시간에 따로 다루지 않으니 혼자 공부할 때 쓴다.
 
-- 문장을 읽기 쉽게 쓰는 법은 [W3](chapters/w03_readable_sentences.qmd), 문단은 [W4](chapters/w04_paragraphs.qmd)에 있다.
+- 문장을 읽기 쉽게 쓰는 법은 [W2](chapters/w02_readable_sentences.qmd), 문단은 [W3](chapters/w03_paragraphs.qmd)에 있다.
 - 절마다 자주 쓰는 표현은 [표현 모음](phrases.qmd)에 있다.
 - 예문은 수업 공통의 가상의 예시 연구(UUO 섬유화 모델과 compound X)에서 가져왔다.
 
@@ -87,7 +87,7 @@ date: last-modified
   - 후: The expression of these genes was lower.
   - 전: The proportion of MF2 cells among fibroblasts were higher in patients with fibrosis.
   - 후: The proportion of MF2 cells among fibroblasts was higher in patients with fibrosis.
-- 주어와 동사를 가까이 두면 이 실수도 줄어든다([W3](chapters/w03_readable_sentences.qmd)의 패턴 2).
+- 주어와 동사를 가까이 두면 이 실수도 줄어든다([W2](chapters/w02_readable_sentences.qmd)의 패턴 2).
 
 ## 전치사 {#prepositions}
 
@@ -115,7 +115,7 @@ date: last-modified
 | has the ability to | can |
 | in the case of | for, in |
 | a large number of | many |
-| performed an analysis of | analyzed ([W3](chapters/w03_readable_sentences.qmd)의 패턴 6) |
+| performed an analysis of | analyzed ([W2](chapters/w02_readable_sentences.qmd)의 패턴 6) |
 | it is important to note that | 지운다. 중요한 내용이면 바로 쓴다 |
 
 - 흐릿한 말 대신 구체적인 말을 쓴다. various methods 대신 방법 이름을 쓴다. markedly 대신 수치를 쓴다.

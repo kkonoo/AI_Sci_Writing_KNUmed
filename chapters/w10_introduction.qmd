@@ -36,7 +36,7 @@ The examples come from a fictional example study. In this study, the fictional d
 | This study | How does this study fill the gap? | The last paragraph |
 
 - For a manuscript with 3–4 figures, 4–5 paragraphs are enough.
-- Write every paragraph except the last in the order context → what is known → what is not known. The unknown at the end of one paragraph becomes the narrower context of the next. For example, end the first paragraph with a gap in the field, the second with a gap in the subfield, and the third with the gap that this study fills (Mensh & Kording 2017, rule 6). This is the same frame as the paragraph principles in [W4](w04_paragraphs.qmd).
+- Write every paragraph except the last in the order context → what is known → what is not known. The unknown at the end of one paragraph becomes the narrower context of the next. For example, end the first paragraph with a gap in the field, the second with a gap in the subfield, and the third with the gap that this study fills (Mensh & Kording 2017, rule 6). This is the same frame as the paragraph principles in [W3](w03_paragraphs.qmd).
 - In the first sentence, give one fact or number that readers can check.
 - Before: *Kidney fibrosis has attracted increasing attention in recent years and plays a crucial role in chronic kidney disease.*
 - After: *Chronic kidney disease affects more than 800 million people worldwide [1]. Fibrosis is the hallmark of progressive kidney disease of almost any cause [2].*

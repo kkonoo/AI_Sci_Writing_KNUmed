@@ -1,5 +1,5 @@
 ---
-title: "W2. AI basics"
+title: "W4. AI basics"
 subtitle: "Part 1 · Foundations"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -62,7 +62,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 
 ### Decide the traffic light row before you put anything in
 
-![The AI traffic light. The lower the row, the more you must weigh before you put something in. Nothing in the bottom row goes in.](../assets/img/w02/traffic_light.en.svg){fig-alt="A vertical traffic light. From the top, five rows: Free to use, Always verify, Conditional (track A), Conditional (received reviews) and Do not put in. Each row lists examples of what belongs there."}
+![The AI traffic light. The lower the row, the more you must weigh before you put something in. Nothing in the bottom row goes in.](../assets/img/w04/traffic_light.en.svg){fig-alt="A vertical traffic light. From the top, five rows: Free to use, Always verify, Conditional (track A), Conditional (received reviews) and Do not put in. Each row lists examples of what belongs there."}
 
 - The row depends on what you want to put in and on who owns it. The criteria are in the [traffic light table](../ai_rules.qmd#traffic-light). If you are unsure, ask the instructor before you put it in.
 - Practice in class (10 minutes): students sort the cases below into rows and explain why. The table also gives the answers for the instructor.
@@ -181,7 +181,7 @@ AI lab: press the "Put in the AI lab" button under a prompt block above, or writ
 
 # 3. Verify and revise {#verify-and-revise}
 
-This week you mainly check the source and cross-check. You practice reading side by side in [W3](w03_readable_sentences.qmd).
+This week you mainly check the source and cross-check. You practiced reading side by side in [W2](w02_readable_sentences.qmd).
 
 Where AI often goes wrong
 
