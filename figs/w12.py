@@ -1,6 +1,6 @@
-"""W12 figure: polish from the largest unit to the smallest.
+"""W12 figure: each part of the Abstract comes from another part of the manuscript.
 
-Korean: assets/img/w12/big_to_small.svg, English: big_to_small.en.svg.
+Korean: assets/img/w12/abstract_sources.svg, English: abstract_sources.en.svg.
 """
 from common import scene, save
 
@@ -8,40 +8,49 @@ W = "w12"
 
 TEXT = {
     "ko": dict(
-        alt="다듬기 순서: 내용과 그림 순서, 단락, 문장, 단어와 문법",
-        levels=["1. 내용과 그림 순서", "2. 단락", "3. 문장", "4. 단어와 문법"],
-        head="바깥부터 안으로 다듬는다",
-        why="문장부터 다듬으면 나중에 단락을 빼거나 옮길 때 그 수고가 버려진다.",
-        first=("먼저 볼 것", "각 Figure의 결론 문장이 Results 첫 문장, Abstract, Title에 같은 강도로 들어 있는가"),
-        pt=12,
+        alt="Abstract의 다섯 부분과 각 부분을 가져오는 곳",
+        manuscript="원고",
+        abs=[("배경", "1문장"), ("gap", "1문장"), ("접근", "1~2문장"), ("핵심 결과", "2~3문장, 수치와 함께"), ("결론", "1문장")],
+        intro="첫 문단, gap 문장, 마지막 문단", meth="종, 모델, n", res="결론 문장과 수치", disc="마지막 문장",
+        note="Abstract에만 있는 결과나 주장은 없어야 한다. 접근은 Introduction 마지막 문단에서도 가져온다.",
     ),
     "en": dict(
-        alt="Order of polishing: content and figure order, paragraphs, sentences, words and grammar",
-        levels=["1. Content and figure order", "2. Paragraphs", "3. Sentences", "4. Words and grammar"],
-        head="Polish from the outside in",
-        why="If you polish sentences first, that work is lost when you later cut or move a paragraph.",
-        first=("Check first", "Does each figure's conclusion sentence appear, with the same strength, in the first "
-                               "Results sentence, the Abstract and the Title?"),
-        pt=11.5,
+        alt="The five parts of the Abstract and where each part comes from",
+        manuscript="Manuscript",
+        abs=[("Background", "1 sentence"), ("Gap", "1 sentence"), ("Approach", "1–2 sentences"),
+             ("Key results", "2–3 sentences, with numbers"), ("Conclusion", "1 sentence")],
+        intro="First paragraph, gap sentence, last paragraph", meth="Species, model, n",
+        res="Conclusion sentences and numbers", disc="Last sentence",
+        note="No result or claim should appear only in the Abstract. The approach also comes from the last paragraph of the Introduction.",
     ),
 }
+KEY = 3  # key results
 
 
-def big_to_small(lang="ko"):
+def abstract_sources(lang="ko"):
     t = TEXT[lang]
-    pt = t["pt"]
-    s = scene(h=92, alt=t["alt"])
-    s.band(4, 4, 148, 84, t["levels"][0], style="faint", name_pt=pt)
-    s.band(14, 18, 128, 62, t["levels"][1], style="soft", name_pt=pt)
-    s.band(24, 32, 108, 40, t["levels"][2], style="mid", name_pt=pt)
-    s.box(34, 46, 88, 18, t["levels"][3], style="plain", name_pt=pt)
-    s.text(162, 6, 74, 10, t["head"], bold=True, name_pt=12.5 if lang == "ko" else 12)
-    s.text(162, 18, 74, 26, t["why"], name_pt=11 if lang == "ko" else 10.5)
-    s.box(162, 50, 74, 38, t["first"][0], sub=t["first"][1], style="primary", align="left",
-          name_pt=12 if lang == "ko" else 11.5, **({} if lang == "ko" else {"sub_pt": 9.5}))
-    return save(s, W, "big_to_small" + ("" if lang == "ko" else ".en"))
+    en = lang == "en"
+    h, gap, y0 = 16, 4, 13
+    s = scene(h=y0 + 5 * h + 4 * gap + (18 if en else 14), alt=t["alt"])
+    s.text(4, 4, 80, 7, t["manuscript"], bold=True, name_pt=12)
+    s.text(150, 4, 86, 7, "Abstract", bold=True, name_pt=12)
+    rows = [y0 + i * (h + gap) for i in range(5)]
+    right = [s.box(150, y, 86, h, n, sub=sub, style="primary" if i == KEY else "soft", name_pt=11.5)
+             for i, (y, (n, sub)) in enumerate(zip(rows, t["abs"]))]
+    lw = 88 if en else 72
+    intro = s.box(4, rows[0], lw, 2 * h + gap, "Introduction", sub=t["intro"])
+    meth = s.box(4, rows[2], lw, h, "Methods", sub=t["meth"])
+    res = s.box(4, rows[3], lw, h, "Results", sub=t["res"])
+    disc = s.box(4, rows[4], lw, h, "Discussion", sub=t["disc"])
+    s.link(intro, right[0], sides="right>left")
+    s.link(intro, right[1], sides="right>left")
+    s.link(meth, right[2], sides="right>left")
+    s.link(res, right[3], sides="right>left")
+    s.link(disc, right[4], sides="right>left")
+    s.text(4, rows[4] + h + 3, 232, 11 if en else 7, t["note"], name_pt=10, color="muted")
+    return save(s, W, "abstract_sources" + ("" if lang == "ko" else ".en"))
 
 
 if __name__ == "__main__":
-    big_to_small("ko")
-    big_to_small("en")
+    abstract_sources("ko")
+    abstract_sources("en")

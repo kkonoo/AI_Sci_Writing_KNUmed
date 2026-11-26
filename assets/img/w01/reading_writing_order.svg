@@ -46,7 +46,7 @@
 </g>
 <g id="그림">
 <rect x="4.00" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#2F343B"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="21.67" y="81.86" font-size="3.881" fill="#FFFFFF" font-weight="700">그림</tspan><tspan x="21.67" y="87.84" font-size="3.704" fill="#FFFFFF">W4</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="21.67" y="81.86" font-size="3.881" fill="#FFFFFF" font-weight="700">그림</tspan><tspan x="21.67" y="87.84" font-size="3.704" fill="#FFFFFF">W5</tspan></text>
 </g>
 <g id="2">
 <circle cx="61.00" cy="66.00" r="4.80" fill="#ACAEB1"/>
@@ -54,7 +54,7 @@
 </g>
 <g id="Methods-Legend">
 <rect x="43.33" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="61.00" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Methods,</tspan><tspan x="61.00" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Legend</tspan><tspan x="61.00" y="90.36" font-size="3.704" fill="#6B7280">W5</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="61.00" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Methods,</tspan><tspan x="61.00" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Legend</tspan><tspan x="61.00" y="90.36" font-size="3.704" fill="#6B7280">W6</tspan></text>
 </g>
 <g id="3">
 <circle cx="100.33" cy="66.00" r="4.80" fill="#ACAEB1"/>
@@ -62,7 +62,7 @@
 </g>
 <g id="Results">
 <rect x="82.67" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="100.33" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Results</tspan><tspan x="100.33" y="87.84" font-size="3.704" fill="#6B7280">W6</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="100.33" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Results</tspan><tspan x="100.33" y="87.84" font-size="3.704" fill="#6B7280">W7</tspan></text>
 </g>
 <g id="4">
 <circle cx="139.67" cy="66.00" r="4.80" fill="#ACAEB1"/>
@@ -70,7 +70,7 @@
 </g>
 <g id="Introduction">
 <rect x="122.00" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="139.67" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Introduction</tspan><tspan x="139.67" y="87.84" font-size="3.704" fill="#6B7280">W9</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="139.67" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Introduction</tspan><tspan x="139.67" y="87.84" font-size="3.704" fill="#6B7280">W10</tspan></text>
 </g>
 <g id="5">
 <circle cx="179.00" cy="66.00" r="4.80" fill="#ACAEB1"/>
@@ -78,7 +78,7 @@
 </g>
 <g id="Discussion">
 <rect x="161.33" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="179.00" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Discussion</tspan><tspan x="179.00" y="87.84" font-size="3.704" fill="#6B7280">W10</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="179.00" y="81.86" font-size="3.881" fill="#262B33" font-weight="700">Discussion</tspan><tspan x="179.00" y="87.84" font-size="3.704" fill="#6B7280">W11</tspan></text>
 </g>
 <g id="6">
 <circle cx="218.33" cy="66.00" r="4.80" fill="#ACAEB1"/>
@@ -86,7 +86,7 @@
 </g>
 <g id="Abstract-Title">
 <rect x="200.67" y="73.00" width="35.33" height="21.00" rx="0.80" fill="#DADADC"/>
-<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="218.33" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Abstract,</tspan><tspan x="218.33" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Title</tspan><tspan x="218.33" y="90.36" font-size="3.704" fill="#262B33">W11</tspan></text>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="218.33" y="79.33" font-size="3.881" fill="#262B33" font-weight="700">Abstract,</tspan><tspan x="218.33" y="84.38" font-size="3.881" fill="#262B33" font-weight="700">Title</tspan><tspan x="218.33" y="90.36" font-size="3.704" fill="#262B33">W12</tspan></text>
 </g>
 <polyline points="36.30,17.00 85.70,17.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>
 <polyline points="95.30,17.00 144.70,17.00" fill="none" stroke="#6B7280" stroke-width="0.397" stroke-linejoin="round" stroke-dasharray="0.01 1.06" stroke-linecap="round"/>

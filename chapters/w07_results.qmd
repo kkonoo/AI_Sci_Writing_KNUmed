@@ -1,5 +1,5 @@
 ---
-title: "W6. Results"
+title: "W7. Results"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -8,7 +8,7 @@ include-after-body: ../assets/ai-lab.html
 ::: {.callout-note collapse="true"}
 ## This week's goals
 
-- Write one paragraph for each figure, following your W4 figure order cards.
+- Write one paragraph for each figure, following your W5 figure order cards.
 - Write each paragraph in this order: purpose, what was done, result, short interpretation.
 - Put values, n and statistics into result sentences correctly, and keep results apart from interpretation.
 - Find and fix the errors that AI often makes in Results (made-up numbers, significantly without a test, overstated causation).
@@ -16,13 +16,13 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-- The examples come from the same fictional example study as in [W4](w04_figure_storyboard.qmd) and [W5](w05_methods_legends.qmd). The numbers are made up.
+- The examples come from the same fictional example study as in [W5](w05_figure_storyboard.qmd) and [W6](w06_methods_legends.qmd). The numbers are made up.
   - Wet lab: the mouse unilateral ureteral obstruction (UUO) model, compound X (a fictional drug), and n = 6 per group.
   - Dry lab: a reanalysis of single-cell RNA sequencing data from human kidney biopsies, and a myofibroblast subtype (fictional name MF2) that is more common in patients with fibrosis.
 
 ## Principle 1. Write one paragraph per figure, in the order of the cards
 
-- The order of the W4 cards is the order of the Results paragraphs. The conclusion sentence on each card is a candidate for the paragraph's subheading. Decide whether to use subheadings by looking at papers in your target journal.
+- The order of the W5 cards is the order of the Results paragraphs. The conclusion sentence on each card is a candidate for the paragraph's subheading. Decide whether to use subheadings by looking at papers in your target journal.
 - Within a paragraph, follow the order of the panels, and give the panel in parentheses in each sentence (Fig. 2a).
 - Do not mix two figures in one paragraph. If one figure is too large, split its paragraph in two.
 
@@ -31,7 +31,7 @@ include-after-body: ../assets/ai-lab.html
 - Purpose (one sentence): say why you did this experiment. It is the question that the previous paragraph left open.
 - What was done (one sentence): give only the name of the method and the conditions. The detailed procedure is in the Methods.
 - Result (two or three sentences): give the values, n and statistics, in the past tense.
-- Interpretation (one sentence): say what this result means, within the range of the data. Comparison with the literature belongs in the Discussion ([W10](w10_discussion.qmd)).
+- Interpretation (one sentence): say what this result means, within the range of the data. Comparison with the literature belongs in the Discussion ([W11](w11_discussion.qmd)).
 - Example paragraph (fictional example, Figure 2):
 
 ```text
@@ -43,7 +43,7 @@ to 9.6% ± 3.1% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's tes
 Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 ```
 
-![The example paragraph above, split into its four parts. The values, n and statistics are all in the result part.](../assets/img/w06/paragraph_parts.en.svg){fig-alt="On the left are four boxes: purpose, what was done, result and interpretation. On the right, next to each box, are the English sentences of the example paragraph that belong to it."}
+![The example paragraph above, split into its four parts. The values, n and statistics are all in the result part.](../assets/img/w07/paragraph_parts.en.svg){fig-alt="On the left are four boxes: purpose, what was done, result and interpretation. On the right, next to each box, are the English sentences of the example paragraph that belong to it."}
 
 ## Principle 3. Keep results and interpretation apart
 
@@ -65,7 +65,7 @@ Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
   - After: Body weight and serum creatinine did not differ between UUO + vehicle and UUO + compound X mice (P = 0.41 and P = 0.57; Fig. 1b, c).
   - Before: MF2 cells were significantly increased in fibrotic kidneys (P < 10^-50).
   - After: The proportion of MF2 cells among fibroblasts was higher in biopsies with fibrosis than in controls (median 24% versus 7%; n = 8 and 6 patients; P = 0.008, Wilcoxon rank-sum test).
-- The Before of the last example treated tens of thousands of cells as independent samples. The unit of comparison is the patient ([W5](w05_methods_legends.qmd), principle 3).
+- The Before of the last example treated tens of thousands of cells as independent samples. The unit of comparison is the patient ([W6](w06_methods_legends.qmd), principle 3).
 
 ## Principle 5. Do not claim more causation than you showed
 
@@ -80,7 +80,7 @@ Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 
 Have AI polish a paragraph you wrote, then read the two versions side by side to find what changed (30 min).
 
-1. (10 min) Without AI, write one paragraph from one W4 card and your W5 legend. Follow the order in principle 2.
+1. (10 min) Without AI, write one paragraph from one W5 card and your W6 legend. Follow the order in principle 2.
 2. (5 min) Put the card and the paragraph into the prompt below.
 3. (10 min) Read your original paragraph and the AI version side by side. Compare the values, n, tests, significantly, causal verbs and any new interpretation, one item at a time.
 4. (5 min) Record the changes you accepted and the ones you discarded in your [AI use log](../ai_rules.qmd#ai-log).
@@ -151,12 +151,12 @@ Where AI often goes wrong in this week's work:
 Checklist:
 
 - [ ] Every value in the paragraph matches the card and the analysis output files, without rounding.
-- [ ] Every value has n and its unit, and n matches the W5 legend.
+- [ ] Every value has n and its unit, and n matches the W6 legend.
 - [ ] Every comparison described with significantly has a test and a P value.
 - [ ] No comparison with P > 0.05 is written as reduced or increased.
 - [ ] Causal verbs appear only where there is a blocking or manipulation experiment.
 - [ ] The interpretation is one sentence at the end of the paragraph, and comparisons with the literature are left for the Discussion.
-- [ ] The paragraph order matches the order of the W4 cards.
+- [ ] The paragraph order matches the order of the W5 cards.
 
 The three checks this week:
 
@@ -168,10 +168,10 @@ The three checks this week:
 
 Draft Results
 
-- Length: one paragraph for each W4 card (3–4 paragraphs), about 100–200 words each. You may add subheadings.
+- Length: one paragraph for each W5 card (3–4 paragraphs), about 100–200 words each. You may add subheadings.
 - Format: an English manuscript, as one file (Word or PDF). Put the number of the matching card before each paragraph.
 - Track A: write from your own results. For analyses that are not finished, mark the place with [pending]. Do not make up numbers in advance.
-- Track B: write only from the paper's figures, your W5 legends and the paper's Methods. Do not read the Results of the original paper. You submit the comparison with the real paper in W15.
+- Track B: write only from the paper's figures, your W6 legends and the paper's Methods. Do not read the Results of the original paper. You submit the comparison with the real paper in W15.
 - Grading criteria:
   1. The paragraphs follow the order of the cards, and each one runs purpose, what was done, result, interpretation.
   2. The values, n and statistics are correct and match the legends. The word significantly appears only with tested comparisons.

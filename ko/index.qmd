@@ -20,7 +20,8 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 1. 논문 각 부분이 하는 일을 알고, 그림 → Methods → Results → Introduction → Discussion → Abstract → Title 순서로 원고를 쓸 수 있다.
 2. AI에 맡길 일과 맡기면 안 되는 일을 구분하고, AI가 낸 문장, 참고문헌, 수치를 원문으로 확인할 수 있다.
 3. 읽기 어려운 영어 문장(명사 나열, 긴 수식어, 번역투, AI 글에 흔한 표현)을 찾아 고칠 수 있다.
-4. Cover letter와 리뷰어 답변을 정해진 구조로 쓸 수 있다.
+4. 논문의 줄기를 다섯 문장으로 정리하고, 주제문이 분명한 한 문단으로 풀어 쓸 수 있다.
+5. Cover letter와 리뷰어 답변을 정해진 구조로 쓸 수 있다.
 
 ## 두 트랙 {#tracks}
 
@@ -38,36 +39,36 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 
 ## 주차별 계획 {#schedule}
 
-![학기 전체 흐름. 각 Part에서 만든 것이 기말 원고로 모인다.](../assets/img/w15/semester_roadmap.svg){fig-alt="세 개의 화살표 모양 칸: Part 1 기초 W1–W3, Part 2 원고 쓰기 W4–W11, Part 3 다듬기와 투고 W12–W15. 각 칸 아래에 그 Part에서 만드는 것과 동료 리뷰 주차가 적혀 있다."}
+![학기 전체 흐름. 각 Part에서 만든 것이 기말 원고로 모인다.](../assets/img/w15/semester_roadmap.svg){fig-alt="세 개의 화살표 모양 칸: Part 1 기초 W1–W4, Part 2 원고 쓰기 W5–W12, Part 3 다듬기와 투고 W13–W15. 각 칸 아래에 그 Part에서 만드는 것과 동료 리뷰 주차가 적혀 있다."}
 
 ### Part 1 · 기초
 
 | 주 | 주제 | 과제 |
 |---|---|---|
-| 1 | [오리엔테이션](chapters/w01_orientation.qmd) | A: 그림 목록 / B: 논문 고르기 |
+| 1 | [오리엔테이션](chapters/w01_orientation.qmd) | A: 그림 목록 / B: 논문 고르기, 다섯 문장 요약 |
 | 2 | [AI 기본기](chapters/w02_ai_basics.qmd) | AI 답변 하나 검증해 오기 |
 | 3 | [읽히는 영어 문장](chapters/w03_readable_sentences.qmd) | AI가 쓴 문단에서 패턴 찾기 |
+| 4 | [문단](chapters/w04_paragraphs.qmd) | 한 문단 요약 |
 
 ### Part 2 · 원고 쓰기
 
 | 주 | 주제 | 과제 |
 |---|---|---|
-| 4 | [Figure 스토리보드](chapters/w04_figure_storyboard.qmd) | Figure 순서 카드 |
-| 5 | [Methods와 Figure legend](chapters/w05_methods_legends.qmd) | Methods, legend 초안 |
-| 6 | [Results](chapters/w06_results.qmd) | Results 초안 |
-| 7 | [문헌 찾기와 인용](chapters/w07_literature.qmd) | 참고문헌 표와 검증 기록 |
-| 8 | [중간 점검](chapters/w08_midterm_review.qmd) | 리뷰 반영본 |
-| 9 | [Introduction](chapters/w09_introduction.qmd) | Introduction 초안 |
-| 10 | [Discussion](chapters/w10_discussion.qmd) | Discussion 초안 |
-| 11 | [Abstract와 Title](chapters/w11_abstract_title.qmd) | Abstract, Title 3안 |
+| 5 | [Figure 스토리보드](chapters/w05_figure_storyboard.qmd) | Figure 순서 카드 |
+| 6 | [Methods와 Figure legend](chapters/w06_methods_legends.qmd) | Methods, legend 초안 |
+| 7 | [Results](chapters/w07_results.qmd) | Results 초안 |
+| 8 | [문헌 찾기와 인용](chapters/w08_literature.qmd) | 참고문헌 표와 검증 기록 |
+| 9 | [중간 점검](chapters/w09_midterm_review.qmd) | 리뷰 반영본 |
+| 10 | [Introduction](chapters/w10_introduction.qmd) | Introduction 초안 |
+| 11 | [Discussion](chapters/w11_discussion.qmd) | Discussion 초안 |
+| 12 | [Abstract와 Title](chapters/w12_abstract_title.qmd) | Abstract, Title 3안 |
 
 ### Part 3 · 다듬기와 투고
 
 | 주 | 주제 | 과제 |
 |---|---|---|
-| 12 | [다듬기](chapters/w12_polishing.qmd) | 전체 원고 수정본 |
-| 13 | [투고 준비](chapters/w13_submission.qmd) | Cover letter |
-| 14 | [리뷰어 답변](chapters/w14_reviewer_response.qmd) | 답변서 1건 |
+| 13 | [다듬기](chapters/w13_polishing.qmd) | 전체 원고 수정본 |
+| 14 | [투고와 리뷰어 답변](chapters/w14_submission_response.qmd) | Cover letter, 답변서 1건 |
 | 15 | [기말](chapters/w15_final.qmd) | 원고, AI 사용 기록, (B) 비교 메모 |
 
 ## 평가 {#grading}
@@ -77,7 +78,7 @@ AI를 쓸 때는 [AI 사용 규칙](ai_rules.qmd)을 따른다.
 | 주차 과제 | 25% |
 | 기말 원고 | 30% |
 | AI 사용 기록 | 15% |
-| 동료 리뷰 (8주차 10%, 12주차 10%) | 20% |
+| 동료 리뷰 (9주차 10%, 13주차 10%) | 20% |
 | 출석·참여 | 10% |
 
 AI를 썼는지가 아니라 무엇을 맡기고 어떻게 확인했는지를 본다.

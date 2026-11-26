@@ -1,5 +1,5 @@
 ---
-title: "W9. Introduction"
+title: "W10. Introduction"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -9,21 +9,21 @@ include-after-body: ../assets/ai-lab.html
 ## This week's goals
 
 - By the end of this week, you can design an Introduction in four steps: background, why it matters, what existing work cannot do, and this study.
-- You can state the claim of each paragraph in one sentence and attach its evidence from your W7 reference table.
+- You can state the claim of each paragraph in one sentence and attach its evidence from your W8 reference table.
 - You can describe the gap in existing work only as far as you searched, and check that the gap and the design of this study match.
 - You can check in the source whether a citation that AI added actually supports the claim of the sentence.
 :::
 
 # 1. Principles {#principles}
 
-The examples come from a fictional example study. In this study, the fictional drug compound X reduced fibrosis when it was given to mice in the unilateral ureteral obstruction (UUO) model. Compound X and the numbers are made up. Only [1] and [2] in the examples are real papers, and their DOIs were checked. The other numbers are placeholders for numbers from your W7 reference table.
+The examples come from a fictional example study. In this study, the fictional drug compound X reduced fibrosis when it was given to mice in the unilateral ureteral obstruction (UUO) model. Compound X and the numbers are made up. Only [1] and [2] in the examples are real papers, and their DOIs were checked. The other numbers are placeholders for numbers from your W8 reference table.
 
 - [1] Kovesdy CP. Epidemiology of chronic kidney disease: an update 2022. *Kidney Int Suppl.* 2022;12:7–11. <https://doi.org/10.1016/j.kisu.2021.11.003>
 - [2] Chevalier RL, Forbes MS, Thornhill BA. Ureteral obstruction as a model of renal interstitial fibrosis and obstructive nephropathy. *Kidney Int.* 2009;75:1145–1152. <https://doi.org/10.1038/ki.2009.86>
 
 ## Build the Introduction as a four-step funnel, and start with a specific fact
 
-![The Introduction narrows from broad background to the question of this study.](../assets/img/w09/intro_funnel.en.svg){fig-alt="Four boxes that narrow from top to bottom: background, why it matters, what existing work has shown and cannot do, and this study. Each box gives the question that readers ask and the usual length."}
+![The Introduction narrows from broad background to the question of this study.](../assets/img/w10/intro_funnel.en.svg){fig-alt="Four boxes that narrow from top to bottom: background, why it matters, what existing work has shown and cannot do, and this study. Each box gives the question that readers ask and the usual length."}
 
 | Step | What readers ask | Usual length |
 |---|---|---|
@@ -38,16 +38,16 @@ The examples come from a fictional example study. In this study, the fictional d
 - After: *Chronic kidney disease affects more than 800 million people worldwide [1]. Fibrosis is the hallmark of progressive kidney disease of almost any cause [2].*
 - The Before sentence contains nothing that readers can check. "attracted increasing attention" and "plays a crucial role" are stock phrases that are common in AI text.
 
-## Each paragraph has a one-sentence claim, with evidence from your W7 table
+## Each paragraph has a one-sentence claim, with evidence from your W8 table
 
-Before you write any sentences, make a paragraph plan. If the evidence cell of the plan is empty, do one of three things: go back to W7 and find evidence, weaken the claim, or drop the claim.
+Before you write any sentences, make a paragraph plan. If the evidence cell of the plan is empty, do one of three things: go back to W8 and find evidence, weaken the claim, or drop the claim.
 
 | Paragraph | One-sentence claim | Evidence | Status |
 |---|---|---|---|
 | 1. Background | CKD is common, and fibrosis is a shared feature of progressive kidney disease | [1], [2] | Evidence found |
 | 2. Why it matters | There are few treatments that reduce fibrosis directly | None | Needs evidence |
 | 3. What is known | Studies in cells and animal models have shown that TGF-β/Smad3 signaling causes fibrosis | [3]–[5] | Needs checking: [5] is a paper on liver fibrosis |
-| 4. What is missing | Compound X lowered Smad3 phosphorylation in cultured cells, but it has not been tested in the kidney in vivo | [6], W7 search log | Needs checking: confirm "has not been tested" with the search log |
+| 4. What is missing | Compound X lowered Smad3 phosphorylation in cultured cells, but it has not been tested in the kidney in vivo | [6], W8 search log | Needs checking: confirm "has not been tested" with the search log |
 | 5. This study | We tested whether compound X reduces fibrosis in the UUO model | Figures 1–4 of this manuscript | |
 
 ## Group earlier studies and say what they show, instead of listing them
@@ -59,7 +59,7 @@ Before you write any sentences, make a paragraph plan. If the evidence cell of t
 
 ## Claim a gap only as far as you searched
 
-- Write "No study has" only when your W7 search log shows it. Otherwise, write "few studies have" with reference numbers, or write "to our knowledge" and keep the search log.
+- Write "No study has" only when your W8 search log shows it. Otherwise, write "few studies have" with reference numbers, or write "to our knowledge" and keep the search log.
 - Make the gap a size that this study can answer. Four kinds of gap are common. No data exist at this resolution. Earlier designs have confounders. Existing methods cannot distinguish X. Results disagree.
 - Before: *However, no study has investigated anti-fibrotic drugs in the kidney.*
 - After: *Compound X lowers Smad3 phosphorylation in cultured fibroblasts [6]. Whether it reduces kidney fibrosis in vivo has not been reported.*
@@ -71,14 +71,14 @@ Before you write any sentences, make a paragraph plan. If the evidence cell of t
 - If papers in your target journal usually preview the results, give the main result in one sentence at the end. Use a verb of the same strength as in the Results.
 - Before: *In this study, we investigated the role of compound X in kidney disease using various methods.*
 - After: *Here, we tested whether compound X reduces fibrosis in the mouse UUO model. We measured the fibrotic area, fibrosis marker genes and Smad3 phosphorylation. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.*
-- You answer the question of this last paragraph in the first paragraph of the Discussion in W10. Write the question down separately.
+- You answer the question of this last paragraph in the first paragraph of the Discussion in W11. Write the question down separately.
 
 # 2. Try it with AI {#try-with-ai}
 
 Make the paragraph plan with AI, and check the evidence column yourself. Write sentences only after you have checked the plan (25 min).
 
-1. Without AI (5 min): write the question of this study, the gap and the main result, one sentence each. Take the main result from your conclusion sentences in W6.
-2. (10 min) Put the three sentences and your W7 reference table into the first prompt below, and get a paragraph plan.
+1. Without AI (5 min): write the question of this study, the gap and the main result, one sentence each. Take the main result from your conclusion sentences in W7.
+2. (10 min) Put the three sentences and your W8 reference table into the first prompt below, and get a paragraph plan.
 3. (10 min) Check the source for each number in the evidence column. See whether the paper really makes that claim, and correct the status column.
 4. For the assignment: write the paragraphs yourself from the checked plan. If you want an AI draft, use the second prompt and then revise the draft.
 
@@ -98,7 +98,7 @@ Rules:
 (paste the three sentences)
 
 [Reference table: number | authors, year, journal, DOI | my one-line summary, written after reading the paper]
-(paste the W7 table)
+(paste the W8 table)
 ```
 
 ```text
@@ -114,11 +114,11 @@ Write paragraph 3 of the paragraph plan below in English.
 ::: {.callout-tip}
 ## Give AI the one-line summaries that you wrote yourself
 
-The summaries you give AI must be the ones you wrote in W7 after reading each paper. If you give only the bibliographic details, AI fills in the content of the paper from its training data. Content filled in this way looks plausible even when it is wrong.
+The summaries you give AI must be the ones you wrote in W8 after reading each paper. If you give only the bibliographic details, AI fills in the content of the paper from its training data. Content filled in this way looks plausible even when it is wrong.
 :::
 
 - Track A: the question, gap and main result come from your own manuscript, so they are in the "Conditional (track A)" row. Results that you will patent and ideas that you will not make public yet are in the "Do not put in" row.
-- Track B: you are in the "Free to use" row. Write without reading the Introduction of the original paper. Take evidence only from your W7 table. In W7 you did not use the paper you chose as the starting point of your literature search, so your W7 table was built separately from that paper's reference list. Do not put the title, authors or DOI of the paper you chose into a prompt. If a tool has web search, turn it off. Otherwise AI may bring you the Introduction of the original paper.
+- Track B: you are in the "Free to use" row. Write without reading the Introduction of the original paper. Take evidence only from your W8 table. In W8 you did not use the paper you chose as the starting point of your literature search, so your W8 table was built separately from that paper's reference list. Do not put the title, authors or DOI of the paper you chose into a prompt. If a tool has web search, turn it off. Otherwise AI may bring you the Introduction of the original paper.
 - For both tracks, citations and the way they are linked to sentences are in the "Always verify" row.
 
 ::: {#ai-lab}
@@ -130,8 +130,8 @@ AI lab: press the "Put in the AI lab" button under a prompt block above, or writ
 These are the places where AI often goes wrong in an Introduction.
 
 - The citation does not support the sentence. AI cites results from another organ, another species or cultured cells as if they were in vivo results. Check the source: find the claim in the Abstract and Results of that paper.
-- It slips in papers that are not in your table, or it changes the numbers. Check the source: compare the numbers with your W7 table.
-- It inflates the gap. Common phrases are "no study has", "for the first time" and "remains completely unknown". Compare the gap with your W7 search log. Cross-check with your supervisor or classmates whether nobody has really done it.
+- It slips in papers that are not in your table, or it changes the numbers. Check the source: compare the numbers with your W8 table.
+- It inflates the gap. Common phrases are "no study has", "for the first time" and "remains completely unknown". Compare the gap with your W8 search log. Cross-check with your supervisor or classmates whether nobody has really done it.
 - It starts with a stock phrase. If "a growing body of evidence" is not followed by specific evidence, delete it.
 - The preview of results in the last paragraph is stronger than the Results. Examples are "reverses" and "prevents CKD". Read it side by side with the conclusion sentences of the Results to catch this.
 - It lists papers one by one. Group them and rewrite.
@@ -139,14 +139,14 @@ These are the places where AI often goes wrong in an Introduction.
 ::: {.callout-warning}
 ## A paper can exist and still not support the sentence
 
-In W7 you checked that each paper exists. In W9 you check that the paper supports this sentence. Citations that AI writes often have the right number and point to a real paper, but the paper showed something else.
+In W8 you checked that each paper exists. In W10 you check that the paper supports this sentence. Citations that AI writes often have the right number and point to a real paper, but the paper showed something else.
 :::
 
 Checklist:
 
 - [ ] Each paragraph has one claim sentence, and it matches the plan.
 - [ ] For each citation number, I found the claim in the source. I checked numbers in the main text, not in the abstract.
-- [ ] The scope of the gap sentence matches my W7 search log.
+- [ ] The scope of the gap sentence matches my W8 search log.
 - [ ] The design in the last paragraph answers the gap. The species, model and type of data match.
 - [ ] The verbs in the preview of results are as strong as those in the Results.
 - [ ] I read each sentence that AI revised side by side with my original.
@@ -158,7 +158,7 @@ This week uses all three checks. Check the source for citations, cross-check the
 Draft Introduction
 
 - Length: 4–5 paragraphs, about 400–600 words.
-- Format: an English manuscript with line numbers. Cite with the numbers from your W7 reference table. Submit the checked paragraph plan (paragraph, claim, evidence, status) with it.
+- Format: an English manuscript with line numbers. Cite with the numbers from your W8 reference table. Submit the checked paragraph plan (paragraph, claim, evidence, status) with it.
 - Track A: it helps to check the gap sentence once with your supervisor.
 - Track B: state in one line that you wrote without reading the Introduction of the original paper. You compare your gap with the gap of the original paper in the W15 comparison memo.
 - Grading criteria:

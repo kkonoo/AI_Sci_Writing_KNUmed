@@ -1,5 +1,5 @@
 ---
-title: "W6. Results"
+title: "W7. Results"
 subtitle: "Part 2 · 원고 쓰기"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -8,7 +8,7 @@ include-after-body: ../../assets/ai-lab.html
 ::: {.callout-note collapse="true"}
 ## 이번 주 목표
 
-- W4 Figure 순서 카드를 따라 그림 하나에 단락 하나를 쓸 수 있다.
+- W5 Figure 순서 카드를 따라 그림 하나에 단락 하나를 쓸 수 있다.
 - 단락을 목적, 한 일, 결과, 짧은 해석 순서로 쓸 수 있다.
 - 결과 문장에 수치, n, 통계를 정확히 넣고, 결과와 해석을 나눌 수 있다.
 - AI가 Results에서 자주 내는 오류(지어낸 수치, 검정 없는 significantly, 인과 과장)를 찾아 고칠 수 있다.
@@ -16,13 +16,13 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
-- 예문은 [W4](w04_figure_storyboard.qmd), [W5](w05_methods_legends.qmd)와 같은 가상의 예시 연구에서 가져온다. 수치는 지어낸 것이다.
+- 예문은 [W5](w05_figure_storyboard.qmd), [W6](w06_methods_legends.qmd)와 같은 가상의 예시 연구에서 가져온다. 수치는 지어낸 것이다.
   - wet lab: 마우스 일측 요관 폐쇄(UUO) 모델, 가상의 약물 compound X, 군당 n = 6.
   - dry lab: 사람 신장 생검 단일세포 RNA 시퀀싱 재분석, 섬유화 환자에서 늘어난 근섬유아세포 아형(가상의 이름 MF2).
 
 ## 원칙 1. 그림 하나에 단락 하나, 카드 순서대로 쓴다
 
-- W4 카드의 순서가 Results 단락의 순서다. 카드의 결론 문장은 단락 소제목 후보가 된다. 소제목을 쓸지는 투고할 저널의 논문을 보고 정한다.
+- W5 카드의 순서가 Results 단락의 순서다. 카드의 결론 문장은 단락 소제목 후보가 된다. 소제목을 쓸지는 투고할 저널의 논문을 보고 정한다.
 - 단락 안에서는 패널 순서대로 쓰고, 문장마다 해당 패널을 괄호로 단다 (Fig. 2a).
 - 한 단락에 그림 두 개를 섞지 않는다. 그림 하나가 너무 크면 단락을 둘로 나눈다.
 
@@ -31,7 +31,7 @@ include-after-body: ../../assets/ai-lab.html
 - 목적 (한 문장): 왜 이 실험을 했는지 쓴다. 앞 단락이 남긴 질문이다.
 - 한 일 (한 문장): 방법 이름과 조건만 쓴다. 세부 절차는 Methods에 있다.
 - 결과 (두세 문장): 수치, n, 통계를 쓴다. 시제는 과거다.
-- 해석 (한 문장): 이 결과가 무엇을 뜻하는지 데이터 범위 안에서 쓴다. 문헌과 비교하는 일은 [W10](w10_discussion.qmd) Discussion에서 한다.
+- 해석 (한 문장): 이 결과가 무엇을 뜻하는지 데이터 범위 안에서 쓴다. 문헌과 비교하는 일은 [W11](w11_discussion.qmd) Discussion에서 한다.
 - 예시 단락 (가상의 예시, Figure 2):
 
 ```text
@@ -43,7 +43,7 @@ to 9.6% ± 3.1% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's tes
 Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 ```
 
-![위 예시 단락을 네 부분으로 나눈 것. 결과 부분에 수치, n, 통계가 모인다.](../../assets/img/w06/paragraph_parts.svg){fig-alt="왼쪽에 목적, 한 일, 결과, 해석 네 칸이 있고, 오른쪽에 각 칸에 해당하는 예시 단락의 영어 문장이 있다."}
+![위 예시 단락을 네 부분으로 나눈 것. 결과 부분에 수치, n, 통계가 모인다.](../../assets/img/w07/paragraph_parts.svg){fig-alt="왼쪽에 목적, 한 일, 결과, 해석 네 칸이 있고, 오른쪽에 각 칸에 해당하는 예시 단락의 영어 문장이 있다."}
 
 ## 원칙 3. 결과와 해석을 나눈다
 
@@ -65,7 +65,7 @@ Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
   - After: Body weight and serum creatinine did not differ between UUO + vehicle and UUO + compound X mice (P = 0.41 and P = 0.57; Fig. 1b, c).
   - Before: MF2 cells were significantly increased in fibrotic kidneys (P < 10^-50).
   - After: The proportion of MF2 cells among fibroblasts was higher in biopsies with fibrosis than in controls (median 24% versus 7%; n = 8 and 6 patients; P = 0.008, Wilcoxon rank-sum test).
-- 마지막 예문의 Before는 세포 수만 개를 독립 표본으로 계산했다. 비교의 단위는 환자다 ([W5](w05_methods_legends.qmd) 원칙 3).
+- 마지막 예문의 Before는 세포 수만 개를 독립 표본으로 계산했다. 비교의 단위는 환자다 ([W6](w06_methods_legends.qmd) 원칙 3).
 
 ## 원칙 5. 인과를 넘겨 말하지 않는다
 
@@ -80,7 +80,7 @@ Thus, compound X reduced interstitial fibrosis in the obstructed kidney.
 
 내가 쓴 단락을 AI에게 다듬게 하고, 나란히 읽어서 바뀐 것을 찾는다 (30분).
 
-1. (10분) AI 없이 W4 카드 하나와 W5 legend로 단락 하나를 쓴다. 원칙 2의 순서를 따른다.
+1. (10분) AI 없이 W5 카드 하나와 W6 legend로 단락 하나를 쓴다. 원칙 2의 순서를 따른다.
 2. (5분) 아래 프롬프트에 카드와 단락을 넣는다.
 3. (10분) 원래 단락과 AI 판을 옆에 두고 읽는다. 수치, n, 검정, significantly, 인과 동사, 새로 생긴 해석을 하나씩 대조한다.
 4. (5분) 받아들인 수정과 버린 수정을 [AI 사용 기록](../ai_rules.qmd#ai-log)에 적는다.
@@ -151,12 +151,12 @@ AI가 이번 주 작업에서 자주 틀리는 지점:
 확인 목록:
 
 - [ ] 단락의 모든 수치가 카드와 분석 결과 파일의 값과 같고, 반올림하지 않았다.
-- [ ] 수치마다 n과 단위가 있고, W5 legend의 n과 같다.
+- [ ] 수치마다 n과 단위가 있고, W6 legend의 n과 같다.
 - [ ] significantly가 붙은 비교마다 검정과 P 값이 있다.
 - [ ] P > 0.05인 비교를 reduced나 increased로 쓰지 않았다.
 - [ ] 인과 동사는 차단 실험이나 조작 실험이 있을 때만 썼다.
 - [ ] 해석은 단락 끝 한 문장이고, 문헌 비교는 Discussion으로 넘겼다.
-- [ ] 단락 순서가 W4 카드 순서와 같다.
+- [ ] 단락 순서가 W5 카드 순서와 같다.
 
 이번 주에 쓰는 확인 3가지:
 
@@ -168,10 +168,10 @@ AI가 이번 주 작업에서 자주 틀리는 지점:
 
 Results 초안
 
-- 분량: W4 카드 수만큼 단락을 쓴다 (3~4단락). 단락마다 대략 100~200 단어. 소제목을 넣어도 된다.
+- 분량: W5 카드 수만큼 단락을 쓴다 (3~4단락). 단락마다 대략 100~200 단어. 소제목을 넣어도 된다.
 - 형식: 영어 원고, 파일 하나(Word 또는 PDF). 단락마다 앞에 해당 카드 번호를 적는다.
 - 트랙 A: 내 결과로 쓴다. 아직 끝나지 않은 분석은 [pending]으로 자리를 표시하고, 수치를 미리 지어 넣지 않는다.
-- 트랙 B: 논문의 그림, 내 W5 legend, 논문의 Methods만 보고 쓴다. 원 논문의 Results는 읽지 않는다. 실제 논문과의 비교는 W15에 낸다.
+- 트랙 B: 논문의 그림, 내 W6 legend, 논문의 Methods만 보고 쓴다. 원 논문의 Results는 읽지 않는다. 실제 논문과의 비교는 W15에 낸다.
 - 평가 기준:
   1. 단락이 카드 순서를 따르고, 목적, 한 일, 결과, 해석 순서로 쓰였다.
   2. 수치, n, 통계가 정확하고 legend와 일치한다. significantly는 검정한 비교에만 썼다.

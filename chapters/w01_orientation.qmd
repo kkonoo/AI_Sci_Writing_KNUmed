@@ -12,13 +12,15 @@ By the end of this week, you will be able to do the following.
 
 - Compare the order in which readers read a paper with the order in which you write a manuscript in this course, and explain the difference.
 - Explain, with your own research as an example, why you write a manuscript starting from the figures.
+- Write the story line of a paper in five sentences: question, why it matters, what was done, what was found, what it means.
+- Say whether your manuscript is a hypothesis-testing, descriptive or methods paper.
 - Choose between track A and track B by the criteria.
 - Settle a list of 3–4 figures (track A) or the paper you will rewrite (track B).
 :::
 
 # 1. Principles {#principles}
 
-![The semester at a glance. What each part produces comes together in the final manuscript.](../assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W3, Part 2 Writing the manuscript W4–W11, Part 3 Polishing and submission W12–W15. Under each block are what that part produces and the peer review weeks."}
+![The semester at a glance. What each part produces comes together in the final manuscript.](../assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W4, Part 2 Writing the manuscript W5–W12, Part 3 Polishing and submission W13–W15. Under each block are what that part produces and the peer review weeks."}
 
 ## Readers read the Title, then the Abstract, then the figures
 
@@ -28,16 +30,16 @@ By the end of this week, you will be able to do the following.
 
 ## In this course you write the figures first and the Title last
 
-![Readers start with the Title and the Abstract, but in this course you write the figures first and the Abstract and Title last.](../assets/img/w01/reading_writing_order.en.svg){fig-alt="A flowchart in two rows. The top row is the order in which readers read: Title, Abstract, figures, then the parts of the Results and Methods they need. The bottom row is the order in which you write in this course: figures (W4), Methods and Legend (W5), Results (W6), Introduction (W9), Discussion (W10), Abstract and Title (W11)."}
+![Readers start with the Title and the Abstract, but in this course you write the figures first and the Abstract and Title last.](../assets/img/w01/reading_writing_order.en.svg){fig-alt="A flowchart in two rows. The top row is the order in which readers read: Title, Abstract, figures, then the parts of the Results and Methods they need. The bottom row is the order in which you write in this course: figures (W5), Methods and Legend (W6), Results (W7), Introduction (W10), Discussion (W11), Abstract and Title (W12)."}
 
 | Writing order | Part of the manuscript | Week | What it takes from earlier steps |
 |---|---|---|---|
-| 1 | Figures (figure storyboard) | [W4](w04_figure_storyboard.qmd) | Data, and a conclusion sentence for each figure |
-| 2 | Methods, Figure legend | [W5](w05_methods_legends.qmd) | The experiments and analyses in the figures |
-| 3 | Results | [W6](w06_results.qmd) | Figure order cards (paragraph order) |
-| 4 | Introduction | [W9](w09_introduction.qmd) | The questions that the Results answered, the reference table from [W7](w07_literature.qmd) |
-| 5 | Discussion | [W10](w10_discussion.qmd) | Results, the W7 reference table |
-| 6 | Abstract, Title | [W11](w11_abstract_title.qmd) | The whole manuscript |
+| 1 | Figures (figure storyboard) | [W5](w05_figure_storyboard.qmd) | Data, and a conclusion sentence for each figure |
+| 2 | Methods, Figure legend | [W6](w06_methods_legends.qmd) | The experiments and analyses in the figures |
+| 3 | Results | [W7](w07_results.qmd) | Figure order cards (paragraph order) |
+| 4 | Introduction | [W10](w10_introduction.qmd) | The questions that the Results answered, the reference table from [W8](w08_literature.qmd) |
+| 5 | Discussion | [W11](w11_discussion.qmd) | Results, the W8 reference table |
+| 6 | Abstract, Title | [W12](w12_abstract_title.qmd) | The whole manuscript |
 
 - The writing order is almost the reverse of the reading order. Each part you write later interprets or summarizes the parts before it. The Abstract and the Title summarize the whole manuscript, so you write them last.
 - If you write the Introduction first, it is easy to raise a question that your results cannot answer. If you settle the figures first, the Introduction ends with the question that the Results actually answered.
@@ -45,13 +47,41 @@ By the end of this week, you will be able to do the following.
 ## Each figure shows one conclusion
 
 - You should be able to state the conclusion of each figure in one sentence, the conclusion sentence. If you cannot, the figure either shows two things or does not have a conclusion yet.
-- A conclusion sentence states what you found, not what you did. [W4](w04_figure_storyboard.qmd) covers how to write one.
+- A conclusion sentence states what you found, not what you did. [W5](w05_figure_storyboard.qmd) covers how to write one.
 - The examples are fictional. They come from a study that gave a fictional drug, compound X, to mice with unilateral ureteral obstruction (UUO).
   - Before: Figure 2 shows Masson's trichrome staining and quantification of the fibrotic area.
   - After: Compound X reduced the fibrotic area in UUO kidneys.
 - The dry-lab example is also fictional. It comes from a study that reanalyzed public single-cell RNA sequencing data from human kidney biopsies.
   - Before: Figure 3 presents the proportions of fibroblast subtypes across samples.
   - After: The MF2 myofibroblast subtype made up a larger share of fibroblasts in biopsies from patients with fibrosis.
+
+## A paper answers one question
+
+- A paper answers one question with data. Then it says what the answer means. Zeiger (2000) calls this flow the story line of a paper.
+- Each section has a job in this story line. The Introduction states the question and why it matters. The Methods and the Results give what was done and what was found. The Discussion gives what the answer means and its limits. The Title and the Abstract condense the whole story line.
+- So before you write the manuscript, write the story line in five sentences.
+  1. Question: what did this study want to know?
+  2. Why it matters: what can we not do without the answer?
+  3. What was done: what did you do to answer the question?
+  4. What was found: what did you learn? Collect the conclusion sentences of your figures.
+  5. What it means: what can you say from this? Stay within what the data show.
+- If you cannot write one of the five sentences, the study itself needs work before the manuscript does. Talk with your supervisor.
+- Example (wet lab, fictional):
+  1. Does compound X reduce kidney fibrosis after unilateral ureteral obstruction (UUO)?
+  2. Few treatments directly reduce kidney fibrosis.
+  3. We gave compound X to mice with UUO and measured the fibrotic area, fibrosis marker genes and Smad3 signaling.
+  4. Compound X reduced the fibrotic area and lowered Smad3 phosphorylation.
+  5. Compound X limits fibrosis in the UUO model and may act through TGF-β/Smad3 signaling.
+- A claim about background, like sentence 2, needs references. You find them in [W8](w08_literature.qmd) and check them in [W10](w10_introduction.qmd).
+- In [W4](w04_paragraphs.qmd) you rewrite these five sentences as one paragraph.
+
+## The shape of the question depends on the type of paper
+
+- Hypothesis-testing paper: the question can be answered yes or no, such as "Does X change Y?" The compound X study above is this type.
+- Descriptive paper: the question asks to describe something, such as "What is Y made of?" or "How does Y differ?" Studies that build a cell atlas or find cell types in single-cell data belong here. Example (dry lab, fictional): Which fibroblast subtypes are more common in human kidneys with fibrosis?
+- Methods paper: the question asks what a new method does better than existing methods. Studies that report a new analysis tool or a new lab technique belong here. What was found is a comparison with existing methods (for example accuracy, speed or reproducibility).
+- The type of paper changes what goes into the last paragraph of the Introduction, the Abstract and the Title. Zeiger (2000) also treats the Introduction, Abstract and Title of the three types separately. Decide this week which type your manuscript is.
+- Full references are in [Resources](../resources.qmd#books).
 
 ## Choose the track by your data and your supervisor's agreement
 
@@ -60,9 +90,9 @@ By the end of this week, you will be able to do the following.
 ![If all four conditions apply, choose track A. If any one of them does not apply, choose track B.](../assets/img/w01/choose_track.en.svg){fig-alt="Four conditions on the left: results for 3–4 figures, the supervisor's agreement, classmates may read it in peer review, and not ideas yet to be filed in a grant or patent. If all apply, an arrow leads to track A, your own manuscript. If any one does not, an arrow leads to track B, rewriting a published paper."}
 
 - Choose track A if all of the following apply.
-  - You already have results for 3–4 figures, or you can settle the order of the figures by W4.
+  - You already have results for 3–4 figures, or you can settle the order of the figures by W5.
   - Your supervisor agrees that you may use this manuscript in the course.
-  - Classmates may read the manuscript in peer review (W8, W12).
+  - Classmates may read the manuscript in peer review (W9, W13).
   - The results are not ideas yet to be filed in a grant or patent application. Such content falls in the "Do not put in" row of the AI traffic light, so you could do almost none of the AI exercises with it.
 - Choose track B if any of the following applies.
   - You do not have data yet, or you do not have enough for 3–4 figures.
@@ -73,7 +103,7 @@ By the end of this week, you will be able to do the following.
 ## Choose a track B paper by five criteria
 
 - The paper is open access, so anyone can read the full text.
-- Its review record (Peer Review File) is published. Then in [W14](w14_reviewer_response.qmd) you can write a response letter to the paper's real reviews. Example: Weinand et al. (2024) in [Resources](../resources.qmd#papers).
+- Its review record (Peer Review File) is published. Then in [W14](w14_submission_response.qmd) you can write a response letter to the paper's real reviews. Example: Weinand et al. (2024) in [Resources](../resources.qmd#papers).
 - It is an original research article in a high-impact journal. Do not choose a review article.
 - It is close to your own field. Only then can you rewrite the Results from the Methods and the figures alone.
 - You have not read it yet. If you have already read a paper, its Results and Discussion stay in your head, and rewriting it is no longer practice.
@@ -85,12 +115,12 @@ By the end of this week, you will be able to do the following.
 - Do not expand the Abstract on a search results page. On the journal page, go straight to the figures and the Methods.
 - Do not ask AI to summarize the paper you chose. Reading an AI summary is the same as reading the Abstract and the Results.
 - After you choose the paper, do not put its Title or DOI into AI. AI may reveal the Results in its answer.
-- Turn off the web search feature of your AI tool until you submit the W11 assignment. If an answer comes with links to web sources, do not use that answer ([AI use rules](../ai_rules.qmd#track-b)).
-- Do not use the paper you chose as the starting point of your literature search ([W7](w07_literature.qmd)). Papers that cite it, or lists of related papers, may reveal its results.
-- You cannot avoid the Title. In W11 you write three title options and then compare them with the real Title.
-- Read the Figure legends of the original paper only after you submit your own legends in [W5](w05_methods_legends.qmd). The point is to write the legends yourself first.
-- Look at the reference list of the original paper only after you submit your Discussion draft in [W10](w10_discussion.qmd).
-- Read the whole original paper only after you submit the W11 assignment (Abstract and Title). The version you submit in W11 is the baseline for the comparison memo in W15.
+- Turn off the web search feature of your AI tool until you submit the W12 assignment. If an answer comes with links to web sources, do not use that answer ([AI use rules](../ai_rules.qmd#track-b)).
+- Do not use the paper you chose as the starting point of your literature search ([W8](w08_literature.qmd)). Papers that cite it, or lists of related papers, may reveal its results.
+- You cannot avoid the Title. In W12 you write three title options and then compare them with the real Title.
+- Read the Figure legends of the original paper only after you submit your own legends in [W6](w06_methods_legends.qmd). The point is to write the legends yourself first.
+- Look at the reference list of the original paper only after you submit your Discussion draft in [W11](w11_discussion.qmd).
+- Read the whole original paper only after you submit the W12 assignment (Abstract and Title). The version you submit in W12 is the baseline for the comparison memo in W15.
 :::
 
 # 2. Try it with AI {#try-with-ai}
@@ -164,10 +194,12 @@ Checklist
 
 # Assignment {#assignment}
 
-A: list of figures / B: choose a paper
+A: list of figures / B: choose a paper; both tracks: five-sentence summary
 
 - Both tracks
   - At the top, state the track you chose and your reasons in 2–3 lines.
+  - Five-sentence summary: write the five sentences from the principles (question, why it matters, what was done, what was found, what it means) in English. Below them, state the type of paper (hypothesis-testing, descriptive or methods) in one line. Track A writes about their own study. Track B writes from the figures and Methods of the chosen paper only, and adds (guess) at the end of each sentence guessed from the figures.
+  - Grading criteria for the summary: are all five sentences there? Are what was found and what it means no stronger than what the figures show?
   - Submit through the university LMS. Deadlines are announced separately.
   - If you used AI, submit your [AI use log](../ai_rules.qmd#ai-log) with the assignment.
 - Track A: list of figures
@@ -175,7 +207,7 @@ A: list of figures / B: choose a paper
   - Format: a table of 3–4 figures with the figure number, a one-line description and the data status (available / being analyzed / experiment planned). Write the one-line descriptions in English. If you already know the conclusion, you may write it as a conclusion sentence.
   - Example of a one-line description (fictional): Study design, body weight and serum creatinine after UUO.
   - Submit proof of your supervisor's agreement. Forward your supervisor's email of agreement, or submit the signed [supervisor consent form](../assets/forms/supervisor_consent.docx). If you use an email, it must state whether your supervisor agrees to each of the four items on the consent form.
-  - Grading criteria: Does each figure show one thing? Do the 3–4 figures connect around one question? Does the data status fit the W4 schedule?
+  - Grading criteria: Does each figure show one thing? Do the 3–4 figures connect around one question? Does the data status fit the W5 schedule?
 - Track B: choose a paper
   - Length: one A4 page at most.
   - Format: the bibliographic details (authors, title, journal, year, DOI link) of the chosen paper and of one backup paper, confirmation that the paper is open access, the Peer Review File link, the number of main figures and the 3–4 figures you will rewrite, 2–3 lines on why the paper is close to your field, and one line confirming that you have not read the Results, Introduction, Discussion or Abstract.
@@ -183,4 +215,4 @@ A: list of figures / B: choose a paper
 
 # Notes {#notes}
 
-The order in which a paper is read, the order in which it is written, and choosing a track
+The order in which a paper is read, the order in which it is written, choosing a track, the five-sentence story line and the type of paper (Zeiger: story line)

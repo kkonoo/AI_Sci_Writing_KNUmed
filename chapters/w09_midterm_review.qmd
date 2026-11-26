@@ -1,5 +1,5 @@
 ---
-title: "W8. Midterm check"
+title: "W9. Midterm check"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -16,7 +16,7 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-This week is peer review week. You swap your Methods from W5 and your Results from W6 with a classmate and read each other's work. The examples come from a fictional example study. In this study, the fictional drug compound X was given to mice in the unilateral ureteral obstruction (UUO) model. The numbers are made up.
+This week is peer review week. You swap your Methods from W6 and your Results from W7 with a classmate and read each other's work. The examples come from a fictional example study. In this study, the fictional drug compound X was given to mice in the unilateral ureteral obstruction (UUO) model. The numbers are made up.
 
 ## Reviewers point out problems instead of rewriting
 
@@ -25,7 +25,7 @@ This week is peer review week. You swap your Methods from W5 and your Results fr
 
 ## Each comment gives a location, a problem and a reason
 
-![The After comment below, split into location, problem, reason and suggestion.](../assets/img/w08/comment_parts.en.svg){fig-alt="Four boxes hold the location Lines 14–16, the problem, the reason and the suggestion, each as a fragment of an English sentence."}
+![The After comment below, split into location, problem, reason and suggestion.](../assets/img/w09/comment_parts.en.svg){fig-alt="Four boxes hold the location Lines 14–16, the problem, the reason and the suggestion, each as a fragment of an English sentence."}
 
 - Add a suggestion if you have one. If a comment has no location, the author does not know where to make the change. If it has no reason, the author cannot judge whether to accept it.
 - Before: *The Methods are unclear.*
@@ -168,7 +168,7 @@ Version revised after peer review
   - Review: each comment has a location and a reason, and major and minor problems are separated.
   - Revision: each comment has an action and a reason. Comments that you did not accept also have evidence.
   - Revised version: the numbers, n and statistics match the figures and legends.
-- Grading: the review form is graded as peer review (peer review is 20% of the course grade, of which W8 is 10%). The revision table and the revised version are graded as a weekly assignment. The instructor does the grading. The review in [W12](w12_polishing.qmd) is graded by the same criteria.
+- Grading: the review form is graded as peer review (peer review is 20% of the course grade, of which W9 is 10%). The revision table and the revised version are graded as a weekly assignment. The instructor does the grading. The review in [W13](w13_polishing.qmd) is graded by the same criteria.
 - Submit through the university LMS. Deadlines are announced separately.
 
 # Notes {#notes}

@@ -1,57 +1,55 @@
-"""W5 figure: n counts experimental units, not technical replicates.
+"""W5 figure: the example storyboard, one question and one conclusion sentence per figure.
 
-Korean: assets/img/w05/what_n_counts.svg, English: what_n_counts.en.svg.
+Korean: assets/img/w05/storyboard.svg, English: storyboard.en.svg.
 """
-from common import scene, save, icon
+from common import scene, save
 
 W = "w05"
 
+CONCLUSIONS = [
+    "Mice given compound X or vehicle have similar body weight and serum creatinine after UUO.",
+    "Compound X reduces interstitial fibrosis in the obstructed kidney.",
+    "Compound X lowers Col1a1 and Acta2 expression after UUO.",
+    "Compound X lowers Smad3 phosphorylation in the obstructed kidney.",
+]
+
 TEXT = {
     "ko": dict(
-        alt="n은 실험 단위의 수다. 마우스 여섯 마리가 n = 6이고, 절편 세 장은 기술 반복이다",
-        group="UUO + compound X 군", unit="실험 단위: 마우스 6마리 (n = 6)", tech="기술 반복: 마우스 1의 절편 3장",
-        section="절편 {}", avg=("평균을 내서", "마우스 1의 값 하나"), how="n을 쓰는 법",
-        note="가상의 예시. 단일세포 데이터에서는 세포 수가 아니라 환자 수가 n이다.",
+        alt="가상의 예시 연구의 Figure 순서 카드 네 장",
+        questions=["compound X가 전신 상태를 바꾸는가?", "섬유화가 줄었는가?", "섬유화 유전자의 발현도 줄었는가?",
+                   "TGF-β/Smad3 신호도 달라졌는가?"],
+        note="결론 문장만 차례로 이어 읽으면 Abstract의 결과 부분처럼 읽혀야 한다. 가상의 예시.",
     ),
     "en": dict(
-        alt="n is the number of experimental units. Six mice give n = 6, and three sections are technical replicates",
-        group="UUO + compound X group", unit="Experimental unit: 6 mice (n = 6)", tech="Technical replicates: 3 sections of mouse 1",
-        section="Section {}", avg=("Averaged into", "one value for mouse 1"), how="How to write n",
-        note="Fictional example. In single-cell data, n is the number of patients, not cells.",
+        alt="Figure order cards for the fictional example study",
+        questions=["Does compound X change general health?", "Is fibrosis reduced?",
+                   "Is the expression of fibrosis genes lower too?", "Does TGF-β/Smad3 signaling change too?"],
+        note="Read in order, the conclusion sentences alone should read like the results part of an Abstract. Fictional example.",
     ),
 }
 
 
-def what_n_counts(lang="ko"):
+def storyboard(lang="ko"):
     t = TEXT[lang]
-    s = scene(h=98, budget=12, alt=t["alt"])
-    extra = []
-    # left: one group, six mice, three sections of mouse 1
-    s.box(4, 4, 140, 12, t["group"], style="soft", name_pt=12)
-    s.band(4, 21, 140, 30, t["unit"], style="faint", name_pt=10.5)
-    r, gap = 6.5, 9.6
-    mice = []
-    for i in range(6):
-        cx = 15 + i * (2 * r + gap)
-        mice.append(s.circle(cx, 39, r, f"{i + 1}", style="mid" if i else "primary", name_pt=10.5))
-    s.band(4, 56, 140, 30, "", style="faint")
-    s.text(26, 57.5, 116, 7, t["tech"], bold=True, name_pt=10.5)
-    secs = []
-    for j in range(3):
-        secs.append(s.box(10 + j * 30, 69, 26, 12, t["section"].format(j + 1), name_pt=10.5 if lang == "ko" else 10))
-    s.link(mice[0], secs[0], sides="bottom>top", kind="plain")
-    s.text(100, 66, 44, 18, t["avg"][0], sub=t["avg"][1], name_pt=10.5, valign="middle")
-    # right: before / after
-    s.text(156, 4, 80, 8, t["how"], bold=True, name_pt=12)
-    s.box(166, 16, 70, 26, "Before", sub="n = 18 (6 mice × 3 sections)", align="left", name_pt=11.5)
-    s.box(166, 50, 70, 31, "After", sub="n = 6 mice per group. For each mouse, values from three sections were averaged.",
-          align="left", style="primary", name_pt=11.5)
-    extra.append(icon("ban", 156.5, 25.5, 7, "E5484D"))
-    extra.append(icon("circle-check", 156.5, 61.5, 7))
-    s.text(4, 88, 232, 6, t["note"], name_pt=10, color="muted")
-    return save(s, W, "what_n_counts" + ("" if lang == "ko" else ".en"), extra)
+    en = lang == "en"
+    qh = 19 if en else 15
+    s = scene(h=90 if en else 82, alt=t["alt"], budget=12)
+    x0, inner, gap = 4, 232, 5
+    n = len(CONCLUSIONS)
+    w = (inner - (n - 1) * gap) / n
+    prev = None
+    for i, (q, concl) in enumerate(zip(t["questions"], CONCLUSIONS)):
+        x = x0 + i * (w + gap)
+        c = s.circle(x + w / 2, 10, 5.2, f"{i + 1}", style="primary" if i == 0 else "mid", name_pt=9.5)
+        if prev is not None:
+            s.link(prev, c, sides="right>left", kind="dots")
+        prev = c
+        s.box(x, 19, w, qh, q, style="soft", name_pt=10.5 if en else 11.5)
+        s.box(x, 22 + qh, w, 30, concl, align="left", valign="top", name_pt=11, bold=False)
+    s.text(x0, 56 + qh, inner, 11 if en else 7, t["note"], name_pt=10, color="muted")
+    return save(s, W, "storyboard" + ("" if lang == "ko" else ".en"))
 
 
 if __name__ == "__main__":
-    what_n_counts("ko")
-    what_n_counts("en")
+    storyboard("ko")
+    storyboard("en")

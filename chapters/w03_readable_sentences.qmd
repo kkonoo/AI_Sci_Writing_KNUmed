@@ -33,7 +33,7 @@ By the end of this week, you will be able to do the following.
 
 ## Use ten patterns to find hard-to-read sentences
 
-The table below is the checklist for this week's exercise and for [W12 Polishing](w12_polishing.qmd). Do not change the numbers.
+The table below is the checklist for this week's exercise and for [W13 Polishing](w13_polishing.qmd). Do not change the numbers.
 
 | # | Pattern | Clues | How to fix |
 |---|---|---|---|
@@ -71,7 +71,7 @@ The dry-lab examples are also fictional (a study that reanalyzed public single-c
    - Before: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
    - After: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
    - Before: the samples the lab sequenced / After: the samples that the lab sequenced
-   - Fixed formats, such as the title of a Figure legend, are an exception ([W5](w05_methods_legends.qmd)).
+   - Fixed formats, such as the title of a Figure legend, are an exception ([W6](w06_methods_legends.qmd)).
 6. Nominalization
    - Before: Administration of compound X resulted in a reduction of collagen deposition.
    - After: Compound X reduced collagen deposition.

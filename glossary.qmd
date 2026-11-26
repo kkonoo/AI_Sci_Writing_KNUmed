@@ -88,7 +88,7 @@ Knowledge cutoff
 : The last date of the material a model was trained on. It does not know papers published or policies changed after that date.
 
 Hallucination
-: Writing something untrue as if it were fact. References that do not exist are the typical example ([W7](chapters/w07_literature.qmd)).
+: Writing something untrue as if it were fact. References that do not exist are the typical example ([W8](chapters/w08_literature.qmd)).
 
 Web search
 : A feature that searches the internet before answering and reads the results. It gives more recent information, but it can also summarize the results wrongly. Open the sources yourself.

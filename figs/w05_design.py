@@ -1,10 +1,10 @@
-"""W4 figures: study designs of the two fictional example studies used across the course.
+"""W5 figures: study designs of the two fictional example studies used across the course.
 
-Korean: assets/img/w04/design_wet.svg, design_dry.svg. English: design_wet.en.svg, design_dry.en.svg.
+Korean: assets/img/w05/design_wet.svg, design_dry.svg. English: design_wet.en.svg, design_dry.en.svg.
 """
 from common import scene, save
 
-W = "w04"
+W = "w05"
 
 WET = {
     "ko": dict(

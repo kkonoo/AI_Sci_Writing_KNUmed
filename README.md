@@ -25,17 +25,17 @@ https://kkonoo.github.io/AI_Sci_Writing_KNUmed/
 | 1 | 오리엔테이션 | | |
 | 2 | AI 기본기 | | |
 | 3 | 읽히는 영어 문장 | | |
-| 4 | Figure 스토리보드 | | |
-| 5 | Methods와 Figure legend | | |
-| 6 | Results | | |
-| 7 | 문헌 찾기와 인용 | | |
-| 8 | 중간 점검 | | |
-| 9 | Introduction | | |
-| 10 | Discussion | | |
-| 11 | Abstract와 Title | | |
-| 12 | 다듬기 | | |
-| 13 | 투고 준비 | | |
-| 14 | 리뷰어 답변 | | |
+| 4 | 문단 | | |
+| 5 | Figure 스토리보드 | | |
+| 6 | Methods와 Figure legend | | |
+| 7 | Results | | |
+| 8 | 문헌 찾기와 인용 | | |
+| 9 | 중간 점검 | | |
+| 10 | Introduction | | |
+| 11 | Discussion | | |
+| 12 | Abstract와 Title | | |
+| 13 | 다듬기 | | |
+| 14 | 투고와 리뷰어 답변 | | |
 | 15 | 기말 | | |
 | - | 강의 소개, AI 사용 규칙, 참고자료 | | |
 

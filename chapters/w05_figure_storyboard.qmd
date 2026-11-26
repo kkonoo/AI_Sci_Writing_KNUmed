@@ -1,5 +1,5 @@
 ---
-title: "W4. Figure storyboard"
+title: "W5. Figure storyboard"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -16,14 +16,14 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-- Part 2 starts from the figures. The legends in [W5](w05_methods_legends.qmd) and the Results in [W6](w06_results.qmd) follow the figure order you set this week.
+- Part 2 starts from the figures. The legends in [W6](w06_methods_legends.qmd) and the Results in [W7](w07_results.qmd) follow the figure order you set this week.
 - The examples come from the course's shared fictional example study. The numbers are made up.
   - Wet lab: mice with unilateral ureteral obstruction (UUO) were given compound X, a fictional drug. The study has four figures, with n = 6 per group.
   - Dry lab: public single-cell RNA sequencing data from human kidney biopsies were reanalyzed. The analysis found a myofibroblast subtype (fictional name MF2) that is more common in patients with fibrosis.
 
-![Design of the wet-lab example study (fictional example). Each of the four figures matches one of the four measurements.](../assets/img/w04/design_wet.en.svg){fig-alt="From left: animals and groups (male C57BL/6J, 8 weeks old; sham, UUO + vehicle and UUO + compound X, n = 6 each), treatment (surgery on day 0; compound X 10 mg/kg or vehicle given orally on days 0–6), harvest (kidneys harvested on day 7) and measurements (Fig. 1 body weight and serum creatinine, Fig. 2 Masson's trichrome, Fig. 3 qPCR, Fig. 4 western blot)."}
+![Design of the wet-lab example study (fictional example). Each of the four figures matches one of the four measurements.](../assets/img/w05/design_wet.en.svg){fig-alt="From left: animals and groups (male C57BL/6J, 8 weeks old; sham, UUO + vehicle and UUO + compound X, n = 6 each), treatment (surgery on day 0; compound X 10 mg/kg or vehicle given orally on days 0–6), harvest (kidneys harvested on day 7) and measurements (Fig. 1 body weight and serum creatinine, Fig. 2 Masson's trichrome, Fig. 3 qPCR, Fig. 4 western blot)."}
 
-![Design of the dry-lab example study (fictional example).](../assets/img/w04/design_dry.en.svg){fig-alt="From left: data (public single-cell RNA sequencing of human kidney biopsies, 8 patients with fibrosis and 6 controls), analysis (QC, cell type annotation, fibroblast subtypes), comparison (MF2 proportion per patient, Wilcoxon) and validation (marker genes, spatial transcriptomics)."}
+![Design of the dry-lab example study (fictional example).](../assets/img/w05/design_dry.en.svg){fig-alt="From left: data (public single-cell RNA sequencing of human kidney biopsies, 8 patients with fibrosis and 6 controls), analysis (QC, cell type annotation, fibroblast subtypes), comparison (MF2 proportion per patient, Wilcoxon) and validation (marker genes, spatial transcriptomics)."}
 
 ## Principle 1. Write one conclusion sentence for each figure
 
@@ -46,7 +46,7 @@ include-after-body: ../assets/ai-lab.html
 - Read in order, the conclusion sentences alone should read like the results part of an Abstract.
 - The same holds for the panels within a figure. The reading order, left to right and top to bottom, is the order of the argument.
 
-![Figure order cards of the fictional example study. Each figure has one question that it answers and one conclusion sentence.](../assets/img/w04/storyboard.en.svg){fig-alt="Four cards, Figure 1 to 4, in numbered order. At the top of each card is the question it answers, and below it is the conclusion sentence in English."}
+![Figure order cards of the fictional example study. Each figure has one question that it answers and one conclusion sentence.](../assets/img/w05/storyboard.en.svg){fig-alt="Four cards, Figure 1 to 4, in numbered order. At the top of each card is the question it answers, and below it is the conclusion sentence in English."}
 
 | Figure | Question it answers | Conclusion sentence (fictional example) |
 |---|---|---|
@@ -68,11 +68,11 @@ include-after-body: ../assets/ai-lab.html
 | Marker genes of many clusters | A dot plot | A heatmap with one column per cell |
 | A single-cell map | UMAP only as a guide to location. Color it by one variable only | Interpreting the distances between points |
 
-![With n = 6 per group, the bars show only the mean, and the dot plot shows all six mice. Fictional example values.](../assets/img/w04/graph_few_samples.en.svg){fig-alt="On the left, a graph of three groups with only mean bars and error bars. On the right, the same data with a point for each mouse, plus the mean and standard deviation."}
+![With n = 6 per group, the bars show only the mean, and the dot plot shows all six mice. Fictional example values.](../assets/img/w05/graph_few_samples.en.svg){fig-alt="On the left, a graph of three groups with only mean bars and error bars. On the right, the same data with a point for each mouse, plus the mean and standard deviation."}
 
-![Counting cells as n makes the P value very small. Tested at the patient level, the same data show no clear difference. Fictional example values.](../assets/img/w04/graph_cells_as_n.en.svg){fig-alt="Both graphs show violins of the Acta2 distribution across cells in controls and patients with fibrosis. On the left, the test uses 3,207 cells and gives P < 1e-28. On the right, each patient's mean is a point, and the test of 6 versus 8 patients gives P = 0.23."}
+![Counting cells as n makes the P value very small. Tested at the patient level, the same data show no clear difference. Fictional example values.](../assets/img/w05/graph_cells_as_n.en.svg){fig-alt="Both graphs show violins of the Acta2 distribution across cells in controls and patients with fibrosis. On the left, the test uses 3,207 cells and gives P < 1e-28. On the right, each patient's mean is a point, and the test of 6 versus 8 patients gives P = 0.23."}
 
-![Composition. Pie charts hide the differences between patients, and a stacked bar for each patient shows them. Fictional example values.](../assets/img/w04/graph_composition.en.svg){fig-alt="On the left, two pie charts show the fibroblast composition of controls and of patients with fibrosis. On the right, stacked bars show the composition of each of the 14 patients, and the median MF2 proportions are 7% and 24%."}
+![Composition. Pie charts hide the differences between patients, and a stacked bar for each patient shows them. Fictional example values.](../assets/img/w05/graph_composition.en.svg){fig-alt="On the left, two pie charts show the fibroblast composition of controls and of patients with fibrosis. On the right, stacked bars show the composition of each of the 14 patients, and the median MF2 proportions are 7% and 24%."}
 
 - Bar graphs and line graphs can make different distributions look the same. In studies with few samples, show the individual points as well (Weissgerber et al. 2015, [doi:10.1371/journal.pbio.1002128](https://doi.org/10.1371/journal.pbio.1002128)).
 - Use the accent color for only the one thing your claim needs, and leave the rest gray.
@@ -94,7 +94,7 @@ include-after-body: ../assets/ai-lab.html
 | Color | RGB recommended | RGB or grayscale |
 
 - Sources: [Nature, Final submission](https://www.nature.com/nature/for-authors/final-submission), [Nature guide to preparing figures](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/), [PLOS ONE, Figures](https://journals.plos.org/plosone/s/figures).
-- Specifications differ between journals and can change. Check them again on the journal's pages just before you submit ([W13](w13_submission.qmd)).
+- Specifications differ between journals and can change. Check them again on the journal's pages just before you submit ([W14](w14_submission_response.qmd)).
 
 ## Principle 5. Do not make or edit data figures with AI
 
@@ -105,7 +105,7 @@ include-after-body: ../assets/ai-lab.html
   - If you combine images taken at different times or from different locations, mark the boundaries and state this in the legend.
   - For life science papers, submit the uncropped original gel and blot images together with the final version.
 - PLOS ONE also asks authors to put a thin white or black line where gels are spliced and to state this in the legend. It also says not to crop too tightly around the bands ([PLOS ONE, Figures](https://journals.plos.org/plosone/s/figures)).
-- Keep the original files from before any processing (raw microscope files, blot scans). State the equipment and processing software in the Methods ([W5](w05_methods_legends.qmd)).
+- Keep the original files from before any processing (raw microscope files, blot scans). State the equipment and processing software in the Methods ([W6](w06_methods_legends.qmd)).
 - Journals differ on whether generative AI images may be used in schematic overviews of the study design. Check the rules of the journal you will submit to.
 - AI may write the code (R, Python) that draws your graphs. Do not put data files into AI, and run the code on your own computer. You check yourself that the figure shows the data correctly. What to check, and an example entry for the AI use log, are in the [AI use rules](../ai_rules.qmd#plot-code).
 
@@ -185,7 +185,7 @@ Figure order cards
 | Conclusion sentence | One sentence in English | Compound X reduces interstitial fibrosis in the obstructed kidney. |
 | Panels | What each panel shows, and with which graph | a: representative Masson's trichrome images (one per group, same magnification, scale bar). b: fibrotic area (%), a point for each mouse with mean ± SD |
 | Key statistics | The one comparison that supports the conclusion: the groups compared, n and its unit, and the test | UUO + vehicle versus UUO + compound X. n = 6 mice per group. One-way ANOVA followed by Tukey's multiple comparisons test |
-| Results paragraph | Which paragraph of the W6 Results it becomes, and a candidate subheading | Second paragraph. Compound X reduces fibrosis after UUO |
+| Results paragraph | Which paragraph of the W7 Results it becomes, and a candidate subheading | Second paragraph. Compound X reduces fibrosis after UUO |
 
 - Track A: work from your own figures. For analyses that are not finished yet, write "planned" in the key statistics item. Do not make up numbers in advance.
 - Track B: work only from the figures and Methods of the paper you chose. Do not read the Results. Find the names of the tests in the statistical analysis section of the Methods.
@@ -193,7 +193,7 @@ Figure order cards
   1. Each conclusion sentence is a claim and does not go beyond what the figure's data show.
   2. The figure order forms an argument, and the question items show why.
   3. The graph types and key statistics (n and its unit, the test) fit the comparison to be shown.
-- These cards become the frame for the W5 legends and for the order of the W6 Results paragraphs. When your figures change, revise the cards and keep using them.
+- These cards become the frame for the W6 legends and for the order of the W7 Results paragraphs. When your figures change, revise the cards and keep using them.
 - Submission: through the university LMS. Deadlines are announced separately. If you used AI, submit your AI use log with the assignment.
 
 # Notes {#notes}

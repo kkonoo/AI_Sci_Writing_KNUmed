@@ -1,5 +1,5 @@
 ---
-title: "W7. Finding and citing literature"
+title: "W8. Finding and citing literature"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -15,7 +15,7 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-- The table you make this week is the evidence for the Introduction in [W9](w09_introduction.qmd) and the Discussion in [W10](w10_discussion.qmd). So do not only collect papers. Next to each paper, write the claim it will support.
+- The table you make this week is the evidence for the Introduction in [W10](w10_introduction.qmd) and the Discussion in [W11](w11_discussion.qmd). So do not only collect papers. Next to each paper, write the claim it will support.
 - Compound X in the examples is the fictional drug from the course's shared fictional example study. The reference numbers in the examples are placeholders.
 
 ## Principle 1. Map the field with reviews first
@@ -55,7 +55,7 @@ include-after-body: ../assets/ai-lab.html
 
 - Check whether the evidence comes mostly from one lab, one cohort, one method or one species.
 - Look on purpose for opposing and negative results. For example, add no association, did not reduce or failed to replicate to your search terms.
-- Each time you search, record the date, database, search terms, filters, number of results and number of papers you chose. You will use this log again when you update your searches in W9 and W10, and when you answer reviewers' questions in [W14](w14_reviewer_response.qmd).
+- Each time you search, record the date, database, search terms, filters, number of results and number of papers you chose. You will use this log again when you update your searches in W10 and W11, and when you answer reviewers' questions in [W14](w14_submission_response.qmd).
 
 # 2. Try it with AI {#try-with-ai}
 
@@ -103,7 +103,7 @@ AI lab: press the "Put in the AI lab" button under a prompt block above, or writ
 
 Steps to check one reference:
 
-![The five steps to check a reference. Step 4, checking the claim, is the one most often skipped.](../assets/img/w07/verify_reference.en.svg){fig-alt="Five steps, numbered 1 to 5, in a row: DOI, database, citation details, claim and status."}
+![The five steps to check a reference. Step 4, checking the claim, is the one most often skipped.](../assets/img/w08/verify_reference.en.svg){fig-alt="Five steps, numbered 1 to 5, in a row: DOI, database, citation details, claim and status."}
 
 1. DOI: open `https://doi.org/` followed by the DOI. If it does not open, record this. If it opens but shows a different paper, record a mismatch.
 2. Database: search for the title in [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and compare the PMID. For papers in fields that PubMed does not cover, use [Crossref Search](https://search.crossref.org/).
@@ -160,7 +160,7 @@ Reference table and verification log
 - Table 3. Search log: date, database, search terms, filters, number of results, and number of papers chosen.
 - Track A: search for the claims you will use in the Introduction and Discussion of your manuscript.
 - Track B: search on the topic of the paper you chose, but do not read its Introduction and Discussion. Do not use the paper you chose as the starting point (anchor paper) of your search.
-- Track B students look at the reference list of the paper they chose only after they submit the W10 Discussion draft. Describe how much it overlaps with your table in the W15 comparison memo.
+- Track B students look at the reference list of the paper they chose only after they submit the W11 Discussion draft. Describe how much it overlaps with your table in the W15 comparison memo.
 - Grading criteria:
   1. You checked for every reference that it exists and that its citation details and claim are correct, and you noted where the claim is supported.
   2. The table includes reviews, recent primary papers, papers found by citation chasing and opposing results, and preprints are marked.

@@ -1,5 +1,5 @@
 ---
-title: "W5. Methods and figure legends"
+title: "W6. Methods and figure legends"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -16,15 +16,15 @@ include-after-body: ../assets/ai-lab.html
 
 # 1. Principles {#principles}
 
-- The examples come from the same fictional example study as in [W4](w04_figure_storyboard.qmd). Mice with unilateral ureteral obstruction (UUO) were given compound X, a fictional drug, with n = 6 per group. The numbers and conditions are made up.
-- Write the Methods and legends from your W4 figure order cards. The key statistics item of each card becomes the n and statistics sentence of the legend.
+- The examples come from the same fictional example study as in [W5](w05_figure_storyboard.qmd). Mice with unilateral ureteral obstruction (UUO) were given compound X, a fictional drug, with n = 6 per group. The numbers and conditions are made up.
+- Write the Methods and legends from your W5 figure order cards. The key statistics item of each card becomes the n and statistics sentence of the legend.
 
 ## Principle 1. Write enough for others to repeat the work (reproducibility)
 
 - The test question: could a graduate student in another lab in the same field do the same experiment from this Methods section alone?
 - What wet-lab Methods often leave out: the strain, sex, age and supplier of the animals. The manufacturer, catalog number and dose of each reagent, and the route and timing of administration. How quantification was done (which areas, how many images, whether it was blinded). Software names and versions.
 - What dry-lab Methods often leave out: the data source and accession numbers, the criteria used to filter cells, package names and versions, the main parameters, and where the code is published.
-- Cite standard methods, and describe only what you changed. Do not stop at "as described previously". Check that a cited methods paper really exists, using the steps in [W7](w07_literature.qmd).
+- Cite standard methods, and describe only what you changed. Do not stop at "as described previously". Check that a cited methods paper really exists, using the steps in [W8](w08_literature.qmd).
 - Each study design has its own reporting guideline.
   - Animal studies: [ARRIVE 2.0](https://arriveguidelines.org/arrive-guidelines). Its minimum set, the Essential 10, covers study design, sample size, inclusion and exclusion criteria, randomization, blinding, outcome measures, statistical methods, experimental animals, experimental procedures and results (Percie du Sert et al. 2020, [doi:10.1371/journal.pbio.3000410](https://doi.org/10.1371/journal.pbio.3000410)).
   - For other designs (observational studies, clinical trials, diagnostic studies and so on), find the matching guideline at the [EQUATOR Network](https://www.equator-network.org/).
@@ -45,7 +45,7 @@ include-after-body: ../assets/ai-lab.html
 
 ## Principle 3. State what n counts
 
-![n is the number of experimental units. Six mice give n = 6. The three sections from one mouse are technical replicates, so they are averaged into one value.](../assets/img/w05/what_n_counts.en.svg){fig-alt="On the left are the six mice of one group and three sections from mouse 1. On the right are a Before that writes n = 18 and an After that writes n = 6 mice per group."}
+![n is the number of experimental units. Six mice give n = 6. The three sections from one mouse are technical replicates, so they are averaged into one value.](../assets/img/w06/what_n_counts.en.svg){fig-alt="On the left are the six mice of one group and three sections from mouse 1. On the right are a Before that writes n = 18 and an After that writes n = 6 mice per group."}
 
 - n is the number of experimental units. An experimental unit is a unit that received the treatment independently. One mouse, one patient or one separately prepared culture each counts as one unit (Lazic et al. 2018, [doi:10.1371/journal.pbio.2005282](https://doi.org/10.1371/journal.pbio.2005282)).
 - Several images taken from the same mouse, or three qPCR wells from the same sample, are technical replicates. Average them and use the mean as one value for that mouse.
@@ -67,13 +67,13 @@ include-after-body: ../assets/ai-lab.html
 
 ## Principle 5. Write a figure legend as title, panel descriptions, then n and statistics
 
-- Title sentence: write in one sentence what the whole figure shows. Start from your W4 conclusion sentence. Some journals put the conclusion in the title, and others describe only the content. Follow the papers of your target journal.
+- Title sentence: write in one sentence what the whole figure shows. Start from your W5 conclusion sentence. Some journals put the conclusion in the title, and others describe only the content. Follow the papers of your target journal.
 - Panel descriptions: for each panel, state what was measured, under which conditions and how. A reader should understand the figure without reading the main text. Do not repeat the procedures from the Methods.
 - n and statistics: state what one dot is, n and its unit, the type of error bar and the test. For images, give the length of the scale bar.
 - Do not interpret in the legend. Interpretation belongs in the Results and the Discussion.
 - Below is the figure that the legend describes (fictional example). In a real manuscript, representative images go in the place of panel a.
 
-![Fictional Figure 2. Panel a holds the places for representative images, and panel b shows the fibrotic area of each mouse.](../assets/img/w05/figure2_mock.svg){fig-alt="Panel a has three image placeholders, for sham, UUO + vehicle and UUO + compound X, each with a scale bar. Panel b shows the fibrotic area of the three groups as a point for each mouse with mean ± SD, and marks P < 0.0001 for sham versus vehicle and P = 0.0004 for vehicle versus compound X."}
+![Fictional Figure 2. Panel a holds the places for representative images, and panel b shows the fibrotic area of each mouse.](../assets/img/w06/figure2_mock.svg){fig-alt="Panel a has three image placeholders, for sham, UUO + vehicle and UUO + compound X, each with a scale bar. Panel b shows the fibrotic area of the three groups as a point for each mouse with mean ± SD, and marks P < 0.0001 for sham versus vehicle and P = 0.0004 for vehicle versus compound X."}
 
 - Before:
 
@@ -156,7 +156,7 @@ Checklist:
 - [ ] Every value in the Methods appears in the lab notebook, protocols or analysis records.
 - [ ] You covered all required items of the reporting guideline, or stated why an item does not apply.
 - [ ] Every figure legend gives n and its unit, the type of error bar and the test, and these match the Methods.
-- [ ] The n and test in each legend match the key statistics item of the W4 card.
+- [ ] The n and test in each legend match the key statistics item of the W5 card.
 - [ ] The Methods are in the past tense, and the data descriptions in the legends are in the present tense.
 - [ ] In sentences that AI revised, no numbers, units or test names have changed.
 - [ ] Every cited methods paper really exists (checked by DOI and in PubMed).

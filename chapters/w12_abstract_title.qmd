@@ -1,5 +1,5 @@
 ---
-title: "W11. Abstract and title"
+title: "W12. Abstract and title"
 subtitle: "Part 2 · Writing the manuscript"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -20,7 +20,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 
 ## The Abstract has five parts, and each part comes from another part of the manuscript
 
-![All five parts of the Abstract come from other parts of the manuscript.](../assets/img/w11/abstract_sources.en.svg){fig-alt="Arrows lead from the Introduction, Methods, Results and Discussion of the manuscript on the left to the background, gap, approach, key results and conclusion of the Abstract on the right."}
+![All five parts of the Abstract come from other parts of the manuscript.](../assets/img/w12/abstract_sources.en.svg){fig-alt="Arrows lead from the Introduction, Methods, Results and Discussion of the manuscript on the left to the background, gap, approach, key results and conclusion of the Abstract on the right."}
 
 | Part | Sentences | Where it comes from |
 |---|---|---|
@@ -42,7 +42,7 @@ The examples come from two fictional example studies. The wet lab example is a s
 | [Scientific Reports](https://www.nature.com/srep/author-instructions/submission-guidelines) | Up to 200 words, one paragraph without subheadings, no references | Up to 20 words. Give the main message as one scientifically accurate sentence, without puns or idioms |
 | [PLOS ONE](https://journals.plos.org/plosone/s/submission-guidelines) | Up to 300 words, no citations, state the species studied | Up to 250 characters (characters, not words). If the study could be mistaken for a clinical study, name the animal model in the title |
 
-- These details were checked on each journal's page on 2026-11-10. Guidelines change, so check them again before you submit ([W13](w13_submission.qmd)).
+- These details were checked on each journal's page on 2026-11-10. Guidelines change, so check them again before you submit ([W14](w14_submission_response.qmd)).
 - Some journals require a structured abstract with subheadings such as Background, Methods, Results and Conclusions. Check the abstract format in your target journal's instructions.
 
 ## To cut words, cut content, not grammar
@@ -156,7 +156,7 @@ Abstract, and three title options
   2. The version before shortening, the shortened version, and the list of what you dropped (with a one-line reason for each)
   3. The three title options with their word counts, the option you chose, and 2–3 lines on why
   4. Your target journal's guidelines for the Abstract and title, and the URL of the page where you checked them
-- Make the numbers in the Abstract match the Results of your W8 revised version.
+- Make the numbers in the Abstract match the Results of your W9 revised version.
 - Track A: choose the target journal with your supervisor, and follow its guidelines.
 - Track B: follow the guidelines of the journal that published the original paper. State in one line that you wrote without reading the Abstract of the original paper. After you submit this assignment, you may read the whole original paper. At that point, keep a separate copy of the whole manuscript you have submitted. This version is the baseline for the W15 comparison memo.
 - Grading criteria:

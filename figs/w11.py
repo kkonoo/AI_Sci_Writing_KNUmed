@@ -1,6 +1,6 @@
-"""W11 figure: each part of the Abstract comes from another part of the manuscript.
+"""W11 figure: the Discussion mirrors the Introduction.
 
-Korean: assets/img/w11/abstract_sources.svg, English: abstract_sources.en.svg.
+Korean: assets/img/w11/intro_discussion_mirror.svg, English: intro_discussion_mirror.en.svg.
 """
 from common import scene, save
 
@@ -8,49 +8,41 @@ W = "w11"
 
 TEXT = {
     "ko": dict(
-        alt="Abstract의 다섯 부분과 각 부분을 가져오는 곳",
-        manuscript="원고",
-        abs=[("배경", "1문장"), ("gap", "1문장"), ("접근", "1~2문장"), ("핵심 결과", "2~3문장, 수치와 함께"), ("결론", "1문장")],
-        intro="첫 문단, gap 문장, 마지막 문단", meth="종, 모델, n", res="결론 문장과 수치", disc="마지막 문장",
-        note="Abstract에만 있는 결과나 주장은 없어야 한다. 접근은 Introduction 마지막 문단에서도 가져온다.",
+        alt="Introduction은 넓은 데서 질문으로 좁아지고, Discussion은 그 질문의 답에서 넓어진다",
+        intro=["배경", "왜 중요한가", "기존 연구와 빈틈", "이 연구의 질문"],
+        disc=["질문에 대한 답", "기존 연구와 비교", "한계", "다음 단계와 마지막 문장"],
+        same="같은 질문", pt=11.5,
+        note="첫 문단과 마지막 문장은 모두 Introduction 마지막 문단의 질문에 답한다.",
     ),
     "en": dict(
-        alt="The five parts of the Abstract and where each part comes from",
-        manuscript="Manuscript",
-        abs=[("Background", "1 sentence"), ("Gap", "1 sentence"), ("Approach", "1–2 sentences"),
-             ("Key results", "2–3 sentences, with numbers"), ("Conclusion", "1 sentence")],
-        intro="First paragraph, gap sentence, last paragraph", meth="Species, model, n",
-        res="Conclusion sentences and numbers", disc="Last sentence",
-        note="No result or claim should appear only in the Abstract. The approach also comes from the last paragraph of the Introduction.",
+        alt="The Introduction narrows from the broad context to the question, and the Discussion widens from the answer",
+        intro=["Background", "Why it matters", "Existing work and the gap", "This study's question"],
+        disc=["Answer to the question", "Comparison with earlier studies", "Limitations", "Next steps and the last sentence"],
+        same="Same question", pt=10.5,
+        note="The first paragraph and the last sentence both answer the question in the last paragraph of the Introduction.",
     ),
 }
-KEY = 3  # key results
 
 
-def abstract_sources(lang="ko"):
+def mirror(lang="ko"):
     t = TEXT[lang]
-    en = lang == "en"
-    h, gap, y0 = 16, 4, 13
-    s = scene(h=y0 + 5 * h + 4 * gap + (18 if en else 14), alt=t["alt"])
-    s.text(4, 4, 80, 7, t["manuscript"], bold=True, name_pt=12)
-    s.text(150, 4, 86, 7, "Abstract", bold=True, name_pt=12)
-    rows = [y0 + i * (h + gap) for i in range(5)]
-    right = [s.box(150, y, 86, h, n, sub=sub, style="primary" if i == KEY else "soft", name_pt=11.5)
-             for i, (y, (n, sub)) in enumerate(zip(rows, t["abs"]))]
-    lw = 88 if en else 72
-    intro = s.box(4, rows[0], lw, 2 * h + gap, "Introduction", sub=t["intro"])
-    meth = s.box(4, rows[2], lw, h, "Methods", sub=t["meth"])
-    res = s.box(4, rows[3], lw, h, "Results", sub=t["res"])
-    disc = s.box(4, rows[4], lw, h, "Discussion", sub=t["disc"])
-    s.link(intro, right[0], sides="right>left")
-    s.link(intro, right[1], sides="right>left")
-    s.link(meth, right[2], sides="right>left")
-    s.link(res, right[3], sides="right>left")
-    s.link(disc, right[4], sides="right>left")
-    s.text(4, rows[4] + h + 3, 232, 11 if en else 7, t["note"], name_pt=10, color="muted")
-    return save(s, W, "abstract_sources" + ("" if lang == "ko" else ".en"))
+    h, gap, y0 = 12, 3.5, 13
+    rows = [y0 + i * (h + gap) for i in range(7)]
+    s = scene(h=rows[6] + h + 16, alt=t["alt"])
+    lc, rc = 62, 178
+    s.text(lc - 58, 4, 116, 7, "Introduction", bold=True, name_pt=12, align="center")
+    s.text(rc - 58, rows[3] - 9, 116, 7, "Discussion", bold=True, name_pt=12, align="center")
+    lw, rw = [112, 94, 76, 58], [58, 76, 94, 112]
+    left = [s.box(lc - lw[i] / 2, rows[i], lw[i], h, t["intro"][i], style="primary" if i == 3 else "plain", name_pt=t["pt"])
+            for i in range(4)]
+    right = [s.box(rc - rw[i] / 2, rows[3 + i], rw[i], h, t["disc"][i], style="primary" if i == 0 else "plain", name_pt=t["pt"])
+             for i in range(4)]
+    s.link(left[3], right[0], sides="right>left", label="Results")
+    s.link(left[3], right[3], sides="bottom>left", kind="indirect", label=t["same"])
+    s.text(4, rows[6] + h + 4, 232, 7, t["note"], name_pt=10, color="muted")
+    return save(s, W, "intro_discussion_mirror" + ("" if lang == "ko" else ".en"))
 
 
 if __name__ == "__main__":
-    abstract_sources("ko")
-    abstract_sources("en")
+    mirror("ko")
+    mirror("en")

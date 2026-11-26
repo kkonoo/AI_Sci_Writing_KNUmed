@@ -15,7 +15,7 @@ date: last-modified
 
 ## Introduction {#introduction}
 
-자세한 구조는 [W9](chapters/w09_introduction.qmd)에 있다.
+자세한 구조는 [W10](chapters/w10_introduction.qmd)에 있다.
 
 | 하고 싶은 말 | 표현 |
 |---|---|
@@ -30,7 +30,7 @@ date: last-modified
 
 ## Methods {#methods}
 
-과거 시제가 기본이다. 태는 저널과 문장에 맞춘다. 자세한 기준은 [W5](chapters/w05_methods_legends.qmd)에 있다.
+과거 시제가 기본이다. 태는 저널과 문장에 맞춘다. 자세한 기준은 [W6](chapters/w06_methods_legends.qmd)에 있다.
 
 | 하고 싶은 말 | 표현 |
 |---|---|
@@ -46,7 +46,7 @@ date: last-modified
 
 ## Figure legend {#legend}
 
-순서는 제목 → 패널 설명 → n과 통계다. 예시는 [W5](chapters/w05_methods_legends.qmd#principles)의 가상의 Figure 2다.
+순서는 제목 → 패널 설명 → n과 통계다. 예시는 [W6](chapters/w06_methods_legends.qmd#principles)의 가상의 Figure 2다.
 
 | 자리 | 표현 |
 |---|---|
@@ -60,7 +60,7 @@ date: last-modified
 
 ## Results {#results}
 
-단락 하나는 목적 → 한 일 → 결과 → 짧은 해석 순서다([W6](chapters/w06_results.qmd)).
+단락 하나는 목적 → 한 일 → 결과 → 짧은 해석 순서다([W7](chapters/w07_results.qmd)).
 
 | 하고 싶은 말 | 표현 |
 |---|---|
@@ -77,7 +77,7 @@ date: last-modified
 
 ## Discussion {#discussion}
 
-첫 문단은 Introduction의 질문에 대한 답이다([W10](chapters/w10_discussion.qmd)).
+첫 문단은 Introduction의 질문에 대한 답이다([W11](chapters/w11_discussion.qmd)).
 
 | 하고 싶은 말 | 표현 |
 |---|---|
@@ -95,7 +95,7 @@ date: last-modified
 
 ## Abstract와 Title {#abstract}
 
-Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](chapters/w11_abstract_title.qmd)).
+Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W12](chapters/w12_abstract_title.qmd)).
 
 | 부분 | 표현 |
 |---|---|
@@ -112,7 +112,7 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](ch
 
 ## 근거의 세기에 맞춘 동사 {#hedging}
 
-[W10](chapters/w10_discussion.qmd)의 hedging 표와 같은 기준이다.
+[W11](chapters/w11_discussion.qmd)의 hedging 표와 같은 기준이다.
 
 | 근거 | 표현 |
 |---|---|
@@ -149,7 +149,7 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](ch
 
 ## Cover letter {#cover-letter}
 
-구조와 예는 [W13](chapters/w13_submission.qmd)에 있다.
+구조와 예는 [W14](chapters/w14_submission_response.qmd)에 있다.
 
 | 자리 | 표현 |
 |---|---|
@@ -162,7 +162,7 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](ch
 
 ## 리뷰어 답변 {#response}
 
-의견 하나에 인용 → 감사 → 한 일 → 바뀐 위치로 답한다([W14](chapters/w14_reviewer_response.qmd)).
+의견 하나에 인용 → 감사 → 한 일 → 바뀐 위치로 답한다([W14](chapters/w14_submission_response.qmd)).
 
 | 자리 | 표현 |
 |---|---|
@@ -206,4 +206,4 @@ Abstract의 다섯 부분은 원고의 다른 부분에서 가져온다([W11](ch
 | 10 mice were … (숫자로 문장 시작) | Ten mice were … |
 
 - 관사: 처음 나오는 것은 a/an, 이미 말했거나 하나뿐인 것은 the, 복수 일반론은 관사 없이(Cells were …) 쓴다.
-- 번역투 점검표는 [W12](chapters/w12_polishing.qmd)에 있다.
+- 번역투 점검표는 [W13](chapters/w13_polishing.qmd)에 있다.

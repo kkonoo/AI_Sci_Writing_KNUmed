@@ -15,7 +15,7 @@ Use this page when you get stuck on wording. It is based on the lab's [Lab Manag
 
 ## Introduction {#introduction}
 
-The full structure is in [W9](chapters/w09_introduction.qmd).
+The full structure is in [W10](chapters/w10_introduction.qmd).
 
 | What you want to say | Phrases |
 |---|---|
@@ -30,7 +30,7 @@ The full structure is in [W9](chapters/w09_introduction.qmd).
 
 ## Methods {#methods}
 
-Past tense is the default. Match the voice to the journal and the sentence. The full standard is in [W5](chapters/w05_methods_legends.qmd).
+Past tense is the default. Match the voice to the journal and the sentence. The full standard is in [W6](chapters/w06_methods_legends.qmd).
 
 | What you want to say | Phrases |
 |---|---|
@@ -46,7 +46,7 @@ Past tense is the default. Match the voice to the journal and the sentence. The 
 
 ## Figure legend {#legend}
 
-The order is title, panel descriptions, then n and statistics. The example is the fictional Figure 2 in [W5](chapters/w05_methods_legends.qmd#principles).
+The order is title, panel descriptions, then n and statistics. The example is the fictional Figure 2 in [W6](chapters/w06_methods_legends.qmd#principles).
 
 | Slot | Phrases |
 |---|---|
@@ -60,7 +60,7 @@ The order is title, panel descriptions, then n and statistics. The example is th
 
 ## Results {#results}
 
-A paragraph runs purpose, what was done, result, short interpretation ([W6](chapters/w06_results.qmd)).
+A paragraph runs purpose, what was done, result, short interpretation ([W7](chapters/w07_results.qmd)).
 
 | What you want to say | Phrases |
 |---|---|
@@ -77,7 +77,7 @@ A paragraph runs purpose, what was done, result, short interpretation ([W6](chap
 
 ## Discussion {#discussion}
 
-The first paragraph answers the question of the Introduction ([W10](chapters/w10_discussion.qmd)).
+The first paragraph answers the question of the Introduction ([W11](chapters/w11_discussion.qmd)).
 
 | What you want to say | Phrases |
 |---|---|
@@ -95,7 +95,7 @@ The first paragraph answers the question of the Introduction ([W10](chapters/w10
 
 ## Abstract and title {#abstract}
 
-The five parts of the Abstract come from other parts of the manuscript ([W11](chapters/w11_abstract_title.qmd)).
+The five parts of the Abstract come from other parts of the manuscript ([W12](chapters/w12_abstract_title.qmd)).
 
 | Part | Phrases |
 |---|---|
@@ -112,7 +112,7 @@ The five parts of the Abstract come from other parts of the manuscript ([W11](ch
 
 ## Verbs that match the strength of the evidence {#hedging}
 
-The same standard as the hedging table in [W10](chapters/w10_discussion.qmd).
+The same standard as the hedging table in [W11](chapters/w11_discussion.qmd).
 
 | Evidence | Phrases |
 |---|---|
@@ -149,7 +149,7 @@ The same standard as the hedging table in [W10](chapters/w10_discussion.qmd).
 
 ## Cover letter {#cover-letter}
 
-The structure and examples are in [W13](chapters/w13_submission.qmd).
+The structure and examples are in [W14](chapters/w14_submission_response.qmd).
 
 | Slot | Phrases |
 |---|---|
@@ -162,7 +162,7 @@ The structure and examples are in [W13](chapters/w13_submission.qmd).
 
 ## Response to reviewers {#response}
 
-Answer each comment with quote, thanks, what you did, and where it changed ([W14](chapters/w14_reviewer_response.qmd)).
+Answer each comment with quote, thanks, what you did, and where it changed ([W14](chapters/w14_submission_response.qmd)).
 
 | Slot | Phrases |
 |---|---|
@@ -206,4 +206,4 @@ If the journal gives a wording, use it. General examples are in [W2](chapters/w0
 | 10 mice were … (a number starting the sentence) | Ten mice were … |
 
 - Articles: a/an for something new, the for something already mentioned or unique, no article for plural general statements (Cells were …).
-- The translationese checklist is in [W12](chapters/w12_polishing.qmd).
+- The translationese checklist is in [W13](chapters/w13_polishing.qmd).

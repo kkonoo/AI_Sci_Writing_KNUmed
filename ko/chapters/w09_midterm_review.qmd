@@ -1,5 +1,5 @@
 ---
-title: "W8. 중간 점검"
+title: "W9. 중간 점검"
 subtitle: "Part 2 · 원고 쓰기"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -16,7 +16,7 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
-이번 주는 동료 리뷰(peer review) 주간이다. W5의 Methods와 W6의 Results를 서로 바꿔 읽는다. 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에 가상의 약물 compound X를 투여한 연구다. 수치는 지어낸 것이다.
+이번 주는 동료 리뷰(peer review) 주간이다. W6의 Methods와 W7의 Results를 서로 바꿔 읽는다. 예문은 가상의 예시 연구를 쓴다. 마우스 일측 요관 폐쇄(unilateral ureteral obstruction, UUO) 모델에 가상의 약물 compound X를 투여한 연구다. 수치는 지어낸 것이다.
 
 ## 리뷰어는 고쳐 쓰지 않고 문제를 짚는다
 
@@ -25,7 +25,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ## 코멘트 하나에 위치, 문제, 이유를 쓴다
 
-![아래 After 코멘트를 위치, 문제, 이유, 제안으로 나눈 것.](../../assets/img/w08/comment_parts.svg){fig-alt="네 칸에 위치 Lines 14–16, 문제, 이유, 제안이 각각 영어 문장 조각으로 들어 있다."}
+![아래 After 코멘트를 위치, 문제, 이유, 제안으로 나눈 것.](../../assets/img/w09/comment_parts.svg){fig-alt="네 칸에 위치 Lines 14–16, 문제, 이유, 제안이 각각 영어 문장 조각으로 들어 있다."}
 
 - 제안은 있으면 덧붙인다. 위치가 없는 코멘트는 저자가 어디를 고칠지 모른다. 이유가 없는 코멘트는 저자가 반영할지 판단할 수 없다.
 - Before: *The Methods are unclear.*
@@ -169,7 +169,7 @@ AI 자기 점검이 자주 틀리는 지점과 확인 방법이다.
   - 리뷰: 코멘트마다 위치와 이유가 있고, 큰 문제와 작은 문제를 나눴다.
   - 반영: 코멘트마다 처리와 이유가 있다. 반영하지 않은 코멘트에도 근거가 있다.
   - 반영본: 수치, n, 통계가 그림과 legend와 맞는다.
-- 점수: 리뷰 양식은 동료 리뷰 점수(평가의 20% 가운데 W8 몫 10%)로, 반영 표와 반영본은 주차 과제로 채점한다. 채점은 담당교수가 한다. [W12](w12_polishing.qmd)의 리뷰도 같은 기준으로 채점한다.
+- 점수: 리뷰 양식은 동료 리뷰 점수(평가의 20% 가운데 W9 몫 10%)로, 반영 표와 반영본은 주차 과제로 채점한다. 채점은 담당교수가 한다. [W13](w13_polishing.qmd)의 리뷰도 같은 기준으로 채점한다.
 - 제출: 학교 LMS. 마감은 따로 공지한다.
 
 # 메모 {#notes}

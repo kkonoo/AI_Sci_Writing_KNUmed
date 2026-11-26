@@ -12,6 +12,11 @@ These pages are in Korean.
 - [Lab Manager: Writing](https://github.com/kkonoo/lab-manager/blob/main/tips/writing.md)
 - [Lab Manager: Phrases](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md)
 
+# Books and articles on writing {#books}
+
+- Zeiger M. (2000). *Essentials of Writing Biomedical Research Papers* (2nd ed.). McGraw-Hill. ISBN 978-0-07-134544-6. It covers words, sentences and paragraphs, then explains each section of a paper by its function, story line, content and organization. The story line and the types of paper in [W1](chapters/w01_orientation.qmd) and the paragraph principles in [W4](chapters/w04_paragraphs.qmd) draw on this book.
+- Gopen G. D. & Swan J. A. (1990). The Science of Scientific Writing. *American Scientist* 78(6): 550–558. A short article on what readers expect at the start and the end of a sentence. It is the reading for [W4](chapters/w04_paragraphs.qmd).
+
 # Papers {#papers}
 
 - Reinhart et al. (2025). Do LLMs write like humans? *PNAS* 122(8). <https://doi.org/10.1073/pnas.2422455122>

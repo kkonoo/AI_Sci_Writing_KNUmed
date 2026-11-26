@@ -12,9 +12,9 @@ ORDER = {
         rows=[
             ("독자가 읽는 순서", [("Title", "", "soft"), ("Abstract", "", "soft"), ("그림", "", "plain"),
                              ("Results, Methods", "필요한 부분만", "plain")]),
-            ("이 수업에서 원고를 쓰는 순서", [("그림", "W4", "primary"), ("Methods, Legend", "W5", "plain"),
-                                    ("Results", "W6", "plain"), ("Introduction", "W9", "plain"),
-                                    ("Discussion", "W10", "plain"), ("Abstract, Title", "W11", "soft")]),
+            ("이 수업에서 원고를 쓰는 순서", [("그림", "W5", "primary"), ("Methods, Legend", "W6", "plain"),
+                                    ("Results", "W7", "plain"), ("Introduction", "W10", "plain"),
+                                    ("Discussion", "W11", "plain"), ("Abstract, Title", "W12", "soft")]),
         ],
     ),
     "en": dict(
@@ -22,9 +22,9 @@ ORDER = {
         rows=[
             ("How readers read", [("Title", "", "soft"), ("Abstract", "", "soft"), ("Figures", "", "plain"),
                                   ("Results, Methods", "Only the parts they need", "plain")]),
-            ("How this course writes the manuscript", [("Figures", "W4", "primary"), ("Methods, Legend", "W5", "plain"),
-                                                      ("Results", "W6", "plain"), ("Introduction", "W9", "plain"),
-                                                      ("Discussion", "W10", "plain"), ("Abstract, Title", "W11", "soft")]),
+            ("How this course writes the manuscript", [("Figures", "W5", "primary"), ("Methods, Legend", "W6", "plain"),
+                                                      ("Results", "W7", "plain"), ("Introduction", "W10", "plain"),
+                                                      ("Discussion", "W11", "plain"), ("Abstract, Title", "W12", "soft")]),
         ],
     ),
 }

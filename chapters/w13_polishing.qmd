@@ -1,5 +1,5 @@
 ---
-title: "W12. Polishing"
+title: "W13. Polishing"
 subtitle: "Part 3 · Polishing and submission"
 date: last-modified
 include-after-body: ../assets/ai-lab.html
@@ -18,15 +18,15 @@ By the end of this week, you will be able to:
 
 # 1. Principles {#principles}
 
-The examples come from the fictional example study that we have used since W4: the UUO fibrosis model with compound X, and the reanalysis of single-cell RNA sequencing data from kidney biopsies. The numbers are made up.
+The examples come from the fictional example study that we have used since W5: the UUO fibrosis model with compound X, and the reanalysis of single-cell RNA sequencing data from kidney biopsies. The numbers are made up.
 
 ## Polish from large units down to small ones
 
-![Polish from the outside in. Look at the content and figure order first, and at words and grammar last.](../assets/img/w12/big_to_small.en.svg){fig-alt="Four nested boxes. From the outside in: content and figure order, paragraphs, sentences, words and grammar. On the right is what to check first."}
+![Polish from the outside in. Look at the content and figure order first, and at words and grammar last.](../assets/img/w13/big_to_small.en.svg){fig-alt="Four nested boxes. From the outside in: content and figure order, paragraphs, sentences, words and grammar. On the right is what to check first."}
 
 - Work in this order: content and figure order → paragraphs → sentences → words and grammar.
 - If you polish sentences first, that work is wasted when you later cut or move a paragraph.
-- This week, look at one thing first. Does the conclusion sentence of each figure ([W4](w04_figure_storyboard.qmd)) appear with the same strength in the first sentence of its Results paragraph, in the Abstract and in the Title?
+- This week, look at one thing first. Does the conclusion sentence of each figure ([W5](w05_figure_storyboard.qmd)) appear with the same strength in the first sentence of its Results paragraph, in the Abstract and in the Title?
 
 ## Translationese comes from carrying Korean word order and habits into English
 
@@ -75,12 +75,12 @@ The examples come from the fictional example study that we have used since W4: t
 | The group given the drug | UUO + compound X | CK group, K-treated mice, treatment group |
 | The myofibroblast subtype that increased | MF2 | MF2 cluster, subpopulation 2, fibrotic cell state |
 
-- Spell out an abbreviation the first time it appears, and use only that abbreviation after that. Whether you spell it out again in the Abstract and in the main text depends on the rules of the target journal ([W13](w13_submission.qmd)).
+- Spell out an abbreviation the first time it appears, and use only that abbreviation after that. Whether you spell it out again in the Abstract and in the main text depends on the rules of the target journal ([W14](w14_submission_response.qmd)).
 - Gene and protein notation (italics, capital letters) follows different rules for each species. Check the journal's rules and use one style throughout the manuscript.
 
 ## When you read a peer's manuscript, report how you read it instead of rewriting it
 
-- This week is the second peer review week, after [W8](w08_midterm_review.qmd).
+- This week is the second peer review week, after [W9](w09_midterm_review.qmd).
 - Under the AI use rules, a peer's manuscript, figure order cards and reference table are someone else's manuscript. Do not put them into AI. Read them yourself.
 - The reader does not rewrite sentences for the author. Instead, the reader gives back the three things below.
   - Write down the conclusion of each figure as you read it, in one sentence per figure. The author compares these with their own conclusion sentences. If you read a different conclusion, the manuscript did not get that conclusion across.
@@ -123,7 +123,7 @@ Also check whether each abbreviation is spelled out the first time it appears.
 ```
 
 - Track A: these are sentences from your own manuscript, so they fall in the "Conditional (track A)" row of the AI traffic light. Get your supervisor's agreement, and use only tools set so that your input is not used for training. Do not put in raw data or figure files.
-- Track B: a track B manuscript falls in the "Free to use" row. You have submitted the W11 assignment, so you may now read the original paper. Do not copy sentences from the original paper. Mark the places you revised after reading the original paper, and write about them in the W15 comparison memo.
+- Track B: a track B manuscript falls in the "Free to use" row. You have submitted the W12 assignment, so you may now read the original paper. Do not copy sentences from the original paper. Mark the places you revised after reading the original paper, and write about them in the W15 comparison memo.
 - For both tracks, sentences that AI revised fall in the "Always verify" row. Check whether the meaning changed. A peer's manuscript, cards and reference table fall in the "Do not put in" row for either track. You may put in review comments that you received from a peer if you meet the conditions for [received reviews](../ai_rules.qmd#received-reviews).
 
 ::: {#ai-lab}
@@ -153,12 +153,12 @@ Revised full manuscript
   - Term list: use the table format in the principles above. List the other names that you actually found in your manuscript.
   - Table of responses to peer comments: peer comment | addressed or not | where it changed (page, line). For each comment you did not address, give the reason.
   - The review you wrote for your peer: the three things in the principles above (one sentence for each figure conclusion, the location of and reason for each sentence that stopped you, and questions about confusing terms).
-- Differences by track: track B students mark the places they revised after reading the original paper. The reference point for the W15 comparison memo is the version you submitted in W11, not this revised manuscript.
+- Differences by track: track B students mark the places they revised after reading the original paper. The reference point for the W15 comparison memo is the version you submitted in W12, not this revised manuscript.
 - Grading criteria
   - There is less translationese and fewer W3 patterns, and the meaning and numbers did not change during revision.
   - The whole manuscript follows the term list.
   - For each peer comment, the table says whether and where you addressed it, or why you did not.
-- The review you wrote for your peer is graded as part of the peer review score (the W12 share of 10%, out of 20% of the total grade). The criteria are the same as in [W8](w08_midterm_review.qmd#assignment). We check that each comment has a location and a reason, and that major and minor problems are kept apart. The instructor does the grading.
+- The review you wrote for your peer is graded as part of the peer review score (the W13 share of 10%, out of 20% of the total grade). The criteria are the same as in [W9](w09_midterm_review.qmd#assignment). We check that each comment has a location and a reason, and that major and minor problems are kept apart. The instructor does the grading.
 - Submission: through the university LMS. Deadlines are announced separately.
 - If you used AI, submit your AI use log as well.
 

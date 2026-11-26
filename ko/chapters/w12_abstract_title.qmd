@@ -1,5 +1,5 @@
 ---
-title: "W11. Abstract와 Title"
+title: "W12. Abstract와 Title"
 subtitle: "Part 2 · 원고 쓰기"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -20,7 +20,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ## Abstract는 다섯 부분이고, 내용은 원고의 다른 부분에서 가져온다
 
-![Abstract의 다섯 부분은 모두 원고의 다른 부분에서 가져온다.](../../assets/img/w11/abstract_sources.svg){fig-alt="왼쪽 원고의 Introduction, Methods, Results, Discussion에서 오른쪽 Abstract의 배경, gap, 접근, 핵심 결과, 결론으로 화살표가 이어진다."}
+![Abstract의 다섯 부분은 모두 원고의 다른 부분에서 가져온다.](../../assets/img/w12/abstract_sources.svg){fig-alt="왼쪽 원고의 Introduction, Methods, Results, Discussion에서 오른쪽 Abstract의 배경, gap, 접근, 핵심 결과, 결론으로 화살표가 이어진다."}
 
 | 부분 | 문장 수 | 가져오는 곳 |
 |---|---|---|
@@ -42,7 +42,7 @@ include-after-body: ../../assets/ai-lab.html
 | [Scientific Reports](https://www.nature.com/srep/author-instructions/submission-guidelines) | 200단어 이하, 소제목 없는 한 문단, 참고문헌 없음 | 20단어 이하. 주요 메시지를 과학적으로 정확한 한 문장으로 쓰고, 말장난과 관용구를 쓰지 않는다 |
 | [PLOS ONE](https://journals.plos.org/plosone/s/submission-guidelines) | 300단어 이하, 인용 없음, 연구한 종을 쓴다 | 250자 이하(단어가 아니라 글자 수). 임상 연구로 오해할 수 있으면 동물 모델을 제목에 쓴다 |
 
-- 위 내용은 2026년 11월 10일에 각 저널 페이지에서 확인했다. 규정은 바뀌므로 투고 전에 다시 확인한다([W13](w13_submission.qmd)).
+- 위 내용은 2026년 11월 10일에 각 저널 페이지에서 확인했다. 규정은 바뀌므로 투고 전에 다시 확인한다([W14](w14_submission_response.qmd)).
 - Background, Methods, Results, Conclusions 같은 소제목을 붙이는 구조화 초록(structured abstract)을 요구하는 저널도 있다. 투고할 저널의 안내에서 초록 형식을 확인한다.
 
 ## 줄일 때는 문법이 아니라 내용을 뺀다
@@ -156,7 +156,7 @@ Abstract, Title 3안
   2. 줄이기 전 판, 줄인 판, 뺀 내용 목록(뺀 이유 한 줄씩)
   3. Title 세 안과 각 단어 수, 고른 안과 그 이유 2~3줄
   4. 투고 예정 저널의 Abstract와 Title 규정, 그리고 확인한 페이지 URL
-- Abstract의 수치는 W8 반영본의 Results와 맞춘다.
+- Abstract의 수치는 W9 반영본의 Results와 맞춘다.
 - 트랙 A: 투고할 저널을 지도교수와 정하고, 그 저널의 규정을 따른다.
 - 트랙 B: 실제 논문이 실린 저널의 규정을 따른다. 실제 논문의 Abstract를 읽지 않고 썼다는 것을 한 줄로 적는다. 이 과제를 낸 뒤부터 실제 논문 전체를 읽어도 된다. 이때 낸 원고 전체를 따로 보관한다. 이 판이 W15 비교 메모의 기준이 된다.
 - 평가 기준:

@@ -1,53 +1,57 @@
-"""W6 figure: a Results paragraph is purpose, what was done, result, interpretation.
+"""W6 figure: n counts experimental units, not technical replicates.
 
-Korean: assets/img/w06/paragraph_parts.svg, English: paragraph_parts.en.svg.
+Korean: assets/img/w06/what_n_counts.svg, English: what_n_counts.en.svg.
 """
-from common import scene, save
+from common import scene, save, icon
 
 W = "w06"
 
-SENTENCES = [
-    "To test whether compound X reduces fibrosis,",
-    "we stained kidney sections with Masson's trichrome on day 7 after UUO (Fig. 2a).",
-    "UUO increased the fibrotic area from 1.9% ± 0.6% in sham mice to 18.2% ± 4.0% in vehicle-treated mice "
-    "(mean ± SD, n = 6 mice per group; P < 0.0001; Fig. 2b). Compound X lowered the fibrotic area to "
-    "9.6% ± 3.1% (P = 0.0004 versus UUO + vehicle; one-way ANOVA with Tukey's test).",
-    "Thus, compound X reduced interstitial fibrosis in the obstructed kidney.",
-]
-STYLES = ["soft", "soft", "primary", "soft"]
-
 TEXT = {
     "ko": dict(
-        alt="Results 단락의 네 부분과 예시 문장",
-        parts=[("목적", "왜 이 실험을 했나"), ("한 일", "방법 이름과 조건만"), ("결과", "수치, n, 통계. 과거 시제"),
-               ("해석", "데이터 범위 안에서 한 문장")],
-        note="가상의 예시, Figure 2의 단락. 문헌과 비교하는 일은 Discussion(W10)에서 한다.",
+        alt="n은 실험 단위의 수다. 마우스 여섯 마리가 n = 6이고, 절편 세 장은 기술 반복이다",
+        group="UUO + compound X 군", unit="실험 단위: 마우스 6마리 (n = 6)", tech="기술 반복: 마우스 1의 절편 3장",
+        section="절편 {}", avg=("평균을 내서", "마우스 1의 값 하나"), how="n을 쓰는 법",
+        note="가상의 예시. 단일세포 데이터에서는 세포 수가 아니라 환자 수가 n이다.",
     ),
     "en": dict(
-        alt="The four parts of a Results paragraph, with example sentences",
-        parts=[("Purpose", "Why this experiment"), ("What was done", "Method and conditions only"),
-               ("Result", "Numbers, n, statistics. Past tense"), ("Interpretation", "One sentence within the data")],
-        note="Fictional example, the paragraph for Figure 2. Comparison with the literature belongs in the Discussion (W10).",
+        alt="n is the number of experimental units. Six mice give n = 6, and three sections are technical replicates",
+        group="UUO + compound X group", unit="Experimental unit: 6 mice (n = 6)", tech="Technical replicates: 3 sections of mouse 1",
+        section="Section {}", avg=("Averaged into", "one value for mouse 1"), how="How to write n",
+        note="Fictional example. In single-cell data, n is the number of patients, not cells.",
     ),
 }
 
 
-def paragraph_parts(lang="ko"):
+def what_n_counts(lang="ko"):
     t = TEXT[lang]
-    heights = [16, 18, 36, 18]
-    gap = 4
-    en = lang == "en"
-    lw = 68 if en else 56
-    s = scene(h=4 + sum(heights) + gap * 3 + (22 if en else 18), alt=t["alt"])
-    y = 4
-    for (name, sub), sentence, style, h in zip(t["parts"], SENTENCES, STYLES, heights):
-        s.box(4, y, lw, h, name, sub=sub, style=style, name_pt=12 if en else 12.5)
-        s.box(lw + 10, y, 232 - lw - 6, h, sentence, align="left", valign="middle", name_pt=11, bold=False)
-        y += h + gap
-    s.text(4, y + 1, 232, 10 if en else 6, t["note"], name_pt=10, color="muted")
-    return save(s, W, "paragraph_parts" + ("" if lang == "ko" else ".en"))
+    s = scene(h=98, budget=12, alt=t["alt"])
+    extra = []
+    # left: one group, six mice, three sections of mouse 1
+    s.box(4, 4, 140, 12, t["group"], style="soft", name_pt=12)
+    s.band(4, 21, 140, 30, t["unit"], style="faint", name_pt=10.5)
+    r, gap = 6.5, 9.6
+    mice = []
+    for i in range(6):
+        cx = 15 + i * (2 * r + gap)
+        mice.append(s.circle(cx, 39, r, f"{i + 1}", style="mid" if i else "primary", name_pt=10.5))
+    s.band(4, 56, 140, 30, "", style="faint")
+    s.text(26, 57.5, 116, 7, t["tech"], bold=True, name_pt=10.5)
+    secs = []
+    for j in range(3):
+        secs.append(s.box(10 + j * 30, 69, 26, 12, t["section"].format(j + 1), name_pt=10.5 if lang == "ko" else 10))
+    s.link(mice[0], secs[0], sides="bottom>top", kind="plain")
+    s.text(100, 66, 44, 18, t["avg"][0], sub=t["avg"][1], name_pt=10.5, valign="middle")
+    # right: before / after
+    s.text(156, 4, 80, 8, t["how"], bold=True, name_pt=12)
+    s.box(166, 16, 70, 26, "Before", sub="n = 18 (6 mice × 3 sections)", align="left", name_pt=11.5)
+    s.box(166, 50, 70, 31, "After", sub="n = 6 mice per group. For each mouse, values from three sections were averaged.",
+          align="left", style="primary", name_pt=11.5)
+    extra.append(icon("ban", 156.5, 25.5, 7, "E5484D"))
+    extra.append(icon("circle-check", 156.5, 61.5, 7))
+    s.text(4, 88, 232, 6, t["note"], name_pt=10, color="muted")
+    return save(s, W, "what_n_counts" + ("" if lang == "ko" else ".en"), extra)
 
 
 if __name__ == "__main__":
-    paragraph_parts("ko")
-    paragraph_parts("en")
+    what_n_counts("ko")
+    what_n_counts("en")

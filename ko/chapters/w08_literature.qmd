@@ -1,5 +1,5 @@
 ---
-title: "W7. 문헌 찾기와 인용"
+title: "W8. 문헌 찾기와 인용"
 subtitle: "Part 2 · 원고 쓰기"
 date: last-modified
 include-after-body: ../../assets/ai-lab.html
@@ -15,7 +15,7 @@ include-after-body: ../../assets/ai-lab.html
 
 # 1. 원칙 {#principles}
 
-- 이번 주 표는 [W9](w09_introduction.qmd) Introduction과 [W10](w10_discussion.qmd) Discussion의 근거가 된다. 그래서 논문만 모으지 않고, 그 논문으로 받칠 주장을 함께 적는다.
+- 이번 주 표는 [W10](w10_introduction.qmd) Introduction과 [W11](w11_discussion.qmd) Discussion의 근거가 된다. 그래서 논문만 모으지 않고, 그 논문으로 받칠 주장을 함께 적는다.
 - 예문의 compound X는 수업 공통의 가상의 예시 연구에 나오는 가상의 약물이다. 예문의 참고문헌 번호는 자리 표시다.
 
 ## 원칙 1. 리뷰로 지도를 먼저 그린다
@@ -55,7 +55,7 @@ include-after-body: ../../assets/ai-lab.html
 
 - 근거가 한 연구실, 한 코호트, 한 방법, 한 종에 몰려 있지 않은지 본다.
 - 반대 결과와 음성 결과를 일부러 찾는다. 예: no association, did not reduce, failed to replicate를 검색어에 더한다.
-- 검색할 때마다 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수를 적는다. 이 기록은 W9, W10에서 검색을 갱신할 때와 [W14](w14_reviewer_response.qmd)에서 리뷰어 질문에 답할 때 다시 쓴다.
+- 검색할 때마다 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수를 적는다. 이 기록은 W10, W11에서 검색을 갱신할 때와 [W14](w14_submission_response.qmd)에서 리뷰어 질문에 답할 때 다시 쓴다.
 
 # 2. AI로 해 보기 {#try-with-ai}
 
@@ -103,7 +103,7 @@ AI 실습 창: 위 프롬프트 블록의 실습 창에 넣기 버튼을 누르�
 
 참고문헌 한 편을 확인하는 순서:
 
-![참고문헌을 확인하는 다섯 단계. 4단계 주장 확인이 가장 자주 빠진다.](../../assets/img/w07/verify_reference.svg){fig-alt="번호 1부터 5까지 DOI, 데이터베이스, 서지 대조, 주장 확인, 상태 확인 다섯 단계가 차례로 놓여 있다."}
+![참고문헌을 확인하는 다섯 단계. 4단계 주장 확인이 가장 자주 빠진다.](../../assets/img/w08/verify_reference.svg){fig-alt="번호 1부터 5까지 DOI, 데이터베이스, 서지 대조, 주장 확인, 상태 확인 다섯 단계가 차례로 놓여 있다."}
 
 1. DOI: `https://doi.org/` 뒤에 DOI를 붙여 연다. 열리지 않으면 기록한다. 열려도 다른 논문이 나오면 불일치다.
 2. 데이터베이스: [PubMed](https://pubmed.ncbi.nlm.nih.gov/)에서 제목으로 찾고 PMID를 대조한다. PubMed에 없는 분야의 논문은 [Crossref 검색](https://search.crossref.org/)으로 찾는다.
@@ -160,7 +160,7 @@ AI가 이번 주 작업에서 자주 틀리는 지점:
 - 표 3. 검색 기록: 날짜, 데이터베이스, 검색어, 필터, 결과 수, 고른 논문 수.
 - 트랙 A: 내 원고의 Introduction과 Discussion에 쓸 주장을 기준으로 찾는다.
 - 트랙 B: 고른 논문의 주제로 찾되, 논문의 Introduction과 Discussion은 읽지 않는다. 고른 논문은 검색의 출발점(기준 논문)으로 쓰지 않는다.
-- 트랙 B는 고른 논문의 참고문헌 목록을 W10 Discussion 초안을 낸 뒤에 본다. 내 표와 겹치는 정도는 W15 비교 메모에 쓴다.
+- 트랙 B는 고른 논문의 참고문헌 목록을 W11 Discussion 초안을 낸 뒤에 본다. 내 표와 겹치는 정도는 W15 비교 메모에 쓴다.
 - 평가 기준:
   1. 모든 참고문헌의 실재, 서지, 주장을 확인했고, 주장을 받치는 위치를 적었다.
   2. 리뷰, 최근 원저, 인용 따라가기, 반대 결과가 고루 들어 있고, preprint가 표시되어 있다.

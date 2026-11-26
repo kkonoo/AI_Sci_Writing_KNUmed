@@ -33,7 +33,7 @@ include-after-body: ../../assets/ai-lab.html
 
 ## 읽기 어려운 문장은 10가지 패턴으로 찾는다
 
-아래 표는 이번 주 실습과 [W12 다듬기](w12_polishing.qmd)에서 점검표로 씀. 번호를 바꾸지 않음.
+아래 표는 이번 주 실습과 [W13 다듬기](w13_polishing.qmd)에서 점검표로 씀. 번호를 바꾸지 않음.
 
 | # | 패턴 | 찾는 단서 | 고치는 방법 |
 |---|---|---|---|
@@ -71,7 +71,7 @@ dry lab 예문도 가상의 예시임(공개 데이터로 사람 신장 생검�
    - 전: Kidneys harvested day 7 post-UUO, fixed, sectioned, stained with Masson's trichrome.
    - 후: We harvested the kidneys 7 days after UUO. The kidneys were fixed, sectioned and stained with Masson's trichrome.
    - 전: the samples the lab sequenced / 후: the samples that the lab sequenced
-   - Figure legend 제목처럼 굳은 형식은 예외임([W5](w05_methods_legends.qmd)).
+   - Figure legend 제목처럼 굳은 형식은 예외임([W6](w06_methods_legends.qmd)).
 6. 명사화
    - 전: Administration of compound X resulted in a reduction of collagen deposition.
    - 후: Compound X reduced collagen deposition.

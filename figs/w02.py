@@ -13,7 +13,7 @@ TEXT = {
     "ko": dict(
         alt="AI 신호등: 자유롭게, 꼭 검증, 조건부 두 가지, 넣지 않기",
         rows=[
-            ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W11까지 웹 검색 끔)"),
+            ("자유롭게", "개념과 문법 설명, 공개 논문 읽기 도움, 트랙 B 원고(W12까지 웹 검색 끔)"),
             ("꼭 검증", "참고문헌, 수치, 통계 방법 추천, 최신 연구, AI가 고친 문장의 뜻, AI 코드로 그린 그래프"),
             ("조건부 (트랙 A)", "본인 원고 문장. 지도교수 동의, 학습 제외 설정, 원 데이터와 그림 파일은 넣지 않음"),
             ("조건부 (받은 리뷰)", "내 원고에 대해 받은 리뷰 의견. 리뷰어 이름 지움, 학습 제외 설정, 학술지 규정 확인"),
@@ -24,7 +24,7 @@ TEXT = {
     "en": dict(
         alt="AI traffic light: Free to use, Always verify, two Conditional rows, Do not put in",
         rows=[
-            ("Free to use", "Concepts and grammar, help reading published papers, track B manuscripts (web search off until W11)"),
+            ("Free to use", "Concepts and grammar, help reading published papers, track B manuscripts (web search off until W12)"),
             ("Always verify", "References, numbers, suggested statistics, recent findings, the meaning of AI-revised sentences, graphs drawn with AI code"),
             ("Conditional (track A)", "Sentences from your own manuscript. Supervisor's agreement, training setting off, no raw data or figure files"),
             ("Conditional (received reviews)", "Reviews of your own manuscript. Reviewer's name removed, training setting off, journal policy checked"),

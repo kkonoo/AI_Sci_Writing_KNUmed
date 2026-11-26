@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240mm" height="92mm" viewBox="0 0 240 92" role="img" aria-labelledby="fig-title" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<title id="fig-title">앞 문장의 끝에 나온 말이 다음 문장의 첫머리로 이어진다</title>
+<rect width="240" height="92" fill="#FFFFFF"/>
+<defs><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="1.59" markerHeight="1.59" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L10,5 L0,9 z" fill="#6B7280"/></marker></defs>
+<g id="첫머리-앞-문장에서-받은-말">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="17.00" y="8.82" font-size="3.881" fill="#262B33" font-weight="700">첫머리: 앞 문장에서 받은 말</tspan></text>
+</g>
+<g id="끝-이-문장의-새-정보">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="112.00" y="8.82" font-size="3.881" fill="#262B33" font-weight="700">끝: 이 문장의 새 정보</tspan></text>
+</g>
+<g id="1">
+<circle cx="9.50" cy="21.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="9.50" y="22.70" font-size="3.528" fill="#262B33" font-weight="700">1</tspan></text>
+</g>
+<g id="We-divided-fibroblasts">
+<rect x="17.00" y="14.00" width="86.00" height="15.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="18.80" y="22.76" font-size="3.704" fill="#262B33">We divided fibroblasts</tspan></text>
+</g>
+<g id="into-four-subtypes-">
+<rect x="112.00" y="14.00" width="124.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="113.80" y="22.76" font-size="3.704" fill="#262B33">into four subtypes.</tspan></text>
+</g>
+<g id="2">
+<circle cx="9.50" cy="46.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="9.50" y="47.70" font-size="3.528" fill="#262B33" font-weight="700">2</tspan></text>
+</g>
+<g id="One-of-these-subtypes-MF2-">
+<rect x="17.00" y="39.00" width="86.00" height="15.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="18.80" y="47.76" font-size="3.704" fill="#262B33">One of these subtypes, MF2,</tspan></text>
+</g>
+<g id="was-more-common-in-patients-with-fibrosi">
+<rect x="112.00" y="39.00" width="124.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="113.80" y="47.76" font-size="3.704" fill="#262B33">was more common in patients with fibrosis.</tspan></text>
+</g>
+<g id="3">
+<circle cx="9.50" cy="71.50" r="4.80" fill="#ACAEB1"/>
+<text text-anchor="middle" letter-spacing="-0.015em"><tspan x="9.50" y="72.70" font-size="3.528" fill="#262B33" font-weight="700">3</tspan></text>
+</g>
+<g id="In-these-patients-MF2-made-up">
+<rect x="17.00" y="64.00" width="86.00" height="15.00" rx="0.80" fill="#DADADC"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="18.80" y="72.76" font-size="3.704" fill="#262B33">In these patients, MF2 made up</tspan></text>
+</g>
+<g id="a-median-of-24-of-fibroblasts-compared-w">
+<rect x="112.00" y="64.00" width="124.00" height="15.00" rx="0.80" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="0.265"/>
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="113.80" y="70.35" font-size="3.704" fill="#262B33">a median of 24% of fibroblasts, compared with 7% in</tspan><tspan x="113.80" y="75.17" font-size="3.704" fill="#262B33">controls (P = 0.008).</tspan></text>
+</g>
+<g id="가상의-예시-화살표는-앞-문장의-끝에서-다음-문장의-첫머리로-이어지는-말">
+<text text-anchor="start" letter-spacing="-0.015em"><tspan x="4.00" y="86.14" font-size="3.352" fill="#6B7280">가상의 예시. 화살표는 앞 문장의 끝에서 다음 문장의 첫머리로 이어지는 말을 가리킨다.</tspan></text>
+</g>
+<polyline points="174.00,29.00 174.00,34.00 60.00,34.00 60.00,39.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="174.00,54.00 174.00,59.00 60.00,59.00 60.00,64.00" fill="none" stroke="#6B7280" stroke-width="0.265" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+</svg>

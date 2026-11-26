@@ -10,6 +10,11 @@ date: last-modified
 - [Lab Manager: 글쓰기](https://github.com/kkonoo/lab-manager/blob/main/tips/writing.md)
 - [Lab Manager: 표현](https://github.com/kkonoo/lab-manager/blob/main/tips/phrases.md)
 
+# 글쓰기 책과 글 {#books}
+
+- Zeiger M. (2000). *Essentials of Writing Biomedical Research Papers* (2nd ed.). McGraw-Hill. ISBN 978-0-07-134544-6. 단어, 문장, 문단을 다룬 뒤 논문의 각 절을 역할, 줄기, 내용, 구성으로 나눠 설명한다. [W1](chapters/w01_orientation.qmd)의 논문 줄기와 논문 종류, [W4](chapters/w04_paragraphs.qmd)의 문단 원칙이 이 책을 바탕으로 한다.
+- Gopen G. D. & Swan J. A. (1990). The Science of Scientific Writing. *American Scientist* 78(6): 550–558. 독자가 문장 첫머리와 끝에서 무엇을 기대하는지 설명한 짧은 글이다. [W4](chapters/w04_paragraphs.qmd)의 읽기 자료다.
+
 # 논문 {#papers}
 
 - Reinhart et al. (2025). Do LLMs write like humans? *PNAS* 122(8). <https://doi.org/10.1073/pnas.2422455122>

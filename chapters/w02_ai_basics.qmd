@@ -26,7 +26,7 @@ This week has two parts. The first part covers how AI tools work. The second par
 ![A language model picks the next words by probability. The probabilities are illustrative.](../assets/img/basics/next_word.en.svg){fig-alt="After the text 'Compound X reduced the fibrotic area in', four candidates with probability bars: UUO kidneys, mice, the obstructed kidney, patients. Patients is marked as plausible but wrong for this study."}
 
 - A large language model (LLM) learns from a large amount of text. It then continues a text with the words that are likely to come next. It does not look up facts when it answers.
-- So wrong content also comes out in natural sentences. References that do not exist are the typical example ([W7](w07_literature.qmd)).
+- So wrong content also comes out in natural sentences. References that do not exist are the typical example ([W8](w08_literature.qmd)).
 - The training material ends at a certain date, the knowledge cutoff. The model does not know papers or policies that came after that date.
 - If you turn on web search, the model reads the search results before it answers. But it can summarize the results wrongly, so open the sources yourself.
 - The model remembers earlier content only within one conversation. If a conversation gets too long, it loses track of the early parts. Start each new topic in a new conversation.
@@ -71,7 +71,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 |---|---|---|
 | Asking how the UUO model causes fibrosis | Free to use | A general, public topic |
 | Putting in one Methods paragraph of the track B paper, without the Title and DOI, and asking about its grammatical structure | Free to use | A published paper |
-| A track B student asks AI in W6 to polish a Results draft with web search on | Free to use, but turn web search off and ask again | Web search stays off until W11 |
+| A track B student asks AI in W7 to polish a Results draft with web search on | Free to use, but turn web search off and ask again | Web search stays off until W12 |
 | Five references on the UUO model recommended by AI | Always verify | References |
 | A type of graph recommended by AI | Always verify | Treated like a suggested statistical method |
 | A graph drawn with R code that AI wrote | Always verify | Check that the number of points and the means match the data |
@@ -84,7 +84,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 | A classmate's figure order cards, draft or reference table | Do not put in | Someone else's manuscript |
 | An unpublished hypothesis, or a grant idea that the lab is preparing | Do not put in | An idea not yet filed in a grant or patent |
 
-- Treat a classmate's work like a manuscript under review at a journal. This covers figure order cards, drafts and reference tables. Do not put a manuscript you receive in peer review (W8, W12) into AI. Read it and write your review yourself.
+- Treat a classmate's work like a manuscript under review at a journal. This covers figure order cards, drafts and reference tables. Do not put a manuscript you receive in peer review (W9, W13) into AI. Read it and write your review yourself.
 - Review comments that you received on your own manuscript are different. You may put them into a tool that uses the setting that keeps your input out of training, after you remove the reviewer's name ([received reviews](../ai_rules.qmd#received-reviews)).
 - The setting that keeps your input out of training has a different name and location in each tool. The [Glossary](../glossary.qmd#training-settings) lists them.
 
@@ -107,7 +107,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 
 ### The AI policies of the university and the journal come before the rules of this course
 
-- The points below were checked on each original page on 2026-11-10. Policies change often, so check them again when you submit ([W13](w13_submission.qmd)).
+- The points below were checked on each original page on 2026-11-10. Policies change often, so check them again when you submit ([W14](w14_submission_response.qmd)).
 - [ICMJE Recommendations, II.A.4](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html)
   - Disclose AI use in the cover letter and in the manuscript. Writing assistance goes in the Acknowledgments. Data collection, analysis and figure generation go in the Methods.
   - AI cannot be an author. Do not cite content made by AI as a primary source ([V.A](https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html)).
@@ -143,7 +143,7 @@ The rules are on the [AI use rules](../ai_rules.qmd) page. Below, you apply thos
 
 Exercise: check one AI answer claim by claim (35 minutes)
 
-1. Check your settings (5 minutes): On your own account, find the setting that keeps your input out of training and apply it. Open a new conversation, and see whether web search and memory are turned on. Track B students also find out how to turn web search off. Keep it off until you submit the W11 assignment.
+1. Check your settings (5 minutes): On your own account, find the setting that keeps your input out of training and apply it. Open a new conversation, and see whether web search and memory are turned on. Track B students also find out how to turn web search off. Keep it off until you submit the W12 assignment.
 2. Choose a question (3 minutes): Choose a question whose answer will include both references and numbers.
 3. Ask AI (5 minutes): Adapt one of the examples below to your field.
 4. Split the claims (5 minutes): Split the answer into claims and put them in a table. The columns are claim, type and check.

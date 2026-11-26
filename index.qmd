@@ -31,7 +31,8 @@ When you use AI, follow the [AI use rules](ai_rules.qmd).
 1. Know what each part of a paper does, and write a manuscript in this order: figures → Methods → Results → Introduction → Discussion → Abstract → Title.
 2. Tell apart the jobs you can give to AI from the jobs you must not, and check the sentences, references and numbers that AI produces against the original sources.
 3. Find and fix English sentences that are hard to read (noun stacks, long modifiers, translationese, phrases common in AI text).
-4. Write a cover letter and a response to reviewers in a set structure.
+4. Write the story line of a paper in five sentences, and expand it into one paragraph with a clear topic sentence.
+5. Write a cover letter and a response to reviewers in a set structure.
 
 ## Two tracks {#tracks}
 
@@ -49,36 +50,36 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 
 ## Weekly plan {#schedule}
 
-![The semester at a glance. What each part produces comes together in the final manuscript.](assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W3, Part 2 Writing W4–W11, Part 3 Polishing and submission W12–W15. Under each block are what that part produces and the peer review weeks."}
+![The semester at a glance. What each part produces comes together in the final manuscript.](assets/img/w15/semester_roadmap.en.svg){fig-alt="Three arrow-shaped blocks: Part 1 Foundations W1–W4, Part 2 Writing W5–W12, Part 3 Polishing and submission W13–W15. Under each block are what that part produces and the peer review weeks."}
 
 ### Part 1 · Foundations
 
 | Week | Topic | Assignment |
 |---|---|---|
-| 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures / B: choose a paper |
+| 1 | [Orientation](chapters/w01_orientation.qmd) | A: list of figures / B: choose a paper; five-sentence summary |
 | 2 | [AI basics](chapters/w02_ai_basics.qmd) | Verify one AI answer and bring it to class |
 | 3 | [Readable English sentences](chapters/w03_readable_sentences.qmd) | Find the patterns in a paragraph written by AI |
+| 4 | [Paragraphs](chapters/w04_paragraphs.qmd) | One-paragraph summary |
 
 ### Part 2 · Writing the manuscript
 
 | Week | Topic | Assignment |
 |---|---|---|
-| 4 | [Figure storyboard](chapters/w04_figure_storyboard.qmd) | Figure order cards |
-| 5 | [Methods and figure legends](chapters/w05_methods_legends.qmd) | Draft Methods and legends |
-| 6 | [Results](chapters/w06_results.qmd) | Draft Results |
-| 7 | [Finding and citing literature](chapters/w07_literature.qmd) | Reference table and verification log |
-| 8 | [Midterm check](chapters/w08_midterm_review.qmd) | Version revised after peer review |
-| 9 | [Introduction](chapters/w09_introduction.qmd) | Draft Introduction |
-| 10 | [Discussion](chapters/w10_discussion.qmd) | Draft Discussion |
-| 11 | [Abstract and title](chapters/w11_abstract_title.qmd) | Abstract, and three title options |
+| 5 | [Figure storyboard](chapters/w05_figure_storyboard.qmd) | Figure order cards |
+| 6 | [Methods and figure legends](chapters/w06_methods_legends.qmd) | Draft Methods and legends |
+| 7 | [Results](chapters/w07_results.qmd) | Draft Results |
+| 8 | [Finding and citing literature](chapters/w08_literature.qmd) | Reference table and verification log |
+| 9 | [Midterm check](chapters/w09_midterm_review.qmd) | Version revised after peer review |
+| 10 | [Introduction](chapters/w10_introduction.qmd) | Draft Introduction |
+| 11 | [Discussion](chapters/w11_discussion.qmd) | Draft Discussion |
+| 12 | [Abstract and title](chapters/w12_abstract_title.qmd) | Abstract, and three title options |
 
 ### Part 3 · Polishing and submission
 
 | Week | Topic | Assignment |
 |---|---|---|
-| 12 | [Polishing](chapters/w12_polishing.qmd) | Revised full manuscript |
-| 13 | [Preparing to submit](chapters/w13_submission.qmd) | Cover letter |
-| 14 | [Responding to reviewers](chapters/w14_reviewer_response.qmd) | One response letter |
+| 13 | [Polishing](chapters/w13_polishing.qmd) | Revised full manuscript |
+| 14 | [Submission and reviewer response](chapters/w14_submission_response.qmd) | Cover letter, one response letter |
 | 15 | [Final](chapters/w15_final.qmd) | Manuscript, AI use log, (B) comparison memo |
 
 ## Grading {#grading}
@@ -88,7 +89,7 @@ For track B, a good choice is a paper in a high-impact journal whose review reco
 | Weekly assignments | 25% |
 | Final manuscript | 30% |
 | AI use log | 15% |
-| Peer review (week 8 10%, week 12 10%) | 20% |
+| Peer review (week 9 10%, week 13 10%) | 20% |
 | Attendance and participation | 10% |
 
 We do not grade whether you used AI. We grade what you gave to AI and how you checked the result.

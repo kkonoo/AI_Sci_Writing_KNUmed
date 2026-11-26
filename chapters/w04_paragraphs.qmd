@@ -1,0 +1,182 @@
+---
+title: "W4. Paragraphs"
+subtitle: "Part 1 · Foundations"
+date: last-modified
+include-after-body: ../assets/ai-lab.html
+---
+
+::: {.callout-note collapse="true"}
+## This week's goals
+
+By the end of this week, you will be able to:
+
+- State the claim of a paragraph in one sentence, and let readers see what the paragraph is about from its opening.
+- Begin each sentence with words from the sentence before, and put new information at the end of the sentence.
+- Choose one name for each key term and keep it throughout a paragraph.
+- Find, in a paragraph written by AI, the places where the claim comes late, where the link between sentences breaks, and where This has no clear referent.
+:::
+
+# 1. Principles {#principles}
+
+In [W3](w03_readable_sentences.qmd) we made single sentences easy to read. This week we join sentences into a paragraph. Readers read one sentence at a time, but they understand content one paragraph at a time. Even when every sentence is easy to read, a paragraph does not read well if the order and the links between sentences are wrong.
+
+This week's principles draw on two sources. One is chapter 3 (paragraph structure) of Zeiger (2000), *Essentials of Writing Biomedical Research Papers*. The other is Gopen & Swan (1990), "The Science of Scientific Writing." Full references are in [Resources](../resources.qmd#books). The examples come from the same fictional example study as the weeks from [W5](w05_figure_storyboard.qmd) onward, and the numbers are made up.
+
+## Give each paragraph one claim, and announce it at the start
+
+- Rule: before you write a paragraph, write what it says in one sentence. This sentence is the topic sentence. The other sentences support it.
+- Put the topic sentence at the start of the paragraph. Readers decide from the first sentence what they will get from the paragraph. If the claim comes last, readers go through the earlier sentences without knowing why they are there.
+- In the Introduction and Discussion, the first sentence of a paragraph is its topic sentence (see the paragraph plan in [W10](w10_introduction.qmd)). A Results paragraph starts with a purpose sentence and ends with an interpretation sentence ([W7](w07_results.qmd)). Even then, the first sentence tells readers what the paragraph is about.
+- If you cannot state the claim in one sentence, the paragraph has two claims or no claim yet. If it has two, split it.
+- Check: read only the topic sentences one after another. They alone should show the line of the argument.
+- Example (wet lab, fictional):
+  - Before: We measured the fibrotic area with Masson's trichrome staining. We also measured *Col1a1* and *Acta2* expression by qPCR. Compound X lowered both. Therefore, compound X reduced fibrosis at both the tissue level and the gene expression level.
+  - After: Compound X reduced fibrosis at both the tissue level and the gene expression level. It lowered the fibrotic area on Masson's trichrome staining. It also lowered the expression of the fibrosis marker genes *Col1a1* and *Acta2*.
+  - In the third sentence of Before, Compound X lowered both, readers must reread the first two sentences to know what both means. In After, the claim comes first, so the next two sentences read as its evidence.
+
+## Begin a sentence with words from the sentence before, and put new information at the end
+
+- Gopen & Swan (1990) describe how readers use the start of a sentence (the topic position) to decide what the sentence is about. Readers then look for the information to emphasize at the end of the sentence (the stress position).
+- Rule: put words that already appeared in the sentence before at the start of a sentence. Put what this sentence newly tells the reader at the end. The end of one sentence then leads into the start of the next.
+- Example (dry lab, fictional):
+  - Before: We divided fibroblasts into four subtypes. A median of 24% of fibroblasts in patients with fibrosis, compared with 7% in controls, belonged to one subtype, MF2 (P = 0.008).
+  - After: We divided fibroblasts into four subtypes. One of these subtypes, MF2, was more common in patients with fibrosis. In these patients, MF2 made up a median of 24% of fibroblasts, compared with 7% in controls (P = 0.008).
+  - In Before, the second sentence starts with new information, the numbers. The word that links it to the sentence before (subtype) comes at the end. In After, the second sentence starts by taking up subtypes from the sentence before, and the third sentence starts by taking up patients with fibrosis.
+
+![The end of one sentence leads into the start of the next. Fictional example.](../assets/img/w04/old_to_new.en.svg){fig-alt="Three English sentences run from top to bottom. For each sentence, the left box holds its start and the right box holds its new information. Arrows run from the end of the first sentence, into four subtypes, to the start of the second, One of these subtypes, and from the end of the second sentence, patients with fibrosis, to the start of the third, In these patients."}
+
+- Pattern 2 in [W3](w03_readable_sentences.qmd), keeping the subject close to its verb, comes from the same reason. After reading the subject, readers do not know what the sentence says until the verb arrives.
+
+## Put the key term in the topic sentence, and repeat it in the same words
+
+- Rule: put the key term of a paragraph in its topic sentence. After that, repeat it in the same words.
+- The writing-class rule "do not repeat the same word" does not suit scientific writing. When the word changes, readers take it as a different thing.
+- Example: if MF2 cells, the profibrotic cluster and these activated stromal cells all appear in one paragraph, readers picture three groups. Use MF2 alone. This is the same standard as pattern 4 in W3. Consistent terms across the whole manuscript are checked again in [W13](w13_polishing.qmd).
+
+## Show how sentences relate with the right transition
+
+- Rule: first decide whether two sentences relate by contrast, cause and effect, addition, example or sequence. Then use a transition that fits that relation. Common transitions are in the [phrase sheet](../phrases.qmd#connectives).
+- Do not add a transition where there is no relation. If every sentence starts with Moreover or Furthermore, readers take all of them as additions of equal weight. The same thing happens when a Korean draft's "또한 ~. 또한 ~." is carried into English (the translation-habit table in [W13](w13_polishing.qmd)).
+- If you begin a sentence with words from the sentence before, as in the previous principle, the relation often shows without a transition. Use a transition when that is not enough.
+- Example (wet lab, fictional):
+  - Before: Compound X lowered the fibrotic area. Moreover, body weight did not differ between the groups. Moreover, compound X lowered Smad3 phosphorylation.
+  - After: Compound X lowered the fibrotic area. It also lowered Smad3 phosphorylation. In contrast, body weight did not differ between the groups.
+  - After first groups the two things that compound X changed. In contrast then separates the one thing it did not change.
+
+## Once you set an order and a sentence form, keep them
+
+- Rule: once you set the order of the things you compare, do not change it. For example, if you introduced the groups as sham, UUO + vehicle and UUO + compound X, give the values in that order too.
+- If a paragraph has several subtopics, say in the topic sentence how many there are. Then write each subtopic in the same sentence form. This is called parallel form. When the form is the same, readers take the contents as the same kind of thing.
+- Example (dry lab, fictional):
+  - Before: We confirmed the identity of MF2 in two ways. Its marker genes were checked. Also, spatial transcriptomics data of kidney sections showed MF2.
+  - After: We confirmed the identity of MF2 in two ways. First, MF2 cells expressed known myofibroblast marker genes. Second, MF2 cells were present in spatial transcriptomics data from kidney sections.
+
+## Make clear what This and It refer to
+
+- Rule: readers should know at once what This, It or These at the start of a sentence refers to in the sentence before. If the sentence before has several nouns, put a noun after This.
+- Example (wet lab, fictional):
+  - Before: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. This suggests that it acts through TGF-β/Smad3 signaling.
+  - After: Compound X lowered the fibrotic area and Smad3 phosphorylation in UUO kidneys. The lower Smad3 phosphorylation suggests that compound X acts through TGF-β/Smad3 signaling.
+  - In Before, readers cannot tell whether This is the lower fibrotic area, the lower Smad3 phosphorylation or both. It could be compound X or the fibrotic area. After names the evidence and the subject as nouns. The strength of the claim (suggests) stays the same.
+
+# 2. Try it with AI {#try-with-ai}
+
+Practice: ask AI about the structure of a paragraph, then revise it yourself (30 minutes)
+
+1. Read on your own (5 min): read the practice paragraph (fictional) inside the first prompt. Write the claim of the paragraph in one sentence. Mark which sentence is the topic sentence, how many names the same thing has, and what This refers to.
+2. Ask AI about the structure (5 min): send the first prompt. Do not let AI revise the paragraph. Get only its structure, as a table.
+3. Compare (5 min): put your marks next to AI's table and find where they differ. For each difference, decide who is right using the principles above.
+4. Revise it yourself (10 min): revise the paragraph by the principles. Then have your revision checked with the second prompt.
+5. Record (5 min): write it in your [AI use log](../ai_rules.qmd#ai-log).
+
+```text
+Analyze only the structure of the English paragraph below. Do not rewrite the paragraph.
+
+1. State the claim of this paragraph in one sentence. Tell me which sentence (by number) contains that claim (the topic sentence).
+2. Make a table with one row per sentence. Columns: sentence number, the words at the start of the sentence, whether those words appeared in the sentence before (yes/no), the new information at the end of the sentence.
+3. If the same thing is called by more than one name, list all the names.
+4. For each word such as Moreover, This and Therefore, say what relation to the sentence before it signals, and whether that relation is correct.
+
+[Paragraph]
+We reanalyzed public single-cell RNA sequencing data from kidney biopsies of 8 patients with fibrosis and 6 controls. Fibroblasts were divided into four subtypes. Moreover, the profibrotic cluster made up a median of 24% of fibroblasts in patients with fibrosis and 7% in controls (P = 0.008). Moreover, these activated stromal cells were present in spatial transcriptomics data from kidney sections. This was not seen in controls. Therefore, the MF2 myofibroblast subtype is expanded in kidney fibrosis.
+```
+
+```text
+Below is my revision of the paragraph above. Do not rewrite it. Check only the four points below. If there is a problem, give only the sentence number and the reason.
+
+1. Can a reader tell what the paragraph is about from the first sentence alone?
+2. Does each sentence begin with words that appeared in the sentence before? If not, does a fitting transition show the relation?
+3. Is each thing called by only one name?
+4. Did any fact, number or claim that was not in the original paragraph get in? Is any claim stronger or weaker than in the original?
+
+[My revised paragraph]
+```
+
+AI traffic light: the practice paragraph is a fictional example, so it is in the "Free to use" row. If you are in track A and want to try this with a paragraph from your own manuscript, follow the conditions of the "Conditional (track A)" row.
+
+::: {.callout-tip}
+## Prompt tips
+
+- Say that AI should not rewrite. If AI rewrites the paragraph for you, you cannot learn what was wrong, and facts that were not there easily slip in.
+- Give the points to check as a numbered list. Then you can match AI's answer against the principles one by one.
+:::
+
+::: {#ai-lab}
+AI lab: press the "Put in the AI lab" button under a prompt block above, or write a prompt yourself and send it. Fill in the blanks in the prompt with your own text before you send it. The class code is announced separately. On one page the conversation continues. So when you send the check prompt in step 4, AI compares your revision with the original paragraph from step 1. To start again, press "New conversation". Text that you put in this box goes to an outside AI service through the course API key. Input sent through the API is not used for training by default. Follow the AI traffic light notes above for what you may put in. Put in your own manuscript (track A) only with your supervisor's agreement. Do not put in raw data or figure files. The AI in this box does not search the web. In your AI use log, write "AI lab" and the model name shown under each reply as the tool.
+:::
+
+# 3. Verify and revise {#verify-and-revise}
+
+What to check in AI's answer
+
+- Topic sentence: if AI picks a different topic sentence from yours, decide using principle 1. AI may call the first sentence the topic sentence only because it describes the method.
+- The "appeared in the sentence before" column: AI easily treats a similar word as the same word. For example, it may count the profibrotic cluster as already mentioned because subtypes came before.
+- Even when told not to rewrite, AI may add a revised paragraph. In that paragraph it may turn This was not seen in controls into a fact that was not there, such as MF2 cells were absent from controls.
+
+Checklist
+
+- [ ] I compared the topic sentence AI picked with mine, and if they differed I decided using principle 1.
+- [ ] I put the "appeared in the sentence before" column next to the paragraph and checked it row by row. (Side-by-side reading)
+- [ ] The numbers in my revision (8 patients, 6 controls, 24%, 7%, P = 0.008) are the same as in the original. (Side-by-side reading)
+- [ ] There are no facts that were not in the original. I did not fill an unclear sentence with made-up facts. If it had no support, I deleted it.
+- [ ] The strength of the claims is the same as in the original. I did not change is expanded to drives or causes.
+
+::: {.callout-note collapse="true"}
+## A revised version (open it after you have revised the paragraph yourself)
+
+```{.text .no-ai-lab}
+To find fibroblast subtypes that differ in kidney fibrosis, we reanalyzed public
+single-cell RNA sequencing data from kidney biopsies of 8 patients with fibrosis
+and 6 controls. We divided fibroblasts into four subtypes. One of these subtypes,
+MF2, made up a median of 24% of fibroblasts in patients with fibrosis and 7% in
+controls (P = 0.008). MF2 cells were also present in spatial transcriptomics data
+from kidney sections. Thus, MF2 is more common in kidneys with fibrosis.
+```
+
+- This is a Results paragraph, so it follows the order in [W7](w07_results.qmd): purpose, what was done, result, interpretation. The purpose in the first sentence alone tells readers what the paragraph is about.
+- The three names (the profibrotic cluster, these activated stromal cells, MF2) became MF2 alone. From the third sentence on, each sentence starts by taking up subtypes or MF2 from the sentence before.
+- Both instances of Moreover are gone. The relation where the second Moreover stood is addition, so it became also.
+- This was not seen in controls was deleted, because it is unclear what This refers to and no numbers support it. If there is support, name with a noun what was not seen.
+:::
+
+# Assignment {#assignment}
+
+A one-paragraph summary
+
+- Length: one English paragraph (150–200 words) and a checklist.
+- Format
+  - Paragraph: rewrite the five-sentence summary from the [W1](w01_orientation.qmd) assignment (question, why it matters, what was done, what was found, what it means) as one paragraph. Put the claim of your study in the first sentence.
+  - Checklist: underline the topic sentence. Make a list of key terms with one name for each thing. For each sentence, mark in parentheses the words it takes up from the sentence before.
+  - Hand in your first version and your revised version together.
+- Differences by track: track A writes about their own study. Track B writes from the figures and Methods of the chosen paper only. Write what was found and what it means as your guess from the figures, and say that it is a guess.
+- Use this paragraph during the semester as the standard for checking the line of your manuscript.
+- Grading criteria
+  - The claim of the paragraph is clear from the first sentence alone.
+  - Each sentence begins with words from the sentence before, or a fitting transition shows the relation.
+  - Each thing has one name. It is clear what This and It refer to.
+- Submission: through the university LMS. The deadline is announced separately.
+- If you used AI, hand in your AI use log as well ([AI use log](../ai_rules.qmd#ai-log)).
+
+# Notes {#notes}
+
+Topic sentences, beginning with words from the sentence before, repeating key terms, transitions, parallel form, clear referents (Zeiger chapter 3, Gopen & Swan 1990, plain-prose)
