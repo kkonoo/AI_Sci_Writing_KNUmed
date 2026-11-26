@@ -696,33 +696,28 @@ pre code {
 
 /* ── Before / After example blocks ─────────────────────────────────
    Write example passages as ```{.text .before} … ``` and ```{.text .after} … ```.
-   Before is grey, After carries the accent red (#E5484D). The label on top
-   reads Before or After on both language versions.                     */
+   Before is a grey box and After a light accent-red box (#E5484D tint), with no
+   side bar. The label on top reads Before or After on both language versions. */
 :root {
   --course-before-bg: #f1f2f4;
-  --course-before-edge: #9aa1aa;
   --course-before-label: #5c636b;
   --course-after-bg: #fdeeee;
-  --course-after-edge: #E5484D;
   --course-after-label: #c22f35;   /* darker than #E5484D so the small label passes contrast */
 }
 body.quarto-dark,
 html[data-bs-theme="dark"] body {
   --course-before-bg: #262a30;
-  --course-before-edge: #6b727c;
   --course-before-label: #a9b0b8;
   --course-after-bg: rgba(229, 72, 77, 0.13);
-  --course-after-edge: #E5484D;
   --course-after-label: #f2898c;
 }
 pre.before,
 pre.after {
   position: relative;
   padding-top: 2.2em;
-  border-left-width: 4px;
 }
-pre.before { background: var(--course-before-bg); border-left-color: var(--course-before-edge); }
-pre.after  { background: var(--course-after-bg);  border-left-color: var(--course-after-edge); }
+pre.before { background: var(--course-before-bg); }
+pre.after  { background: var(--course-after-bg); }
 pre.before::before,
 pre.after::before {
   position: absolute;
